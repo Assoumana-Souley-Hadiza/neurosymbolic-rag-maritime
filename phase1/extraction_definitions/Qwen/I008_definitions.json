@@ -1,0 +1,1001 @@
+[
+  {
+    "terme": "ACCORD",
+    "definition": "un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce migratrice",
+    "definition": "l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, et dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de juridiction nationale",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etat de conservation d'une espèce migratrice",
+    "definition": "l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "L'état de conservation",
+    "definition": "sera considéré comme «favorable» lorsque: 1) les données relatives à la dynamique des populations de l'espèce migratrice en question indiquent que cette espèce continue et continuera à long terme à constituer un élément viable des écosystèmes auxquels elle appartient; 2) l'étendue de l'aire de répartition de cette espèce migratrice ne diminue ni ne risque de diminuer à long terme",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Partie",
+    "definition": "un Etat ou toute organisation d'intégration économique régionale constituée par des Etats souverains ayant compétence pour négocier, conclure et appliquer des accords internationaux dans les matières couvertes par la présente Convention, à l'égard desquels la présente Convention est en vigueur",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "En danger",
+    "definition": "pour une espèce migratrice donnée, qui effectuent des migrations qui leur font franchir des limites de juridiction nationale ou dont les migrations se déroulent à l'extérieur de ces limites",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etats membres",
+    "definition": "ne sont pas habilités à exercer ces droits séparément",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "décision",
+    "definition": "est prise à la majorité des deux tiers ou à l'unanimité des «Parties présentes et votantes»",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Parties présentes et votantes",
+    "definition": "cela signifie «les Parties présentes et qui se sont exprimées par un vote affirmatif ou négatif»",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Aire de répartition",
+    "definition": "l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habituel de migration;",
+    "reference": "g)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Habitat",
+    "definition": "toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+    "reference": "h)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etat de l'aire de répartition",
+    "definition": "pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) ci-dessous) qui exerce sa juridiction sur une partie quelconque de l'aire de répartition de cette espèce migratrice, ou encore, un Etat dont les navires battant son pavillon procèdent à des prélèvements sur cette espèce en dehors des limites de juridiction nationale;",
+    "reference": "i)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Effectuer un prélèvement",
+    "definition": "prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées;",
+    "reference": "j)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Parties",
+    "definition": "présente Article.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèces migratrices",
+    "definition": "espèces migratrices figurant à l'Annexe I; et",
+    "reference": "Article IV",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORDS",
+    "definition": "ACCORDS portant sur la conservation et la gestion des espèces migratrices figurant à l'Annexe II.",
+    "reference": "Article IV",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Annexe I",
+    "definition": "L'Annexe I énumère des espèces migratrices en danger.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Annexe II",
+    "definition": "L'Annexe II énumère des espèces migratrices dont l'état de conservation est défavorable et qui nécessitent la conclusion d'accords internationaux pour leur conservation et leur gestion, ainsi que celles dont l'état de conservation bénéficierait d'une manière significative de la coopération internationale qui résulterait d'un accord international.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèces migratrices en danger",
+    "definition": "L'Annexe I énumère des espèces migratrices en danger.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèce migratrice",
+    "definition": "Une espèce migratrice peut figurer à l'Annexe I à condition qu'il soit établi sur la base de données probantes, notamment des meilleures données scientifiques disponibles, que cette espèce est en danger.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "état de conservation",
+    "definition": "Une espèce migratrice peut figurer à l'Annexe I à condition qu'il soit établi sur la base de données probantes, notamment des meilleures données scientifiques disponibles, que cette espèce est en danger.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "habitat",
+    "definition": "ceux des habitats de ladite espèce qui sont importants pour écarter de cette espèce le danger d'extinction;",
+    "reference": "Article V",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "danger d'extinction",
+    "definition": "ceux des habitats de ladite espèce qui sont importants pour écarter de cette espèce le danger d'extinction;",
+    "reference": "Article V",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORDS",
+    "definition": "d'ACCORDS portant sur la conservation et la gestion des espèces migratrices figurant à l'Annexe II.",
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mesures",
+    "definition": "des mesures en vue de conclure des accords portant sur toute population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages dont une fraction franchit périodiquement une ou plusieurs des limites de juridiction nationale.",
+    "reference": "Article V",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "limites de juridiction nationale",
+    "definition": "des mesures en vue de conclure des accords portant sur toute population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages dont une fraction franchit périodiquement une ou plusieurs des limites de juridiction nationale.",
+    "reference": "Article V",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "aire de répartition",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce migratrice",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etats de l'aire de répartition",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Partie",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "le Secrétariat, utilisant les informations qu'il reçoit des Parties, tient à jour une liste des Etats de l'aire de répartition des espèces migratrices figurant aux Annexes I et II.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Annexe I",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhèsion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Annexe II",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce migratrices",
+    "definition": "l'ensemble de l'aire de répartition de l'espèce migratrice concernée et devrait être ouvert à l'adhésion de tous les Etats de l'aire de répartition de ladite espèce qu'ils soient Parties à la présente Convention ou non.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Prélèvement",
+    "definition": "le prélèvement d'animaux appartenant à cette espèce.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Cétacés",
+    "definition": "tout prélèvement qui ne serait pas autorisé à l'égard de ladite espèce migratrice aux fins de la présente Convention.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dérogation",
+    "definition": "Des dérogations à cette interdiction ne peuvent être accordées que lorsque:",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Fins scientifiques",
+    "definition": "le prélèvement est effectué à des fins scientifiques;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Propagation",
+    "definition": "le prélèvement est effectué en vue d'améliorer la propagation ou la survie de l'espèce en question;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Survie",
+    "definition": "le prélèvement est effectué en vue d'améliorer la propagation ou la survie de l'espèce en question;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Mécanismes appropriés",
+    "definition": "établir, si nécessaire, les mécanismes appropriés pour aider à la mise en oeuvre des objectifs de l'ACCORD, en surveiller l'efficacité, et préparer des rapports pour la Conférence des Parties;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Différends",
+    "definition": "prévoir des procédures pour le règlement des différends susceptibles de survenir entre les Parties audit ACCORD;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Rapports",
+    "definition": "prévoir des procédures pour le règlement des différends susceptibles de survenir entre les Parties audit ACCORD;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "prévoir des procédures pour le règlement des différends susceptibles de survenir entre les Parties audit ACCORD;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Autorité nationale",
+    "definition": "chaque Partie désignera l'autorité nationale qui sera chargée de la mise en oeuvre de l'ACCORD;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Itinéraire de migration",
+    "definition": "identifier l'espèce migratrice qui en fait l'objet;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Aire de répartition",
+    "definition": "identifier l'espèce migratrice qui en fait l'objet;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce",
+    "definition": "identifier l'espèce migratrice qui en fait l'objet;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Introduction d'espèces exotiques",
+    "definition": "contrôler strictement l'introduction d'espèces exotiques ou en surveillant ou éliminant celles qui ont déjà été introduites.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèces exotiques",
+    "definition": "contrôler strictement l'introduction d'espèces exotiques ou en surveillant ou éliminant celles qui ont déjà été introduites.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Introduites",
+    "definition": "contrôler strictement l'introduction d'espèces exotiques ou en surveillant ou éliminant celles qui ont déjà été introduites.",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dérogations",
+    "definition": "Des dérogations à cette interdiction ne peuvent être accordées que lorsque:",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Améliorer la propagation",
+    "definition": "le prélèvement est effectué en vue d'améliorer la propagation ou la survie de l'espèce en question;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Améliorer la survie",
+    "definition": "le prélèvement est effectué en vue d'améliorer la propagation ou la survie de l'espèce en question;",
+    "reference": "Article VI 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "Tout ACCORD, lorsque cela s'avère approprié et possible, devrait aussi et notamment prévoir",
+    "reference": "5.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties constitue l'organe de décision de la présente Convention",
+    "reference": "Article VII 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "Le Secrétariat convoque une session de la Conférence des Parties deux ans au plus tard après l'entrée en vigueur de la présente Convention",
+    "reference": "Article VII 2.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "habitat",
+    "definition": "la conservation et, lorsque cela est nécessaire et possible, la restauration des habitats qui sont importants pour le maintien d'un état de conservation favorable et la protection desdits habitats contre les divers facteurs qui pourraient leur porter atteinte",
+    "reference": "Article VII 3. e)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèce migratrice",
+    "definition": "l'espèce migratrice concernée ainsi que l'identification des facteurs susceptibles de nuire à cet état de conservation;",
+    "reference": "Article VII 3. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "plan de conservation et de gestion",
+    "definition": "des plans de conservation et de gestion coordonnés;",
+    "reference": "Article VII 3. b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "recherche scientifique",
+    "definition": "des travaux de recherche sur l'écologie et la dynamique des espèces.",
+    "reference": "Article VII 3. c)",
+    "exchanges": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "informations",
+    "definition": "l'échange d'informations sur l'espèce migratrice concernée, et en particulier l'échange d'informations relatives aux résultats de la recherche scientifique ainsi que de statistiques pertinentes relatives à cette espèce;",
+    "reference": "Article VII 3. d)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "réseau d'habitats",
+    "definition": "le maintien d'un réseau d'habitats appropriés à l'espèce migratrice concernée et répartis d'une manière adéquate le",
+    "reference": "Article VII 3. f)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "des accords conclus entre des Parties pour la conservation des espèces migratrices",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "la conférence des parties à la convention",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conseil scientifique",
+    "definition": "le conseil scientifique",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Partie",
+    "definition": "chaque état partie à la convention",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "le secrétariat",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèce migratrice",
+    "definition": "l'espèce dont la migration est considérée",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "habitat",
+    "definition": "l'environnement naturel de l'espèce migratrice",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "migration",
+    "definition": "le mouvement régulier de l'espèce d'un lieu à un autre",
+    "reference": "5. a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "il est établi un Secrétariat",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Directeur exécutif du Programme des Nations Unies pour l'environnement",
+    "definition": "le Directeur exécutif du Programme des Nations Unies pour l'environnement",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Organisation des Nations Unies",
+    "definition": "l'Organisation des Nations Unies",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "institutions spécialisées",
+    "definition": "ses institutions spécialisées",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Agence internationale de l'énergie atomique",
+    "definition": "l'Agence internationale de l'énergie atomique",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etat non partie",
+    "definition": "tout Etat non partie à la présente Convention",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "pour chaque ACCORD",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organisation ou institution techniquement qualifiée",
+    "definition": "toute organisation ou toute institution techniquement qualifiée dans le domaine de la protection, de la conservation et de la gestion des espèces migratrices",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "catégories mentionnées ci-dessous",
+    "definition": "appartenant aux catégories mentionnées ci-dessous",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "désire se faire représenter",
+    "definition": "qui a informé le Secrétariat de son désir de se faire représenter",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "observateurs",
+    "definition": "par des observateurs",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organisations et institutions internationales ou nationales",
+    "definition": "du concours d'organisations et d'institutions internationales ou nationales appropriées",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "intergouvernementales ou non gouvernementales",
+    "definition": "intergouvernementales ou non gouvernementales",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organisations ou institutions internationales techniquement compétentes",
+    "definition": "a) les organisations ou institutions internationales techniquement compétentes dans le",
+    "reference": "Article IX",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "domaine de la protection",
+    "definition": "domaine de la protection, gouvernementales ou non gouvernementales, les de la conservation et de la gestion de la faune sauvage.",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organisations et institutions nationales gouverne-mentales",
+    "definition": "organisations et institutions nationales gouverne-mentales;",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Programme des Nations Unies pour l'environnement",
+    "definition": "Programme des Nations Unies pour l'environnement ne se trouverait plus à même de pourvoir au",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "Conférence des Parties prendra les dispositions",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "Secrétariat, la Conférence des Parties prendra les dispositions",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organismes permanents",
+    "definition": "organismes permanents qui auront été institués aux termes d'ACCORDS et les autres organisations internationales",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conseil scientifique",
+    "definition": "Conseil scientifique chargé de fournir des avis sur des questions scientifiques.",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "expert qualifié",
+    "definition": "expert qualifié comme membre du Conseil scientifique.",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mandat",
+    "definition": "mandat sont déterminés par la Conférence des Parties.",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "règlement intérieur",
+    "definition": "règlement intérieur.",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "fonctions du Conseil scientifique",
+    "definition": "fonctions du Conseil scientifique, qui peuvent être notamment:",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "avis scientifiques",
+    "definition": "avis scientifiques à la Conférence des Parties,",
+    "reference": "Article VIII",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secrétariat",
+    "definition": "tenir et publier la liste des Etats de l'aire de répartition de Parties, à tout organe établi aux termes de la présente Convention ou aux termes d'un ACCORD, ou encore à toute Partie",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ACCORDS",
+    "definition": "toute proposition d'amendement",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "la Conférence des Parties",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "dispositions",
+    "definition": "les dispositions de la présente Convention",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "codification",
+    "definition": "la codification et l'élaboration du droit de la mer",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "droit de la mer",
+    "definition": "le droit de la mer",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conférence des Nations Unies sur le droit de la mer",
+    "definition": "la Conférence des Nations Unies sur le droit de la mer convoquée en application de la Résolution 2750 C (XXV) de l'Assemblée générale des Nations Unies",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Résolution 2750 C (XXV)",
+    "definition": "la Résolution 2750 C (XXV) de l'Assemblée générale des Nations Unies",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etat côtier",
+    "definition": "l'Etat côtier",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Etat du pavillon",
+    "definition": "l'Etat du pavillon",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "traité",
+    "definition": "tout traité, convention ou accord existants",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mesures internes",
+    "definition": "des mesures internes",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendement",
+    "definition": "Les amendements sont adoptés à la majorité des deux tiers des Parties présentes et votantes.",
+    "reference": "Article XIII 4.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "différend",
+    "definition": "Tout différend survenant entre deux ou plusieurs Parties à la présente Convention relativement à l'interprétation ou l'application des dispositions de la présente Convention fera l'objet de négociations entre les Parties concernées.",
+    "reference": "Article XIII 1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "observation",
+    "definition": "Toute observation portant sur le texte de la proposition d'amendement émanant des Parties est communiquée au Secrétariat soixante jours au moins avant l'ouverture de la session.",
+    "reference": "Article XIII 3.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce migratrice",
+    "definition": "l'ensemble de la population ou toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de juridiction nationale",
+    "reference": "k)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "qwen3-8b"
+  }
+]

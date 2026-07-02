@@ -1,0 +1,558 @@
+{
+  "interdiction_id": "I003",
+  "interdiction": "Construction_sur_le_littorale",
+  "source": "Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral (Loi Littoral, France, codifiée art. L. 146-1 s. Code de l'urbanisme) ; Protocole relatif à la Gestion Intégrée des Zones Côtières (GIZC) de la Méditerranée, adopté le 21 janvier 2008, entré en vigueur le 24 mars 2011",
+  "raw_extractions": {
+    "interdictions_identifiees": [
+      "Interdiction de toute construction dans la bande des 100 mètres à compter du rivage de la mer, hors agglomérations existantes (art. L. 121-16 du Code de l'urbanisme)",
+      "Interdiction de l'extension de l'urbanisation dans les espaces proches du rivage sans justification de l'SCOT ou du PLU (art. L. 121-13)",
+      "Interdiction de tout aménagement portant atteinte aux espaces et milieux remarquables du littoral (dunes, landes, plages, forêts côtières, marais, vasières, herbiers – art. L. 121-23)",
+      "Interdiction de nouvelles constructions dans la bande côtière de 100 mètres en zones non urbanisées (Protocole GIZC, art. 8)",
+      "Interdiction des extractions de matériaux risquant de compromettre l'intégrité des plages, dunes, falaises, marais ou vasières (Loi Littoral)"
+    ],
+    "entites_trouvees": [
+      {
+        "categorie": "Activity",
+        "texte_original": "construction de bâtiments neufs dans la bande des 100 mètres à compter du rivage"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "extension de l'urbanisation dans les espaces proches du rivage"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "création de routes nouvelles en corniche ou en arrière-littoral"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "campings et caravanages dans les espaces proches du rivage"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "extractions de matériaux (sablières, carrières) portant atteinte aux milieux côtiers"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "imperméabilisation des sols dans les zones humides côtières"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "circulation et stationnement des véhicules terrestres à moteur hors véhicules de secours (sauf autorisation préfectorale)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "réhabilitation des constructions existantes sans changement de destination ni augmentation d'emprise (exception)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "bande littorale de 100 mètres à compter du rivage de la mer (hors agglomérations)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "espaces proches du rivage (hors agglomérations continues)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "espaces et milieux remarquables du littoral : dunes, landes côtières, plages, forêts et zones boisées côtières, îlots inhabités, marais, vasières, zones humides, herbiers marins"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "rives des estuaires et des deltas"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zones côtières méditerranéennes relevant du Protocole GIZC"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "domaine public maritime (DPM) géré directement par l'État"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "communes littorales et leurs groupements (intercommunalités)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "promoteurs immobiliers et constructeurs"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "particuliers souhaitant construire en zone littorale"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "État (préfet exerçant le contrôle de légalité)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "parties contractantes au Protocole GIZC (États méditerranéens)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "Conseil national de la mer et des littoraux (présidé par le Premier ministre)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "condamnation pour infraction aux dispositions des articles L. 211-4 du code de l'environnement et art. 17 de la Loi Littoral"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "annulation des permis de construire accordés en méconnaissance des dispositions de la loi (contrôle de légalité préfectoral)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "obligation de remise en état des lieux en cas de construction illicite"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "retrait de l'autorisation d'exploitation et de l'autorisation d'occupation domaniale"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "contrôle de légalité préfectoral des permis de construire"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "enquête publique préalable pour toute utilisation substantielle du domaine public maritime"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "mécanismes de coordination et de suivi du Protocole GIZC (rapports périodiques aux Parties)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "officiers et agents de police judiciaire habilitées à constater les infractions à la police du mouillage et du DPM"
+      },
+      {
+        "categorie": "Periode",
+        "texte_original": "Loi Littoral en vigueur depuis le 3 janvier 1986 (modifiée Ordonnance 2000-914) ; Protocole GIZC entré en vigueur le 24 mars 2011"
+      },
+      {
+        "categorie": "Etat",
+        "texte_original": "France et États méditerranéens parties au Protocole GIZC"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "constructions et aménagements dans les agglomérations existantes (zones urbanisées continues)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "installations et équipements nécessaires aux activités économiques exigeant la proximité immédiate de l'eau : pêche, cultures marines, activités portuaires, réparation navale"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "constructions liées aux services publics et équipements d'intérêt général ne pouvant être implantés ailleurs"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "réhabilitation des constructions existantes sans changement de destination ni augmentation d'emprise"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "durée des conventions sur le DPM ne dépassant pas 15 ans (exceptionnellement 30 ans selon amortissement)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "herbiers marins (Posidonia oceanica et autres phanérogames marines)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "zones humides d'importance internationale (sites Ramsar)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "faune et flore des dunes, landes côtières et forêts côtières protégées"
+      }
+    ],
+    "explication_generale": "La Loi Littoral de 1986, codifiée aux articles L. 121-1 et suivants du Code de l'urbanisme, est le texte fondateur de la protection du littoral français. Elle établit une hiérarchie de restrictions en fonction de la distance au rivage et de la sensibilité écologique des espaces concernés. La bande des 100 mètres constitue la zone de protection maximale, avec une interdiction quasi-absolue de construction hors agglomérations. Le Protocole GIZC (2008) complète ce dispositif pour la Méditerranée en imposant une zone de recul similaire aux États parties. Les mécanismes de contrôle reposent sur la police administrative préfectorale et les sanctions pénales prévues par le Code de l'environnement. Les infractions peuvent entraîner annulation des permis, remise en état et retraits d'autorisation."
+  },
+  "pipeline_triples": [
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_BANDE_100M_RIVAGE_MER",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ESPACES_PROCHES_RIVAGE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ESPACES_MILIEUX_REMARQUABLES_LITTORAL",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_DOMAINE_PUBLIC_MARITIME_DPM",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_COTIERES_MEDITERRANEE_GIZC",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ESTUAIRES_DELTAS_RIVES",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.91
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CONSTRUCTION_BATIMENT_NEUF_BANDE_100M",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXTENSION_URBANISATION_ESPACES_PROCHES_RIVAGE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CREATION_ROUTES_CORNICHE_NON_PREVUES_PLU",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CAMPING_CARAVANAGE_ESPACES_PROCHES_RIVAGE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.91
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXTRACTION_MATERIAUX_PORTANT_ATTEINTE_MILIEUX",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_IMPERMEABILISATION_SOLS_ZONES_HUMIDES_COTIERES",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_COMMUNE_LITTORALE_INTERCOMMUNALITE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_PROMOTEUR_IMMOBILIER_CONSTRUCTEUR",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_PARTICULIER_CONSTRUCTEUR_ZONE_LITTORALE",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_PREFET_CONTROLE_LEGALITE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETATS_MEDITERRANEENS_PARTIES_GIZC",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_ANNULATION_PERMIS_CONSTRUIRE_ILLEGAL",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_REMISE_ETAT_LIEUX_CONSTRUCTION_ILLICITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_CONDAMNATION_PENALE_CODE_ENVIRONNEMENT_L211_4",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_RETRAIT_AUTORISATION_EXPLOITATION_DPM",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_LEGALITE_PREFECTORAL_PERMIS_CONSTRUIRE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ENQUETE_PUBLIQUE_UTILISATION_DPM",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_RAPPORTS_PERIODIQUES_PARTIES_GIZC",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.91
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_POLICE_JUDICIAIRE_INFRACTIONS_DPM",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_DEPUIS_LOI_LITTORAL_3_JANVIER_1986",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_PROTOCOLE_GIZC_DEPUIS_24_MARS_2011",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_FRANCE_ETATS_MEDITERRANEENS_PARTIES_GIZC",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_CONSTRUCTION_AGGLOMERATION_EXISTANTE_URBAINE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I003",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_INSTALLATIONS_ACTIVITES_EAU_PECHE_PORT_NAVAL",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I003",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_SERVICES_PUBLICS_INTERET_GENERAL_NON_DELOCALISABLES",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I003",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_REHABILITATION_CONSTRUCTIONS_EXISTANTES_SANS_EXTENSION",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I003",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_HERBIERS_MARINS_POSIDONIA_OCEANICA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_ZONES_HUMIDES_SITES_RAMSAR",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_FAUNE_FLORE_DUNES_LANDES_FORETS_COTIERES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.87
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_PERMIS_CONSTRUIRE_CODE_URBANISME_L146",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.97,
+      "source": "Loi 86-2 Art.3, Code urbanisme L146-1"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_PREFET_CONTROLE_LEGALITE_COMMUNE_LITTORALE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.93,
+      "source": "Loi Littoral Art.2 & Code urbanisme"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_MEDITERRANEE_PROTOCOL_GIZC_BARCELONE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.9,
+      "source": "Protocole GIZC Méditerranée 2008"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_PLAN_AMENAGEMENT_COTIER_GIZC_SETBACK_100M",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.91,
+      "source": "Protocole GIZC Art.8(2) bande setback"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_COLLECTIVITE_TERRITORIALE_PLU_LITTORAL",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I003",
+      "confidence": 0.92,
+      "source": "Loi Littoral Art.2 communes bord de mer"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_WALLIS_FUTUNA_NOUVELLE_CALEDONIE_POLYNESIE_FRANCAISE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.85,
+      "source": "Loi Littoral Art.2 NOTA Ordonnance 2000-914"
+    },
+    {
+      "subject": "I003",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_INFRACTION_URBANISME_CODE_PENAL_L480",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I003",
+      "confidence": 0.88,
+      "source": "Loi Littoral & Code urbanisme L480"
+    }
+  ],
+  "version": "final_v14_merged",
+  "sources_pdf": true
+}

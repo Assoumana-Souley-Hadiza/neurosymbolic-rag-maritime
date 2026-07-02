@@ -1,0 +1,56 @@
+[
+  {
+    "terme": "ACCORD",
+    "definition": "signifie un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention",
+    "article_reference": "j)",
+    "language": "fr"
+  },
+  {
+    "terme": "Aire de répartition",
+    "definition": "signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment des limites de leur juridiction nationale ou qui franchissent ces limites le long de son itinéraire habituel de migration",
+    "article_reference": "f)",
+    "language": "fr"
+  },
+  {
+    "terme": "Effectuer un prélèvement",
+    "definition": "signifie prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées",
+    "article_reference": "i)",
+    "language": "fr"
+  },
+  {
+    "terme": "En danger",
+    "definition": "signifie, pour une espèce migratrice donnée, que celle-ci est en danger d'extinction sur l'ensemble ou sur une partie importante de son aire de répartition; ou dont les migrations se déroulent à l'extérieur de ces limites",
+    "article_reference": "e)",
+    "language": "fr"
+  },
+  {
+    "terme": "Espèce migratrice",
+    "definition": "signifie l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, et ayant une fraction importante qui franchit cycliquement et façon prévisible une ou plusieurs des limites de juridiction nationale ou internationale",
+    "article_reference": "a)",
+    "language": "fr"
+  },
+  {
+    "terme": "Etat de conservation d'une espèce migratrice",
+    "definition": "signifie l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population",
+    "article_reference": "b)",
+    "language": "fr"
+  },
+  {
+    "terme": "favorable",
+    "definition": "lorsque: 1) les données relatives à la dynamique des populations de l'espèce migratrice en question indiquent que cette espèce continue et continuera à long terme à constituer un élément viable des écosystèmes auxquels elle appartient; et 2) l'étendue de l'aire de répartition de cette espèce migratrice dans le décompte des suffrages exprimés par les Parties présentes et votantes ne diminue ni ne risque de diminuer à long terme;",
+    "article_reference": "c)",
+    "language": "fr"
+  },
+  {
+    "terme": "Habitat",
+    "definition": "signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question",
+    "article_reference": "g)",
+    "language": "fr"
+  },
+  {
+    "terme": "État de l'aire de répartition",
+    "definition": "signifie, pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) qui exerce sa juridiction sur une partie quelconque de l'aire de répartition de cette espèce migratrice, ou encore, un Etat dont les navires battant son pavillon procèdent à des prélèvements sur cette espèce en dehors des limites de juridiction nationale",
+    "article_reference": "h)",
+    "language": "fr"
+  }
+]

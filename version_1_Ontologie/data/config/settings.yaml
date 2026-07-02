@@ -1,0 +1,42 @@
+# ═══════════════════════════════════════════════════════════════
+# Ontologie Maritime — Paramètres globaux
+# ═══════════════════════════════════════════════════════════════
+
+metadata:
+  title: "Ontologie Maritime — Droit International de la Mer"
+  version: "1.0.0"
+  description: "Prototype : Chalutage de Fond + Chasse à la Baleine"
+  authors:
+    - "Maritime Legal Ontology Project"
+  language: "fr"
+
+namespaces:
+  mar:  "http://www.maritime-ontology.org/mar#"
+  lkif: "http://www.estrellaproject.org/lkif-core/lkif-core.owl#"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  dct:  "http://purl.org/dc/terms/"
+  prov: "http://www.w3.org/ns/prov#"
+
+output:
+  dir: "data/output"
+  formats:
+    - turtle
+    - xml        # OWL/RDF-XML
+    - json-ld
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "CHANGE_ME"         # ⚠️ Remplacer par votre mot de passe (ou utiliser .env.local)
+  database: "neo4j"
+  batch_size: 500
+
+lkif:
+  stub_path: "data/input/lkif_stub.ttl"
+
+data:
+  processed_dir: "data/raw/all_entité_triplets"
+  triple_files_glob: "*_final.json"
+  glossary_yaml: "data/raw/glossary.yaml"
+  # Optional configs if definitions exist
+  definition_files_glob: "*_definitions.json"

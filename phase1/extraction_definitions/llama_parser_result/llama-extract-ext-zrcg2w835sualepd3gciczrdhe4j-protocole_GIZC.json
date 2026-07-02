@@ -1,0 +1,774 @@
+{
+  "data": {
+    "glossary_entries": [
+      {
+        "term": "Parties",
+        "language": "fr",
+        "definition": "les Parties contractantes au présent Protocole;",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Convention",
+        "language": "fr",
+        "definition": "la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995;",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Organisation",
+        "language": "fr",
+        "definition": "l'organisation visée à l'article 17 de la Convention;",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Centre",
+        "language": "fr",
+        "definition": "le Centre d'activités régionales pour le Programme d'actions prioritaires;",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Zone côtière",
+        "language": "fr",
+        "definition": "l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et systèmes de ressources complexes comprenant des composantes biotiques et abiotiques coexistant et interagissant avec les communautés humaines et les activités socio-économiques pertinentes;",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Gestion intégrée des zones côtières",
+        "language": "fr",
+        "definition": "un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs interactions, la vocation maritime de certains d'entre eux, ainsi que leurs impacts à la fois sur la partie marine et la partie terrestre.",
+        "document_title": "PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "glossary_entries": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "Aux fins de l'application du présent Protocole, les Parties, l'Organisation et le Centre peuvent conjointement établir une coopération avec les organisations non gouvernementales dont les activités so...",
+                  "bounding_boxes": [
+                    {
+                      "h": 201.39,
+                      "w": 398.02,
+                      "x": 124.09,
+                      "y": 509.53
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9989968321233801,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9989968321233801
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "L'original du présent Protocole, dont les textes anglais, arabe, espagnol et français font également foi, sera déposé auprès du Dépositaire.",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.06198012862046,
+                      "w": 398.0538027126703,
+                      "x": 124.14240133869451,
+                      "y": 556.4448571923828
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "a) \"Parties\" les Parties contractantes au présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.96278647544294,
+                      "w": 288.33945504930455,
+                      "x": 159.7660723841225,
+                      "y": 682.4612726175449
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9947694958067272,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9947694958067272
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999976900491124,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999976900491124
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "Le règlement intérieur et les règles financières adoptées conformément à l'article 24 de la Convention s'appliquent à l'égard du présent Protocole, à moins que les Parties à ce dernier n'en conviennen...",
+                  "bounding_boxes": [
+                    {
+                      "h": 74.84,
+                      "w": 398.14,
+                      "x": 124.03,
+                      "y": 496.75
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999998311903558,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998311903558
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "*Étant Parties* à la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995,",
+                  "bounding_boxes": [
+                    {
+                      "h": 36.000722753548956,
+                      "w": 393.81334909533985,
+                      "x": 124.4194604575255,
+                      "y": 200.14871379489807
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "L'original du présent Protocole, dont les textes anglais, arabe, espagnol et français font également foi, sera déposé auprès du Dépositaire.",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.06198012862046,
+                      "w": 398.0538027126703,
+                      "x": 124.14240133869451,
+                      "y": 556.4448571923828
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "b) \"Convention\" la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995;",
+                  "bounding_boxes": [
+                    {
+                      "h": 36.37028512087939,
+                      "w": 358.9754899495939,
+                      "x": 159.7707405022449,
+                      "y": 701.1754780061452
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999586893356,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999586893356
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999500734171,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999500734171
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.545067623618458,
+                      "w": 39.76980704833983,
+                      "x": 303.4741788996999,
+                      "y": 606.8432808510386
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "Les Parties s'engagent, directement ou avec l'aide de l'Organisation ou des organisations internationales compétentes, à coopérer pour la formation du personnel scientifique, technique et administrati...",
+                  "bounding_boxes": [
+                    {
+                      "h": 49.16,
+                      "w": 400.04,
+                      "x": 124.48,
+                      "y": 630.81
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "L'original du présent Protocole, dont les textes anglais, arabe, espagnol et français font également foi, sera déposé auprès du Dépositaire.",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.06198012862046,
+                      "w": 398.0538027126703,
+                      "x": 124.14240133869451,
+                      "y": 556.4448571923828
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "c) \"Organisation\" l'organisation visée à l'article 17 de la Convention;",
+                  "bounding_boxes": [
+                    {
+                      "h": 12.181736752765932,
+                      "w": 332.7630694640815,
+                      "x": 159.69960126583936,
+                      "y": 112.73795911530286
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999953361746557,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999953361746557
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999512840847,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999512840847
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.545067623618458,
+                      "w": 39.76980704833983,
+                      "x": 303.4741788996999,
+                      "y": 606.8432808510386
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "A cette fin, les Parties définissent, avec l'assistance du Centre, un cadre régional commun de gestion intégrée des zones côtières en Méditerranée à mettre en œuvre au moyen de plans d'action régionau...",
+                  "bounding_boxes": [
+                    {
+                      "h": 99.9137023628049,
+                      "w": 397.80875529963794,
+                      "x": 126.74987155821263,
+                      "y": 541.5458631859757
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "...en particulier, la mise en œuvre, s’il y a lieu, d’actions communes pour les paysages côtiers transfrontaliers.",
+                  "bounding_boxes": [
+                    {
+                      "h": 47.8,
+                      "w": 400.22,
+                      "x": 124.06,
+                      "y": 113.3
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "d) \"Centre\" le Centre d'activités régionales pour le Programme d'actions prioritaires;",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.820043932539786,
+                      "w": 359.84559832981023,
+                      "x": 159.9412439672554,
+                      "y": 131.30459579985828
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999997699917056,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997699917056
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999553061903,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999553061903
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.545067623618458,
+                      "w": 39.76980704833983,
+                      "x": 303.4741788996999,
+                      "y": 606.8432808510386
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "e) \"Zone côtière\" l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et sys...",
+                  "bounding_boxes": [
+                    {
+                      "h": 75.27116200838415,
+                      "w": 359.453999092571,
+                      "x": 159.8813875182808,
+                      "y": 162.57046534730492
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999515968389,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999515968389
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "...namique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs i...",
+                  "bounding_boxes": [
+                    {
+                      "h": 74.84660046940502,
+                      "w": 359.2692028952399,
+                      "x": 159.72917802969582,
+                      "y": 244.57805244599132
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "e) \"Zone côtière\" l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et sys...",
+                  "bounding_boxes": [
+                    {
+                      "h": 75.27116200838415,
+                      "w": 359.453999092571,
+                      "x": 159.8813875182808,
+                      "y": 162.57046534730492
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999992503761072,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992503761072
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999694037407,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999694037407
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* à coordonner, s’il y a lieu, la gestion des zones côtières transfrontières conformément à l’article 28;",
+                  "bounding_boxes": [
+                    {
+                      "h": 118.21,
+                      "w": 343.86,
+                      "x": 178.18,
+                      "y": 339.79
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "f) \"Gestion intégrée des zones côtières\" un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages cô...",
+                  "bounding_boxes": [
+                    {
+                      "h": 74.84660046940502,
+                      "w": 359.2692028952399,
+                      "x": 159.72917802969582,
+                      "y": 244.57805244599132
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999310970461,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999310970461
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "...namique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs i...",
+                  "bounding_boxes": [
+                    {
+                      "h": 74.84660046940502,
+                      "w": 359.2692028952399,
+                      "x": 159.72917802969582,
+                      "y": 244.57805244599132
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "f) \"Gestion intégrée des zones côtières\" un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages cô...",
+                  "bounding_boxes": [
+                    {
+                      "h": 74.84660046940502,
+                      "w": 359.2692028952399,
+                      "x": 159.72917802969582,
+                      "y": 244.57805244599132
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999997689603363,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997689603363
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# PROTOCOLE RELATIF À LA GESTION INTÉGRÉE DES ZONES CÔTIÈRES (GIZC) DE LA MÉDITERRANÉE",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.666548717026124,
+                      "w": 345.7897594861584,
+                      "x": 150.10857408734577,
+                      "y": 111.90179133415408
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999999843016772,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999843016772
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.545067623618458,
+                      "w": 39.76980704833983,
+                      "x": 303.4741788996999,
+                      "y": 606.8432808510386
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-vj72hqjgj7l748syg11xoto7wg5j",
+    "parse_tier": null
+  }
+}

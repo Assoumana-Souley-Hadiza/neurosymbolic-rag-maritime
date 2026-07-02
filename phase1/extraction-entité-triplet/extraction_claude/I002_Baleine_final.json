@@ -1,0 +1,539 @@
+{
+  "interdiction_id": "I002",
+  "interdiction": "Baleine",
+  "source": "Convention Internationale pour la Réglementation de la Chasse à la Baleine (ICRW, 1946) – Schedule amendée à la 69e réunion de la CBI, Lima, Pérou, septembre 2024",
+  "raw_extractions": {
+    "interdictions_identifiees": [
+      "Moratoire mondial sur la chasse commerciale à la baleine : limites de captures fixées à zéro (0) pour toutes les espèces commerciales depuis la saison 1985/1986 (paragraphe 10(e) du Schedule ICRW)",
+      "Interdiction d'utiliser des navires-usines pour la chasse pélagique à des fins commerciales",
+      "Interdiction du traitement des baleines classées 'Protection Stocks' (paragraph 19(a))",
+      "Interdiction de la chasse commerciale dans les sanctuaires de l'Océan Indien et de l'Océan Austral",
+      "Interdiction de l'harpon à grenade froide à des fins commerciales"
+    ],
+    "entites_trouvees": [
+      {
+        "categorie": "Activity",
+        "texte_original": "chasse commerciale à la baleine par navires-usines (pélagique)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "chasse commerciale depuis stations côtières terrestres"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "traitement des baleines à bord d'un navire-usine à des fins commerciales"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "utilisation de l'harpon à grenade froide pour la chasse commerciale"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "chasse de subsistance autochtone (aboriginal subsistence whaling) – para. 13(b)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "recherche scientifique sous permis délivré par l'État membre (Article VIII de la Convention)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Sanctuaire de l'Océan Indien : Hémisphère Nord côte africaine jusqu'à 100°E, Hémisphère Sud entre 20°E et 130°E avec limite sud 55°S"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Sanctuaire de l'Océan Austral : eaux Hémisphère Sud au sud de 40°S/50°W jusqu'à 60°S"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Océan Pacifique Nord, Atlantique Nord, Océan Indien Nord soumis au Schedule"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "gouvernements contractants membres de la Commission Baleinière Internationale (CBI)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "armateurs de navires-usines et de navires chasseurs de baleines"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "exploitants de stations terrestres de traitement"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "populations autochtones pratiquant la chasse de subsistance (Inuits, Groenland, Tchoukotka, Alaska)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États membres détenant un permis de recherche scientifique (Article VIII)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "obligation de maintenir au moins deux inspecteurs de chasse à bord de chaque navire-usine (para. 21)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "interdiction de traiter les baleines classées 'Protection Stocks' (para. 19(a))"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "contrôle par l'État du pavillon et la CBI"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "inspecteurs de chasse à bord des navires-usines (para. 21 du Schedule)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "Comité Scientifique de la CBI : évaluation des stocks et avis de gestion"
+      },
+      {
+        "categorie": "Periode",
+        "texte_original": "moratoire en vigueur depuis la saison 1985/1986 ; tables de captures 2024/2025–2025/2026 (pélagique) et 2025–2026 (côtière)"
+      },
+      {
+        "categorie": "Etat",
+        "texte_original": "États contractants parties à la Convention ICRW de 1946 (Commission Baleinière Internationale)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "chasse de subsistance autochtone : Inuits Béring-Tchoukotka-Beaufort, Groenland, Russie (Tchoukotka), États-Unis (Alaska) avec limites de captures spécifiques"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "recherche scientifique sous permis délivré par l'État membre (Article VIII)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "stocks SMS (Sustained Management Stocks) potentiellement exploitables selon avis du Comité Scientifique"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "rorqual bleu (Balaenoptera musculus)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "rorqual commun / baleine à nageoires (Balaenoptera physalus)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "baleine grise (Eschrichtius robustus)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "baleine franche / baleine noire (Eubalaena glacialis / E. australis)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "cachalot (Physeter macrocephalus)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "baleine à bosse (Megaptera novaeangliae)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "petit rorqual / baleine de Minke (Balaenoptera acutorostrata / B. bonaerensis)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "baleine de Bryde (Balaenoptera edeni / B. brydei)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "baleine boréale / baleine du Groenland (Balaena mysticetus)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "rorqual de Rudolphi / sei whale (Balaenoptera borealis)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks de baleine de Minke de l'Antarctique (DIPS/Division of International Population Survey)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks classés 'Protection Stocks' – interdiction absolue para. 19(a)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks SMS (Sustained Management Stocks) avec limites de captures potentielles"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks de baleines grises de Corée (Eschrichtius robustus)"
+      }
+    ],
+    "explication_generale": "La Convention ICRW de 1946 et son Schedule (dernière version amendée en septembre 2024 à Lima) constituent le cadre juridique mondial de gestion de la chasse à la baleine. Le moratoire sur la chasse commerciale, adopté en 1982 et entré en vigueur pour la saison 1985/1986 (para. 10(e)), fixe à zéro les quotas de capture commerciale pour toutes les espèces. La structure normative distingue trois catégories déontiques : la Prohibition (chasse commerciale), l'Obligation (inspection, contrôle) et la Permission (chasse de subsistance autochtone, recherche scientifique Art. VIII). Les sanctuaires de l'Océan Indien et de l'Océan Austral constituent des zones de protection renforcée. La CBI assure le contrôle via ses inspecteurs à bord et le Comité Scientifique. Les espèces sont taxonomiquement définies au paragraphe I du Schedule (baleines à fanons et baleines à dents)."
+  },
+  "pipeline_triples": [
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SANCTUAIRE_OCEAN_INDIEN",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SANCTUAIRE_OCEAN_AUSTRAL_SUD_60S",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_MONDIALE_SCHEDULE_ICRW",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_OCEAN_PACIFIQUE_NORD",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ATLANTIQUE_NORD",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CHASSE_PELAGIQUE_COMMERCIALE_NAVIRE_USINE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CHASSE_COTIERE_COMMERCIALE_STATION_TERRESTRE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_TRAITEMENT_BALEINE_NAVIRE_USINE_COMMERCIAL",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_UTILISATION_HARPON_GRENADE_FROIDE_COMMERCIAL",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_GOUVERNEMENT_CONTRACTANT_CBI",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ARMATEUR_NAVIRE_USINE_BALEINIER",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_EXPLOITANT_STATION_TERRESTRE_TRAITEMENT",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PAVILLON_NAVIRE_BALEINIER",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_INTERDICTION_TRAITEMENT_PROTECTION_STOCKS",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_QUOTA_CAPTURE_ZERO_TOUTES_ESPECES",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_INSPECTEURS_CBI_BORD_NAVIRE_USINE_PARA21",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ETAT_PAVILLON_SURVEILLANCE_PECHE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_COMITE_SCIENTIFIQUE_CBI_EVALUATION_STOCKS",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_MORATOIRE_DEPUIS_SAISON_1985_1986",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_TABLES_CAPTURES_2024_2026_SCHEDULE_69EME_CBI",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_CONTRACTANT_ICRW_1946_MEMBRES_CBI",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_CHASSE_SUBSISTANCE_AUTOCHTONE_INUIT_ALASKA_GROENLAND",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_RECHERCHE_SCIENTIFIQUE_PERMIS_ARTICLE_VIII",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_STOCKS_SMS_SUSTAINED_MANAGEMENT_AVIS_CS",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I002",
+      "confidence": 0.82
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_RORQUAL_BLEU_BALAENOPTERA_MUSCULUS",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_RORQUAL_COMMUN_BALAENOPTERA_PHYSALUS",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_BALEINE_FRANCHE_EUBALAENA_SPP",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_BALEINE_GRISE_ESCHRICHTIUS_ROBUSTUS",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_CACHALOT_PHYSETER_MACROCEPHALUS",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_BALEINE_BOSSE_MEGAPTERA_NOVAEANGLIAE",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_PETIT_RORQUAL_BALAENOPTERA_ACUTOROSTRATA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_PROTECTION_STOCKS_PARA19A_CAPTURE_INTERDITE",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_MINKE_ANTARCTIQUE_DIPS",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_SMS_SUSTAINED_MANAGEMENT",
+      "concept_id": "Stock",
+      "deontic_type": "Permission",
+      "interdiction_id": "I002",
+      "confidence": 0.8
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_BALEINE_DENTEE_BEAKED_WHALE_MESOPLODON",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.88,
+      "source": "ICRW Schedule §I.B beaked whales"
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_ORQUE_ORCINUS_ORCA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.87,
+      "source": "ICRW Schedule §I.B killer whale"
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_GLOBICEPHALE_GLOBICEPHALA_PILOT_WHALE",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I002",
+      "confidence": 0.85,
+      "source": "ICRW Schedule §I.B pilot whale"
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_DECLARATION_CAPTURES_ANNUELLE_CBI_PARA22",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.93,
+      "source": "ICRW Schedule §22 catch returns"
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_SPECIFICATIONS_TECHNIQUES_ENGINS_PECHE_PARA5",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I002",
+      "confidence": 0.88,
+      "source": "ICRW Schedule §5 gear specifications"
+    },
+    {
+      "subject": "I002",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_CHASSE_ABORIGENE_SUBSISTANCE_TCHOUKOTKA_RUSSIE_LIMITES",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I002",
+      "confidence": 0.96,
+      "source": "ICRW Schedule §13(b) aboriginal subsistence"
+    }
+  ],
+  "version": "final_v14_merged",
+  "sources_pdf": true
+}

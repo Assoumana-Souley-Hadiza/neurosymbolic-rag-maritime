@@ -1,0 +1,127 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maritime-ontology-rag"
+version = "2.0.0"
+description = "Maritime Ontology & RAG — Droit International de la Mer (LKIF-Core + Hybrid RAG)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "License TBD"}
+authors = [
+    {name = "Maritime Legal Ontology Project"},
+]
+keywords = [
+    "ontology",
+    "maritime",
+    "law",
+    "rdf",
+    "owl",
+    "semantic-web",
+    "lkif",
+    "rag",
+    "retrieval-augmented-generation",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: French",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Legal",
+    "Topic :: Semantic Web",
+]
+
+dependencies = [
+    # Ontologie
+    "rdflib>=7.0.0",
+    "owlrl>=6.0.2",
+    "pyyaml>=6.0.1",
+    "neo4j>=5.0.0",
+    "rich>=13.0.0",
+    # RAG
+    "PyMuPDF>=1.23.0",
+    "sentence-transformers>=2.6.0",
+    "chromadb>=0.4.0",
+    "rank-bm25>=0.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+web = [
+    "streamlit>=1.30.0",
+]
+llm = [
+    "langchain>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/maritime-ontology/v1"
+Documentation = "https://github.com/maritime-ontology/v1/wiki"
+Repository = "https://github.com/maritime-ontology/v1.git"
+
+[project.scripts]
+maritime = "main:main"
+
+[tool.setuptools]
+packages = ["ontologie", "rag", "rag.core", "rag.ingestion", "rag.integration", "rag.api"]
+
+[tool.setuptools.package-data]
+ontologie = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.ruff]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.isort]
+known-first-party = ["ontologie", "rag"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --strict-markers"
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "slow: Slow tests",
+]

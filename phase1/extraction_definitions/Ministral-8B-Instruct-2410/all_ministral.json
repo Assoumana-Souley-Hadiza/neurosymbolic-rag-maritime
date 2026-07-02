@@ -1,0 +1,2812 @@
+[
+  {
+    "terme": "Classification statistique internationale type des engins de pêche",
+    "definition": "Le présent document élabore la Classification statistique internationale type des engins de pêche (CSITEP) révisée.",
+    "nom_scientifique": null,
+    "reference": "Document technique de la FAO sur les pêches et l'aquaculture nº 672",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engins de pêche",
+    "definition": "Engins utilisés pour capturer des poissons.",
+    "nom_scientifique": null,
+    "reference": "Définitions des engins de pêche",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Filets tournants",
+    "definition": "Filets utilisés pour capturer des poissons en les entourant.",
+    "nom_scientifique": null,
+    "reference": "Définitions des engins de pêche",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filets-pièges fixes non couverts",
+    "definition": "Filets-pièges fixes non couverts",
+    "nom_scientifique": null,
+    "reference": "8.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "nasses (casiers)",
+    "definition": "Nasses (casiers)",
+    "nom_scientifique": null,
+    "reference": "8.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "verveux",
+    "definition": "Verveux",
+    "nom_scientifique": null,
+    "reference": "8.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filets à l'étalage (diables)",
+    "definition": "Filets à l'étalage (diables)",
+    "nom_scientifique": null,
+    "reference": "8.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "barrages, parcs et bordigues",
+    "definition": "Barrages, parcs et bordigues",
+    "nom_scientifique": null,
+    "reference": "8.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pièges aériens",
+    "definition": "Pièges aériens",
+    "nom_scientifique": null,
+    "reference": "8.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "lignes à main et lignes à cannes (manœuvrées à la main)",
+    "definition": "Lignes à main et lignes à cannes (manœuvrées à la main)",
+    "nom_scientifique": null,
+    "reference": "9.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "lignes à main et lignes à cannes (mécanisées)",
+    "definition": "Lignes à main et lignes à cannes (mécanisées)",
+    "nom_scientifique": null,
+    "reference": "9.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "palangres",
+    "definition": "Palangres",
+    "nom_scientifique": null,
+    "reference": "9.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "palangres calées",
+    "definition": "Palangres calées",
+    "nom_scientifique": null,
+    "reference": "9.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "lignes de traîne",
+    "definition": "Lignes de traîne",
+    "nom_scientifique": null,
+    "reference": "9.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "harpons",
+    "definition": "Harpons",
+    "nom_scientifique": null,
+    "reference": "10.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engins à main (pinces, râteaux, lances)",
+    "definition": "Engins à main (pinces, râteaux, lances)",
+    "nom_scientifique": null,
+    "reference": "10.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pompes",
+    "definition": "Pompes",
+    "nom_scientifique": null,
+    "reference": "10.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pêche électrique",
+    "definition": "Pêche électrique",
+    "nom_scientifique": null,
+    "reference": "10.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pousseux/troubles",
+    "definition": "Pousseux/troubles",
+    "nom_scientifique": null,
+    "reference": "10.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "épuiettes/salabardes",
+    "definition": "Épuiettes/salabardes",
+    "nom_scientifique": null,
+    "reference": "10.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filets de rabattage",
+    "definition": "Filets de rabattage",
+    "nom_scientifique": null,
+    "reference": "10.7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plongée",
+    "definition": "Plongée",
+    "nom_scientifique": null,
+    "reference": "10.8",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engins à main",
+    "definition": "Engins utilisés directement par le pêcheur.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pêcheurs",
+    "definition": "Personnes pratiquant l'activité de pêche.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Fishing and Operations Branch",
+    "definition": "Sous-division de l'industrie de la pêche et des opérations",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "CSITEP",
+    "definition": "Classification statistique internationale type des engins de pêche",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engin de pêche",
+    "definition": "Tout dispositif ou partie de dispositif ou toute combinaison d'objets qui peuvent être placés sur l'eau ou dans l'eau ou bien sur le fond de la mer dans le but de capturer des organismes d'eau douce ou d'eau salée ou de les maîtriser en vue de les capturer ou de les récolter par la suite.",
+    "nom_scientifique": null,
+    "reference": "Annexe V de la Convention internationale pour la prévention de la pollution par les navires (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engin auxiliaire",
+    "definition": "Dispositif ou composant d'engin susceptible d'accroître l'efficacité de la pêche, de réduire les captures involontaires de poissons ou d'autres animaux, ou encore de réduire les impacts physiques de la pêche sur l'environnement.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet tournant",
+    "definition": "Un filet tournant est une longue nappe de filet construite principalement à partir de sections rectangulaires encadrées par des cordes, et qui capture ses prises en encerclant un banc de poissons.",
+    "nom_scientifique": null,
+    "reference": "1. Filets tournants",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet tournant avec coulisse",
+    "definition": "Un filet tournant avec coulisse est une nappe de filet conçue pour encercler un banc de poissons pélagiques près de la surface à l'aide d'une coulisse pour fermer le fond du filet.",
+    "nom_scientifique": null,
+    "reference": "1.1 FILETS TOURNANTS AVEC COULISSE",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "dispositif de concentration de poissons",
+    "definition": "Une structure permanente, semi-permanente ou temporaire, qui est déployée et/ou suivie, et utilisée pour concentrer les poissons en vue de leur capture ultérieure.",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "DCP",
+    "definition": "Un dispositif de concentration de poissons (DCP)",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "DCPa",
+    "definition": "Un dispositif de concentration de poissons ancré (DCPa)",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "DCPd",
+    "definition": "Un dispositif de concentration de poissons dérivant (DCPd)",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filets lamparos",
+    "definition": "filets utilisés pour capturer des appâts vivants destinés à la pêche à la ligne, notamment pour la pêche au thon à la ligne avec une canne.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet lamparo",
+    "definition": "type de filet tournant sans coulisse",
+    "nom_scientifique": null,
+    "reference": "LA 01.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "senne",
+    "definition": "filet conique avec de longues ailes et une poche, ou une longue nappe de filet sans poche, capturant les poissons en les encerclant et en les rabattant.",
+    "nom_scientifique": null,
+    "reference": "2. Sennes",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ralingue",
+    "definition": "partie du filet d'une senne utilisée pour maintenir le contact avec le fond et réduire l'abrasion du filet.",
+    "nom_scientifique": null,
+    "reference": "2. Sennes",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "senne halée à bord",
+    "definition": "Type de senne où le filet est halé à bord du bateau.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "balise",
+    "definition": "Système de signalisation utilisé dans la pêche à la senne.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Dan Buoy",
+    "definition": "Balise utilisée dans la pêche à la senne danoise.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut",
+    "definition": "Un filet conique remorqué sur le fond marin, conçu pour attraper les poissons qui vivent sur ou à proximité du fond marin.",
+    "nom_scientifique": null,
+    "reference": "3.1 CHALUTS DE FOND",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut de fond",
+    "definition": "Un filet conique remorqué sur le fond marin, conçu pour attraper les poissons qui vivent sur ou à proximité du fond marin.",
+    "nom_scientifique": null,
+    "reference": "3.1 CHALUTS DE FOND",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut à perche",
+    "definition": "Un chalut dont l'écartement horizontal est assuré par une armature rigide placée en travers de la gueule du filet.",
+    "nom_scientifique": null,
+    "reference": "3.1.1 Chaluts à perche",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut à panneaux",
+    "definition": "Un chalut de fond à panneaux est un chalut conique remorqué sur le fond marin par un seul bateau, dont l'écartement horizontal est maintenu par deux panneaux.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "panneaux",
+    "definition": "élément caractéristique du chalut à panneaux, d'où son nom.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "culs-de-chalut",
+    "definition": "parties d'un chalut utilisées pour capturer des espèces de tailles différentes, séparées par des dispositifs de sélection.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "grément",
+    "definition": "les dispositifs situés au milieu, entre les panneaux, sont des crapauds",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "crapauds plongeurs",
+    "definition": "dont certains sont représentés à la Figure 17",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut pélagique",
+    "definition": "un chalut remorqué entre deux eaux par un seul bateau, qui utilise deux panneaux pour écarter le filet à l’horizontale",
+    "nom_scientifique": null,
+    "reference": "3.2.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut-bœuf pélagique",
+    "definition": "un chalut remorqué entre deux eaux par deux bateaux, dont la distance de séparation détermine et maintient l'écartement horizontal du filet pendant la pêche",
+    "nom_scientifique": null,
+    "reference": "3.2.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "chalut semi-pélagique",
+    "definition": "un chalut dont soit le filet, soit les panneaux, touchent le fond marin, mais pas les deux",
+    "nom_scientifique": null,
+    "reference": "3.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "drague",
+    "definition": "une structure en forme de cage, souvent pourvue d'une lame ou de dents de raclage dans sa partie inférieure, et qui est tirée ou remorquée pour déterrer les animaux enfouis dans le substrat et les capturer dans une cage ou un sac",
+    "nom_scientifique": null,
+    "reference": "4. Dragues",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "dents",
+    "definition": "lamelles métalliques fixées à la bordure inférieure du cadre de la drague.",
+    "nom_scientifique": null,
+    "reference": "4.1 DRAGUES REMORQUÉES PAR BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "palourdes",
+    "definition": "espèces de mollusques bivalves.",
+    "nom_scientifique": "(Venerupis decussata)",
+    "reference": "4.1 DRAGUES REMORQUÉES PAR BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "huîtres",
+    "definition": "espèces de mollusques bivalves.",
+    "nom_scientifique": "(Crassostrea gigas)",
+    "reference": "4.1 DRAGUES REMORQUÉES PAR BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "coquilles Saint-Jacques",
+    "definition": "espèces de mollusques bivalves.",
+    "nom_scientifique": "(Pecten maximus)",
+    "reference": "4.1 DRAGUES REMORQUÉES PAR BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "roulettes",
+    "definition": "dispositifs permettant de faciliter le déplacement de la drague sur le fond marin.",
+    "nom_scientifique": null,
+    "reference": "4.1 DRAGUES REMORQUÉES PAR BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "drague à main",
+    "definition": "petite drague légère manœuvrée à la main, consistant en une perche et un cadre métallique.",
+    "nom_scientifique": null,
+    "reference": "4.2 DRAGUES À MAIN",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "râteau",
+    "definition": "engin de pêche par accrochage ou par blessure.",
+    "nom_scientifique": null,
+    "reference": "4.2 DRAGUES À MAIN",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "drague mécanisée",
+    "definition": "grande cage métallique équipée d'une lame de coupe, utilisant des pompes à jet hydraulique à haute pression.",
+    "nom_scientifique": null,
+    "reference": "4.3 DRAGUES MÉCANISÉES",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pompes à jet hydraulique",
+    "definition": "dispositifs utilisés pour fluidifier le substrat et faire sortir les animaux enfouis dans les sédiments.",
+    "nom_scientifique": null,
+    "reference": "4.3 DRAGUES MÉCANISÉES",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet soulevé",
+    "definition": "nappe de filet montée sur un cadre, submergée puis remontée pour capturer les poissons.",
+    "nom_scientifique": null,
+    "reference": "5. Filets soulevés",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet",
+    "definition": "un filet est un engin de pêche utilisé pour capturer des poissons.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet soulevé portatif",
+    "definition": "un filet soulevé portatif est un petit filet de forme rectangulaire tendu sur un cadre, qui n'est fixé à aucune structure.",
+    "nom_scientifique": null,
+    "reference": "5.1 FILETS SOULEVÉS PORTATIFS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet soulevé manœuvré du bateau",
+    "definition": "un filet soulevé manœuvré du bateau est un filet rectangulaire déployé à partir d'un ou plusieurs bateaux à une certaine profondeur pour capturer les poissons situés au-dessus de lui lorsqu'il est remonté.",
+    "nom_scientifique": null,
+    "reference": "5.2 FILETS SOULEVÉS MANŒUVRÉS DU BATEAU",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet soulevé fixe manœuvré du rivage",
+    "definition": "un filet soulevé fixe manœuvré du rivage est un filet soulevé manœuvré à partir d'une plate-forme fixe située dans les eaux côtières, le long du rivage.",
+    "nom_scientifique": null,
+    "reference": "5.3 FILETS SOULEVÉS FIXES MANŒUVRÉS DU RIVAGE",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engin retombant",
+    "definition": "un engin retombant est un filet ou une structure semblable à un panier que l'on jette ou pousse vers le bas, ou encore qu'on laisse tomber pour attraper les poissons qui se trouvent en dessous.",
+    "nom_scientifique": null,
+    "reference": "6. Engins retombants",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "épervier",
+    "definition": "un épervier est composé de plusieurs nappes de filet taillées sur mesure et assemblées pour produire un engin de forme conique, dont le périmètre est lesté et muni d'une corde de serrage.",
+    "nom_scientifique": null,
+    "reference": "6.1 ÉPERVIERS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "paniers coiffants/filets lanternes",
+    "definition": "structure rigide en forme de cône ou de pyramide qui attrape les poissons en tombant rapidement sur eux et en les empêchant de s'échapper.",
+    "nom_scientifique": null,
+    "reference": "§6.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet retombant manœuvré du bateau",
+    "definition": "filet en forme de cône ou de pyramide dont le contour est muni de poids et d'un cordon de serrage, qui est lâché d'un bateau pour attraper les poissons situés en dessous.",
+    "nom_scientifique": null,
+    "reference": "§6.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet maillant calé",
+    "definition": "Un filet maillant calé est un long filet rectangulaire à nappe unique, ancré ou fixé de toute autre manière au fond marin, qui capture les poissons entrant en contact avec lui.",
+    "nom_scientifique": null,
+    "reference": "7.1 FILETS MAILLANTS CALÉS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet maillant dérivant",
+    "definition": "Un filet maillant dérivant est un type de filet maillant qui n'est pas fixé au fond marin, et qui dérive au gré du courant.",
+    "nom_scientifique": null,
+    "reference": "7.2 FILETS MAILLANTS DÉRIVANTS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet maillant",
+    "definition": "un long filet maillant qui forme un cercle autour d'un rassemblement de poissons, en utilisant le bruit ou d'autres moyens pour rabattre ceux-ci vers lui, où ils finissent par se mailler ou s'emmêler.",
+    "nom_scientifique": null,
+    "reference": "7.3 FILETS MAILLANTS ENCERCLANTS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet maillant encerclant",
+    "definition": "un long filet maillant qui forme un cercle autour d'un rassemblement de poissons, en utilisant le bruit ou d'autres moyens pour rabattre ceux-ci vers lui, où ils finissent par se mailler ou s'emmêler.",
+    "nom_scientifique": null,
+    "reference": "7.3 FILETS MAILLANTS ENCERCLANTS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet maillant fixe",
+    "definition": "un long filet maillant accroché à des perches enfoncées dans le fond marin.",
+    "nom_scientifique": null,
+    "reference": "7.4 FILETS MAILLANTS FIXES (SUR PERCHES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "trémail",
+    "definition": "un filet maillant constitué de trois nappes de filet, dont deux nappes externes à grandes mailles et une nappe interne à plus petites mailles, posé avec un certain jeu (c'est-à-dire avec un faible rapport d'armement horizontal) en vue de piéger les poissons par boursage ou emmêlement.",
+    "nom_scientifique": null,
+    "reference": "7.5 TRÉMAILS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filet-piège",
+    "definition": "Les filets-pièges sont des structures fixes utilisées pour capturer les poissons.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "nasse",
+    "definition": "Une nasse ou un casier est une petite cage qui attire les poissons par une ou plusieurs ouvertures permettant leur entrée, mais empêchant ou retardant leur fuite.",
+    "nom_scientifique": null,
+    "reference": "8.2 NASSES (CASIERS)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "casier",
+    "definition": "Une nasse ou un casier est une petite cage qui attire les poissons par une ou plusieurs ouvertures permettant leur entrée, mais empêchant ou retardant leur fuite.",
+    "nom_scientifique": null,
+    "reference": "8.2 NASSES (CASIERS)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "filets à l'étalage",
+    "definition": "Les filets à l'étalage ou diables sont des filets de forme conique ou pyramidale dont l'ouverture est maintenue par un cadre.",
+    "nom_scientifique": null,
+    "reference": "8.4 FILETS À L'ÉTALAGE (DIABLES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "barrages, parcs et bordiges",
+    "definition": "Les barrières, parcs et bordiges sont des structures permanentes ou semi-permanentes qui attrapent les poissons selon un principe similaire à celui des filets-pièges.",
+    "nom_scientifique": null,
+    "reference": "8.5 BARRAGES, PARCS ET BORDIGUES",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hameçon",
+    "definition": "élément le plus important de l'engin de pêche à la ligne et à l'hameçon.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "appât",
+    "definition": "morceau de nourriture utilisé pour attirer les poissons.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "engins de pêche à la ligne et à l'hameçon",
+    "definition": "Les engins de pêche à la ligne et à l'hameçon qui sont manœuvrés activement par voie mécanique à l'aide de moulinets ou de tambours à entraînement motorisé, soit avec un ou plusieurs hameçons attachés à une ligne, soit avec une canne supplémentaire.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hameçons avec les lignes à main ou lignes à cannes",
+    "definition": "Les hameçons avec les lignes à main ou lignes à cannes peuvent être mécanisés, avec automatisation du mouvement (profondeur d'immersion, type d'action de récupération et vitesse) de la ligne ou de la canne, et récupération automatique lorsqu'un capteur de tension détecte la présence d'un poisson.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "palangre calée",
+    "definition": "une palangre qui est fixée au fond marin",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "palangre dérivante",
+    "definition": "une palangre qui n'est pas fixée au fond marin et qui dérive de façon passive au gré du courant",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ligne verticale",
+    "definition": "une ligne disposée verticalement à laquelle sont fixés un ou plusieurs hameçons appâtés",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ligne de traîne",
+    "definition": "une ligne à laquelle sont fixés un ou plusieurs hameçons appâtés (ou leurres) et qui est remorquée par un bateau",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "harpon",
+    "definition": "Un harpon est un engin ressemblant à une lance, doté d'un long manche et d'une pointe acérée détachable, qui est reliée à une ligne permettant de récupérer la prise.",
+    "nom_scientifique": null,
+    "reference": "10.1 HARPONS",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "scoubidou",
+    "definition": "Le scoubidou est utilisé pour la récolte des algues sessiles, soit par des plongeurs, soit à gué, soit d’un bateau, dans des eaux très peu profondes.",
+    "nom_scientifique": null,
+    "reference": "10.2 ENGINS À MAIN (PINCES, RÂTEAUX, LANCES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "fourche à coquillages",
+    "definition": "Une fourche à coquillages est un engin par accrochage ou par blessure constitué d'un manche manœuvré à la main et fendu à une extrémité pour former au moins deux dents.",
+    "nom_scientifique": null,
+    "reference": "10.2 ENGINS À MAIN (PINCES, RÂTEAUX, LANCES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pinces à coquillages",
+    "definition": "La pince à coquillages consiste en une paire de râteaux ou de paniers en forme de râteau fixés à deux longs manches réunis comme des ciseaux.",
+    "nom_scientifique": null,
+    "reference": "10.2 ENGINS À MAIN (PINCES, RÂTEAUX, LANCES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "lance",
+    "definition": "Les lances sont des outils pointus munis d'un manche qui sont utilisés pour récolter un animal en le transperçant.",
+    "nom_scientifique": null,
+    "reference": "10.2 ENGINS À MAIN (PINCES, RÂTEAUX, LANCES)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pousseux",
+    "definition": "Un pousseux, trouble, ou encore haveneau, est un filet en forme de sac, dont les deux côtés sont fixés à des perches entrecroisées en ciseaux et qui est poussé par un pêcheur à gué ou situé dans un bateau en eaux peu profondes.",
+    "nom_scientifique": null,
+    "reference": "10.5 POUSSEUX/TROUBLES",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "opérations de pêche",
+    "definition": "Opérations de pêche",
+    "nom_scientifique": null,
+    "reference": "FAO. 2009. Opérations de pêche. 2. Meilleures pratiques pour réduire les captures accidentelles d’oiseaux de mer dans les pêches de capture.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "captures accidentelles",
+    "definition": "Meilleures pratiques pour réduire les captures accidentelles d’oiseaux de mer dans les pêches de capture",
+    "nom_scientifique": null,
+    "reference": "FAO. 2009. Opérations de pêche. 2. Meilleures pratiques pour réduire les captures accidentelles d’oiseaux de mer dans les pêches de capture.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "mortalité des tortues de mer",
+    "definition": "Directives visant à réduire la mortalité des tortues de mer liée aux opérations de pêche",
+    "nom_scientifique": null,
+    "reference": "FAO. 2010. Directives visant à réduire la mortalité des tortues de mer liée aux opérations de pêche.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "coordinating working party on fishery statistics",
+    "definition": "Report of the 24th session of the Coordinating Working Party on Fishery Statistics",
+    "nom_scientifique": null,
+    "reference": "FAO. 2014. Report of the 24th session of the Coordinating Working Party on Fishery Statistics.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "voluntary guidelines on the marking of fishing gear",
+    "definition": "Voluntary Guidelines on the Marking of Fishing Gear",
+    "nom_scientifique": null,
+    "reference": "FAO. 2019. Voluntary Guidelines on the Marking of Fishing Gear.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "marking of fishing gear",
+    "definition": "Marking of Fishing Gear",
+    "nom_scientifique": null,
+    "reference": "FAO. 2019. Voluntary Guidelines on the Marking of Fishing Gear.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "guidelines to prevent and reduce bycatch of marine mammals in capture fisheries",
+    "definition": "Guidelines to prevent and reduce bycatch of marine mammals in capture fisheries",
+    "nom_scientifique": null,
+    "reference": "FAO. 2021. Guidelines to prevent and reduce bycatch of marine mammals in capture fisheries.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "seabed",
+    "definition": "Le fond marin.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "biota",
+    "definition": "La faune et la flore.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Dispositif de concentration de poissons ancré",
+    "definition": "dispositif ancré ou attaché de toute autre manière au fond de l’océan et utilisé pour attirer et concentrer les poissons en vue de leur capture ultérieure par un engin de pêche.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Anneau de coulisse",
+    "definition": "anneau en métal ou en plastique fixé au bord inférieur d'un filet tournant avec coulisse à travers lequel la coulisse est en filée.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Avançon",
+    "definition": "fin cordeau ou monofilament qui permet d'attacher l'hameçon à la ligne mère d'une palangre ou ligne verticale. Également appelé bas de ligne.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Bas de ligne",
+    "definition": "également connu sous le nom d'avançon, il s'agit de la ligne où sont attachés les hameçons à la ligne mère des palangres. C'est un terme souvent utilisé dans le cas des palangres dérivantes destinées aux espèces pélagiques comme le thon ou l'espadon.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Bourrelet",
+    "definition": "élément fixé au bord inférieur d'un chalut pour résister à l'interaction avec le fond marin.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Bras",
+    "definition": "fait généralement référence au cordage qui relie la têtière au panneau dans un chalut.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Chambre de récupération",
+    "definition": "dernière section d'un filet-piège non couvert où la capture est regroupée avant d'être halée à bord.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Corde de dos",
+    "definition": "corde où sont attachés le bord supérieur d'un filet et les flotteurs. Dans les filets maillants et emmêlants, la corde de dos est souvent désignée sous le nom de ralingue supérieure ou ralingue de flotteurs. Le terme s'applique plutôt aux chaluts et sennes halées à bord.",
+    "nom_scientifique": null,
+    "reference": "Glossaire",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "school",
+    "definition": "means a group of whales which are sufficiently close together that a catcher Fin having completed handling one whale can start chasing another whale almost immediately without Humpback spending time searching.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "takeable whale",
+    "definition": "is a whale of a size or kind which the catchers would take if possible. It does not necessarily include all whales above legal size, e.g. if catchers are concentrating on large whales only these would be counted as takeable.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parties",
+    "definition": "les Parties contractantes au présent Protocole",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Convention",
+    "definition": "la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Organisation",
+    "definition": "l'organisation visée à l'article 17 de la Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Centre",
+    "definition": "le Centre d'activités régionales pour le Programme d'actions prioritaires",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Zone côtière",
+    "definition": "l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et systèmes de ressources complexes comprenant des composantes biotiques et abiotiques coexistant et interagissant avec les communautés humaines et les activités socio-économiques pertinentes",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Gestion intégrée des zones côtières",
+    "definition": "un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs interactions, la vocation maritime de certains d'entre eux, ainsi que leurs impacts à la fois sur la partie marine et la partie terrestre",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Présent Protocole",
+    "definition": "le Protocole en question",
+    "nom_scientifique": null,
+    "reference": "Article 34",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Biotechnologie",
+    "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci,",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "éléments constitutifs",
+    "definition": "les éléments constitutifs de la diversité biologique importants pour sa conservation et son utilisation durable",
+    "nom_scientifique": null,
+    "reference": "Article 7, Alinéa a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zones protégées",
+    "definition": "des zones où des mesures spéciales doivent être prises pour conserver la diversité biologique",
+    "nom_scientifique": null,
+    "reference": "Article 7, Alinéa a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "espèces",
+    "definition": "Les espèces menacées et la réintroduction de ces espèces dans leur habitat naturel dans de bonnes conditions.",
+    "nom_scientifique": null,
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ressources biologiques",
+    "definition": "La collecte des ressources biologiques dans les habitats naturels aux fins de la conservation ex situ de manière à éviter que soient menacés les écosystèmes et les populations d'espèces in situ, excepté lorsque des mesures ex situ particulières sont temporairement nécessaires, conformément à l'alinéa c) ci-dessus;",
+    "nom_scientifique": null,
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ressources génétiques",
+    "definition": "les ressources qui sont fournies par des Parties contractantes qui sont des pays d'origine de ces ressources ou par des Parties qui les ont acquises conformément à la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 15, §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Convention",
+    "definition": "La présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 17",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parties contractantes",
+    "definition": "Les Parties contractantes",
+    "nom_scientifique": null,
+    "reference": "Article 17",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pays en développement",
+    "definition": "Un pays en développement",
+    "nom_scientifique": null,
+    "reference": "Article 21",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pays développés",
+    "definition": "Les pays qui sont des pays développés",
+    "nom_scientifique": null,
+    "reference": "Article 21",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "diversité biologique",
+    "definition": "La diversité biologique signifie la variété des formes de vie à tous les niveaux organisationnels, de la génétique à l'écosystème.",
+    "nom_scientifique": null,
+    "reference": "Article 22",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "accord international existant",
+    "definition": "Un accord international existant désigne un traité ou convention internationale déjà ratifié par un État.",
+    "nom_scientifique": null,
+    "reference": "Article 22",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Organe",
+    "definition": "Cet organe est ouvert à la participation de toutes les Parties et il est pluridisciplinaire.",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parties",
+    "definition": "les États et organisations régionales d'intégration économique",
+    "nom_scientifique": null,
+    "reference": "Article 34. Ratification, acceptation, approbation §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Annexes",
+    "definition": "les annexes à la présente Convention ou à ses protocoles",
+    "nom_scientifique": null,
+    "reference": "Article 30. Adoption des annexes et des amendements aux annexes §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "admission",
+    "definition": "La présente Convention et ses protocoles éventuels sont ouverts à l'adhésion des États et des organisations régionales d'intégration économique à partir de la date à laquelle la Convention ou le protocole considéré ne sont plus ouverts à la signature.",
+    "nom_scientifique": null,
+    "reference": "Article 35.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "instrument d'adhésion",
+    "definition": "Les instruments d'adhésion seront déposés auprès du Dépositaire.",
+    "nom_scientifique": null,
+    "reference": "Article 35.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "utilisation durable",
+    "definition": "utilisation durable de la diversité biologique",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Partie",
+    "definition": "Une entité impliquée dans un différend ou un processus de conciliation.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Commission de conciliation",
+    "definition": "Un organe chargé de résoudre des différends entre parties.",
+    "nom_scientifique": null,
+    "reference": "Article 5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "navire",
+    "definition": "Un navire est un bâtiment conçu pour naviguer sur l'eau.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005a",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "maritime",
+    "definition": "Relatif à la mer et aux activités qui y sont liées.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005a",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Hydrocarbures",
+    "definition": "Le pétrole sous toutes ses formes, à savoir notamment le pétrole brut, le fuel-oil, les boues, les résidus d’hydrocarbures et les produits raffinés (autres que les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention) et comprend, sans que cela porte atteinte au caractère général de ce qui précède, les substances énumérées à l’appendice I de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrole brut",
+    "definition": "Tout mélange liquide d’hydrocarbures se trouvant à l’état naturel dans la terre, qu’il soit ou non traité en vue de son transport, et comprend : .1 le pétrole brut dont certaines fractions distillées ont pu être extraites; et .2 le pétrole brut auquel certaines fractions distillées ont pu être ajoutées.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Mélange d’hydrocarbures",
+    "definition": "Tout mélange contenant des hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Combustible liquide",
+    "definition": "Tout hydrocarbure utilisé comme combustible pour l’appareil propulsif et les appareils auxiliaires du navire à bord duquel cet hydrocarbure est transporté.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier",
+    "definition": "Un navire construit ou adapté principalement en vue de transporter des hydrocarbures en vrac dans ses espaces à cargaison et comprend les transporteurs mixtes, tout 'navire-citerne NLS' tel que défini à l’Annexe II de la présente Convention et tout transporteur de gaz tel que défini à la règle 3.20 du chapitre II-1 de la Convention SOLAS de 1994 (telle que modifiée) lorsqu’ils transportent une cargaison complète ou partielle d’hydrocarbures en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur de pétrole brut",
+    "definition": "Un pétrolier affecté au transport de pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur de produits",
+    "definition": "Un pétrolier affecté au transport d’hydrocarbures autres que du pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur mixte",
+    "definition": "Un navire conçu pour transporter soit des hydrocarbures, soit des cargaisons solides en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transformation importante",
+    "definition": "transformation d’un navire qui modifie considérablement les dimensions ou la capacité de transport du navire; ou qui change le type du navire; ou qui vise, de l’avis de l’Autorité, à en prolonger considérablement la vie; ou qui entraîne par ailleurs des modifications telles que le navire, s’il était un navire neuf, serait soumis aux dispositions pertinentes de la présente Convention qui ne lui sont pas applicables en tant que navire existant.",
+    "nom_scientifique": null,
+    "reference": "Article 9.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Navire livré après le 31 décembre 1979",
+    "definition": "désigne un navire : dont le contrat de construction est passé après le 31 décembre 1975; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent après le 30 juin 1976; ou dont la livraison s’effectue après le 31 décembre 1979; ou qui a subi une transformation importante : dont le contrat est passé après le 31 décembre 1975; ou en l’absence de tout contrat, dont les travaux ont commencé après le 30 juin 1976; ou qui est achevée après le 31 décembre 1979.",
+    "nom_scientifique": null,
+    "reference": "28.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 1er juin 1982 ou avant cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 1er juin 1979 ou avant cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 1er janvier 1980 ou avant cette date; ou dont la livraison s’effectue le 1er juin 1982 ou avant cette date; ou qui a subi une transformation importante : dont le contrat est passé le 1er juin 1979 ou avant cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 1er janvier 1980 ou avant cette date; ou qui est achevée le 1er juin 1982 ou avant cette date.",
+    "nom_scientifique": null,
+    "reference": "28.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré après le 1er juin 1982",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé après le 1er juin 1979; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent après le 1er janvier 1980; ou dont la livraison s’effectue après le 1er juin 1982; ou qui a subi une transformation importante : dont le contrat est passé après le 1er juin 1979; ou en l’absence de tout contrat, dont les travaux ont commencé après le 1er janvier 1980; ou qui est achevée après le 1er juin 1982.",
+    "nom_scientifique": null,
+    "reference": "28.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré avant le 6 juillet 1996",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé avant le 6 juillet 1993; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent avant le 6 janvier 1994; ou dont la livraison s’effectue avant le 6 juillet 1996; ou qui a subi une transformation importante : dont le contrat est passé avant le 6 juillet 1993; ou en l’absence de tout contrat, dont les travaux ont commencé avant le 6 janvier 1994; ou qui est achevée avant le 6 juillet 1996.",
+    "nom_scientifique": null,
+    "reference": "28.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 6 juillet 1996 ou après cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 6 juillet 1993 ou après cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 6 janvier 1994 ou après cette date; ou dont la livraison s’effectue le 6 juillet 1996 ou après cette date; ou qui a subi une transformation importante : dont le contrat est passé le 6 juillet 1993 ou après cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 6 janvier 1994 ou après cette date; ou qui est achevée le 6 juillet 1996 ou après cette date.",
+    "nom_scientifique": null,
+    "reference": "28.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 1er février 2002 ou après cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 1er février 1999 ou après cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 1er août 1999 ou après cette date; ou dont la livraison s’effectue le 1er février 2002 ou après cette date; ou qui a subi une transformation importante : dont le contrat est passé le 1er février 1999 ou après cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 1er août 1999 ou après cette date; ou",
+    "nom_scientifique": null,
+    "reference": "28.7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Navire",
+    "definition": "Navire livré le 1er août 2010 ou après cette date",
+    "nom_scientifique": null,
+    "reference": "28.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parts par million (ppm)",
+    "definition": "Désigne les parts d’hydrocarbures par million de parts d’eau, en volume.",
+    "nom_scientifique": null,
+    "reference": "29",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Résidus d'hydrocarbures (boues)",
+    "definition": "Désigne les déchets résiduaires d'hydrocarbures produits pendant l'exploitation normale du navire tels que ceux qui proviennent de la purification du combustible ou de l'huile de graissage utilisés pour les machines principales ou auxiliaires, de l'huile usée obtenue par séparation qui provient du matériel de filtrage des hydrocarbures, de l'huile usée recueillie dans des gattes et des huiles hydrauliques et lubrifiantes usées.",
+    "nom_scientifique": null,
+    "reference": ".31",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Citerne à résidus d'hydrocarbures (boues)",
+    "definition": "Désigne une citerne qui sert à stocker les résidus d'hydrocarbures (boues) à partir de laquelle les résidus d'hydrocarbures (boues) peuvent être évacués directement au moyen du raccord normalisé de jonction des tuyautages d'évacuation ou par tout autre moyen d'évacuation approuvé.",
+    "nom_scientifique": null,
+    "reference": ".32",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Eaux de cale polluées par les hydrocarbures",
+    "definition": "Désigne les eaux qui peuvent être contaminées par des hydrocarbures provenant, par exemple, de fuites ou de travaux d'entretien dans la tranche des machines. Tous les liquides pénétrant dans le système d'assèchement des cales, y compris les puisards, les tuyautages d'assèchement des cales, le plafond de ballast ou les citernes de stockage des eaux de cale, sont considérés comme des eaux de cale polluées par les hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": ".33",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Citerne de stockage des eaux de cale polluées",
+    "definition": "Désigne une citerne qui sert à recueillir les eaux de cale polluées avant leur rejet, leur transfert ou leur évacuation.",
+    "nom_scientifique": null,
+    "reference": ".34",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite intermédiaire",
+    "definition": "une visite intermédiaire effectuée dans un délai de trois mois avant ou après la deuxième date anniversaire ou dans un délai de trois mois avant ou après la troisième date anniversaire du certificat, qui doit remplacer l’une des visites annuelles spécifiées au paragraphe 1.4 de la présente règle.",
+    "nom_scientifique": null,
+    "reference": "1.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite annuelle",
+    "definition": "une visite annuelle, effectuée dans un délai de trois mois avant ou après chaque date anniversaire du certificat, qui comprend une inspection générale de la structure, du matériel, des systèmes, des équipements, des aménagements et des matériaux visés au paragraphe 1.1 de la présente règle afin de vérifier qu’ils ont été maintenus dans les conditions prévues aux paragraphes 4.1 et 4.2 de la présente règle et qu’ils restent satisfaisants pour le service auquel le navire est destiné.",
+    "nom_scientifique": null,
+    "reference": "1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite supplémentaire",
+    "definition": "une visite supplémentaire, générale ou partielle selon le cas, qui doit être effectuée à la suite d’une réparation résultant de l’enquête prescrite au paragraphe 4.3 de la présente règle ou chaque fois que le navire subit des réparations ou rénovations importantes.",
+    "nom_scientifique": null,
+    "reference": "1.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "jauge brute",
+    "definition": "La capacité totale du navire mesurée en tonnes",
+    "nom_scientifique": null,
+    "reference": "Règle 7, §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite",
+    "definition": "inspection effectuée par des fonctionnaires dûment autorisés par ladite Partie en vue de vérifier l’application des normes d’exploitation prévues par la présente Annexe",
+    "nom_scientifique": null,
+    "reference": "Règle 11, Paragraphe 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau à la ligne de charge (dp)",
+    "definition": "est la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant au tirant d'eau d'été devant être assigné au navire.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau à l'état lège",
+    "definition": "est le tirant d'eau sur quille au milieu du navire correspondant au déplacement lège.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau partiel à la ligne de charge (dp)",
+    "definition": "est le tirant d'eau à l'état lège plus 60 % de la différence entre le tirant d'eau du navire à l'état lège et le tirant d'eau à la ligne de charge dS. Le tirant d'eau partiel à la ligne de charge (dP) est mesuré en mètres.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "flottaison (dB)",
+    "definition": "est la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant à 30 % du creux DS.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (BS)",
+    "definition": "est la largeur extrême hors membres du navire, en mètres, au niveau ou au-dessous de la ligne de charge maximale (dS).",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (Bb)",
+    "definition": "est la largeur extrême hors membres du navire, en mètres, au niveau ou au-dessous de la flottaison (dB).",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "creux (DS)",
+    "definition": "est le creux sur quille, en mètres, mesuré à mi-longueur jusqu'au livet du pont supérieur. Aux fins de l'application de la présente règle, 'pont supérieur' désigne le pont le plus élevé jusqu'auquel s'étendent les cloisons transversales étanches à l'eau, à l'exception des cloisons du coqueron arrière.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "longueur (L)",
+    "definition": "est égale à 96 % de la longueur totale à la flottaison située à une distance du dessus de quille égale à 85 % du creux minimum sur quille ou à la distance entre la face avant de l'étrave et l'axe de la mèche du gouvernail à cette flottaison, si cette valeur est supérieure. Dans le cas des navires conçus pour naviguer avec une quille inclinée, la flottaison à laquelle la longueur est mesurée doit être parallèle à la flottaison prévue. La longueur (L) est mesurée en mètres.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (B)",
+    "definition": "est la largeur maximale au milieu du navire, en mètres, mesurée hors membres pour les navires à coque métallique et mesurée hors bordé pour les navires à coque non métallique.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "soute à combustible",
+    "definition": "désigne une soute dans laquelle est transporté le combustible liquide.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "longueur",
+    "definition": "La longueur (L) est mesurée en mètres.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur",
+    "definition": "La « largeur (B) » est la largeur maximale au milieu du navire, en mètres, mesurée hors membres pour les navires à coque métallique et mesurée hors bordé pour les navires à coque non métallique.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "petite soute à combustible",
+    "definition": "Une « petite soute à combustible » désigne une soute dont la capacité en combustible maximale ne dépasse pas 30 m³.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "volume total de combustible",
+    "definition": "« C » est le volume total de combustible du navire, y compris celui des petites soutes à combustible, en m³, à un taux de remplissage de 98 %.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 13",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "capacité en combustible",
+    "definition": "« Capacité en combustible » désigne le volume d'une soute, en m³, à un taux de remplissage de 98 %.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie",
+    "definition": "avarie de bordé et avarie de fond",
+    "nom_scientifique": null,
+    "reference": "Article 11.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "fuite",
+    "definition": "fuite moyenne, en m³",
+    "nom_scientifique": null,
+    "reference": "Article 11.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "bâbord",
+    "definition": "bâbord",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tribord",
+    "definition": "tribord",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "navire d’une jauge brute égale ou supérieure à 10 000",
+    "definition": "un navire d’une jauge brute égale ou supérieure à 10 000",
+    "nom_scientifique": null,
+    "reference": "Règle 14, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "matériel de filtrage des hydrocarbures",
+    "definition": "Le matériel de filtrage des hydrocarbures visé au paragraphe 1 de la présente règle doit être d’un type approuvé par l’Autorité et conçu de façon que tout mélange d’hydrocarbures rejeté à la mer après être passé par le système ait une teneur en hydrocarbures qui ne dépasse pas 15 parts par million.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "effluent",
+    "definition": "La teneur en hydrocarbures de l’effluent non dilué ne dépasse pas 15 parts par million.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "trace",
+    "definition": "trace visible d’hydrocarbures",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast séparé",
+    "definition": "Pétroliers d’un port en lourd égal ou supérieur à 20 000 tonnes livrés après le 1er juin 1982",
+    "nom_scientifique": null,
+    "reference": "Règle 18",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "port en lourd",
+    "definition": "Le port en lourd est la capacité totale du navire à flotter lorsqu'il est chargé à son tirant d'eau normal.",
+    "nom_scientifique": null,
+    "reference": "Règle 18",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast",
+    "definition": "Citernes utilisées pour contenir de l'eau de ballast.",
+    "nom_scientifique": null,
+    "reference": "Règle 19",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à cargaison",
+    "definition": "Citernes utilisées pour contenir des hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 19",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tuyautages",
+    "definition": "Les tuyautages de ballast et autres tuyautages tels que les tuyaux de sonde et d’aération des citernes de ballast ne doivent pas traverser les citernes à cargaison.",
+    "nom_scientifique": null,
+    "reference": ".6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "huile diesel lourde",
+    "definition": "L'huile diesel autre que les distillats dont plus de 50 % en volume se distillent à une température ne dépassant pas 340°C au cours d'essais effectués selon une méthode jugée acceptable par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": "1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "fuel-oil",
+    "definition": "Les distillats lourds ou les résidus de pétrole brut ou mélanges de ces produits destinés à être utilisés comme combustible pour la production de chaleur ou d’énergie, d’une qualité équivalente à la spécification jugée acceptable par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": "1.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 1",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui ne satisfait pas aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 2",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui satisfait aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "1.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 3",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 5 000 tonnes mais inférieur aux ports en lourd spécifiés aux alinéas 1 et 2 du présent paragraphe.",
+    "nom_scientifique": null,
+    "reference": "1.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hydrocarbures lourds",
+    "definition": "hydrocarbures autres que le pétrole brut, d'une densité à 15° C supérieure à 900 kg/m³ ou d'une viscosité cinématique à 50° C supérieure à 180 mm²/s ; ou pétrole brut d’une densité à 15°C supérieure à 900 kg/m3; fuel-oil d’une densité à 15°C supérieure à 900 kg/m3 ou d’une viscosité cinématique à 50°C supérieure à 180 mm2/s; bitume, goudron et leurs émulsions.",
+    "nom_scientifique": null,
+    "reference": "Règle 21, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d’eau à la ligne de charge (dS)",
+    "definition": "La 'distance verticale, en m, entre le tracé de la quille hors membres, à la mi-longueur du navire, et la flottaison correspondant au tirant d’eau d’été devant être assigné au navire'.",
+    "nom_scientifique": null,
+    "reference": "Règle 23, §1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "bi",
+    "definition": "La distance minimale qui sépare le bordé du navire de la cloison longitudinale la plus proche de la citerne considérée, mesurée à partir du bordé vers l’intérieur, perpendiculairement à l’axe longitudinal du navire, au niveau correspondant au franc-bord d’été assigné.",
+    "nom_scientifique": null,
+    "reference": "Article 1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "franc-bord d’été",
+    "definition": "Le niveau correspondant au franc-bord d’été assigné.",
+    "nom_scientifique": null,
+    "reference": "Article 1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hc",
+    "definition": "hauteur, en m, des hydrocarbures de cargaison au-dessus de Z1",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tc",
+    "definition": "renverse de la marée, en m. Les baisses de marée doivent être exprimées en valeurs négatives",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Z1",
+    "definition": "hauteur, en m, du point le plus bas dans la citerne à cargaison au-dessus de la ligne d’eau zéro",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Ps",
+    "definition": "densité de l’eau de mer, laquelle doit être considérée comme égale à 1 025 kg/m3",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "p",
+    "definition": "si un dispositif à gaz inerte est installé, la surpression normale, en kPa, doit être considérée comme égale à 5kPa au moins; si aucun dispositif à gaz inerte n’est installé, la surpression peut être considérée comme égale à 0",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "g",
+    "definition": "l’accélération due à la pesanteur, laquelle doit être considérée comme égale à 9,81 m/s 2",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pn",
+    "definition": "densité nominale des hydrocarbures de cargaison, calculée conformément au paragraphe 4.4 de la présente règle.",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "probabilité",
+    "definition": "la probabilité que l’avarie se situe entièrement en avant de la position Xf/L; PBp = la probabilité que l’avarie se situe entièrement à bâbord de la citerne; PBs = la probabilité que l’avarie se situe entièrement à tribord de la citerne; et PBz = la probabilité que l’avarie se situe entièrement au-dessous de la citerne.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie de bordé",
+    "definition": "avarie de bordé",
+    "nom_scientifique": null,
+    "reference": "Règle 25",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie de fond",
+    "definition": "avarie de fond",
+    "nom_scientifique": null,
+    "reference": "Règle 25",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétroliers",
+    "definition": "navires utilisés pour transporter des hydrocarbures",
+    "nom_scientifique": null,
+    "reference": "Règle 26",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citerne à cargaison",
+    "definition": "citerne utilisée pour transporter la cargaison",
+    "nom_scientifique": null,
+    "reference": "Règle 27",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "flottabilité",
+    "definition": "la flottabilité des superstructures situées directement au-dessus de l’avarie de bordé",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citerne",
+    "definition": "compartiment destiné à contenir des liquides",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes",
+    "definition": "Les citernes sont des réservoirs utilisés pour stocker des liquides.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "eaux de nettoyage",
+    "definition": "Eaux utilisées pour nettoyer les citernes.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "eaux de ballast",
+    "definition": "Eaux utilisées pour stabiliser le navire.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast propre spécialisées",
+    "definition": "les citernes utilisées pour stocker des eaux de ballast propres",
+    "nom_scientifique": null,
+    "reference": "Article 1.28.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "directives",
+    "definition": "Les directives sont des documents élaborés par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "spécifications",
+    "definition": "Les spécifications sont des documents élaborés par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zone spéciale",
+    "definition": "une zone spéciale",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "registre des hydrocarbures",
+    "definition": "document contenant des informations sur les opérations concernant la cargaison et le ballast d'un navire",
+    "nom_scientifique": null,
+    "reference": "Règle 36",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan d’urgence",
+    "definition": "un plan d’urgence de bord contre la pollution des mers par les substances liquides nocives prescrit par la règle 17 de l’Annexe II de la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Règle 17 de l’Annexe II de la présente Convention",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "capacité",
+    "definition": "la capacité des installations de réception doit s’établir comme suit",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3 de la Règle 38",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "installations",
+    "definition": "Toutes les installations mises en place dans des ports ou terminaux en vertu du paragraphe 2.4 de la présente règle doivent avoir une capacité suffisante pour recevoir tous les résidus conservés à bord, en vertu de la règle 12 de la présente Annexe, par tous les navires dont on peut raisonnablement s’attendre à ce qu’ils fassent escale dans ces ports et terminaux.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 2.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan d'opérations STS",
+    "definition": "Le plan d'opérations STS doit être rédigé dans la langue de travail du navire.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "matière plastique",
+    "definition": "Un matériau solide qui contient comme ingrédient de base un ou plusieurs polymères de masse moléculaire élevée et qui est mis en forme, soit lors de la production des polymères, soit lors de la transformation, à chaud et/ou sous pression, en un produit fini.",
+    "nom_scientifique": null,
+    "reference": "Article 13",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zone spéciale",
+    "definition": "Une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu'au caractère particulier de son trafic, appelle l'adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les ordures.",
+    "nom_scientifique": null,
+    "reference": "Article 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "carcasses d'animaux",
+    "definition": "Carcasses d'animaux",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "agents ou additifs de nettoyage",
+    "definition": "Agents ou additifs de nettoyage",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "substances",
+    "definition": "Substances",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ordures",
+    "definition": "Ordures",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "affiches",
+    "definition": "Des affiches informant l'équipage et les passagers des prescriptions applicables des règles 3, 4, 5 et 6 de la présente annexe relatives à l'évacuation des ordures.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan de gestion des ordures",
+    "definition": "Un plan de gestion des ordures que l'équipage doit suivre. Ce plan doit comprendre des méthodes écrites de compactage, de ramassage, de stockage, de traitement et d'évacuation des ordures, y compris l'utilisation du matériel de bord. La ou les personnes chargées d'exécuter le plan doivent également y être désignées.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "registre des ordures",
+    "definition": "Un registre des ordures, qu'il fasse partie ou non du livre de bord réglementaire, doit être conforme au modèle faisant l'objet de l'appendice du présent chapitre.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "quantité",
+    "definition": "La quantité d'ordures à bord devrait être estimée en mètres cubes et si possible séparément pour chaque catégorie.",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Administration",
+    "definition": "means the Government of the State under whose authority the ship is operating.",
+    "nom_scientifique": null,
+    "reference": "Article 2(1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Anti-fouling system",
+    "definition": "means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+    "nom_scientifique": null,
+    "reference": "Article 2(2)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Committee",
+    "definition": "means the Marine Environment Protection Committee of the Organization.",
+    "nom_scientifique": null,
+    "reference": "Article 2(3)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Gross tonnage",
+    "definition": "means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 19691, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 2(4)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "International voyage",
+    "definition": "a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+    "nom_scientifique": null,
+    "reference": "(5)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Length",
+    "definition": "the length as defined in the International Convention on Load Lines, 19662, as modified by the Protocol of 19883 relating thereto, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "(6)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Organization",
+    "definition": "the International Maritime Organization.",
+    "nom_scientifique": null,
+    "reference": "(7)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Secretary-General",
+    "definition": "the Secretary-General of the Organization.",
+    "nom_scientifique": null,
+    "reference": "(8)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Ship",
+    "definition": "a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floating storage units (FSUs) and floating production storage and off-loading units (FPSOs).",
+    "nom_scientifique": null,
+    "reference": "(9)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Technical Group",
+    "definition": "is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agreements with the Organization, and non-governmental organizations in consultative status with the Organization, which should preferably include representatives of institutions and laboratories that engage in anti-fouling system analysis. These representatives shall have expertise in environmental fate and effects, toxicological effects, marine biology, human health, economic analysis, risk management, international shipping, anti-fouling systems coating technology, or other fields of expertise necessary to objectively review the technical merits of a comprehensive proposal.",
+    "nom_scientifique": null,
+    "reference": "(10)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "comprehensive proposal",
+    "definition": "A proposal that includes all the information required in Annex 3.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "anti-fouling systems",
+    "definition": "systems designed to prevent or reduce fouling on ships' hulls",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "unduly",
+    "definition": "in a manner that is excessive or unreasonable",
+    "nom_scientifique": null,
+    "reference": "ARTICLE 13",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "detained",
+    "definition": "held or kept in custody",
+    "nom_scientifique": null,
+    "reference": "ARTICLE 13",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "amendment",
+    "definition": "an alteration to the terms of this Convention",
+    "nom_scientifique": null,
+    "reference": "Article 16",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Annex",
+    "definition": "a supplementary agreement attached to this Convention",
+    "nom_scientifique": null,
+    "reference": "Article 16",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "anti-fouling",
+    "definition": "systems that prevent or inhibit the growth of marine organisms on submerged surfaces",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "biocides",
+    "definition": "chemical substances that kill living organisms",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Certificate",
+    "definition": "document issued by an Administration or authorized person/organization certifying that a ship complies with the Convention regarding anti-fouling systems",
+    "nom_scientifique": null,
+    "reference": "Regulations 2 and 3",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Port of registry",
+    "definition": "The port where a vessel is registered.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "IMO number",
+    "definition": "The IMO number is a unique identification number assigned to a vessel by the International Maritime Organization.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "International Convention",
+    "definition": "An agreement between states that establishes rules and regulations governing a particular aspect of international relations.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Control of Harmful Anti-fouling Systems",
+    "definition": "Regulations aimed at preventing the use of harmful chemicals in anti-fouling systems on ships.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Espèce migratrice",
+    "definition": "l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, et ayant compétence pour négocier, conclure et appliquer des accords internationaux dans les matières couvertes par la présente Convention, à l'égard desquels la présente Convention est en vigueur.",
+    "nom_scientifique": null,
+    "reference": "Article I, j)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Etat de conservation d'une espèce migratrice",
+    "definition": "l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population;",
+    "nom_scientifique": null,
+    "reference": "Article I, b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "espèces migratrices",
+    "definition": "Les espèces migratrices sont des animaux sauvages qui se déplacent régulièrement d'un lieu à un autre.",
+    "nom_scientifique": null,
+    "reference": "Article II c)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "état de conservation",
+    "definition": "L'état de conservation d'une espèce est son niveau de santé écologique.",
+    "nom_scientifique": null,
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "Un ACCORD devrait, chaque fois que cela est possible, porter sur plus d'une espèce migratrice.",
+    "nom_scientifique": null,
+    "reference": "§3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Président",
+    "definition": "le Président",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Observateur",
+    "definition": "Ces observateurs ont le droit de participer à la session sans droit de vote.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Expert qualifié",
+    "definition": "Toute Partie peut nommer un expert qualifié comme membre du Conseil scientifique.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "différend",
+    "definition": "Tout différend survenant entre deux ou plusieurs Parties à la présente Convention relativement à l'interprétation ou l'application des dispositions de la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "amendement",
+    "definition": "Tout amendement adopté entrera en vigueur pour toutes les Parties qui l'auront accepté le premier jour du troisième mois suivant la date à laquelle deux tiers des Parties auront déposé un instrument d'acceptation.",
+    "nom_scientifique": null,
+    "reference": "Article 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ratification",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "acceptation",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "admission",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

@@ -1,0 +1,3727 @@
+{
+  "data": {
+    "source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution résultant de l'exploration et de l'exploitation du plateau continental, du fond de la mer et de son sous-sol (Barcelone, 1994), notamment articles 9, 10, 11, 12, 14 et Annexes I, II, V.",
+    "version": "final_v1",
+    "sources_pdf": false,
+    "interdiction": "Interdiction de Rejet d'hydrocarbure",
+    "interdiction_id": "I006",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet d'hydrocarbures"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet de mélanges d'hydrocarbures"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet de substances et matières nuisibles ou nocives énumérées à l'annexe I"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet de substances et matières nuisibles ou nocives énumérées à l'annexe II"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet de fluides de forage à base de gazole"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet de fluides de forage à base d'hydrocarbures"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet d'eaux usées"
+        },
+        {
+          "categorie": "Activity",
+          "texte_original": "rejet d'ordures non biodégradables et plastiques"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zone du Protocole (mer Méditerranée, plateau continental, fond de la mer et sous-sol, eaux en-deçà de la ligne de base, zones humides ou côtières incluses par les Parties)"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "aires spécialement protégées"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "opérateur"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Partie contractante"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "sanctions en cas d'infraction"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "autorisation préalable écrite"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "permis spécial"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "permis général"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "surveillance continue"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "plan d'intervention d'urgence"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "durée de validité de l'autorisation"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "cas de force majeure"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "autorisation délivrée par l'autorité compétente"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "rejet en cas de force majeure (danger pour la vie humaine, sécurité des installations, avarie)"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "rejet pour lutter contre des incidents de pollution spécifiques"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "organismes marins comestibles"
+        },
+        {
+          "categorie": "Stock",
+          "texte_original": "ressources biologiques"
+        }
+      ],
+      "explication_generale": "Le Protocole de Barcelone relatif à la protection de la mer Méditerranée contre la pollution résultant de l'exploration et de l'exploitation du plateau continental, du fond de la mer et de son sous-sol établit un régime strict d'interdiction du rejet d'hydrocarbures et de substances nocives dans la zone du Protocole, qui comprend la mer Méditerranée, son plateau continental, son fond et son sous-sol. Sont explicitement interdits le rejet d'hydrocarbures, de mélanges d'hydrocarbures, et de substances listées à l'annexe I. Les substances de l'annexe II ne peuvent être rejetées qu'avec un permis spécial, et d'autres substances potentiellement polluantes nécessitent un permis général. Les opérateurs doivent obtenir une autorisation préalable, respecter des normes techniques strictes, et sont soumis à des contrôles, à la surveillance continue et à des plans d'urgence. Des exceptions existent en cas de force majeure ou pour lutter contre des incidents de pollution, sous conditions strictes. Les Parties contractantes doivent prévoir des sanctions en cas de non-respect. Les aires spécialement protégées bénéficient de mesures renforcées, pouvant inclure l'interdiction totale de tout rejet. Le dispositif vise à prévenir, réduire et maîtriser la pollution, en imposant des obligations de moyens et de résultats aux opérateurs et aux États.",
+      "interdictions_identifiees": [
+        "Le rejet dans la zone du Protocole des substances et matières nuisibles ou nocives résultant des activités couvertes par le présent Protocole et énumérées à l'annexe I du présent Protocole est interdit.",
+        "Le rejet dans la zone du Protocole d'hydrocarbures et de mélanges d'hydrocarbures provenant des installations est interdit sauf respect des normes communes (article 10, annexe V).",
+        "Le rejet de fluides de forage à base de gazole est interdit (annexe V, B.3).",
+        "Le rejet en mer de fluides de forage à base d'hydrocarbures est interdit (annexe V, B.2.b).",
+        "Le rejet d'eaux usées provenant d'installations ayant un effectif permanent de 10 personnes ou plus est interdit sauf exceptions (article 11).",
+        "Le rejet d'ordures non biodégradables et plastiques est interdit (article 12)."
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_REJET_D_HYDROCARBURES",
+        "source": "article 9, 10, annexe I, annexe V",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_DE_MELANGES_D_HYDROCARBURES",
+        "source": "article 10, annexe I, annexe V",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_DE_SUBSTANCES_ET_MATIERES_NUISIBLES_OU_NOCIVES_ENUMEREES_A_L_ANNEXE_I",
+        "source": "article 9.4, annexe I",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_DE_SUBSTANCES_ET_MATIERES_NUISIBLES_OU_NOCIVES_ENUMEREES_A_L_ANNEXE_II",
+        "source": "article 9.5, annexe II",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_DE_FLUIDES_DE_FORAGE_A_BASE_DE_GAZOLE",
+        "source": "annexe V, B.3",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_DE_FLUIDES_DE_FORAGE_A_BASE_D_HYDROCARBURES",
+        "source": "annexe V, B.2.b",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_D_EAUX_USEES",
+        "source": "article 11",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Activity_REJET_D_ORDURES_NON_BIODEGRADABLES_ET_PLASTIQUES",
+        "source": "article 12",
+        "subject": "I006",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Zone_ZONE_DU_PROTOCOLE",
+        "source": "article 2",
+        "subject": "I006",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Zone_AIRES_SPECIALEMENT_PROTEGEES",
+        "source": "article 21",
+        "subject": "I006",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Actor_OPERATEUR",
+        "source": "article 8, 9, 10, 11, 12",
+        "subject": "I006",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Actor_PARTIE_CONTRACTANTE",
+        "source": "article 3, 7, 8, 9, 10, 11, 12",
+        "subject": "I006",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Sanction_SANCTIONS_EN_CAS_D_INFRACTION",
+        "source": "article 7, 13.c",
+        "subject": "I006",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Controle_AUTORISATION_PREALABLE_ECRITE",
+        "source": "article 4",
+        "subject": "I006",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Controle_PERMIS_SPECIAL",
+        "source": "article 9.5, annexe II",
+        "subject": "I006",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Controle_PERMIS_GENERAL",
+        "source": "article 9.6",
+        "subject": "I006",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Controle_SURVEILLANCE_CONTINUE",
+        "source": "article 19",
+        "subject": "I006",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Controle_PLAN_D_INTERVENTION_D_URGENCE",
+        "source": "article 16, annexe VII",
+        "subject": "I006",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Periode_DUREE_DE_VALIDITE_DE_L_AUTORISATION",
+        "source": "article 6.2",
+        "subject": "I006",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 0.9,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Exception_REJET_EN_CAS_DE_FORCE_MAJEURE",
+        "source": "article 14.1.a",
+        "subject": "I006",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I006"
+      },
+      {
+        "object": "mar:Exception_REJET_POUR_LUTTER_CONTRE_INCIDENTS_DE_POLLUTION_SPECIFIQUES",
+        "source": "article 14.1.b",
+        "subject": "I006",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I006"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "Le présent Protocole est ouvert à Madrid du 14 octobre 1994 au 14 octobre 1995 à la signature des Etats Parties à la Convention invités à la Conférence de plénipotentiaires des Etats côtiers de la...",
+              "bounding_boxes": [
+                {
+                  "h": 241.5,
+                  "w": 440.78,
+                  "x": 98.59,
+                  "y": 181.51
+                }
+              ],
+              "page_dimensions": {
+                "width": 590.854,
+                "height": 842.4
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9017488517031035,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9017488517031035
+        },
+        "version": {
+          "reasoning": "Valeur de version standard pour le pipeline.",
+          "confidence": 0.9954462680366879,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9954462680366879
+        },
+        "sources_pdf": {
+          "reasoning": "Le texte source est fourni en format texte, non PDF.",
+          "confidence": 0.9848056266588234,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9848056266588234
+        },
+        "interdiction": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "* ii) L'élaboration de dispositions spéciales dans ces aires concernant la surveillance continue, l'enlèvement des installations et l'interdiction de tout rejet ;",
+              "bounding_boxes": [
+                {
+                  "h": 144.1,
+                  "w": 408.06,
+                  "x": 136.13,
+                  "y": 566.67
+                }
+              ],
+              "page_dimensions": {
+                "width": 590.854,
+                "height": 842.4
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9844840213505577,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9844840213505577
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Extraction systématique des interdictions, entités et résumé à partir des articles et annexes pertinents du Protocole.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9591396031016164,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9591396031016164
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "1. Les déversements à forte teneur en hydrocarbures provenant du drainage de traitement ou du drainage de plate-forme sont confinés, détournés puis traités au même titre que le produit, le reliquat ét...",
+                    "bounding_boxes": [
+                      {
+                        "h": 157.42,
+                        "w": 379.42,
+                        "x": 165.35,
+                        "y": 286.68
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9350899231879879,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9350899231879879
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8250791267162706,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8250791267162706
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "m) On entend par \"mélanges d'hydrocarbures\" tout mélange contenant des hydrocarbures;",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.77466887385672,
+                        "w": 428.09176498809074,
+                        "x": 105.82459859029633,
+                        "y": 702.3746764481707
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.979593393457581,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.979593393457581
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9676894465155235,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9676894465155235
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 9,
+                    "matching_text": "a) Que les opérateurs éliminent de façon satisfaisante tous déchets et substances et matières nuisibles ou nocives dans des installations réceptrices agréées à terre, sauf autorisation contraire du...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.37100838414634,
+                        "w": 440.1027752500953,
+                        "x": 101.15531940644057,
+                        "y": 327.4910760766006
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9064428208349162,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9064428208349162
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9858847600466986,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9858847600466986
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 21,
+                    "matching_text": "6. Concentration des principaux constituants, substances énumérées à l'annexe I, substances énumérées à l'annexe II, et autres substances, selon le cas;",
+                    "bounding_boxes": [
+                      {
+                        "h": 170.06,
+                        "w": 403.67,
+                        "x": 137.25,
+                        "y": 285.63
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9916577328337381,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9916577328337381
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9975461470982738,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9975461470982738
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 25,
+                    "matching_text": "L'utilisation de fluides de forage à base de gazole est interdite. Exceptionnellement, du gazole peut être ajouté aux fluides de forage dans des conditions que déterminent les Parties.",
+                    "bounding_boxes": [
+                      {
+                        "h": 36.631403034489324,
+                        "w": 380.36229768328417,
+                        "x": 165.9634916663491,
+                        "y": 322.7984993568979
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8750649596529974,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8750649596529974
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.885334823878681,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.885334823878681
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "1. Les fluides de forage et déblais de forage a base d'eau sont soumis aux dispositions suivantes:",
+                    "bounding_boxes": [
+                      {
+                        "h": 23.96,
+                        "w": 379.68,
+                        "x": 165.09,
+                        "y": 492.8
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9160378721155799,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9160378721155799
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8350162359655481,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8350162359655481
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "iii) les autres eaux résiduaires lorsqu'elles sont mélangées aux eaux définies ci-dessus;",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.218824123475619,
+                        "w": 405.81556540899516,
+                        "x": 141.67890708886125,
+                        "y": 237.50459644150152
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8908040549914452,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8908040549914452
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8898314624972571,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8898314624972571
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 9,
+                    "matching_text": "b) Toutes les autres ordures non biodégradables, ainsi que les articles en papier, chiffons, objets en verre, objets métalliques, bouteilles et vaisselle, le fardage et les matériaux de revêtement...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.1028299709413,
+                        "w": 403.57974686630627,
+                        "x": 138.116344494093,
+                        "y": 145.5053428210747
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8171838681718018,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8171838681718018
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Toute Partie contractante au présent Protocole (dénommée \"Partie\" dans le présent Protocole) peut en outre inclure dans la zone du Protocole des zones humides ou zones côtières de son territoire.",
+                    "bounding_boxes": [
+                      {
+                        "h": 71.64,
+                        "w": 443.1,
+                        "x": 104.39,
+                        "y": 516.85
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.6971396634837339,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6971396634837339
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 17,
+                    "matching_text": "Il est également ouvert, jusqu'aux mêmes dates, à la signature de la Communauté européenne et de tout groupement économique régional similaire dont l'un au moins des membres est un Etat côtier de l...",
+                    "bounding_boxes": [
+                      {
+                        "h": 241.5,
+                        "w": 440.78,
+                        "x": 98.59,
+                        "y": 181.51
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8487954922558378,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8487954922558378
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "## SUBSTANCES ET MATIERES NUISIBLES OU NOCIVES DONT LE REJET EST INTERDIT DANS LA ZONE DU PROTOCOLE",
+                    "bounding_boxes": [
+                      {
+                        "h": 23.429249999999968,
+                        "w": 310.4353235294118,
+                        "x": 165.35486274509805,
+                        "y": 178.22025000000002
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.6420004426841429,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6420004426841429
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 25,
+                    "matching_text": "d) Le rejet de ces déblais de forage est interdit dans les aires spécialement protégées;",
+                    "bounding_boxes": [
+                      {
+                        "h": 24.69947639576981,
+                        "w": 380.2935495461366,
+                        "x": 166.17684310118145,
+                        "y": 213.38454092035062
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9911803490570421,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9911803490570421
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9351590239321951,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9351590239321951
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "g) On entend par \"opérateur\":",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.946360744569368,
+                        "w": 155.0675716150498,
+                        "x": 107.67954049087155,
+                        "y": 193.02471418873856
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.879519523798315,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.879519523798315
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.999999448776502,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.999999448776502
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "...Partie exerçant sa juridiction sur la zone où sont entreprises les activités (ci-après dénommée la \"Partie contractante\") conformément au présent Protocole à exercer des activités et/ou qui exerce de...",
+                    "bounding_boxes": [
+                      {
+                        "h": 47.74122520483994,
+                        "w": 405.6910605623572,
+                        "x": 143.92665276486284,
+                        "y": 217.71334305926067
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9565956317355103,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9565956317355103
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7644345401282933,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7644345401282933
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Chaque Partie détermine les sanctions à appliquer en cas d'infraction aux obligations découlant du présent Protocole, à la législation et à la réglementation nationales mettant en oeuvre le présent Pr...",
+                    "bounding_boxes": [
+                      {
+                        "h": 34.962188357469515,
+                        "w": 442.1572943297745,
+                        "x": 104.19139933781324,
+                        "y": 506.30449133003043
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8438719373757991,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8438719373757991
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.820732744106669,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.820732744106669
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "...ns la zone du Protocole, y compris la construction sur place des installations, sont soumises à une autorisation préalable écrite pour l'exploration ou l'exploitation délivrée par l'autorité compétent...",
+                    "bounding_boxes": [
+                      {
+                        "h": 180.88,
+                        "w": 440.12,
+                        "x": 100.18,
+                        "y": 204.76
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8473204533561131,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8473204533561131
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9606426280627849,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9606426280627849
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 15,
+                    "matching_text": "b) Délivrer et enregistrer les permis généraux et spéciaux visés à l'article 9 du présent Protocole;",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.442195360137205,
+                        "w": 439.5192516873393,
+                        "x": 99.01977322346015,
+                        "y": 424.4524517435213
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.7506123720773991,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7506123720773991
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9955052392988845,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9955052392988845
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 15,
+                    "matching_text": "b) Délivrer et enregistrer les permis généraux et spéciaux visés à l'article 9 du présent Protocole;",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.442195360137205,
+                        "w": 439.5192516873393,
+                        "x": 99.01977322346015,
+                        "y": 424.4524517435213
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9475252605417952,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9475252605417952
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7963982038671924,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7963982038671924
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 11,
+                    "matching_text": "# Article 19 - SURVEILLANCE CONTINUE",
+                    "bounding_boxes": [
+                      {
+                        "h": 9.991059832317099,
+                        "w": 234.9650364176234,
+                        "x": 102.16358437077221,
+                        "y": 438.16292106516767
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.7649247642215482,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7649247642215482
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.5676224156852671,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5676224156852671
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 27,
+                    "matching_text": "...ements les plus adaptés, notamment navires et aéronefs, prêts à intervenir pour mettre en oeuvre le plan d'intervention d'urgence;",
+                    "bounding_boxes": [
+                      {
+                        "h": 412.18,
+                        "w": 384.35,
+                        "x": 160.88,
+                        "y": 264.74
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.7978308807316217,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7978308807316217
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7128190434089356,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7128190434089356
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Chaque autorisation précise les activités et la période de validité de l'autorisation, établit les limites géographiques du secteur faisant l'objet de l'autorisation et détermine les prescriptions...",
+                    "bounding_boxes": [
+                      {
+                        "h": 180.23,
+                        "w": 442.7,
+                        "x": 104.45,
+                        "y": 275.22
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8502966501722702,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8502966501722702
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 14,
+                    "matching_text": "...té d'accès et de traitement dans le cadre de procédures administratives aux ressortissants d'autres Etats qui pourraient être affectés par la pollution ou par d'autres effets nuisibles résultant des o...",
+                    "bounding_boxes": [
+                      {
+                        "h": 289.62,
+                        "w": 441.46,
+                        "x": 99.72,
+                        "y": 324.46
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.758436861505684,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.758436861505684
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 9,
+                    "matching_text": "a) dans les cas de force majeure, et en particulier:",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.362136861661615,
+                        "w": 248.87219700171497,
+                        "x": 136.17303097965893,
+                        "y": 485.12039062499997
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.6294304637595315,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6294304637595315
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 14,
+                    "matching_text": "Lorsqu'une pollution a son origine sur le territoire d'un Etat qui n'est pas Partie contractante au présent Protocole, toute Partie contractante touchée s'efforce de coopérer avec ledit Etat afin de r...",
+                    "bounding_boxes": [
+                      {
+                        "h": 289.62,
+                        "w": 441.46,
+                        "x": 99.72,
+                        "y": 324.46
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.5887396527439652,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5887396527439652
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "L'autorisation est délivrée conformément à la procédure appropriée arrêtée par l'autorité compétente.",
+                    "bounding_boxes": [
+                      {
+                        "h": 180.88,
+                        "w": 440.12,
+                        "x": 100.18,
+                        "y": 204.76
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.7210217055190514,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7210217055190514
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "<sup>1</sup> A l'exception de ceux qui sont biologiquement inoffensifs ou qui se transforment rapidement en substances biologiquement inoffensives.",
+                    "bounding_boxes": [
+                      {
+                        "h": 25.008750000000077,
+                        "w": 417.6000196078432,
+                        "x": 78.20126470588237,
+                        "y": 745.26075
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8922338112017086,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8922338112017086
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 9,
+                    "matching_text": "* lorsque la vie humaine est en danger;\n* lorsque la sécurité des installations est en danger;\n* lorsqu'une avarie survient à l'installation ou à son équipement;",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.42,
+                        "w": 313.76,
+                        "x": 172.02,
+                        "y": 509.56
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.8082374640526813,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8082374640526813
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "...l'installation dont il peut être nécessaire de se débarrasser de façon continue ou périodique, à l'exception des substances qui sont définies ou énumérées ailleurs dans le présent Protocole;",
+                    "bounding_boxes": [
+                      {
+                        "h": 47.5867263481326,
+                        "w": 442.6365346384337,
+                        "x": 105.79120965367761,
+                        "y": 261.7110057879192
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9999676219234456,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999676219234456
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 9,
+                    "matching_text": "b) Lorsque le rejet dans la mer de substances contenant des hydrocarbures ou des substances ou matières nuisibles ou nocives soumises au régime de l'approbation préalable de l'autorité compétente s'ef...",
+                    "bounding_boxes": [
+                      {
+                        "h": 47.61233403201214,
+                        "w": 405.02967639186966,
+                        "x": 135.4277522682153,
+                        "y": 594.2286871189025
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9150106906518422,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9150106906518422
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8521450448772605,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8521450448772605
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 22,
+                    "matching_text": "* a) Les organismes marins comestibles;",
+                    "bounding_boxes": [
+                      {
+                        "h": 119.61,
+                        "w": 404.46,
+                        "x": 142.42,
+                        "y": 566.68
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9189070569705019,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9189070569705019
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9055207163506133,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9055207163506133
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 22,
+                    "matching_text": "Effets sur les écosystèmes marins, notamment les ressources biologiques, les espèces en danger et les habitats vulnérables.",
+                    "bounding_boxes": [
+                      {
+                        "h": 119.61,
+                        "w": 404.46,
+                        "x": 142.42,
+                        "y": 566.68
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 590.854,
+                      "height": 842.4
+                    }
+                  }
+                ],
+                "confidence": 0.9012332626338896,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9012332626338896
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.7459390739447598,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.7459390739447598
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Le rejet dans la zone du Protocole des substances et matières nuisibles ou nocives résultant des activités couvertes par le présent Protocole et énumérées à l'annexe I du présent Protocole est interdi...",
+                  "bounding_boxes": [
+                    {
+                      "h": 302.21,
+                      "w": 441.3,
+                      "x": 104.01,
+                      "y": 171.12
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9759651714411789,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9759651714411789
+            },
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "1. Les Parties élaborent et adoptent des normes communes pour l'élimination dans la zone du Protocole d'hydrocarbures et de mélanges d'hydrocarbures provenant des installations:",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.23,
+                      "w": 440.73,
+                      "x": 104.05,
+                      "y": 534.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8110444187287871,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8110444187287871
+            },
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Le rejet dans la zone du Protocole des substances et matières nuisibles ou nocives résultant des activités couvertes par le présent Protocole et énumérées à l'annexe I du présent Protocole est inte...",
+                  "bounding_boxes": [
+                    {
+                      "h": 302.21,
+                      "w": 441.3,
+                      "x": 104.01,
+                      "y": 171.12
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8651101902179343,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8651101902179343
+            },
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Le rejet dans la zone du Protocole des substances et matières nuisibles ou nocives résultant des activités couvertes par le présent Protocole et énumérées à l'annexe I du présent Protocole est inte...",
+                  "bounding_boxes": [
+                    {
+                      "h": 302.21,
+                      "w": 441.3,
+                      "x": 104.01,
+                      "y": 171.12
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9765938595975306,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9765938595975306
+            },
+            {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "1. La Partie contractante interdit le rejet dans la zone du Protocole des eaux usées provenant d'installations ayant un effectif permanent de 10 personnes ou plus, sauf si:",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.07,
+                      "w": 440.58,
+                      "x": 101.44,
+                      "y": 313.22
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8762261623914354,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8762261623914354
+            },
+            {
+              "confidence": 0.9057558622706599,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9057558622706599
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "1. Les déversements à forte teneur en hydrocarbures provenant du drainage de traitement ou du drainage de plate-forme sont confinés, détournés puis traités au même titre que le produit, le reliquat...",
+                  "bounding_boxes": [
+                    {
+                      "h": 157.42,
+                      "w": 379.42,
+                      "x": 165.35,
+                      "y": 286.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9987806847210067,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9987806847210067
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "9. Biocides et leurs dérivés non inclus dans l'annexe I",
+                  "bounding_boxes": [
+                    {
+                      "h": 266.94,
+                      "w": 255.82,
+                      "x": 146,
+                      "y": 275.89
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8213095855406886,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8213095855406886
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999995530130308,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995530130308
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9994525864226785,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9994525864226785
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.99998878332299,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99998878332299
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "* g) D'établir les critères et de formuler les règles, normes, pratiques et procédures internationales recommandées conformément à l'article 23, paragraphe 1, du présent Protocole, dans la forme co...",
+                  "bounding_boxes": [
+                    {
+                      "h": 400.14,
+                      "w": 407.94,
+                      "x": 132.44,
+                      "y": 237.35
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9867681428599699,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9867681428599699
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9951977218452299,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9951977218452299
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9695842355794794,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9695842355794794
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "6. Concentration des principaux constituants, substances énumérées à l'annexe I, substances énumérées à l'annexe II, et autres substances, selon le cas;",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9926201074897415,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9926201074897415
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999996551875416,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996551875416
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999615824838554,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999615824838554
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.999996955956247,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999996955956247
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "6. Concentration des principaux constituants, substances énumérées à l'annexe I, substances énumérées à l'annexe II, et autres substances, selon le cas;",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9998728452130542,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998728452130542
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;\n\n5.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.98737314159392,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.98737314159392
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9750318306801143,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9750318306801143
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Sans préjudice des autres normes et obligations visées dans la présente section, les Parties imposent aux opérateurs, en tant qu'obligation générale, l'utilisation des meilleures techniques disponible...",
+                  "bounding_boxes": [
+                    {
+                      "h": 71.21057969702747,
+                      "w": 441.7560905452673,
+                      "x": 103.78718738251479,
+                      "y": 627.7581493902438
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9038528820974561,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9038528820974561
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999396843589203,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999396843589203
+            },
+            "source": {
+              "confidence": 0.9974820697718823,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9974820697718823
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9998944817644496,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998944817644496
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "1. Les fluides de forage et déblais de forage a base d'eau sont soumis aux dispositions suivantes:",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.96,
+                      "w": 379.68,
+                      "x": 165.09,
+                      "y": 492.8
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999977145960866,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999977145960866
+            },
+            "source": {
+              "confidence": 0.9999181549286994,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999181549286994
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999446821016,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999446821016
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 157.42,
+                      "w": 379.42,
+                      "x": 165.35,
+                      "y": 286.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999213795816406,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999213795816406
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999451622415858,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999451622415858
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "## Article 11 - EAUX USEES",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.108799999999974,
+                      "w": 170.165952,
+                      "x": 100.44518000000001,
+                      "y": 288.9432
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999943875720394,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999943875720394
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999553119545,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999553119545
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9628156022644985,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9628156022644985
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.999963626308209,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999963626308209
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "## Article 12 - ORDURES",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.951199999999972,
+                      "w": 155.98545600000003,
+                      "x": 99.26347200000001,
+                      "y": 640.224
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999991557032939,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999991557032939
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999382828608,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999382828608
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9996330039589774,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9996330039589774
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9991785095726639,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9991785095726639
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...aison, entre autres, du régime des courants dans le secteur ou de la proximité d'une aire visée à l'article 21.",
+                  "bounding_boxes": [
+                    {
+                      "h": 132.56,
+                      "w": 441.79,
+                      "x": 100.14,
+                      "y": 482.96
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999470042363033,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999470042363033
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;\n\n5.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999114367370303,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999114367370303
+            },
+            "deontic_type": {
+              "confidence": 0.9990944533567001,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9990944533567001
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "# Article 21 - AIRES SPECIALEMENT PROTEGEES",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.951200000000028,
+                      "w": 275.33796400000006,
+                      "x": 101.03603400000001,
+                      "y": 421.2
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9743808324236951,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9743808324236951
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "# Article 21 - AIRES SPECIALEMENT PROTEGEES",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.951200000000028,
+                      "w": 275.33796400000006,
+                      "x": 101.03603400000001,
+                      "y": 421.2
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999991407716964,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999991407716964
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;\n\n5.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8699585138342127,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8699585138342127
+            },
+            "deontic_type": {
+              "confidence": 0.9967505729383292,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9967505729383292
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999767593085085,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999767593085085
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "1. Arsenic\n2. Plomb\n3. Cuivre\n4. Zinc\n5. Béryllium\n6. Nickel\n7. Vanadium\n8. Chrome\n9. Biocides et leurs dérivés non inclus dans l'annexe I\n10. Sélénium\n11. Antimoine\n12. Molybdène\n13. Titane\n14. Et...",
+                  "bounding_boxes": [
+                    {
+                      "h": 266.94,
+                      "w": 255.82,
+                      "x": 146,
+                      "y": 275.89
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9636944351268063,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9636944351268063
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999997850210227,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997850210227
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "10. Sélénium",
+                  "bounding_boxes": [
+                    {
+                      "h": 266.94,
+                      "w": 255.82,
+                      "x": 146,
+                      "y": 275.89
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999436915175581,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999436915175581
+            },
+            "deontic_type": {
+              "confidence": 0.9987629364624809,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9987629364624809
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.999987193184819,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999987193184819
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "1. Arsenic\n2. Plomb\n3. Cuivre\n4. Zinc\n5. Béryllium\n6. Nickel\n7. Vanadium\n8. Chrome\n9. Biocides et leurs dérivés non inclus dans l'annexe I\n10. Sélénium\n11. Antimoine\n12. Molybdène\n13. Titane\n14. Et...",
+                  "bounding_boxes": [
+                    {
+                      "h": 266.94,
+                      "w": 255.82,
+                      "x": 146,
+                      "y": 275.89
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9949014621501723,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9949014621501723
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 20,
+                  "matching_text": "10. Sélénium",
+                  "bounding_boxes": [
+                    {
+                      "h": 266.94,
+                      "w": 255.82,
+                      "x": 146,
+                      "y": 275.89
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9515345429670279,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9515345429670279
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.8513921394834899,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8513921394834899
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Chaque Partie détermine les sanctions à appliquer en cas d'infraction aux obligations découlant du présent Protocole, à la législation et à la réglementation nationales mettant en oeuvre le présent...",
+                  "bounding_boxes": [
+                    {
+                      "h": 34.962188357469515,
+                      "w": 442.1572943297745,
+                      "x": 104.19139933781324,
+                      "y": 506.30449133003043
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9993608805573229,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9993608805573229
+            },
+            "source": {
+              "confidence": 0.9956088673967289,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9956088673967289
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999279966713,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999279966713
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9909992269068556,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9909992269068556
+            },
+            "deontic_type": {
+              "confidence": 0.9116703817722375,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9116703817722375
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9996745600276521,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9996745600276521
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "## <u>Article 4</u> - PRINCIPES GENERAUX",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.9512,
+                      "w": 215.66170999999997,
+                      "x": 99.85432600000001,
+                      "y": 180.2736
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999994586479438,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994586479438
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999612774708,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999612774708
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9985308109215868,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9985308109215868
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999987111578214,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999987111578214
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999969553754722,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999969553754722
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1. Type et importance de la source du déchet (procédé industriel, par exemple);\n\n2. Type du déchet (origine, composition moyenne);\n\n3. Forme du déchet (solide, liquide, boueuse, gazeuse);\n\n4. Quant...",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9991378558293876,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9991378558293876
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999999612774708,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999612774708
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9998124859223766,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998124859223766
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999994586479248,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994586479248
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "b) Délivrer et enregistrer les permis généraux et spéciaux visés à l'article 9 du présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.442195360137205,
+                      "w": 439.5192516873393,
+                      "x": 99.01977322346015,
+                      "y": 424.4524517435213
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999997228701816,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997228701816
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9927410484445774,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9927410484445774
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.999996597765683,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999996597765683
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "# Article 19 - SURVEILLANCE CONTINUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 9.991059832317099,
+                      "w": 234.9650364176234,
+                      "x": 102.16358437077221,
+                      "y": 438.16292106516767
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999998311903558,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998311903558
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999984116311561,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999984116311561
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9923991024822336,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9923991024822336
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "## **PLAN D'INTERVENTION D'URGENCE**",
+                  "bounding_boxes": [
+                    {
+                      "h": 9.477000000000004,
+                      "w": 175.88701960784317,
+                      "x": 232.76066666666668,
+                      "y": 180.85275000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999923549910257,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999923549910257
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "g) Exercer les fonctions relatives aux plans d'intervention d'urgence décrits à l'article 16 et à l'annexe VII du présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.521146722560964,
+                      "w": 440.7299172893246,
+                      "x": 98.16709753727612,
+                      "y": 582.0929022484755
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999729747015751,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999729747015751
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "4. Caractéristiques de dispersion, tels que les effets des courants, des marées et du vent sur le déplacement horizontal et le brassage vertical;",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999998897552761,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998897552761
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9998555153299176,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998555153299176
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9998072617202259,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998072617202259
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "Caractéristiques de l'eau réceptrice, eu égard aux conditions physiques, chimiques, biologiques et écologiques existant dans la zone de rejet;\n\n6.",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9999733181208199,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999733181208199
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7500275200670384,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7500275200670384
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "## Article 8 - OBLIGATION GENERALE",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.236301686356601,
+                      "w": 223.56235393367123,
+                      "x": 102.98039069880791,
+                      "y": 603.2807651009908
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9880800223216353,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9880800223216353
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "a) dans les cas de force majeure, et en particulier:",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.362136861661615,
+                      "w": 248.87219700171497,
+                      "x": 136.17303097965893,
+                      "y": 485.12039062499997
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9847921540814933,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9847921540814933
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "e) Donner l'approbation préalable pour les rejets exceptionnels visés à l'article 14, paragraphe 1 alinéa b), du présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.554604754192038,
+                      "w": 439.88067197334107,
+                      "x": 98.7274529074469,
+                      "y": 509.4541612042683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9996674037882026,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9996674037882026
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "<sup>1</sup> A l'exception de ceux qui sont biologiquement inoffensifs ou qui se transforment rapidement en substances biologiquement inoffensives.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.008750000000077,
+                      "w": 417.6000196078432,
+                      "x": 78.20126470588237,
+                      "y": 745.26075
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9969385737284752,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9969385737284752
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "b) Lorsque le rejet dans la mer de substances contenant des hydrocarbures ou des substances ou matières nuisibles ou nocives soumises au régime de l'approbation préalable de l'autorité compétente s...",
+                  "bounding_boxes": [
+                    {
+                      "h": 47.61233403201214,
+                      "w": 405.02967639186966,
+                      "x": 135.4277522682153,
+                      "y": 594.2286871189025
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9375222396592575,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9375222396592575
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "e) Donner l'approbation préalable pour les rejets exceptionnels visés à l'article 14, paragraphe 1 alinéa b), du présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.554604754192038,
+                      "w": 439.88067197334107,
+                      "x": 98.7274529074469,
+                      "y": 509.4541612042683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.999999585317322,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999585317322
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "citation": [
+                {
+                  "page": 22,
+                  "matching_text": "1. Caractéristiques hydrographiques, météorologiques, géologiques et topographiques de la zone côtière;\n\n2. Emplacement et type du rejet (émissaire, canal, sortie d'eau, etc.) et situation par rapp...",
+                  "bounding_boxes": [
+                    {
+                      "h": 205.87,
+                      "w": 405.83,
+                      "x": 142.37,
+                      "y": 165.85
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "<sup>1</sup> A l'exception de ceux qui sont biologiquement inoffensifs ou qui se transforment rapidement en substances biologiquement inoffensives.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.008750000000077,
+                      "w": 417.6000196078432,
+                      "x": 78.20126470588237,
+                      "y": 745.26075
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 170.06,
+                      "w": 403.67,
+                      "x": 137.25,
+                      "y": 285.63
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 590.854,
+                    "height": 842.4
+                  }
+                }
+              ],
+              "confidence": 0.9998216431185568,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998216431185568
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-2sbyoemnzepcwvc423wz6yat85wt",
+    "parse_tier": null
+  }
+}

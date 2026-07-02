@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparaison d'Extraction de Triplets RDF — Droit Maritime</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap');
+
+  :root {
+    --ocean: #ffffff;
+    --deep: #f1f5f9;
+    --surface: #f8fafc;
+    --card: #ffffff;
+    --accent1: #0284c7;
+    --accent2: #7c3aed;
+    --accent3: #059669;
+    --accent4: #d97706;
+    --accent5: #dc2626;
+    --text: #1e293b;
+    --muted: #64748b;
+    --border: rgba(0,0,0,0.1);
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background: var(--ocean);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content:'';
+    position:fixed;
+    top:0; left:0; right:0; bottom:0;
+    background:
+      radial-gradient(ellipse 60% 40% at 20% 80%, rgba(2,132,199,0.05) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 60% at 80% 20%, rgba(124,58,237,0.04) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 50% at 50% 50%, rgba(5,150,105,0.03) 0%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+
+  header {
+    position: relative;
+    z-index:1;
+    padding: 3rem 2rem 2rem;
+    border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+  }
+
+  .header-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: var(--accent1);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    opacity: 0.9;
+  }
+
+  header h1 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+    background: linear-gradient(135deg, #1e293b 0%, var(--accent1) 50%, var(--accent2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    color: var(--muted);
+    font-size: 1rem;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+
+  .header-meta {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
+  .meta-item span:first-child {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .meta-item span:last-child {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent1);
+  }
+
+  main {
+    position: relative;
+    z-index:1;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .tabs-container { margin-bottom: 2rem; }
+
+  .tabs-nav {
+    display: flex;
+    gap: 0.25rem;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tabs-nav::-webkit-scrollbar { display:none; }
+
+  .tab-btn {
+    padding: 0.9rem 1.4rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    font-family: 'Syne', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    position: relative;
+    bottom: -1px;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent1); border-bottom-color: var(--accent1); }
+  .tab-btn .tab-badge {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    font-size: 0.65rem;
+    font-family: 'Space Mono', monospace;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.06);
+    color: var(--muted);
+  }
+  .tab-btn.active .tab-badge {
+    background: rgba(2,132,199,0.12);
+    color: var(--accent1);
+  }
+
+  .tab-panel { display:none; }
+  .tab-panel.active { display:block; animation: fadeIn 0.3s ease; }
+
+  @keyframes fadeIn {
+    from { opacity:0; transform:translateY(8px); }
+    to { opacity:1; transform:translateY(0); }
+  }
+
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .score-a { background: rgba(5,150,105,0.12); color: #059669; border: 1px solid rgba(5,150,105,0.3); }
+  .score-b { background: rgba(2,132,199,0.1); color: #0284c7; border: 1px solid rgba(2,132,199,0.25); }
+  .score-c { background: rgba(217,119,6,0.1); color: #d97706; border: 1px solid rgba(217,119,6,0.25); }
+  .score-d { background: rgba(220,38,38,0.1); color: #dc2626; border: 1px solid rgba(220,38,38,0.25); }
+
+  .model-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .model-title-block h2 { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.4rem; }
+  .model-title-block p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    max-width: 550px;
+    line-height: 1.6;
+  }
+
+  .model-tag {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 4px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .metric-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .metric-card::before {
+    content:'';
+    position:absolute;
+    top:0; left:0; right:0;
+    height:3px;
+  }
+  .metric-card .mc-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+  .metric-card .mc-value { font-size: 1.7rem; font-weight: 800; line-height: 1; color: var(--text); }
+  .metric-card .mc-sub { font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; }
+
+  .section-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  }
+
+  .section-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--text);
+  }
+  .section-card h3 .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+
+  .code-block {
+    background: var(--deep);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    overflow-x: auto;
+    color: #334155;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .code-block .key { color: #0369a1; }
+  .code-block .val { color: #15803d; }
+  .code-block .str { color: #92400e; }
+  .code-block .num { color: #c2410c; }
+  .code-block .kw { color: #6d28d9; }
+
+  .pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } }
+
+  .pro-list, .con-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .pro-list h4 { color: #059669; font-size: 0.8rem; margin-bottom: 0.5rem; font-weight: 700; }
+  .con-list h4 { color: #dc2626; font-size: 0.8rem; margin-bottom: 0.5rem; font-weight: 700; }
+
+  .pro-item, .con-item {
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: #475569;
+    line-height: 1.5;
+    align-items: flex-start;
+  }
+  .pro-item::before { content:'✓'; color:#059669; font-weight:700; flex-shrink:0; }
+  .con-item::before { content:'✗'; color:#dc2626; font-weight:700; flex-shrink:0; }
+
+  .triplet-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .triplet-table th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    background: #f8fafc;
+  }
+  .triplet-table td {
+    padding: 0.7rem 0.8rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    vertical-align: top;
+    line-height: 1.5;
+    color: #475569;
+  }
+  .triplet-table tr:hover td { background: rgba(0,0,0,0.02); }
+  .cell-subj { color: var(--accent1); font-weight: 600; }
+  .cell-pred { color: var(--accent2); font-family: 'Space Mono', monospace; font-size: 0.72rem; }
+  .cell-obj { color: #475569; }
+  .cell-deon { font-family: 'Space Mono', monospace; font-size: 0.68rem; }
+  .deon-prohibition { color: #dc2626; }
+  .deon-obligation { color: #d97706; }
+  .deon-permission { color: #059669; }
+
+  .comp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    table-layout: fixed;
+  }
+  .comp-table th {
+    padding: 0.9rem 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-bottom: 2px solid var(--border);
+    text-align: left;
+    background: #f8fafc;
+  }
+  .comp-table th:first-child { color: var(--muted); font-weight: 600; }
+  .comp-table td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+    color: #475569;
+    line-height: 1.5;
+  }
+  .comp-table td:first-child {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .comp-table tr:hover td { background: rgba(0,0,0,0.02); }
+
+  .winner-card {
+    background: linear-gradient(135deg, rgba(5,150,105,0.07) 0%, rgba(2,132,199,0.05) 100%);
+    border: 1px solid rgba(5,150,105,0.25);
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  .winner-card::before {
+    content:'';
+    position:absolute;
+    top:-60px; right:-60px;
+    width:200px; height:200px;
+    border-radius:50%;
+    background: radial-gradient(circle, rgba(5,150,105,0.08) 0%, transparent 70%);
+  }
+  .winner-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: #059669;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .winner-card h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem; color: var(--text); }
+  .winner-card p { color: #475569; font-size: 0.9rem; line-height: 1.7; max-width: 700px; }
+
+  .score-row { display: flex; flex-direction: column; gap: 0.8rem; width: 100%; }
+  .score-item { display: flex; align-items: center; gap: 1rem; }
+  .score-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    width: 200px;
+    flex-shrink: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .score-bars { display: flex; gap: 0.4rem; align-items: center; flex: 1; }
+  .score-bar-model { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; flex: 1; }
+  .bar-track {
+    width: 100%;
+    height: 8px;
+    background: rgba(0,0,0,0.08);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .bar-fill { height: 100%; border-radius: 999px; transition: width 0.8s ease; }
+  .bar-name { font-size: 0.6rem; font-family: 'Space Mono', monospace; color: var(--muted); text-align: center; }
+
+  .entity-cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
+  .entity-pill {
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    background: rgba(0,0,0,0.04);
+    border: 1px solid var(--border);
+    color: #475569;
+    font-family: 'Space Mono', monospace;
+  }
+  .entity-pill.highlight { background: rgba(2,132,199,0.08); border-color: rgba(2,132,199,0.2); color: var(--accent1); }
+  .entity-pill.green { background: rgba(5,150,105,0.08); border-color: rgba(5,150,105,0.2); color: #059669; }
+
+  .alert {
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+  }
+  .alert-warn { background: rgba(217,119,6,0.07); border: 1px solid rgba(217,119,6,0.25); color: #92400e; }
+  .alert-info { background: rgba(2,132,199,0.07); border: 1px solid rgba(2,132,199,0.2); color: #0369a1; }
+  .alert-success { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); color: #065f46; }
+  .alert-icon { font-size: 1rem; flex-shrink: 0; margin-top: 0.1rem; }
+
+  .divider { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+  @media (max-width: 700px) {
+    .two-col, .three-col { grid-template-columns: 1fr; }
+    .model-header { flex-direction: column; }
+  }
+
+  .m1-accent { color: #0284c7; }
+  .m2-accent { color: #7c3aed; }
+  .m3-accent { color: #059669; }
+  .m4-accent { color: #d97706; }
+
+  .m1-bg::before { background: #0284c7; }
+  .m2-bg::before { background: #7c3aed; }
+  .m3-bg::before { background: #059669; }
+  .m4-bg::before { background: #d97706; }
+
+  .m1-tag { background: rgba(2,132,199,0.1); color: #0284c7; }
+  .m2-tag { background: rgba(124,58,237,0.1); color: #7c3aed; }
+  .m3-tag { background: rgba(5,150,105,0.1); color: #059669; }
+  .m4-tag { background: rgba(217,119,6,0.1); color: #d97706; }
+
+  .table-scroll { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+
+  /* Stats per-doc mini table */
+  .per-doc-table { width:100%; border-collapse:collapse; font-size:0.78rem; }
+  .per-doc-table th {
+    padding:0.5rem 0.7rem;
+    font-family:'Space Mono',monospace;
+    font-size:0.6rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--muted);
+    border-bottom:1px solid var(--border);
+    background:#f8fafc;
+    text-align:right;
+  }
+  .per-doc-table th:first-child { text-align:left; }
+  .per-doc-table td {
+    padding:0.5rem 0.7rem;
+    border-bottom:1px solid rgba(0,0,0,0.05);
+    color:#475569;
+    text-align:right;
+    vertical-align:middle;
+  }
+  .per-doc-table td:first-child { text-align:left; font-weight:600; color:var(--accent3); }
+  .per-doc-table tr:hover td { background:rgba(0,0,0,0.02); }
+
+  /* radar-like score boxes */
+  .score-box {
+    text-align:center;
+    padding:1rem;
+    border-radius:12px;
+    border:1px solid var(--border);
+    background:var(--card);
+  }
+  .score-box .sb-val { font-size:2rem; font-weight:800; }
+  .score-box .sb-lbl { font-family:'Space Mono',monospace; font-size:0.6rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-top:0.3rem; }
+
+  /* winner badge for final comparison */
+  .winner-chip {
+    display:inline-flex; align-items:center; gap:0.3rem;
+    padding:0.2rem 0.6rem; border-radius:999px;
+    font-size:0.65rem; font-family:'Space Mono',monospace; font-weight:700;
+    background:rgba(5,150,105,0.12); color:#059669; border:1px solid rgba(5,150,105,0.3);
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-family: 'Space Mono', monospace;
+    border-top: 1px solid var(--border);
+    position: relative;
+    z-index:1;
+    background: #f8fafc;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-eyebrow">📊 Analyse comparative · Extraction RDF · Droit Maritime</div>
+  <h1>Extraction d'Entités<br>&amp; de Triplets RDF</h1>
+  <p>Comparaison de 4 approches d'extraction automatique de connaissances juridiques maritimes à partir de documents normatifs multilingues.</p>
+  <div class="header-meta">
+    <div class="meta-item"><span>Documents analysés</span><span>11 docs</span></div>
+    <div class="meta-item"><span>Domaines</span><span>6 interdictions</span></div>
+    <div class="meta-item"><span>Modèles comparés</span><span>4 systèmes</span></div>
+  </div>
+</header>
+
+<main>
+
+  <div class="tabs-container">
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="switchTab('mistral')">Mistral 7B <span class="tab-badge">LLM</span></button>
+      <button class="tab-btn" onclick="switchTab('llama')">LlamaParser <span class="tab-badge">API</span></button>
+      <button class="tab-btn" onclick="switchTab('claude')">Claude 3.5 <span class="tab-badge">LLM</span></button>
+      <button class="tab-btn" onclick="switchTab('gliner')">GLiNER + REBEL <span class="tab-badge">NLP</span></button>
+      <button class="tab-btn" onclick="switchTab('comparaison')">Comparaison <span class="tab-badge">★</span></button>
+      <button class="tab-btn" onclick="switchTab('verdict')">Verdict <span class="tab-badge">🏆</span></button>
+    </div>
+
+    <!-- ===== TAB 1: MISTRAL 7B ===== -->
+    <div id="tab-mistral" class="tab-panel active">
+      <div class="model-header" style="margin-top:2rem;">
+        <div class="model-title-block">
+          <div class="model-tag m1-tag">LLM Open-Source · Mistral AI</div>
+          <h2 class="m1-accent">Mistral 7B</h2>
+          <p>Extraction de triplets RDF (sujet, prédicat, objet) avec qualificatifs déontiques depuis 8 documents juridiques maritimes. Basé sur le template ontologie maritime <code>mar:</code>.</p>
+        </div>
+        <span class="score-badge score-c"></span>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card m1-bg">
+          <div class="mc-label">Triplets extraits</div>
+          <div class="mc-value m1-accent">28</div>
+          <div class="mc-sub">sur 8 documents</div>
+        </div>
+        <div class="metric-card m1-bg">
+          <div class="mc-label">Documents couverts</div>
+          <div class="mc-value m1-accent">8</div>
+          <div class="mc-sub">sources uniques</div>
+        </div>
+        <div class="metric-card m1-bg">
+          <div class="mc-label">Prédicats distincts</div>
+          <div class="mc-value m1-accent">4</div>
+          <div class="mc-sub">types de relations</div>
+        </div>
+        <div class="metric-card m1-bg">
+          <div class="mc-label">Types déontiques</div>
+          <div class="mc-value m1-accent">4</div>
+          <div class="mc-sub">Prohibition, Obligation…</div>
+        </div>
+        <div class="metric-card m1-bg">
+          <div class="mc-label">Taux de répétition</div>
+          <div class="mc-value" style="color:#dc2626">~60%</div>
+          <div class="mc-sub">triplets quasi-identiques</div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">🔗</span>Exemple de triplets extraits</h3>
+        <div class="table-scroll">
+          <table class="triplet-table">
+            <thead>
+              <tr><th>Sujet</th><th>Prédicat</th><th>Objet</th><th>Déontique</th><th>Source</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="cell-subj">chalutage_de_fond</td><td class="cell-pred">mar:appliesInZone</td><td class="cell-obj">haute_mer</td><td class="cell-deon deon-prohibition">Prohibition</td><td>protocole_GIZC</td></tr>
+              <tr><td class="cell-subj">Parties contractantes</td><td class="cell-pred">mar:soumisA</td><td class="cell-obj">mettre en place un cadre commun pour la gestion intégrée des zones côtières…</td><td class="cell-deon deon-obligation">Obligation</td><td>protocole_GIZC</td></tr>
+              <tr><td class="cell-subj">chalutage_de_fond</td><td class="cell-pred">mar:appliesInZone</td><td class="cell-obj">haute_mer</td><td class="cell-deon deon-prohibition">Prohibition</td><td>ICRW_convention</td></tr>
+              <tr><td class="cell-subj">États_membres</td><td class="cell-pred">mar:soumisA</td><td class="cell-obj">l'assemblee_generale</td><td class="cell-deon deon-obligation">Exhortation</td><td>ICRW_convention</td></tr>
+              <tr><td class="cell-subj">États_membres</td><td class="cell-pred">mar:soumisA</td><td class="cell-obj">suspension des autorisations de pêche</td><td class="cell-deon deon-obligation">Suspension</td><td>Resolution61_105</td></tr>
+              <tr><td class="cell-subj">suspension_des_autorisations</td><td class="cell-pred">mar:entraineSanction</td><td class="cell-obj">sanction_imposee</td><td class="cell-deon">Sanction</td><td>CMS_oiseau_marin</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(220,38,38,0.1)">⚠️</span>Problème critique : Répétition</h3>
+          <div class="alert alert-warn">
+            <span class="alert-icon">⚠️</span>
+            <div>Le modèle répète <strong>15 fois</strong> le même triplet <em>chalutage_de_fond → appliesInZone → haute_mer</em> avec le même type Prohibition, un pour chaque source différente. Pas de déduplication, pas de synthèse.</div>
+          </div>
+          <div class="code-block" style="margin-top:1rem;">
+<span class="key">"subject"</span>: <span class="str">"chalutage_de_fond"</span>,<br>
+<span class="key">"predicate"</span>: <span class="str">"mar:appliesInZone"</span>,<br>
+<span class="key">"object"</span>: <span class="str">"haute_mer"</span>,<br>
+<span class="key">"deontic_type"</span>: <span class="str">"Prohibition"</span>,<br>
+<span class="key">"source_doc"</span>: <span class="str">"Resolution61_105"</span>
+<br><br><span class="kw">// ...répété pour Resolution64_72, Resolution66_68,</span>
+<span class="kw">// Resolution71_123, ICRW_convention, etc.</span>
+          </div>
+        </div>
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(217,119,6,0.1)">🏷️</span>Prédicats utilisés</h3>
+          <div class="entity-cloud">
+            <span class="entity-pill highlight">mar:appliesInZone</span>
+            <span class="entity-pill highlight">mar:soumisA</span>
+            <span class="entity-pill">mar:entraineSanction</span>
+            <span class="entity-pill">mar:exemptesDe</span>
+            <span class="entity-pill">mar:appliesDuring</span>
+          </div>
+          <hr class="divider">
+          <p style="font-size:0.82rem; color:#64748b; line-height:1.6;">Le modèle utilise seulement 4–5 prédicats distincts sur l'ensemble du corpus, manquant la richesse de l'ontologie maritime <code>mar:</code>. Les relations sémantiques complexes (protège, contrôle, implique) ne sont pas capturées.</p>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📋</span>Analyse détaillée</h3>
+        <div class="pros-cons">
+          <div class="pro-list">
+            <h4>✅ Points forts</h4>
+            <div class="pro-item">Format de sortie propre et structuré (JSON valide)</div>
+            <div class="pro-item">Identification correcte des types déontiques (Prohibition, Obligation, Suspension)</div>
+            <div class="pro-item">Traçabilité par document source incluse</div>
+            <div class="pro-item">Concept ID (Activite, Acteur) partiellement fourni</div>
+            <div class="pro-item">Couvre tous les 8 documents du corpus</div>
+          </div>
+          <div class="con-list">
+            <h4>❌ Faiblesses</h4>
+            <div class="con-item">Forte répétition (~60% triplets identiques ou quasi-identiques)</div>
+            <div class="con-item">Peu de prédicats distincts — ontologie très sous-utilisée</div>
+            <div class="con-item">Sujets et objets souvent non normalisés (snake_case incohérent)</div>
+            <div class="con-item">Absence d'entités de type Espece, Zone précise, Sanction complexe</div>
+            <div class="con-item">Confusions thématiques (ICRW Baleine → chalutage !)</div>
+            <div class="con-item">Objets parfois trop vagues ou inexacts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB 2: LLAMAPARSER ===== -->
+    <div id="tab-llama" class="tab-panel">
+      <div class="model-header" style="margin-top:2rem;">
+        <div class="model-title-block">
+          <div class="model-tag m2-tag">API d'extraction · LlamaIndex</div>
+          <h2 class="m2-accent">LlamaParser</h2>
+          <p>Pipeline complet en deux niveaux : extraction d'entités nommées verbatim (<code>raw_extractions</code>) + triplets RDF normalisés avec ontologie <code>mar:</code> (<code>pipeline_triples</code>). Couverture 11 documents, 702 triplets réels, 54 prédicats distincts.</p>
+        </div>
+        <span class="score-badge score-a"></span>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card m2-bg">
+          <div class="mc-label">Documents traités</div>
+          <div class="mc-value m2-accent">11</div>
+          <div class="mc-sub">couverture complète</div>
+        </div>
+        <div class="metric-card m2-bg">
+          <div class="mc-label">Triplets RDF extraits</div>
+          <div class="mc-value m2-accent">702</div>
+          <div class="mc-sub">champ pipeline_triples</div>
+        </div>
+        <div class="metric-card m2-bg">
+          <div class="mc-label">Prédicats distincts</div>
+          <div class="mc-value m2-accent">54</div>
+          <div class="mc-sub">ontologie mar: riche</div>
+        </div>
+        <div class="metric-card m2-bg">
+          <div class="mc-label">Confiance moyenne</div>
+          <div class="mc-value" style="color:#059669">0.94</div>
+          <div class="mc-sub">93% des triplets ≥ 0.8</div>
+        </div>
+        <div class="metric-card m2-bg">
+          <div class="mc-label">Types déontiques</div>
+          <div class="mc-value m2-accent">4</div>
+          <div class="mc-sub">Prohibition · Obligation · Permission · Exception</div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(124,58,237,0.1)">🔗</span>Exemples de pipeline_triples — I001 Chalutage &amp; I002 Baleine</h3>
+        <div class="table-scroll">
+          <table class="triplet-table">
+            <thead>
+              <tr><th>Sujet</th><th>Prédicat</th><th>Objet</th><th>Déontique</th><th>Conf.</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="cell-subj">I001</td><td class="cell-pred">mar:concerneActivite</td><td class="cell-obj">mar:Activity_CHALUTAGE_DE_FOND</td><td class="cell-deon deon-prohibition">Prohibition</td><td>1.0</td></tr>
+              <tr><td class="cell-subj">I001</td><td class="cell-pred">mar:appliesInZone</td><td class="cell-obj">mar:Zone_HAUTE_MER</td><td class="cell-deon deon-prohibition">Prohibition</td><td>1.0</td></tr>
+              <tr><td class="cell-subj">I001</td><td class="cell-pred">mar:concerneActeur</td><td class="cell-obj">mar:Actor_ETATS_DU_PAVILLON</td><td class="cell-deon deon-prohibition">Prohibition</td><td>0.95</td></tr>
+              <tr><td class="cell-subj">I001</td><td class="cell-pred">mar:entraineSanction</td><td class="cell-obj">mar:Sanction_SUSPENSION_AUTORISATIONS_PECHE</td><td class="cell-deon deon-prohibition">Prohibition</td><td>0.9</td></tr>
+              <tr><td class="cell-subj">I002</td><td class="cell-pred">mar:hasProhibitedActivity</td><td class="cell-obj">mar:Activity_CHASSE_A_LA_BALEINE</td><td class="cell-deon deon-prohibition">Prohibition</td><td>1.0</td></tr>
+              <tr><td class="cell-subj">I002</td><td class="cell-pred">mar:targetsSpecies</td><td class="cell-obj">mar:Species_BALAENOPTERA_MUSCULUS</td><td class="cell-deon deon-prohibition">Prohibition</td><td>0.95</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(124,58,237,0.1)">🏷️</span>Richesse des prédicats (top 10)</h3>
+          <div class="entity-cloud">
+            <span class="entity-pill highlight">mar:appliesInZone (107)</span>
+            <span class="entity-pill highlight">mar:concerneActivite (89)</span>
+            <span class="entity-pill highlight">mar:concerneActeur (83)</span>
+            <span class="entity-pill highlight">mar:soumisA (57)</span>
+            <span class="entity-pill highlight">mar:admetException (36)</span>
+            <span class="entity-pill">mar:hasSpatialScope (27)</span>
+            <span class="entity-pill">mar:targetsSpecies (23)</span>
+            <span class="entity-pill">mar:entraineSanction (22)</span>
+            <span class="entity-pill">mar:prohibitsActivity (17)</span>
+            <span class="entity-pill">mar:hasControlMechanism (10)</span>
+            <span class="entity-pill">+ 44 autres prédicats</span>
+          </div>
+          <hr class="divider">
+          <div class="alert alert-success" style="margin-top:0.5rem;">
+            <span class="alert-icon">✓</span>
+            <div>54 prédicats distincts contre 4–5 pour Mistral 7B. L'ontologie <code>mar:</code> est exploitée de façon bien plus complète.</div>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(124,58,237,0.1)">📊</span>Répartition des types déontiques</h3>
+          <div style="display:flex;flex-direction:column;gap:0.7rem;margin-top:0.5rem;">
+            <div class="score-item">
+              <div class="score-label">Prohibition</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:70%;background:#dc2626;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:60px;text-align:right;">490 (70%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label">Obligation</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:18%;background:#d97706;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:60px;text-align:right;">127 (18%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label">Permission</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:11%;background:#059669;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:60px;text-align:right;">74 (11%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label">Exception</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:2%;background:#7c3aed;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:60px;text-align:right;">11 (1.6%)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📋</span>Analyse détaillée</h3>
+        <div class="pros-cons">
+          <div class="pro-list">
+            <h4>✅ Points forts</h4>
+            <div class="pro-item">702 triplets RDF complets via <code>pipeline_triples</code> (subject, predicate, object, deontic_type, confidence, source)</div>
+            <div class="pro-item">54 prédicats distincts de l'ontologie <code>mar:</code> — richesse sémantique élevée</div>
+            <div class="pro-item">Score de confiance par triplet (moyenne 0.94, 93% ≥ 0.8)</div>
+            <div class="pro-item">Couverture maximale : 11 documents traités</div>
+            <div class="pro-item">Double sortie : entités verbatim + triplets normalisés</div>
+            <div class="pro-item">Types déontiques complets : Prohibition, Obligation, Permission, Exception</div>
+            <div class="pro-item">Entités normalisées en URI <code>mar:</code> prêtes pour un triplestore</div>
+          </div>
+          <div class="con-list">
+            <h4>❌ Faiblesses</h4>
+            <div class="con-item">Sujets des triplets = identifiant d'interdiction (I001…) et non une entité nommée — granularité limitée</div>
+            <div class="con-item">Précision juridique inférieure à Claude (pas de citation d'articles précis)</div>
+            <div class="con-item">Coût d'API non négligeable pour très grands volumes</div>
+            <div class="con-item">Qualité variable selon la complexité du document PDF source</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB 3: CLAUDE ===== -->
+    <div id="tab-claude" class="tab-panel">
+      <div class="model-header" style="margin-top:2rem;">
+        <div class="model-title-block">
+          <div class="model-tag m3-tag">LLM · Anthropic Claude 3.5 Sonnet</div>
+          <h2 class="m3-accent">Claude 3.5 Sonnet</h2>
+          <p>Extraction thématique par interdiction (I001–I006), avec interdictions précisément qualifiées, entités nommées multi-types, prédicats RDF normalisés et références légales explicites. Données réelles issues des 6 fichiers JSON.</p>
+        </div>
+        <span class="score-badge score-a"></span>
+      </div>
+
+      <!-- MÉTRIQUES GLOBALES RÉELLES -->
+      <div class="metrics-grid">
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Thèmes couverts</div>
+          <div class="mc-value m3-accent">6</div>
+          <div class="mc-sub">I001–I006 complets</div>
+        </div>
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Entités extraites</div>
+          <div class="mc-value m3-accent">220</div>
+          <div class="mc-sub">10 types distincts</div>
+        </div>
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Triplets RDF produits</div>
+          <div class="mc-value m3-accent">248</div>
+          <div class="mc-sub">champ pipeline_triples</div>
+        </div>
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Prédicats distincts</div>
+          <div class="mc-value m3-accent">7</div>
+          <div class="mc-sub">ontologie mar: cohérente</div>
+        </div>
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Types déontiques</div>
+          <div class="mc-value m3-accent">3</div>
+          <div class="mc-sub">Prohibition · Obligation · Permission</div>
+        </div>
+        <div class="metric-card m3-bg">
+          <div class="mc-label">Référence juridique</div>
+          <div class="mc-value" style="color:#059669">✓✓</div>
+          <div class="mc-sub">articles cités précisément</div>
+        </div>
+      </div>
+
+      <!-- STATISTIQUES PAR DOCUMENT -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(5,150,105,0.1)">📊</span>Statistiques détaillées par interdiction</h3>
+        <div class="table-scroll">
+          <table class="per-doc-table">
+            <thead>
+              <tr>
+                <th>Interdiction</th>
+                <th>Entités</th>
+                <th>Triplets</th>
+                <th>Prédicats</th>
+                <th>Prohibition</th>
+                <th>Obligation</th>
+                <th>Permission</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>I001 – Chalutage de fond</td>
+                <td>31</td>
+                <td>39</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">21</span></td>
+                <td><span style="color:#d97706;">15</span></td>
+                <td><span style="color:#059669;">3</span></td>
+              </tr>
+              <tr>
+                <td>I002 – Chasse à la baleine</td>
+                <td>38</td>
+                <td>40</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">27</span></td>
+                <td><span style="color:#d97706;">8</span></td>
+                <td><span style="color:#059669;">5</span></td>
+              </tr>
+              <tr>
+                <td>I003 – Construction littorale</td>
+                <td>38</td>
+                <td>42</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">25</span></td>
+                <td><span style="color:#d97706;">13</span></td>
+                <td><span style="color:#059669;">4</span></td>
+              </tr>
+              <tr>
+                <td>I004 – Extraction de sable</td>
+                <td>34</td>
+                <td>36</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">18</span></td>
+                <td><span style="color:#d97706;">13</span></td>
+                <td><span style="color:#059669;">5</span></td>
+              </tr>
+              <tr>
+                <td>I005 – Oiseaux marins</td>
+                <td>38</td>
+                <td>42</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">22</span></td>
+                <td><span style="color:#d97706;">15</span></td>
+                <td><span style="color:#059669;">5</span></td>
+              </tr>
+              <tr>
+                <td>I006 – Rejet d'hydrocarbure</td>
+                <td>41</td>
+                <td>49</td>
+                <td>7</td>
+                <td><span style="color:#dc2626;font-weight:700;">29</span></td>
+                <td><span style="color:#d97706;">14</span></td>
+                <td><span style="color:#059669;">6</span></td>
+              </tr>
+              <tr style="background:#f8fafc; font-weight:700;">
+                <td style="color:#059669 !important;">TOTAL</td>
+                <td style="color:#059669; font-weight:800; text-align:right;">220</td>
+                <td style="color:#059669; font-weight:800; text-align:right;">248</td>
+                <td style="color:#059669; font-weight:800; text-align:right;">7</td>
+                <td style="color:#dc2626; font-weight:800; text-align:right;">142</td>
+                <td style="color:#d97706; font-weight:800; text-align:right;">78</td>
+                <td style="color:#059669; font-weight:800; text-align:right;">28</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ENTITÉS PAR CATÉGORIE -->
+      <div class="two-col">
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(5,150,105,0.1)">🏷️</span>Entités par catégorie (total : 220)</h3>
+          <div style="display:flex;flex-direction:column;gap:0.6rem;margin-top:0.5rem;">
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Activity</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:100%;background:#059669;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">42 (19%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Zone</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:79%;background:#0284c7;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">33 (15%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Actor</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:71%;background:#7c3aed;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">30 (14%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Espece</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:71%;background:#d97706;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">30 (14%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Controle</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:55%;background:#64748b;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">23 (10%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Exception</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:50%;background:#dc2626;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">21 (10%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Sanction</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:40%;background:#c2410c;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">17 (8%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Stock</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:29%;background:#0369a1;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">12 (5%)</span>
+              </div>
+            </div>
+            <div class="score-item">
+              <div class="score-label" style="width:100px;">Periode + Etat</div>
+              <div class="score-bars">
+                <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:28%;background:#94a3b8;"></div></div></div>
+                <span style="font-size:0.75rem;color:#475569;min-width:55px;text-align:right;">12 (5%)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(5,150,105,0.1)">🔗</span>Prédicats RDF utilisés (total : 248 triplets)</h3>
+          <div class="entity-cloud">
+            <span class="entity-pill green">mar:concerneActivite (70)</span>
+            <span class="entity-pill green">mar:soumisA (47)</span>
+            <span class="entity-pill green">mar:appliesInZone (42)</span>
+            <span class="entity-pill green">mar:concerneActeur (33)</span>
+            <span class="entity-pill green">mar:admetException (26)</span>
+            <span class="entity-pill">mar:entraineSanction (19)</span>
+            <span class="entity-pill">mar:appliesDuring (11)</span>
+          </div>
+          <hr class="divider">
+          <div class="alert alert-info" style="margin-top:0.5rem;">
+            <span class="alert-icon">ℹ️</span>
+            <div>7 prédicats cohérents sur 6 interdictions. Tous issus de l'ontologie <code>mar:</code>. Moins diversifiés que LlamaParser (54) mais <strong>plus précis et mieux alignés</strong> sur le contenu juridique réel.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RÉPARTITION DÉONTIQUE -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(5,150,105,0.1)">⚖️</span>Répartition des types déontiques (248 triplets)</h3>
+        <div style="display:flex;flex-direction:column;gap:0.7rem;margin-top:0.5rem;">
+          <div class="score-item">
+            <div class="score-label">Prohibition</div>
+            <div class="score-bars">
+              <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:57%;background:#dc2626;"></div></div></div>
+              <span style="font-size:0.75rem;color:#475569;min-width:70px;text-align:right;">142 (57%)</span>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Obligation</div>
+            <div class="score-bars">
+              <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:31%;background:#d97706;"></div></div></div>
+              <span style="font-size:0.75rem;color:#475569;min-width:70px;text-align:right;">78 (31%)</span>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Permission</div>
+            <div class="score-bars">
+              <div class="score-bar-model" style="flex:1"><div class="bar-track"><div class="bar-fill" style="width:11%;background:#059669;"></div></div></div>
+              <span style="font-size:0.75rem;color:#475569;min-width:70px;text-align:right;">28 (11%)</span>
+            </div>
+          </div>
+        </div>
+        <div class="alert alert-success" style="margin-top:1rem;">
+          <span class="alert-icon">✓</span>
+          <div>Claude est le seul modèle qui distingue significativement les <strong>Obligations (31%)</strong> des Prohibitions — reflétant la richesse normative des textes (MARPOL, Loi Littoral, CMS). Cette nuance est absente ou marginale chez les autres modèles.</div>
+        </div>
+      </div>
+
+      <!-- EXEMPLE JURIDIQUE RICHE -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(5,150,105,0.1)">⚖️</span>Exemple — I002 Baleine (richesse juridique)</h3>
+        <div class="code-block">
+<span class="key">"interdictions_identifiees"</span>: [<br>
+&nbsp;&nbsp;<span class="str">"Moratoire mondial sur la chasse commerciale à la baleine : limites fixées à zéro depuis 1985/1986 (§10(e) Schedule ICRW)"</span>,<br>
+&nbsp;&nbsp;<span class="str">"Interdiction d'utiliser des navires-usines pour la chasse pélagique à des fins commerciales"</span>,<br>
+&nbsp;&nbsp;<span class="str">"Interdiction du traitement des baleines classées 'Protection Stocks' (§19(a))"</span>,<br>
+&nbsp;&nbsp;<span class="str">"Interdiction de la chasse commerciale dans les sanctuaires de l'Océan Indien et de l'Océan Austral"</span>,<br>
+&nbsp;&nbsp;<span class="str">"Interdiction de l'harpon à grenade froide à des fins commerciales"</span><br>
+],<br>
+<span class="key">"pipeline_triples"</span>: [<br>
+&nbsp;&nbsp;{ <span class="key">"predicate"</span>: <span class="str">"mar:concerneActivite"</span>, <span class="key">"object"</span>: <span class="str">"chasse commerciale baleine navires-usines"</span>, <span class="key">"deontic_type"</span>: <span class="str">"Prohibition"</span> },<br>
+&nbsp;&nbsp;{ <span class="key">"predicate"</span>: <span class="str">"mar:appliesInZone"</span>, <span class="key">"object"</span>: <span class="str">"Sanctuaire Océan Indien + Océan Austral"</span>, <span class="key">"deontic_type"</span>: <span class="str">"Prohibition"</span> },<br>
+&nbsp;&nbsp;{ <span class="key">"predicate"</span>: <span class="str">"mar:admetException"</span>, <span class="key">"object"</span>: <span class="str">"chasse de subsistance autochtone (§13(b))"</span>, <span class="key">"deontic_type"</span>: <span class="str">"Permission"</span> }<br>
+]
+        </div>
+        <div class="alert alert-success" style="margin-top:1rem;">
+          <span class="alert-icon">✓</span>
+          <div>Claude cite les articles précis (<strong>§10(e), §19(a), §13(b)</strong>) et les conventions de référence, permettant une vérification directe dans le texte de loi. Aucun autre modèle ne fournit ce niveau de traçabilité légale.</div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📋</span>Analyse détaillée</h3>
+        <div class="pros-cons">
+          <div class="pro-list">
+            <h4>✅ Points forts</h4>
+            <div class="pro-item">220 entités extraites en 10 types distincts (Activity, Zone, Actor, Espece, Sanction, Exception, Controle, Stock, Periode, Etat)</div>
+            <div class="pro-item">248 triplets RDF dans <code>pipeline_triples</code> — format natif <code>mar:</code></div>
+            <div class="pro-item">Qualité sémantique maximale — interdictions formulées avec précision</div>
+            <div class="pro-item">Références légales précises (articles, paragraphes, dates d'entrée en vigueur)</div>
+            <div class="pro-item">Nuances déontiques : 57% Prohibition, 31% Obligation, 11% Permission</div>
+            <div class="pro-item">Capture des exceptions et conditions (dérogations, seuils techniques)</div>
+            <div class="pro-item">Meilleure compréhension du droit maritime international</div>
+          </div>
+          <div class="con-list">
+            <h4>❌ Faiblesses</h4>
+            <div class="con-item">Seulement 7 prédicats distincts vs 54 pour LlamaParser</div>
+            <div class="con-item">Pas de scores de confiance numériques par triplet</div>
+            <div class="con-item">Coût élevé pour corpus volumineux (API Anthropic)</div>
+            <div class="con-item">Couverture de 6 interdictions seulement vs 11 documents pour LlamaParser</div>
+            <div class="con-item">Moins adapté aux traitements automatiques en très grande masse</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB 4: GLINER + REBEL ===== -->
+    <div id="tab-gliner" class="tab-panel">
+      <div class="model-header" style="margin-top:2rem;">
+        <div class="model-title-block">
+          <div class="model-tag m4-tag">NLP Pipeline · HuggingFace</div>
+          <h2 class="m4-accent">GLiNER + REBEL</h2>
+          <p>Pipeline NLP combinant GLiNER (reconnaissance d'entités généraliste zero-shot) et REBEL (extraction de relations Wikidata). Volume maximal, mais qualité variable. Extraction en anglais sur documents français.</p>
+        </div>
+        <span class="score-badge score-c"></span>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card m4-bg">
+          <div class="mc-label">Entités extraites</div>
+          <div class="mc-value m4-accent">2032</div>
+          <div class="mc-sub">sur 11 documents</div>
+        </div>
+        <div class="metric-card m4-bg">
+          <div class="mc-label">Triplets produits</div>
+          <div class="mc-value m4-accent">3080</div>
+          <div class="mc-sub">volume maximal</div>
+        </div>
+        <div class="metric-card m4-bg">
+          <div class="mc-label">Prédicats distincts</div>
+          <div class="mc-value m4-accent">5</div>
+          <div class="mc-sub">mar:implique dominant</div>
+        </div>
+        <div class="metric-card m4-bg">
+          <div class="mc-label">Score confiance moyen</div>
+          <div class="mc-value" style="color:#d97706">0.55</div>
+          <div class="mc-sub">beaucoup sous 0.5</div>
+        </div>
+        <div class="metric-card m4-bg">
+          <div class="mc-label">Bruit estimé</div>
+          <div class="mc-value" style="color:#dc2626">~70%</div>
+          <div class="mc-sub">triplets non pertinents</div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(217,119,6,0.1)">📊</span>Distribution des entités extraites</h3>
+        <div class="table-scroll">
+          <table class="triplet-table">
+            <thead><tr><th>Catégorie</th><th>Nombre</th><th>% du total</th><th>Qualité estimée</th></tr></thead>
+            <tbody>
+              <tr><td class="cell-subj">Zone</td><td>598</td><td>29.4%</td><td><span class="score-badge score-b">Bonne</span></td></tr>
+              <tr><td class="cell-subj">Activity</td><td>405</td><td>19.9%</td><td><span class="score-badge score-b">Bonne</span></td></tr>
+              <tr><td class="cell-subj">Actor</td><td>365</td><td>18.0%</td><td><span class="score-badge score-c">Moyenne</span></td></tr>
+              <tr><td class="cell-subj">Espece</td><td>298</td><td>14.7%</td><td><span class="score-badge score-a">Très bonne</span></td></tr>
+              <tr><td class="cell-subj">Periode</td><td>198</td><td>9.7%</td><td><span class="score-badge score-c">Moyenne</span></td></tr>
+              <tr><td class="cell-subj">Controle</td><td>92</td><td>4.5%</td><td><span class="score-badge score-b">Bonne</span></td></tr>
+              <tr><td class="cell-subj">Exception</td><td>61</td><td>3.0%</td><td><span class="score-badge score-b">Bonne</span></td></tr>
+              <tr><td class="cell-subj">Sanction</td><td>15</td><td>0.7%</td><td><span class="score-badge score-d">Faible</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(220,38,38,0.1)">🐛</span>Exemples de bruit dans les triplets</h3>
+          <div class="code-block">
+<span class="kw">// Triplet halluciné — prédicat hors contexte</span><br>
+{ <span class="key">"subject"</span>: <span class="str">"Lima"</span>,<br>
+&nbsp;&nbsp;<span class="key">"predicate"</span>: <span class="str">"mar:entraineSanction"</span>,<br>
+&nbsp;&nbsp;<span class="key">"object"</span>: <span class="str">"country&lt;/s&gt;"</span> }<br><br>
+<span class="kw">// Artefact REBEL — token de fin de séquence</span><br>
+{ <span class="key">"subject"</span>: <span class="str">"baleen"</span>,<br>
+&nbsp;&nbsp;<span class="key">"predicate"</span>: <span class="str">"mar:implique"</span>,<br>
+&nbsp;&nbsp;<span class="key">"object"</span>: <span class="str">"part of&lt;/s&gt;"</span> }<br><br>
+<span class="kw">// Confusion catégorie — "Commission" classé Espece</span><br>
+{ <span class="key">"categorie"</span>: <span class="str">"Espece"</span>,<br>
+&nbsp;&nbsp;<span class="key">"texte"</span>: <span class="str">"Commission"</span>,<br>
+&nbsp;&nbsp;<span class="key">"score"</span>: <span class="num">0.354</span> }
+          </div>
+        </div>
+        <div class="section-card">
+          <h3><span class="icon" style="background:rgba(5,150,105,0.1)">✅</span>Ce que REBEL fait bien</h3>
+          <div class="alert alert-success" style="margin-bottom:0.8rem;">
+            <span class="alert-icon">✓</span>
+            <div>Excellente extraction d'espèces biologiques (baleines, noms scientifiques) dans l'ICRW — <em>Balaenoptera musculus</em>, <em>Megaptera novaeangliae</em>, etc.</div>
+          </div>
+          <div class="alert alert-success">
+            <span class="alert-icon">✓</span>
+            <div>Scores de confiance par entité permettent un filtrage automatique (seuil ≥0.7 réduit le bruit de ~50%).</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📋</span>Analyse détaillée</h3>
+        <div class="pros-cons">
+          <div class="pro-list">
+            <h4>✅ Points forts</h4>
+            <div class="pro-item">Volume d'extraction maximal (3080 triplets) — couverture exhaustive</div>
+            <div class="pro-item">Scores de confiance par entité pour filtrage automatique</div>
+            <div class="pro-item">Très bonne extraction d'espèces biologiques</div>
+            <div class="pro-item">Traitement 100% local — pas d'appel API coûteux</div>
+            <div class="pro-item">Scalable pour très grands corpus</div>
+          </div>
+          <div class="con-list">
+            <h4>❌ Faiblesses</h4>
+            <div class="con-item">~70% de bruit estimé dans les triplets produits</div>
+            <div class="con-item">Artefacts REBEL (<code>&lt;/s&gt;</code>) dans les objets</div>
+            <div class="con-item">Prédicats Wikidata inadaptés au domaine juridique maritime</div>
+            <div class="con-item">Confusions de catégories (Actor ↔ Espece, Zone ↔ Actor)</div>
+            <div class="con-item">Extractions en anglais sur documents français</div>
+            <div class="con-item">Pas de compréhension du contexte déontique</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB 5: COMPARAISON ===== -->
+    <div id="tab-comparaison" class="tab-panel">
+      <div style="margin-top:2rem; margin-bottom:2rem;">
+        <h2 style="font-size:1.5rem; font-weight:800; margin-bottom:0.5rem; color:#1e293b;">Tableau comparatif — Données réelles</h2>
+        <p style="color:var(--muted); font-size:0.9rem;">Évaluation sur données effectives issues des fichiers JSON analysés. Mise à jour avec les statistiques réelles de Claude 3.5.</p>
+      </div>
+
+      <!-- CHIFFRES CLÉS CÔTE À CÔTE -->
+      <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:1rem; margin-bottom:2rem;">
+        <div class="section-card" style="border-top: 3px solid #0284c7; margin-bottom:0;">
+          <div style="font-family:'Space Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:#0284c7;margin-bottom:0.8rem;">Mistral 7B</div>
+          <div style="display:flex;flex-direction:column;gap:0.4rem;">
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Triplets RDF</span><strong>28</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Prédicats</span><strong>4–5</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Documents</span><strong>8/11</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Entités</span><strong>–</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Confiance</span><strong style="color:#d97706;">Aucune</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Bruit</span><strong style="color:#dc2626;">~60%</strong></div>
+          </div>
+          <div style="margin-top:0.8rem;"><span class="score-badge score-c" style="font-size:0.65rem;"></span></div>
+        </div>
+
+        <div class="section-card" style="border-top: 3px solid #7c3aed; margin-bottom:0;">
+          <div style="font-family:'Space Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:#7c3aed;margin-bottom:0.8rem;">LlamaParser</div>
+          <div style="display:flex;flex-direction:column;gap:0.4rem;">
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Triplets RDF</span><strong>702</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Prédicats</span><strong>54</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Documents</span><strong>11/11</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Entités</span><strong>–</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Confiance</span><strong style="color:#059669;">0.94 moy.</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Bruit</span><strong style="color:#059669;">&lt;7%</strong></div>
+          </div>
+          <div style="margin-top:0.8rem;"><span class="score-badge score-a" style="font-size:0.65rem;"></span></div>
+        </div>
+
+        <div class="section-card" style="border-top: 3px solid #059669; margin-bottom:0;">
+          <div style="font-family:'Space Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:#059669;margin-bottom:0.8rem;">Claude 3.5</div>
+          <div style="display:flex;flex-direction:column;gap:0.4rem;">
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Triplets RDF</span><strong>248</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Prédicats</span><strong>7</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Documents</span><strong>6 thèmes</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Entités</span><strong>220</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Confiance</span><strong style="color:#d97706;">Qualitative</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Bruit</span><strong style="color:#059669;">&lt;5%</strong></div>
+          </div>
+          <div style="margin-top:0.8rem;"><span class="score-badge score-a" style="font-size:0.65rem;"></span></div>
+        </div>
+
+        <div class="section-card" style="border-top: 3px solid #d97706; margin-bottom:0;">
+          <div style="font-family:'Space Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:#d97706;margin-bottom:0.8rem;">GLiNER + REBEL</div>
+          <div style="display:flex;flex-direction:column;gap:0.4rem;">
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Triplets RDF</span><strong>3 080</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Prédicats</span><strong>5</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Documents</span><strong>11/11</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Entités</span><strong>2 032</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Confiance</span><strong style="color:#d97706;">0.55 moy.</strong></div>
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;"><span style="color:var(--muted);">Bruit</span><strong style="color:#dc2626;">~70%</strong></div>
+          </div>
+          <div style="margin-top:0.8rem;"><span class="score-badge score-c" style="font-size:0.65rem;"></span></div>
+        </div>
+      </div>
+
+      <!-- TABLEAU CRITÈRES -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📊</span>Évaluation par critère — données réelles</h3>
+        <div class="table-scroll">
+          <table class="comp-table">
+            <thead>
+              <tr>
+                <th style="width:220px;">Critère</th>
+                <th class="m1-accent">Mistral 7B</th>
+                <th class="m2-accent">LlamaParser</th>
+                <th class="m3-accent">Claude 3.5</th>
+                <th class="m4-accent">GLiNER+REBEL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Volume de triplets RDF</td>
+                <td>★★☆☆☆<br><small>28 triplets</small></td>
+                <td>★★★★★<br><small>702 triplets</small></td>
+                <td>★★★☆☆<br><small>248 triplets</small></td>
+                <td>★★★★★<br><small>3 080 triplets</small></td>
+              </tr>
+              <tr>
+                <td>Richesse des prédicats</td>
+                <td>★★☆☆☆<br><small>4–5 prédicats</small></td>
+                <td>★★★★★<br><small>54 prédicats distincts</small></td>
+                <td>★★★☆☆<br><small>7 prédicats précis</small></td>
+                <td>★★☆☆☆<br><small>5 prédicats génériques</small></td>
+              </tr>
+              <tr>
+                <td>Qualité sémantique</td>
+                <td>★★☆☆☆<br><small>~60% répétitions</small></td>
+                <td>★★★★☆<br><small>entités normalisées</small></td>
+                <td>★★★★★<br><small>précision maximale</small></td>
+                <td>★★☆☆☆<br><small>~70% bruit</small></td>
+              </tr>
+              <tr>
+                <td>Précision juridique</td>
+                <td>★★☆☆☆<br><small>confusions thématiques</small></td>
+                <td>★★★☆☆<br><small>texte original</small></td>
+                <td>★★★★★<br><small>articles §§ cités</small></td>
+                <td>★★☆☆☆<br><small>prédicats hors-domaine</small></td>
+              </tr>
+              <tr>
+                <td>Extraction d'entités typées</td>
+                <td>★★☆☆☆<br><small>types limités</small></td>
+                <td>★★★★☆<br><small>verbatim multi-types</small></td>
+                <td>★★★★★<br><small>220 entités · 10 types</small></td>
+                <td>★★★★☆<br><small>2032 entités · 8 types</small></td>
+              </tr>
+              <tr>
+                <td>Nuances déontiques</td>
+                <td>★★★☆☆<br><small>Prob./Oblig./Susp.</small></td>
+                <td>★★★★☆<br><small>4 types + confiance</small></td>
+                <td>★★★★★<br><small>31% Obligation — nuancé</small></td>
+                <td>★★☆☆☆<br><small>types partiels</small></td>
+              </tr>
+              <tr>
+                <td>Scores de confiance</td>
+                <td>★☆☆☆☆<br><small>absents</small></td>
+                <td>★★★★★<br><small>0.94 moy., 93% ≥ 0.8</small></td>
+                <td>★★☆☆☆<br><small>qualitatifs seulement</small></td>
+                <td>★★★★☆<br><small>0.55 moy. — filtrable</small></td>
+              </tr>
+              <tr>
+                <td>Couverture corpus</td>
+                <td>★★★☆☆<br><small>8/11 docs</small></td>
+                <td>★★★★★<br><small>11/11 docs</small></td>
+                <td>★★★★☆<br><small>6 interdictions clés</small></td>
+                <td>★★★★★<br><small>11/11 docs</small></td>
+              </tr>
+              <tr>
+                <td>Coût / scalabilité</td>
+                <td>★★★★☆<br><small>modèle local</small></td>
+                <td>★★★☆☆<br><small>coût API modéré</small></td>
+                <td>★★☆☆☆<br><small>coût API élevé</small></td>
+                <td>★★★★★<br><small>100% local</small></td>
+              </tr>
+              <tr>
+                <td>Intégration triplestore</td>
+                <td>★★★★☆<br><small>JSON propre</small></td>
+                <td>★★★★★<br><small>URI mar: prêtes</small></td>
+                <td>★★★☆☆<br><small>7 prédicats cohérents</small></td>
+                <td>★★☆☆☆<br><small>filtrage requis</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BARRES COMPARATIVES RÉELLES -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">📊</span>Scores synthétiques comparatifs</h3>
+        <div class="score-row">
+          <div class="score-item">
+            <div class="score-label">Qualité sémantique</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:35%;background:#0284c7;"></div></div><div class="bar-name">Mistral</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:75%;background:#7c3aed;"></div></div><div class="bar-name">Llama</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:98%;background:#059669;"></div></div><div class="bar-name">Claude</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:30%;background:#d97706;"></div></div><div class="bar-name">GLiNER</div></div>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Volume triplets (log)</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:10%;background:#0284c7;"></div></div><div class="bar-name">28</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:65%;background:#7c3aed;"></div></div><div class="bar-name">702</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:35%;background:#059669;"></div></div><div class="bar-name">248</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:100%;background:#d97706;"></div></div><div class="bar-name">3 080</div></div>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Précision juridique</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:30%;background:#0284c7;"></div></div><div class="bar-name">Mistral</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:60%;background:#7c3aed;"></div></div><div class="bar-name">Llama</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:100%;background:#059669;"></div></div><div class="bar-name">Claude</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:20%;background:#d97706;"></div></div><div class="bar-name">GLiNER</div></div>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Nuances déontiques</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:55%;background:#0284c7;"></div></div><div class="bar-name">Mistral</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:70%;background:#7c3aed;"></div></div><div class="bar-name">Llama</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:95%;background:#059669;"></div></div><div class="bar-name">Claude</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:30%;background:#d97706;"></div></div><div class="bar-name">GLiNER</div></div>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Scalabilité / coût</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:75%;background:#0284c7;"></div></div><div class="bar-name">Mistral</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:55%;background:#7c3aed;"></div></div><div class="bar-name">Llama</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:30%;background:#059669;"></div></div><div class="bar-name">Claude</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:100%;background:#d97706;"></div></div><div class="bar-name">GLiNER</div></div>
+            </div>
+          </div>
+          <div class="score-item">
+            <div class="score-label">Richesse prédicats mar:</div>
+            <div class="score-bars">
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:9%;background:#0284c7;"></div></div><div class="bar-name">4–5</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:100%;background:#7c3aed;"></div></div><div class="bar-name">54</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:13%;background:#059669;"></div></div><div class="bar-name">7</div></div>
+              <div class="score-bar-model"><div class="bar-track"><div class="bar-fill" style="width:9%;background:#d97706;"></div></div><div class="bar-name">5</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- POSITIONNEMENT MATRICIEL -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">🗺️</span>Positionnement : Qualité vs Volume</h3>
+        <div style="position:relative; width:100%; padding-bottom:55%; border:1px solid var(--border); border-radius:10px; overflow:hidden; background:var(--deep);">
+          <svg viewBox="0 0 700 380" style="position:absolute; top:0; left:0; width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg">
+            <!-- axes -->
+            <line x1="60" y1="320" x2="660" y2="320" stroke="#cbd5e1" stroke-width="1.5"/>
+            <line x1="60" y1="20" x2="60" y2="320" stroke="#cbd5e1" stroke-width="1.5"/>
+            <!-- grid -->
+            <line x1="60" y1="170" x2="660" y2="170" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+            <line x1="360" y1="20" x2="360" y2="320" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+            <!-- labels axes -->
+            <text x="355" y="355" font-family="Space Mono" font-size="10" fill="#94a3b8" text-anchor="middle">Volume de triplets RDF →</text>
+            <text x="20" y="175" font-family="Space Mono" font-size="10" fill="#94a3b8" text-anchor="middle" transform="rotate(-90,20,175)">Qualité sémantique →</text>
+            <!-- quadrant labels -->
+            <text x="180" y="50" font-family="Space Mono" font-size="8.5" fill="#94a3b8" text-anchor="middle">peu de volume, haute qualité</text>
+            <text x="530" y="50" font-family="Space Mono" font-size="8.5" fill="#059669" text-anchor="middle">volume + qualité (idéal)</text>
+            <text x="180" y="300" font-family="Space Mono" font-size="8.5" fill="#dc2626" text-anchor="middle">peu utile</text>
+            <text x="530" y="300" font-family="Space Mono" font-size="8.5" fill="#94a3b8" text-anchor="middle">volume élevé, qualité faible</text>
+            <!-- ideal zone -->
+            <rect x="360" y="20" width="300" height="150" rx="8" fill="rgba(5,150,105,0.05)" stroke="rgba(5,150,105,0.15)" stroke-width="1"/>
+
+            <!-- Mistral: low volume (28), low-mid quality -->
+            <circle cx="120" cy="230" r="22" fill="rgba(2,132,199,0.15)" stroke="#0284c7" stroke-width="2"/>
+            <text x="120" y="234" font-family="Syne" font-size="10" font-weight="700" fill="#0284c7" text-anchor="middle">Mistral</text>
+            <text x="120" y="263" font-family="Space Mono" font-size="8" fill="#0284c7" text-anchor="middle">28 triplets</text>
+
+            <!-- LlamaParser: high volume (702), high quality -->
+            <circle cx="520" cy="80" r="28" fill="rgba(124,58,237,0.12)" stroke="#7c3aed" stroke-width="2"/>
+            <text x="520" y="84" font-family="Syne" font-size="10" font-weight="700" fill="#7c3aed" text-anchor="middle">Llama</text>
+            <text x="520" y="118" font-family="Space Mono" font-size="8" fill="#7c3aed" text-anchor="middle">702 triplets</text>
+
+            <!-- Claude: medium volume (248), highest quality -->
+            <circle cx="290" cy="48" r="26" fill="rgba(5,150,105,0.15)" stroke="#059669" stroke-width="2.5"/>
+            <text x="290" y="52" font-family="Syne" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">Claude</text>
+            <text x="290" y="82" font-family="Space Mono" font-size="8" fill="#059669" text-anchor="middle">248 triplets</text>
+
+            <!-- GLiNER: very high volume (3080), low quality -->
+            <circle cx="620" cy="255" r="30" fill="rgba(217,119,6,0.12)" stroke="#d97706" stroke-width="2"/>
+            <text x="620" y="259" font-family="Syne" font-size="10" font-weight="700" fill="#d97706" text-anchor="middle">GLiNER</text>
+            <text x="620" y="294" font-family="Space Mono" font-size="8" fill="#d97706" text-anchor="middle">3 080 triplets</text>
+
+            <!-- annotation -->
+            <text x="430" y="95" font-family="Space Mono" font-size="7.5" fill="#059669">← Zone idéale</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB 6: VERDICT ===== -->
+    <div id="tab-verdict" class="tab-panel">
+      <div style="margin-top:2rem; margin-bottom:2rem;">
+        <h2 style="font-size:1.5rem; font-weight:800; margin-bottom:0.5rem; color:#1e293b;">Verdict final</h2>
+        <p style="color:var(--muted); font-size:0.9rem;">Synthèse basée sur les données réelles des 6 fichiers JSON analysés.</p>
+      </div>
+
+      <!-- RÉCAP SCORES FINAUX -->
+      <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:1rem; margin-bottom:1.5rem;">
+        <div class="score-box" style="border-top:3px solid #059669;">
+          <div class="sb-val m3-accent"></div>
+          <div class="sb-lbl">Claude 3.5</div>
+          <div style="margin-top:0.5rem; font-size:0.72rem; color:#475569;">Qualité · Précision · Nuances</div>
+        </div>
+        <div class="score-box" style="border-top:3px solid #7c3aed;">
+          <div class="sb-val m2-accent"></div>
+          <div class="sb-lbl">LlamaParser</div>
+          <div style="margin-top:0.5rem; font-size:0.72rem; color:#475569;">Volume · Couverture · Confiance</div>
+        </div>
+        <div class="score-box" style="border-top:3px solid #0284c7;">
+          <div class="sb-val m1-accent"></div>
+          <div class="sb-lbl">Mistral 7B</div>
+          <div style="margin-top:0.5rem; font-size:0.72rem; color:#475569;">Format RDF · Coût · Local</div>
+        </div>
+        <div class="score-box" style="border-top:3px solid #d97706;">
+          <div class="sb-val m4-accent"></div>
+          <div class="sb-lbl">GLiNER+REBEL</div>
+          <div style="margin-top:0.5rem; font-size:0.72rem; color:#475569;">Volume brut · Scalable · Local</div>
+        </div>
+      </div>
+
+      <div class="winner-card">
+        <div class="winner-label">🏆 MEILLEUR POUR LA QUALITÉ D'EXTRACTION</div>
+        <h2>Claude 3.5 Sonnet</h2>
+        <p>Avec <strong>220 entités en 10 types distincts</strong> et <strong>248 triplets RDF précis</strong>, Claude produit l'extraction la plus qualitative. Il distingue 57% de Prohibitions, 31% d'Obligations et 11% de Permissions — une nuance déontique absente des autres modèles. Les références légales exactes (§10(e) ICRW, Règle 15 MARPOL, Art. L.121-16) permettent une vérification directe. Seul point faible : 7 prédicats distincts contre 54 pour LlamaParser.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="section-card" style="border-color:rgba(124,58,237,0.25);">
+          <h3><span class="icon" style="background:rgba(124,58,237,0.1)">⚡</span>Meilleur pour le volume + confiance</h3>
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div class="model-tag m2-tag" style="font-size:0.8rem;">LlamaParser</div>
+            <span class="score-badge score-a">Recommandé production</span>
+          </div>
+          <p style="font-size:0.85rem; color:#475569; line-height:1.6;">702 triplets, 54 prédicats <code>mar:</code>, confiance moyenne 0.94. Pour un triplestore en production avec couverture complète des 11 documents, LlamaParser est optimal. Les URI <code>mar:</code> normalisées sont directement ingestibles dans Apache Jena ou GraphDB.</p>
+        </div>
+
+        <div class="section-card" style="border-color:rgba(217,119,6,0.25);">
+          <h3><span class="icon" style="background:rgba(217,119,6,0.1)">🔬</span>Meilleur pour la scalabilité locale</h3>
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div class="model-tag m4-tag" style="font-size:0.8rem;">GLiNER + REBEL</div>
+            <span class="score-badge score-c">Avec filtrage obligatoire</span>
+          </div>
+          <p style="font-size:0.85rem; color:#475569; line-height:1.6;">3 080 triplets 100% en local, coût nul, scalable à 100+ documents. Avec un seuil de confiance ≥0.7, on réduit le bruit de ~50%. Idéal pour un premier inventaire à grande échelle ou l'extraction d'espèces biologiques (298 entités de bonne qualité).</p>
+        </div>
+      </div>
+
+      <!-- ARCHITECTURE HYBRIDE -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(5,150,105,0.1)">🏗️</span>Architecture recommandée : Pipeline hybride</h3>
+        <div class="alert alert-success" style="margin-bottom:1.5rem;">
+          <span class="alert-icon">💡</span>
+          <div>La combinaison <strong>LlamaParser + Claude</strong> offre le meilleur rapport qualité/couverture pour un graphe de connaissances juridiques maritimes en production.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <div style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.25);border-radius:8px;padding:0.6rem 1rem;font-family:'Space Mono',monospace;font-size:0.75rem;color:#7c3aed;min-width:150px;text-align:center;">1. LlamaParser</div>
+            <div style="color:#475569;font-size:0.85rem;">→ Extraction d'entités verbatim par document, taxonomie complète (11 docs / 54 prédicats)</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <div style="background:rgba(5,150,105,0.08);border:1px solid rgba(5,150,105,0.25);border-radius:8px;padding:0.6rem 1rem;font-family:'Space Mono',monospace;font-size:0.75rem;color:#059669;min-width:150px;text-align:center;">2. Claude 3.5</div>
+            <div style="color:#475569;font-size:0.85rem;">→ Qualification sémantique, triplets précis, types déontiques nuancés, citations d'articles (§§)</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <div style="background:rgba(217,119,6,0.08);border:1px solid rgba(217,119,6,0.25);border-radius:8px;padding:0.6rem 1rem;font-family:'Space Mono',monospace;font-size:0.75rem;color:#d97706;min-width:150px;text-align:center;">3. GLiNER (opt.)</div>
+            <div style="color:#475569;font-size:0.85rem;">→ Enrichissement espèces biologiques (298 entités) + inventaire rapide sur grands corpus</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <div style="background:rgba(2,132,199,0.08);border:1px solid rgba(2,132,199,0.25);border-radius:8px;padding:0.6rem 1rem;font-family:'Space Mono',monospace;font-size:0.75rem;color:#0284c7;min-width:150px;text-align:center;">4. RDF Triplestore</div>
+            <div style="color:#475569;font-size:0.85rem;">→ Ingestion dans Apache Jena / GraphDB avec ontologie <code>mar:</code> — triplets dédupliqués</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABLEAU DE RECOMMANDATIONS -->
+      <div class="section-card">
+        <h3><span class="icon" style="background:rgba(2,132,199,0.1)">🎯</span>Choisir selon votre priorité</h3>
+        <div class="table-scroll">
+          <table class="comp-table">
+            <thead>
+              <tr><th>Objectif</th><th>Modèle recommandé</th><th>Pourquoi — données réelles</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Graphe de connaissances juridiques précis</td>
+                <td class="m3-accent" style="font-weight:700;">Claude 3.5 <span class="winner-chip">★ Best</span></td>
+                <td>220 entités · 248 triplets · 10 types · citations §§ exactes · 31% Obligation</td>
+              </tr>
+              <tr>
+                <td>Couverture maximale + triplestore prêt</td>
+                <td class="m2-accent" style="font-weight:700;">LlamaParser</td>
+                <td>702 triplets · 54 prédicats · confiance 0.94 · URI <code>mar:</code> normalisées</td>
+              </tr>
+              <tr>
+                <td>Traitement en masse (100+ docs)</td>
+                <td class="m4-accent" style="font-weight:700;">GLiNER + filtre ≥0.7</td>
+                <td>Local · scalable · ~900 triplets utiles / 3080 après filtrage</td>
+              </tr>
+              <tr>
+                <td>Prototype RDF rapide, coût zéro</td>
+                <td class="m1-accent" style="font-weight:700;">Mistral 7B</td>
+                <td>Format JSON propre · ontologie mar: · types déontiques · local</td>
+              </tr>
+              <tr>
+                <td>Production qualité + couverture</td>
+                <td class="m3-accent" style="font-weight:700;">Claude + LlamaParser <span class="winner-chip">★ Optimal</span></td>
+                <td>Extraction (Llama) + qualification sémantique précise (Claude) = pipeline complet</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="alert alert-info">
+          <span class="alert-icon">📌</span>
+          <div><strong>Note Mistral 7B :</strong> , il reste le seul modèle <em>entièrement local</em> produisant du RDF natif avec types déontiques. Avec un prompt enrichi (déduplication + liste de 20+ prédicats), il pourrait atteindre B.</div>
+        </div>
+        <div class="alert alert-warn">
+          <span class="alert-icon">⚠️</span>
+          <div><strong>Attention GLiNER + REBEL :</strong> 70% de bruit estimé. Ne pas utiliser en production sans validation humaine ou filtrage strict (score ≥ 0.75). Réserver aux corpus volumineux sans contrainte de précision.</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end tabs-container -->
+</main>
+
+<footer>
+  Analyse comparative d'extraction de triplets RDF — Droit Maritime International · 6 interdictions · 4 systèmes évalués · Données réelles JSON · Avril 2026
+</footer>
+
+<script>
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  const map = { mistral:0, llama:1, claude:2, gliner:3, comparaison:4, verdict:5 };
+  const btns = document.querySelectorAll('.tab-btn');
+  if (map[name] !== undefined) btns[map[name]].classList.add('active');
+}
+</script>
+</body>
+</html>

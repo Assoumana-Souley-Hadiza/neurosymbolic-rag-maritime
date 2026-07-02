@@ -1,0 +1,827 @@
+{
+  "interdiction_id": "I004",
+  "interdiction": "Extraction_Sable",
+  "entites": [
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "extraction de sable marin (dragage industriel) dans les zones à haute valeur de biodiversité sans étude d'impact préalable"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "exploitation du substrat marin entraînant la destruction d'habitats (herbiers, coralligènes)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "exportation et commerce de sable prélevé dans des zones biologiquement sensibles"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "dragage pour la construction côtière sans mesures compensatoires"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "utilisation traditionnelle et artisanale du sable marin par les communautés locales (Art. 10(c) – utilisation coutumière)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "opérations de recherche scientifique dûment autorisées"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "extraction de sable dans des zones non biologiquement sensibles après évaluation d'impact favorable"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zones marines et côtières : récifs coralliens, herbiers marins, fonds sableux habités, dunes côtières"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "aires protégées marines et côtières créées en vertu de l'Article 8(a) de la CDB"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "habitats d'espèces menacées ou en danger identifiés par les Parties (Art. 8(k))"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zone économique exclusive et plateau continental des États Parties"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zones au-delà des juridictions nationales (haute mer) soumises aux discussions BBNJ"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "États Parties à la CDB (196 États) – obligation de réglementer l'extraction dans leurs juridictions"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "entreprises d'extraction minière marine (dragage industriel)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "autorités nationales compétentes pour la délivrance des permis d'extraction"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "communautés locales et populations autochtones dont les moyens de subsistance dépendent de la biodiversité marine"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "Conférence des Parties de la CDB (COP) – organe de suivi et de rapport"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "sanctions nationales prévues par la législation de transposition de chaque État Partie"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "refus ou retrait du permis d'extraction si impact sur la diversité biologique est démontré"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "évaluation d'impact sur la diversité biologique avant autorisation d'extraction (Article 14 CDB)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "systèmes de surveillance des activités ayant des effets néfastes sur la diversité biologique (Article 7(c) CDB)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "mécanisme d'échange d'information et de rapport à la COP"
+    },
+    {
+      "source": "claude",
+      "categorie": "Periode",
+      "texte_original": "CDB ouverte à la signature le 5 juin 1992, entrée en vigueur le 29 décembre 1993 ; obligations permanentes et continues pour les 196 Parties"
+    },
+    {
+      "source": "claude",
+      "categorie": "Etat",
+      "texte_original": "196 États Parties à la CDB à l'entrée en vigueur"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "extraction de sable dans des zones non biologiquement sensibles après évaluation d'impact favorable"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "utilisation traditionnelle et artisanale du sable marin par les communautés locales (Art. 10(c))"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "opérations de recherche scientifique dûment autorisées"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "récifs coralliens (Scleractinia – Acropora spp., Porites spp.)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "herbiers marins (Posidonia oceanica, Thalassia testudinum, Halodule spp.)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "coralligène (assemblages d'algues calcaires corallinacées et Paramuricea clavata)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "espèces inféodées aux fonds sableux : amphioxus (Branchiostoma lanceolatum), bivalves, échinodermes"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "espèces exotiques envahissantes menaçant les habitats côtiers (Art. 8(h) CDB)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Stock",
+      "texte_original": "populations d'espèces menacées ou en danger dépendant des habitats côtiers sableux"
+    },
+    {
+      "source": "claude",
+      "categorie": "Stock",
+      "texte_original": "ressources biologiques marines exploitées de manière non durable (Art. 10 CDB)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Activity",
+      "texte_original": "extraction de sable"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Zone",
+      "texte_original": "zones situées dans les limites de la juridiction nationale"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Zone",
+      "texte_original": "en dehors des limites de la juridiction nationale"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Zone",
+      "texte_original": "écosystèmes marins"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Zone",
+      "texte_original": "habitats naturels"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Zone",
+      "texte_original": "zones protégées"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Actor",
+      "texte_original": "Parties contractantes"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Actor",
+      "texte_original": "Etats"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Actor",
+      "texte_original": "organisations régionales d'intégration économique"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Controle",
+      "texte_original": "évaluation des impacts sur l'environnement"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Controle",
+      "texte_original": "surveillance par prélèvement d'échantillons et d'autres techniques"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Controle",
+      "texte_original": "système de zones protégées"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Sanction",
+      "texte_original": "responsabilité et réparation, y compris la remise en état et l'indemnisation pour dommages causés à la diversité biologique"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Periode",
+      "texte_original": "à tout moment après l'entrée en vigueur de la Convention"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Etat",
+      "texte_original": "être Partie contractante à la Convention"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Exception",
+      "texte_original": "sauf disposition contraire expresse de la présente convention"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "categorie": "Exception",
+      "texte_original": "sous réserve des droits des autres Etats"
+    }
+  ],
+  "triplets": [
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HABITATS_MARINS_BIODIVERSITE_RECIFS_HERBIERS",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_AIRES_PROTEGEES_MARINES_COTIERES_CDB_ART8A",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ZEE_PLATEAU_CONTINENTAL_ETATS_PARTIES",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_BBNJ_DISCUSSIONS",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.75
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_DUNES_COTIERES_HABITATS_SABLEUX",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DRAGAGE_INDUSTRIEL_SABLE_MARIN_SANS_EIE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXTRACTION_SUBSTRAT_DESTRUCTION_HABITATS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_COMMERCE_EXPORTATION_SABLE_ZONES_SENSIBLES",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DRAGAGE_CONSTRUCTION_COTIERE_SANS_COMPENSATION",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PARTIE_CDB_196_ETATS",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ENTREPRISE_EXTRACTION_MINIERE_MARINE_DRAGAGE",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_AUTORITE_NATIONALE_PERMIS_EXTRACTION",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_COMMUNAUTES_LOCALES_AUTOCHTONES_BIODIVERSITE_MARINE",
+      "concept_id": "Actor",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.87
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_REFUS_RETRAIT_PERMIS_EXTRACTION_IMPACT_BIODIVERSITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_PENALES_NATIONALES_TRANSPOSITION_CDB",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_EVALUATION_IMPACT_BIODIVERSITE_EIE_ART14_CDB",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_SURVEILLANCE_ACTIVITES_NEFASTES_ART7C_CDB",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REPORTING_COP_CDB_ECHANGE_INFORMATION",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_DEPUIS_ENTREE_VIGUEUR_CDB_29_DECEMBRE_1993",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_PARTIE_CDB_196_ETATS_OBLIGATIONS_PERMANENTES",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_EXTRACTION_ZONE_NON_SENSIBLE_EIE_FAVORABLE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_USAGE_TRADITIONNEL_ARTISANAL_ART10C_CDB",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_RECHERCHE_SCIENTIFIQUE_AUTORISEE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_RECIFS_CORALLIENS_ACROPORA_PORITES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_HERBIERS_MARINS_POSIDONIA_THALASSIA_HALODULE",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_CORALLIGENE_ALGUES_CALCAIRES_PARAMURICEA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_FAUNE_INFODEE_FONDS_SABLEUX_AMPHIOXUS_BIVALVES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_POPULATIONS_ESPECES_MENACEES_HABITATS_SABLEUX",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "source": "claude",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_RESSOURCES_BIOLOGIQUES_MARINES_NON_DURABLES_ART10",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85
+    },
+    {
+      "source": "CBD Art.6 general measures",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_STRATEGIE_NATIONALE_BIODIVERSITE_CBD_ART6",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "source": "CBD Art.8 in-situ conservation",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CONSERVATION_IN_SITU_ECOSYSTEMES_CBD_ART8",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.94
+    },
+    {
+      "source": "CBD Art.10 sustainable use",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_UTILISATION_DURABLE_RESSOURCES_CBD_ART10",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.91
+    },
+    {
+      "source": "CBD Art.23 COP",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_CONFERENCE_PARTIES_COP_CBD_ORGANE_DECISIONNAIRE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "source": "CBD Art.14 EIA with mitigation",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_EXTRACTION_SABLE_AUTORISATION_ETUDE_IMPACT_FAIBLE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.8
+    },
+    {
+      "source": "UNCLOS Part XI & CBD",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_FONDS_MARINS_INTERNATIONAL_ZONE_ISA",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85
+    },
+    {
+      "source": "CBD Art.26 national reports",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_RAPPORT_NATIONAL_CBD_CLEARING_HOUSE_MECHANISM",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.87
+    },
+    {
+      "source": "art. 7, 8, 9, 14",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Activity_EXTRACTION_DE_SABLE",
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 0.95,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4a",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Zone_ZONES_SITUEES_DANS_LES_LIMITES_DE_LA_JURIDICTION_NATIONALE",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4b",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Zone_EN_DEHORS_DES_LIMITES_DE_LA_JURIDICTION_NATIONALE",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.8,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 2, 8, 9",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Zone_ECOSYSTEMES_MARINS",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.85,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 2, 8, 9",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Zone_HABITATS_NATURELS",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.85,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 8a, 8b",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Zone_ZONES_PROTEGEES",
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4, 5, 6, 7, 8, 9, 14",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Actor_PARTIES_CONTRACTANTES",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.95,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 3, 4",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Actor_ETATS",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 2, 34, 35",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Actor_ORGANISATIONS_REGIONALES_D_INTEGRATION_ECONOMIQUE",
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.8,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 14",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Controle_EVALUATION_DES_IMPACTS_SUR_L_ENVIRONNEMENT",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.95,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 7",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Controle_SURVEILLANCE_PAR_PRELEVEMENT_D_ECHANTILLONS_ET_D_AUTRES_TECHNIQUES",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 8a",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Controle_SYSTEME_DE_ZONES_PROTEGEES",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.85,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 14.2",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Sanction_RESPONSABILITE_ET_REPARATION",
+      "subject": "I004",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 0.8,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 36",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Periode_A_TOUT_MOMENT_APRES_L_ENTREE_EN_VIGUEUR_DE_LA_CONVENTION",
+      "subject": "I004",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 0.8,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4, 34, 35",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Etat_ETRE_PARTIE_CONTRACTANTE_A_LA_CONVENTION",
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "concept_id": "Etat",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Exception_SAUF_DISPOSITION_CONTRAIRE_EXPRESSE_DE_LA_PRESENTE_CONVENTION",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 0.7,
+      "deontic_type": "Permission",
+      "interdiction_id": "I004"
+    },
+    {
+      "source": "art. 4",
+      "pdf_source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+      "object": "mar:Exception_SOUS_RESERVE_DES_DROITS_DES_AUTRES_ETATS",
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 0.7,
+      "deontic_type": "Permission",
+      "interdiction_id": "I004"
+    }
+  ]
+}

@@ -1,0 +1,1355 @@
+[
+  {
+    "terme": "CSITEP",
+    "definition": "Classification statistique internationale type des engins de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CWP",
+    "definition": "Groupe de travail chargé de coordonner les statistiques de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "FAO",
+    "definition": "Organisation des Nations Unies pour l'alimentation et l'agriculture",
+    "reference": "Page 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "INDNR",
+    "definition": "Pêche illicite, non déclarée et non réglementée",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "engins de pêche",
+    "definition": "Les engins de pêche typiques",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "captures de pêche",
+    "definition": "Les captures de pêche effectuées par les différents types d’engins",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "permis et autorisations des opérations de pêche",
+    "definition": "Les permis et les autorisations des opérations de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "statistiques de pêche",
+    "definition": "Les statistiques de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches commerciales",
+    "definition": "Les pêches commerciales",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches de subsistance",
+    "definition": "Les pêches de subsistance",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches récréatives",
+    "definition": "Les pêches récréatives",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche illicite",
+    "definition": "La pêche illicite",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche non déclarée",
+    "definition": "La pêche non déclarée",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche non réglementée",
+    "definition": "La pêche non réglementée",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "personnel de suivi, de contrôle et de surveillance",
+    "definition": "Le personnel de suivi, de contrôle et de surveillance",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "informations permettant d’identifier le type d’engin de pêche",
+    "definition": "Les informations permettant d’identifier le type d’engin de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "contexte et des références",
+    "definition": "Le contexte et des références",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "problèmes contemporains en matière de conservation",
+    "definition": "Les problèmes contemporains en matière de conservation",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "types d’engins de pêche",
+    "definition": "Les types d’engins de pêche",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "texte de référence",
+    "definition": "Le texte de référence",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "étudiants et les chercheurs",
+    "definition": "Les étudiants et les chercheurs",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "domaines des pêches",
+    "definition": "Les domaines des pêches",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservation marine",
+    "definition": "La conservation marine",
+    "reference": "Page 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "gins de pêche",
+    "definition": "Document technique de la FAO sur les pêches et l'aquaculture nº 672.",
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "FAO",
+    "definition": "Organisation des Nations Unies pour l’alimentation et l’agriculture",
+    "reference": "Définitions",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ISBN",
+    "definition": "Identifiant international standard du document",
+    "reference": "Définitions",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ISSN",
+    "definition": "Identifiant international standard des séries",
+    "reference": "Définitions",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Creative Commons",
+    "definition": "Licence Attribution-Pas d’Utilisation Commerciale-Partage dans les Mêmes Conditions 3.0 Organisations Intergouvernementales",
+    "reference": "Définitions",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CC BY-NC-SA 3.0 IGO",
+    "definition": "Licence Attribution-Pas d’Utilisation Commerciale-Partage dans les Mêmes Conditions 3.0 Organisations Intergouvernementales",
+    "reference": "Définitions",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "logo de la FAO",
+    "definition": "Logo de l’Organisation des Nations Unies pour l’alimentation et l’agriculture",
+    "reference": "Définitions",
+    "exclusions": "non autorisée",
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "traduction",
+    "definition": "Traduction d'une œuvre",
+    "reference": "Définitions",
+    "exclusions": "doit être accompagnée de la mention de la source et de la clause de non-responsabilité",
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "WGFTFB",
+    "definition": "groupe de travail CIEM-FAO sur les technologies des pêches et le comportement du poisson",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CWP",
+    "definition": "groupe de travail chargé de coordonner les statistiques de pêche",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Nédélec, C.; Prado, J.",
+    "definition": "Définition et classification des catégories d’engins de pêche. Document technique de la FAO sur les pêches, nº 222. Révision 1. Rome, FAO, 1990, 92p.",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ferro, R.S.T.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chopin, F.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Suuronen, P.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Tsuji, S.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Walsh, S.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dahm, E.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chokesanguan, B.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Eayrs, S.",
+    "definition": "participant à la révision de la classification, et à l’initiation du document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "He, P.",
+    "definition": "complété et finalisé le document",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ari Gudmundsson, M.",
+    "definition": "ancien responsable de la Fishing and Operations Branch (Sous-division de l’industrie de la pêche et des opérations)",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Matthew Camilleri, M.",
+    "definition": "ancien responsable de la Fishing and Operations Branch (Sous-division de l’industrie de la pêche et des opérations)",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Raymon van Anrooy, M.",
+    "definition": "responsable actuel du département des opérations de pêche",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Seafish",
+    "definition": "(Royaume-Uni de Grande-Bretagne et d’Irlande du Nord) a généreusement autorisé l’utilisation de 35 dessins",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Southeast Asian Fisheries Development Centre",
+    "definition": "(Thaïlande) et M. T. Cracolici (États-Unis d’Amérique) à la demande de la FAO",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Cracolici, M. T.",
+    "definition": "réalisé des dessins supplémentaires à la demande de la FAO",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "P.",
+    "definition": "réalisé des dessins au trait",
+    "nom_scientifique": null,
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches commerciales",
+    "definition": "pêches effectuées à des fins commerciales",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches de subsistance",
+    "definition": "pêches effectuées pour subvenir aux besoins fondamentaux",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches récréatives",
+    "definition": "pêches effectuées à des fins récréatives",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "engins de pêche",
+    "definition": "outils utilisés pour capturer des poissons",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche illicite",
+    "definition": "pêche non autorisée",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche non déclarée",
+    "definition": "pêche non signalée aux autorités compétentes",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêche non réglementée",
+    "definition": "pêche non soumise à des règles ou lois",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "INDNR",
+    "definition": "pêche illicite, non déclarée et non réglementée",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "personnel de suivi",
+    "definition": "agents chargés de surveiller les activités de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "personnel de contrôle",
+    "definition": "agents chargés de vérifier la conformité aux lois de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "personnel de surveillance",
+    "definition": "agents chargés de veiller à la sécurité et à la légalité des activités de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "captures de pêche",
+    "definition": "poissons capturés lors d'une activité de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "permis",
+    "definition": "autorisation officielle pour exercer une activité de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "autorisations",
+    "definition": "documents officiels accordant le droit d'effectuer des opérations de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "statistiques de pêche",
+    "definition": "données recueillies sur les activités de pêche",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "gestion des pêches",
+    "definition": "mesures prises pour contrôler et protéger les ressources halieutiques",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservation",
+    "definition": "protection et préservation des ressources naturelles",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "contexte",
+    "definition": "informations nécessaires pour comprendre un sujet",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "références",
+    "definition": "sources d'information utilisées pour soutenir un argument ou une idée",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "étudiants",
+    "definition": "personnes en formation académique",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "chercheurs",
+    "definition": "personnes effectuant des recherches scientifiques",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pêches",
+    "definition": "activité consistant à capturer des poissons",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservation marine",
+    "definition": "protection des écosystèmes marins",
+    "reference": "Résumé",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CWP",
+    "definition": "Groupe de travail chargé de coordonner les statistiques de pêche de l'Atlantique",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CIEM",
+    "definition": "Conseil international pour l'exploration de la mer",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "CIPAN",
+    "definition": "Commission internationale pour les pêches de l'Atlantique Nord-Ouest",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "OPANO",
+    "definition": "Organisation des pêches de l'Atlantique Nord",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "UNGA",
+    "definition": "Assemblée générale des Nations Unies",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "WGFTFB",
+    "definition": "Groupe de travail CIEM-FAO sur les technologies des pêches et le comportement du poisson",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Membres de la FAO",
+    "definition": "Membres de l'Organisation des Nations Unies pour l'alimentation et l'agriculture",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ORP",
+    "definition": "Organes régionaux de pêche",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Fishing and Operations Branch",
+    "definition": "Sous-division de l'industrie de la pêche et des opérations",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Fao Fisheries Circular 280",
+    "definition": "Circulaire sur les pêches 280",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Fisheries Technical Paper No. 222/ Rev.1",
+    "definition": "Document technique de la FAO sur les pêches, nº 222, rév.1",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Nédélec et Prado",
+    "definition": "Auteurs de la publication de 1990",
+    "reference": "Introduction",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "filets tournants",
+    "definition": "Filets tournants avec coulisse",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "filets tournants avec coulisse",
+    "definition": "PS",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "filets tournants sans coulisse",
+    "definition": "LA",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "filets tournants (non spécifiés)",
+    "definition": "SUX",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sennes",
+    "definition": "Sennes de plage",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sennes de plage",
+    "definition": "SB",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sennes halées à bord",
+    "definition": "SV",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sennes (non spécifiées)",
+    "definition": "SX",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "chaluts",
+    "definition": "Chaluts à perche",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "chaluts à perche",
+    "definition": "TBB",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "chaluts de fond à panneau",
+    "definition": "03.11",
+    "nom_scientifique": null,
+    "reference": "Tableau 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts jumeaux à panneaux",
+    "definition": "OTB 03.12",
+    "reference": "03.12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts de fond à panneaux multiples",
+    "definition": "OTP 03.14",
+    "reference": "03.14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts-bœufs de fond",
+    "definition": "PTB 03.15",
+    "reference": "03.15",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts de fond (non spécifiés)",
+    "definition": "TB 03.19",
+    "reference": "03.19",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts pélagiques à panneaux",
+    "definition": "OTM 03.21",
+    "reference": "03.21",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts-bœufs pélagiques",
+    "definition": "PTM 03.22",
+    "reference": "03.22",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts pélagiques (non spécifiés)",
+    "definition": "TM 03.29",
+    "reference": "03.29",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts semi-pélagiques",
+    "definition": "TSP 03.3",
+    "reference": "03.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Chaluts (non spécifiés)",
+    "definition": "TX 03.9",
+    "reference": "03.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dragues remorquées par bateau",
+    "definition": "DRB 04.1",
+    "reference": "04.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dragues à main",
+    "definition": "DRH 04.2",
+    "reference": "04.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dragues mécanisées",
+    "definition": "DRM 04.3",
+    "reference": "04.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Dragues (non spécifiées)",
+    "definition": "DRX 04.9",
+    "reference": "04.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets soulevés portatifs",
+    "definition": "LNP 05.1",
+    "reference": "05.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets soulevés manœuvrés du bateau",
+    "definition": "LNB 05.2",
+    "reference": "05.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets soulevés fixes manœuvrés du",
+    "definition": "LNS 05.3",
+    "reference": "05.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets soulevés (non spécifiés)",
+    "definition": "LN 05.9",
+    "reference": "05.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Éperviers",
+    "definition": "FCN 06.1",
+    "reference": "06.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Paniers coiffants/Filets lanternes",
+    "definition": "FCO 06.2",
+    "reference": "06.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Engins retombants (non spécifiés)",
+    "definition": "FG 06.9",
+    "reference": "06.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets maillants calés (ancrés)",
+    "definition": "GNS 07.1",
+    "reference": "07.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets maillants dérivants",
+    "definition": "GND 07.2",
+    "reference": "07.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets maillants encerclants",
+    "definition": "GNC 07.3",
+    "reference": "07.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets maillants fixes (sur perches)",
+    "definition": "GNF 07.4",
+    "reference": "07.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Trémails",
+    "definition": "GTR 07.5",
+    "reference": "07.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Trémails et filets maillants combinés",
+    "definition": "GTN 07.6",
+    "reference": "07.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets maillants et filets emmêlants",
+    "definition": "GEN 07.9",
+    "reference": "07.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets-pièges fixes non couverts",
+    "definition": "FPN 08.1",
+    "reference": "08.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Nasses (casiers)",
+    "definition": "FPO 08.2",
+    "reference": "08.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Verveux",
+    "definition": "FYK 08.3",
+    "reference": "08.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets à l'étalage (diables)",
+    "definition": "FSN 08.4",
+    "reference": "08.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Barrages, parcs, bordigues, etc.",
+    "definition": "FWR 08.5",
+    "reference": "08.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pièges aériens",
+    "definition": "FAR 08.6",
+    "reference": "08.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pièges (non spécifiés)",
+    "definition": "FIX 08.9",
+    "reference": "08.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Lignes à main et lignes à cannes (manœuvrées à la main)",
+    "definition": "LHP 09.1",
+    "reference": "09.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Lignes à main et lignes à cannes (mécanisées)",
+    "definition": "LHM 09.2",
+    "reference": "09.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Palangres calées",
+    "definition": "LLS 09.31",
+    "reference": "09.31",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Palangres dérivantes",
+    "definition": "LLD 09.32",
+    "reference": "09.32",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Palangres (non spécifiées)",
+    "definition": "LL 09.39",
+    "reference": "09.39",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Lignes verticales",
+    "definition": "LVT 09.4",
+    "reference": "09.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Lignes de traîne",
+    "definition": "LTL 09.5",
+    "reference": "09.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Lignes et hameçons (non spécifiés)",
+    "definition": "LX 09.9",
+    "reference": "09.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Harpons",
+    "definition": "HAR 10.1",
+    "reference": "10.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Engins à main (pinces, râteaux, lances)",
+    "definition": "MHI 10.2",
+    "reference": "10.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pompes",
+    "definition": "MPM 10.3",
+    "reference": "10.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pêche électrique",
+    "definition": "MEL 10.4",
+    "reference": "10.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pousseux/Troubles",
+    "definition": "MPN 10.5",
+    "reference": "10.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Épuisettes/Salabardes",
+    "definition": "MSP 10.6",
+    "reference": "10.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Filets de rabattage",
+    "definition": "MDR 10.7",
+    "reference": "10.7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Plongée",
+    "definition": "MDV 10.8",
+    "reference": "10.8",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Engins (non spécifiés)",
+    "definition": "MIS 10.9",
+    "reference": "10.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I001",
+    "modele": "qwen3-8b"
+  }
+]

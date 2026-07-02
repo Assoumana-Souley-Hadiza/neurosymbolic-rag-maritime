@@ -1,0 +1,102 @@
+[
+  {
+    "terme": "matière plastique",
+    "definition": "Un matériau solide qui contient comme ingrédient de base un ou plusieurs polymères de masse moléculaire élevée et qui est mis en forme, soit lors de la production des polymères, soit lors de la transformation, à chaud et/ou sous pression, en un produit fini.",
+    "nom_scientifique": null,
+    "reference": "Article 13",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zone spéciale",
+    "definition": "Une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu'au caractère particulier de son trafic, appelle l'adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les ordures.",
+    "nom_scientifique": null,
+    "reference": "Article 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "carcasses d'animaux",
+    "definition": "Carcasses d'animaux",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "agents ou additifs de nettoyage",
+    "definition": "Agents ou additifs de nettoyage",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "substances",
+    "definition": "Substances",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ordures",
+    "definition": "Ordures",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "affiches",
+    "definition": "Des affiches informant l'équipage et les passagers des prescriptions applicables des règles 3, 4, 5 et 6 de la présente annexe relatives à l'évacuation des ordures.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan de gestion des ordures",
+    "definition": "Un plan de gestion des ordures que l'équipage doit suivre. Ce plan doit comprendre des méthodes écrites de compactage, de ramassage, de stockage, de traitement et d'évacuation des ordures, y compris l'utilisation du matériel de bord. La ou les personnes chargées d'exécuter le plan doivent également y être désignées.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "registre des ordures",
+    "definition": "Un registre des ordures, qu'il fasse partie ou non du livre de bord réglementaire, doit être conforme au modèle faisant l'objet de l'appendice du présent chapitre.",
+    "nom_scientifique": null,
+    "reference": "Règle 10, §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "quantité",
+    "definition": "La quantité d'ordures à bord devrait être estimée en mètres cubes et si possible séparément pour chaque catégorie.",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

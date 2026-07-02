@@ -1,0 +1,22 @@
+[
+  {
+    "terme": "navire",
+    "definition": "Un navire est un bâtiment conçu pour naviguer sur l'eau.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005a",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "maritime",
+    "definition": "Relatif à la mer et aux activités qui y sont liées.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005a",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

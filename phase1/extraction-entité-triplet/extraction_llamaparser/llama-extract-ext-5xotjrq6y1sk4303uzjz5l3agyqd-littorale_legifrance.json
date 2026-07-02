@@ -1,0 +1,991 @@
+{
+  "data": {
+    "source": "Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral",
+    "version": "final_v1",
+    "sources_pdf": false,
+    "interdiction": "Interdiction de construire sur le littoral",
+    "interdiction_id": "I003",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "construire sur le littoral"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "littoral"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "toute personne physique ou morale souhaitant construire"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "condamnation pour infraction aux dispositions relatives à la protection du littoral"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "enquête publique préalable à certains changements d'utilisation du domaine public maritime"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "application permanente (pas de limite temporelle explicite)"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "autorisation donnée par le représentant de l'Etat dans le département, après avis du maire"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "ouvrages ou installations liés à l'exercice d'un service public ou l'exécution d'un travail public dont la localisation au bord de mer s'impose pour des raisons topographiques ou techniques impératives et qui ont donné lieu à une déclaration d'utilité publique"
+        }
+      ],
+      "explication_generale": "La loi littoral (loi n° 86-2 du 3 janvier 1986) pose un principe général d'interdiction de construire sur le littoral, afin de préserver les espaces naturels, les paysages et l'équilibre écologique de ces zones sensibles. Cette interdiction vise toute personne physique ou morale souhaitant réaliser des constructions sur le littoral, sauf exceptions strictement encadrées. Les exceptions concernent principalement les ouvrages ou installations nécessaires à un service public ou à un travail public, lorsque leur localisation en bord de mer est justifiée par des raisons topographiques ou techniques impératives et qu'une déclaration d'utilité publique a été obtenue. L'application de cette interdiction est permanente et s'étend à l'ensemble du littoral français, y compris les territoires d'outre-mer. Des mécanismes de contrôle, tels que l'enquête publique, sont prévus pour certains projets. En cas de non-respect, des sanctions sont prévues, notamment la condamnation du maître d'ouvrage. L'autorisation de construire peut être accordée par le représentant de l'Etat, après avis du maire, dans les cas prévus par la loi.",
+      "interdictions_identifiees": [
+        "Il ne peut être porté atteinte à l'état naturel du rivage de la mer, notamment par endiguement, assèchement, enrochement ou remblaiement, sauf pour des ouvrages ou installations liés à l'exercice d'un service public ou l'exécution d'un travail public dont la localisation au bord de mer s'impose pour des raisons topographiques ou techniques impératives et qui ont donné lieu à une déclaration d'utilité publique.",
+        "La construction sur le littoral est interdite sauf exceptions prévues par la loi."
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_CONSTRUIRE_SUR_LE_LITTORAL",
+        "source": "Article 27 (abrogé) et principes généraux de la loi littoral",
+        "subject": "I003",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Zone_LITTORAL",
+        "source": "Article 2 et ensemble du texte",
+        "subject": "I003",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.98,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Actor_PERSONNE_PHYSIQUE_OU_MORALE_CONSTRUCTEUR",
+        "source": "Principe général de la loi littoral",
+        "subject": "I003",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Sanction_CONDAMNATION_INFRACTION_PROTECTION_LITTORAL",
+        "source": "Article 17",
+        "subject": "I003",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 0.85,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Controle_ENQUETE_PUBLIQUE_DOMAINE_PUBLIC_MARITIME",
+        "source": "Article 25 (abrogé)",
+        "subject": "I003",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.8,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Periode_APPLICATION_PERMANENTE",
+        "source": null,
+        "subject": "I003",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 0.7,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Etat_AUTORISATION_ETAT_APRES_AVIS_MAIRE",
+        "source": "Article 30 (abrogé) et principes généraux",
+        "subject": "I003",
+        "predicate": "mar:soumisA",
+        "concept_id": "Etat",
+        "confidence": 0.75,
+        "deontic_type": "Permission",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Exception_SERVICE_PUBLIC_UTILITE_PUBLIQUE",
+        "source": "Article 27 (abrogé)",
+        "subject": "I003",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 0.95,
+        "deontic_type": "Permission",
+        "interdiction_id": "I003"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral (1)",
+              "bounding_boxes": [
+                {
+                  "h": 37.95658673780489,
+                  "w": 532.7543525917612,
+                  "x": 31.490681525998006,
+                  "y": 141.41353026391008
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9956475016989222,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9956475016989222
+        },
+        "version": {
+          "reasoning": "Valeur par défaut pour la version du pipeline.",
+          "confidence": 0.9872916199228516,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9872916199228516
+        },
+        "sources_pdf": {
+          "reasoning": "INSUFFICIENT DATA",
+          "confidence": 0.9999974223173038,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999974223173038
+        },
+        "interdiction": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9666694174321901,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9666694174321901
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Les interdictions sont extraites des formulations générales et des articles relatifs à la protection du littoral et à la limitation des constructions. Les entités sont identifiées à partir des activités, zones, acteurs, sanctions, contrôles, périodes, états et exceptions mentionnés ou implicites dans le texte.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9940881504684415,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9940881504684415
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "Il participe aux travaux de prospective, d'observation et d'évaluation conduits sur le littoral aux niveaux européen, national et interrégional.",
+                    "bounding_boxes": [
+                      {
+                        "h": 718.9996799999999,
+                        "w": 530.10936,
+                        "x": 33.31776,
+                        "y": 26.94144
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9305000624979776,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9305000624979776
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "* le maintien ou le développement, dans la zone littorale, des activités agricoles ou sylvicoles, de l'industrie, de l'artisanat et du tourisme.",
+                    "bounding_boxes": [
+                      {
+                        "h": 112.76,
+                        "w": 513.73,
+                        "x": 32.09,
+                        "y": 408.82
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9705784232697334,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9705784232697334
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "* le maintien ou le développement, dans la zone littorale, des activités agricoles ou sylvicoles, de l'industrie, de l'artisanat et du tourisme.",
+                    "bounding_boxes": [
+                      {
+                        "h": 112.76,
+                        "w": 513.73,
+                        "x": 32.09,
+                        "y": 408.82
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9374927427910935,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9374927427910935
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.613048194817186,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.613048194817186
+              },
+              "texte_original": {
+                "confidence": 0.7274493361574023,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7274493361574023
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8141885735217487,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8141885735217487
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "En cas de condamnation pour infraction aux dispositions des articles L.",
+                    "bounding_boxes": [
+                      {
+                        "h": 36.69442865853653,
+                        "w": 523.0917239698457,
+                        "x": 43.02446388266959,
+                        "y": 745.2456897484757
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.8210648949831167,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8210648949831167
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9802492176259269,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9802492176259269
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Sous réserve des textes particuliers concernant la défense nationale et des besoins de la sécurité maritime, tout changement substantiel d'utilisation de zones du domaine public maritime est préala...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.089101298113576,
+                        "w": 504.3708691156155,
+                        "x": 53.536205655726,
+                        "y": 64.26105953220275
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.7030336111131164,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7030336111131164
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7517238789409806,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7517238789409806
+              },
+              "texte_original": {
+                "confidence": 0.5056050053656269,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5056050053656269
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Sauf autorisation donnée par le représentant de l'Etat dans le département, après avis du maire, la circulation et le stationnement des véhicules terrestres à moteur autres que les véhicules de secour...",
+                    "bounding_boxes": [
+                      {
+                        "h": 47.51960496379569,
+                        "w": 508.1794309659633,
+                        "x": 53.6772392274438,
+                        "y": 235.34994360708845
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.8669560226974289,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8669560226974289
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Sauf autorisation donnée par le représentant de l'Etat dans le département, après avis du maire, la circulation et le stationnement des véhicules terrestres à moteur autres que les véhicules de secour...",
+                    "bounding_boxes": [
+                      {
+                        "h": 47.51960496379569,
+                        "w": 508.1794309659633,
+                        "x": 53.6772392274438,
+                        "y": 235.34994360708845
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.7602097113507478,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7602097113507478
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9999145794168894,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999145794168894
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "...ivage de la mer, notamment par endiguement, assèchement, enrochement ou remblaiement, sauf pour des ouvrages ou installations liés à l'exercice d'un service public ou l'exécution d'un travail public d...",
+                    "bounding_boxes": [
+                      {
+                        "h": 73.94794481707318,
+                        "w": 510.67205885277735,
+                        "x": 53.548600950957514,
+                        "y": 342.5473514576982
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9613279214127086,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9613279214127086
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.717899523303926,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.717899523303926
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "...té maritime, à la défense nationale, à la pêche maritime, à la saliculture et aux cultures marines, il ne peut être porté atteinte à l'état naturel du rivage de la mer, notamment par endiguement, assè...",
+                  "bounding_boxes": [
+                    {
+                      "h": 73.94794481707318,
+                      "w": 510.67205885277735,
+                      "x": 53.548600950957514,
+                      "y": 342.5473514576982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.9790417022690157,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9790417022690157
+            },
+            {
+              "confidence": 0.7698992363534686,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7698992363534686
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9999291844396749,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999291844396749
+            },
+            "source": {
+              "confidence": 0.7952886269013056,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7952886269013056
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999446821016,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999446821016
+            },
+            "reasoning": "La prohibition de construire sur le littoral est le cœur de la loi littoral.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7194436040153493,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7194436040153493
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* le maintien ou le développement, dans la zone littorale, des activités agricoles ou sylvicoles, de l'industrie, de l'artisanat et du tourisme.",
+                  "bounding_boxes": [
+                    {
+                      "h": 112.76,
+                      "w": 513.73,
+                      "x": 32.09,
+                      "y": 408.82
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.9999995934704136,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995934704136
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "Les extractions de matériaux non visés à l'article 2 du code minier sont limitées ou interdites lorsqu'elles risquent de compromettre, directement ou indirectement, l'intégrité des plages, dunes li...",
+                  "bounding_boxes": [
+                    {
+                      "h": 35.93821669207318,
+                      "w": 473.2031893209318,
+                      "x": 53.38972949099657,
+                      "y": 596.8210433117379
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.5413441966322345,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.5413441966322345
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La loi s'applique explicitement au littoral.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* le maintien ou le développement, dans la zone littorale, des activités agricoles ou sylvicoles, de l'industrie, de l'artisanat et du tourisme.",
+                  "bounding_boxes": [
+                    {
+                      "h": 112.76,
+                      "w": 513.73,
+                      "x": 32.09,
+                      "y": 408.82
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.6705748050482727,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.6705748050482727
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9174069407592043,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9174069407592043
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "La réalisation de cette politique d'intérêt général implique une coordination des actions de l'Etat et des collectivités locales, ou de leurs groupements, ayant pour objet :",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.078402057926816,
+                      "w": 524.6346769462773,
+                      "x": 32.34319795844846,
+                      "y": 373.62616429115855
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.6692119707330206,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.6692119707330206
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999998871955815,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998871955815
+            },
+            "reasoning": "La loi vise tout porteur de projet de construction sur le littoral.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7380555729191332,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7380555729191332
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9491005561269115,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9491005561269115
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "### Article 17",
+                  "bounding_boxes": [
+                    {
+                      "h": 15,
+                      "w": 50.303,
+                      "x": 43.5,
+                      "y": 721.721
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.9999996175860865,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996175860865
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "L'article 17 prévoit des sanctions en cas d'infraction.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8853354770084894,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8853354770084894
+            },
+            "deontic_type": {
+              "confidence": 0.9948224803545143,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9948224803545143
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9818726792134416,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9818726792134416
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## Article 25 (abrogé)",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.739623685213347,
+                      "w": 85.259641066835,
+                      "x": 53.08566169493142,
+                      "y": 735.5266814977135
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.9835714736031524,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9835714736031524
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999135960062,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999135960062
+            },
+            "reasoning": "L'enquête publique est un contrôle préalable à certains projets.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "### Chapitre Ier : Adaptation de certaines dispositions du code de l'urbanisme. (Articles 3 à 8)",
+                  "bounding_boxes": [
+                    {
+                      "h": 26.099519999999984,
+                      "w": 443.24519999999995,
+                      "x": 42.83712,
+                      "y": 673.5360000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.8369035525572195,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8369035525572195
+            },
+            "deontic_type": {
+              "confidence": 0.9349203277128795,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9349203277128795
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.988029644457099,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.988029644457099
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Aucune limite temporelle n'est mentionnée, l'interdiction est donc permanente.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Crée Code de l'urbanisme - art. L121-7-1 (Ab)",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.75,
+                      "w": 177.45,
+                      "x": 225.35,
+                      "y": 285.91
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.8736162276917906,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8736162276917906
+            },
+            "deontic_type": {
+              "confidence": 0.99841240476334,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99841240476334
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9357087392758607,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9357087392758607
+            },
+            "source": {
+              "confidence": 0.7510661728309367,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7510661728309367
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999328144579088,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999328144579088
+            },
+            "reasoning": "Certaines exceptions sont soumises à autorisation administrative.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "...et règlements en vigueur en matière de pêches maritimes et de cultures marines, est délivrée par l'Etat, après accord de la collectivité locale gestionnaire desdites dépendances.",
+                  "bounding_boxes": [
+                    {
+                      "h": 35.15458176448173,
+                      "w": 500.157624568288,
+                      "x": 53.675113560523066,
+                      "y": 615.0213166920732
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7830052697318697,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7830052697318697
+            },
+            "deontic_type": {
+              "confidence": 0.8590103394897713,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8590103394897713
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.8727956269906914,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8727956269906914
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "# Article 27 (abrogé)",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.13409821836891,
+                      "w": 84.89011158655681,
+                      "x": 53.46573979730374,
+                      "y": 304.6180372808689
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 594.96,
+                    "height": 841.92
+                  }
+                }
+              ],
+              "confidence": 0.9960030082352955,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9960030082352955
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Le texte prévoit explicitement cette exception à l'interdiction.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8932111267285202,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8932111267285202
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-c8x8k77bu0pghzgt1b3q137tjsjb",
+    "parse_tier": null
+  }
+}

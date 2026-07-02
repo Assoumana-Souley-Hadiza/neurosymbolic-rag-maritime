@@ -1,0 +1,2275 @@
+{
+  "data": {
+    "source": "Résolution A/RES/61/105 de l'Assemblée générale des Nations Unies (8 décembre 2006)",
+    "version": "final_v1",
+    "sources_pdf": true,
+    "interdiction": "Interdiction du chalutage de fond",
+    "interdiction_id": "I001",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "pêche de fond"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zones où des écosystèmes marins vulnérables, notamment des monts sous-marins, des cheminées hydrothermales et des coraux d’eau froide ont été repérés, ou pourraient exister"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zones situées au-delà de la juridiction nationale"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "haute mer"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "États du pavillon"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "navires de pêche battant leur pavillon"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "mesures de conservation et de gestion"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "interdiction de la pêche de fond dans certaines zones"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "lorsque des mesures de conservation et de gestion ont été établies pour prévenir un impact négatif sensible sur les écosystèmes marins vulnérables"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "avant le 31 décembre 2008"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "coraux d’eau froide"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "poissons en eaux profondes"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "monts sous-marins"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "cheminées hydrothermales"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "absence d’organisme ou d’arrangement régional de gestion des pêches ayant compétence pour réglementer ces pêches"
+        }
+      ],
+      "explication_generale": "L’interdiction du chalutage de fond, telle que formulée dans la résolution A/RES/61/105 de l’Assemblée générale des Nations Unies, vise à protéger les écosystèmes marins vulnérables (EMV) situés en haute mer et dans les zones au-delà de la juridiction nationale. Elle impose aux États du pavillon et aux organismes régionaux de gestion des pêches d’identifier les zones où la pêche de fond risque d’avoir un impact négatif sensible sur ces écosystèmes (notamment monts sous-marins, coraux d’eau froide, cheminées hydrothermales) et d’y interdire la pêche de fond, sauf si des mesures de conservation et de gestion adéquates sont en place pour prévenir ces impacts. L’interdiction s’applique de façon prioritaire et devait être mise en œuvre avant le 31 décembre 2008. En l’absence d’organisme régional compétent ou de mesures provisoires, les États du pavillon doivent cesser d’autoriser leurs navires à pratiquer la pêche de fond dans ces zones. Des exceptions sont admises si des mesures de gestion efficaces sont adoptées pour protéger les EMV. Les acteurs principaux sont les États du pavillon, les navires de pêche, et les organismes régionaux de gestion des pêches.",
+      "interdictions_identifiees": [
+        "Interdiction de la pêche de fond dans les zones où des écosystèmes marins vulnérables ont été identifiés ou pourraient exister, sauf si des mesures de conservation et de gestion sont en place pour prévenir un impact négatif sensible.",
+        "Obligation pour les États du pavillon de cesser d’autoriser la pêche de fond dans les zones situées au-delà de leur juridiction nationale en l’absence d’organisme régional compétent ou de mesures provisoires.",
+        "Interdiction de la pêche de fond dans les zones d’EMV jusqu’à l’établissement de mesures de conservation et de gestion adéquates."
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_PECHE_DE_FOND",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_ZONES_ECOSYSTEMES_MARINS_VULNERABLES",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_AU_DELA_JURIDICTION_NATIONALE",
+        "source": "paragraphe 86",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_HAUTE_MER",
+        "source": "paragraphe 86",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Actor_ETATS_PAVILLON",
+        "source": "paragraphe 86",
+        "subject": "I001",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Actor_NAVIRE_PECHE_PAVILLON",
+        "source": "paragraphe 86",
+        "subject": "I001",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Actor_ORGANISME_REGIONAL_GESTION_PECHES",
+        "source": "paragraphe 83",
+        "subject": "I001",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Periode_AVANT_31_DECEMBRE_2008",
+        "source": "paragraphe 83",
+        "subject": "I001",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Exception_MESURES_CONSERVATION_GESTION_EMV",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Controle_MESURES_CONSERVATION_GESTION",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Espece_CORAUX_EAU_FROIDE",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Espece",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Espece_POISSONS_EAUX_PROFONDES",
+        "source": "paragraphe 83b",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Espece",
+        "confidence": 0.8,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Espece_MONTS_SOUS_MARINS",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Espece",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Espece_CHEMINEES_HYDROTHERMALES",
+        "source": "paragraphe 83c",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Espece",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Etat_ABSENCE_ORGANISME_REGIONAL_COMPETENT",
+        "source": "paragraphe 86",
+        "subject": "I001",
+        "predicate": "mar:soumisA",
+        "concept_id": "Etat",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I001"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# Résolution adoptée par l’Assemblée générale le 8 décembre 2006",
+              "bounding_boxes": [
+                {
+                  "h": 14.633461080411607,
+                  "w": 385.19997588367,
+                  "x": 113.19063649247332,
+                  "y": 206.76274032964938
+                }
+              ],
+              "page_dimensions": {
+                "width": 612,
+                "height": 792
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.8808147960662421,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.8808147960662421
+        },
+        "version": {
+          "reasoning": "Valeur par défaut pour la version du pipeline.",
+          "confidence": 0.9833266162410331,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9833266162410331
+        },
+        "sources_pdf": {
+          "reasoning": "Le format du texte et la mention d'images suggèrent qu'il s'agit d'un PDF.",
+          "confidence": 0.9999959918780695,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999959918780695
+        },
+        "interdiction": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "86. *Demande* aux États du pavillon soit d’adopter et d’appliquer des mesures conformément au paragraphe 83 de la présente résolution, *mutatis mutandis*, soit de cesser d’autoriser les navires de...",
+              "bounding_boxes": [
+                {
+                  "h": 472.46,
+                  "w": 366.12,
+                  "x": 122.77,
+                  "y": 234.45
+                }
+              ],
+              "page_dimensions": {
+                "width": 612,
+                "height": 792
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9993624379327832,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9993624379327832
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Les paragraphes 83c, 86, 87 de la résolution explicitent l’interdiction du chalutage de fond dans les zones d’EMV, avec obligation de cesser l’autorisation en l’absence de mesures de gestion. Les entités sont extraites des formulations précises et des listes d’écosystèmes et d’acteurs concernés.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9999992103693378,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999992103693378
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "...aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au paragraphe 83 de la présente...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.46,
+                        "w": 366.12,
+                        "x": 122.77,
+                        "y": 234.45
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9475542848206596,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9475542848206596
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 16,
+                    "matching_text": "...le 4 octobre 2006, parmi lesquelles une interdiction provisoire de toute activité de pêche dans dix zones marines présentant des monts sous-marins notables, et exhorte tous les États signataires et le...",
+                    "bounding_boxes": [
+                      {
+                        "h": 628.79,
+                        "w": 366.25,
+                        "x": 122.81,
+                        "y": 78.27
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.5341139542932076,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5341139542932076
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "*c)* En ce qui concerne les zones où des écosystèmes marins vulnérables, notamment des monts sous-marins, des cheminées hydrothermales et des coraux d’eau froide ont été repérés, ou pourraient exister...",
+                    "bounding_boxes": [
+                      {
+                        "h": 628.8480000000001,
+                        "w": 366.58799999999997,
+                        "x": 122.4,
+                        "y": 77.616
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.974078570385124,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.974078570385124
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 16,
+                    "matching_text": "...le 4 octobre 2006, parmi lesquelles une interdiction provisoire de toute activité de pêche dans dix zones marines présentant des monts sous-marins notables, et exhorte tous les États signataires et le...",
+                    "bounding_boxes": [
+                      {
+                        "h": 628.79,
+                        "w": 366.25,
+                        "x": 122.81,
+                        "y": 78.27
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.7238365902085213,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7238365902085213
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 16,
+                    "matching_text": "67. *Se félicite* de l’adoption de mesures de conservation par l’Organisation des pêches de l’Atlantique Sud-Est à sa troisième session annuelle, tenue à Windhoek le 4 octobre 2006, parmi lesquelle...",
+                    "bounding_boxes": [
+                      {
+                        "h": 628.79,
+                        "w": 366.25,
+                        "x": 122.81,
+                        "y": 78.27
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9593287735656887,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9593287735656887
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 16,
+                    "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit Accord ;",
+                    "bounding_boxes": [
+                      {
+                        "h": 628.79,
+                        "w": 366.25,
+                        "x": 122.81,
+                        "y": 78.27
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.509036493021988,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.509036493021988
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "...nd filet dérivant, la pêche non autorisée dans les zones relevant des juridictions nationales et en haute mer, les prises accessoires et les rejets de la pêche, et autres faits nouveaux, et ses résolu...",
+                    "bounding_boxes": [
+                      {
+                        "h": 250.48999618902434,
+                        "w": 366.74382246808307,
+                        "x": 122.34033459174923,
+                        "y": 403.27059546493905
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8905203956468017,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8905203956468017
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.4989372765294227,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4989372765294227
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "*Souligne* que les États du pavillon sont tenus de s’acquitter des responsabilités qui leur incombent en vertu des dispositions de la Convention et de l’Accord et de veiller à ce que les navires batta...",
+                    "bounding_boxes": [
+                      {
+                        "h": 190.3,
+                        "w": 366.3,
+                        "x": 122.67,
+                        "y": 426.61
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9398085639801028,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9398085639801028
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9994199717797561,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9994199717797561
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "...ment au paragraphe 83 de la présente résolution, *mutatis mutandis*, soit de cesser d’autoriser les navires de pêche battant leur pavillon à pratiquer la pêche de fond dans des zones situées au-delà d...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.46,
+                        "w": 366.12,
+                        "x": 122.77,
+                        "y": 234.45
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8774940899378051,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8774940899378051
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7689787716183296,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7689787716183296
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "84. *Demande également* aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au parag...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.46,
+                        "w": 366.12,
+                        "x": 122.77,
+                        "y": 234.45
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.984540245619599,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.984540245619599
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6441096702522962,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6441096702522962
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 15,
+                    "matching_text": "...organisme ni d’arrangement régional ou sous-régional de gestion des pêches habilité à instituer des mesures de conservation et de gestion de ces stocks, aux fins de la mise en place d’un tel organisme...",
+                    "bounding_boxes": [
+                      {
+                        "h": 353.23,
+                        "w": 369.46,
+                        "x": 122.4,
+                        "y": 281.95
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9030891615100648,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9030891615100648
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.445523095895332,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.445523095895332
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 14,
+                    "matching_text": "60. *Prie instamment* les États, les organisations et arrangements régionaux et sous-régionaux de gestion des pêches et les autres organisations internationales compétentes qui ne l’ont pas encore...",
+                    "bounding_boxes": [
+                      {
+                        "h": 256.61,
+                        "w": 368.88,
+                        "x": 122.86,
+                        "y": 372.24
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.7384160820792534,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7384160820792534
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.4528912579670641,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4528912579670641
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 18,
+                    "matching_text": "*b*) Identifier les écosystèmes marins vulnérables et déterminer si la pêche de fond risque d’avoir un impact négatif sensible sur de tels écosystèmes et sur la durabilité à long terme des stocks d...",
+                    "bounding_boxes": [
+                      {
+                        "h": 58.11463176448169,
+                        "w": 366.06310475419207,
+                        "x": 122.90716963605183,
+                        "y": 654.8351038490854
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9190849916741555,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9190849916741555
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6352031934423826,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6352031934423826
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "*Réaffirmant* ses résolutions 46/215 du 20 décembre 1991, 49/116 et 49/118 du 19 décembre 1994, 50/25 du 5 décembre 1995 et 57/142 du 12 décembre 2002, ainsi que ses autres résolutions sur la pêche...",
+                    "bounding_boxes": [
+                      {
+                        "h": 250.48999618902434,
+                        "w": 366.74382246808307,
+                        "x": 122.34033459174923,
+                        "y": 403.27059546493905
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9983915627542842,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9983915627542842
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9064422810920687,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9064422810920687
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 18,
+                    "matching_text": "...cosystèmes marins vulnérables, notamment les monts sous-marins, les cheminées hydrothermales et les coraux d’eau froide, des pratiques de pêche destructrices, vu l’immense importance que revêtent les...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.35,
+                        "w": 366.13,
+                        "x": 122.84,
+                        "y": 108.3
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9312371264937467,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9312371264937467
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9993253231740338,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9993253231740338
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 18,
+                    "matching_text": "...un impact négatif sensible sur de tels écosystèmes et sur la durabilité à long terme des stocks de poissons en eaux profondes, notamment en améliorant la recherche scientifique et la collecte et l’éc...",
+                    "bounding_boxes": [
+                      {
+                        "h": 58.11463176448169,
+                        "w": 366.06310475419207,
+                        "x": 122.90716963605183,
+                        "y": 654.8351038490854
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8600945141370474,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8600945141370474
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9306546008316614,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9306546008316614
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 18,
+                    "matching_text": "...durablement les stocks de poissons et de protéger les écosystèmes marins vulnérables, notamment les monts sous-marins, les cheminées hydrothermales et les coraux d’eau froide, des pratiques de pêche d...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.35,
+                        "w": 366.13,
+                        "x": 122.84,
+                        "y": 108.3
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9292930387433239,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9292930387433239
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.999287044375825,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.999287044375825
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 18,
+                    "matching_text": "...de poissons et de protéger les écosystèmes marins vulnérables, notamment les monts sous-marins, les cheminées hydrothermales et les coraux d’eau froide, des pratiques de pêche destructrices, vu l’imme...",
+                    "bounding_boxes": [
+                      {
+                        "h": 472.35,
+                        "w": 366.13,
+                        "x": 122.84,
+                        "y": 108.3
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9989325641468397,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9989325641468397
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6236972810255776,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6236972810255776
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 14,
+                    "matching_text": "60. *Prie instamment* les États, les organisations et arrangements régionaux et sous-régionaux de gestion des pêches et les autres organisations internationales compétentes qui ne l’ont pas encore...",
+                    "bounding_boxes": [
+                      {
+                        "h": 256.61,
+                        "w": 368.88,
+                        "x": 122.86,
+                        "y": 372.24
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9114599858120506,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9114599858120506
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.7909136753922332,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.7909136753922332
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "*c)* En ce qui concerne les zones où des écosystèmes marins vulnérables, notamment des monts sous-marins, des cheminées hydrothermales et des coraux d’eau froide ont été repérés, ou pourraient exis...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.8480000000001,
+                      "w": 366.58799999999997,
+                      "x": 122.4,
+                      "y": 77.616
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8698443787930187,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8698443787930187
+            },
+            {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "86. *Demande* aux États du pavillon soit d’adopter et d’appliquer des mesures conformément au paragraphe 83 de la présente résolution, *mutatis mutandis*, soit de cesser d’autoriser les navires de...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8931308266054695,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8931308266054695
+            },
+            {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "*c)* En ce qui concerne les zones où des écosystèmes marins vulnérables, notamment des monts sous-marins, des cheminées hydrothermales et des coraux d’eau froide ont été repérés, ou pourraient exis...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.8480000000001,
+                      "w": 366.58799999999997,
+                      "x": 122.4,
+                      "y": 77.616
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.7333881600324652,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7333881600324652
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9996703049596376,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9996703049596376
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "84. *Demande également* aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au pa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.89858372337647,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.89858372337647
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.99999989359482,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99999989359482
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "WT/MIN/(01)/DEC/1 de",
+                  "bounding_boxes": [
+                    {
+                      "h": 11,
+                      "w": 86.61,
+                      "x": 321.39,
+                      "y": 687.55
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9986784807068644,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9986784807068644
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9315689935460226,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9315689935460226
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "87. *Demande* aux États de rendre publiques, par l’intermédiaire de l’Organisation des Nations Unies pour l’alimentation et l’agriculture, une liste des navires battant leur pavillon autorisés à pr...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999806126173122,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999806126173122
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "...le 4 octobre 2006, parmi lesquelles une interdiction provisoire de toute activité de pêche dans dix zones marines présentant des monts sous-marins notables, et exhorte tous les États signataires et le...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.79,
+                      "w": 366.25,
+                      "x": 122.81,
+                      "y": 78.27
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "<sup>1</sup> Nations Unies, *Recueil des Traités*, vol. 2167, n<sup>o</sup> 37924. <sup>2</sup> Ibid., vol. 1833, n<sup>o</sup> 31363.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.34699999999998,
+                      "w": 198.44,
+                      "x": 123.12,
+                      "y": 692.402
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9952143618257366,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9952143618257366
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9304783128530419,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9304783128530419
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...uées au-delà de leur juridiction nationale, ainsi que les mesures qu’ils ont prises conformément au paragraphe 86 de la présente résolution ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999389192384829,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999389192384829
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "...le 4 octobre 2006, parmi lesquelles une interdiction provisoire de toute activité de pêche dans dix zones marines présentant des monts sous-marins notables, et exhorte tous les États signataires et le...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.79,
+                      "w": 366.25,
+                      "x": 122.81,
+                      "y": 78.27
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "<sup>1</sup> Nations Unies, *Recueil des Traités*, vol. 2167, n<sup>o</sup> 37924. <sup>2</sup> Ibid., vol. 1833, n<sup>o</sup> 31363.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.34699999999998,
+                      "w": 198.44,
+                      "x": 123.12,
+                      "y": 692.402
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9393784876111644,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9393784876111644
+            },
+            "deontic_type": {
+              "confidence": 0.9999999031936799,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999031936799
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999989886668883,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999989886668883
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...uées au-delà de leur juridiction nationale, ainsi que les mesures qu’ils ont prises conformément au paragraphe 86 de la présente résolution ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9461037372315007,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9461037372315007
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La haute mer est incluse dans les zones au-delà de la juridiction nationale, mentionnée dans le texte.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "...le 4 octobre 2006, parmi lesquelles une interdiction provisoire de toute activité de pêche dans dix zones marines présentant des monts sous-marins notables, et exhorte tous les États signataires et le...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.79,
+                      "w": 366.25,
+                      "x": 122.81,
+                      "y": 78.27
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "*Prenant note avec intérêt* du rapport du Secrétaire général intitulé « L’impact de la pêche sur les écosystèmes marins vulnérables : mesures prises par les États et les organisations et arrangemen...",
+                  "bounding_boxes": [
+                    {
+                      "h": 297.20961806878813,
+                      "w": 366.21158042349464,
+                      "x": 122.64459264243521,
+                      "y": 79.49542718654726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.7703313961722348,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7703313961722348
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9350534909792485,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9350534909792485
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...uées au-delà de leur juridiction nationale, ainsi que les mesures qu’ils ont prises conformément au paragraphe 86 de la présente résolution ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9990240224152422,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9990240224152422
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 190.3,
+                      "w": 366.3,
+                      "x": 122.67,
+                      "y": 426.61
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9994866560155448,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9994866560155448
+            },
+            "deontic_type": {
+              "confidence": 0.9656361615338431,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9656361615338431
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9218582403745543,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9218582403745543
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...uées au-delà de leur juridiction nationale, ainsi que les mesures qu’ils ont prises conformément au paragraphe 86 de la présente résolution ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.994118501850422,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.994118501850422
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "21. *Invite* les États à aider les pays en développement à participer davantage aux organismes ou arrangements régionaux de gestion des pêches, en leur facilitant notamment l’accès aux fonds de pêche...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.59,
+                      "w": 366.21,
+                      "x": 122.72,
+                      "y": 132.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9859765227016444,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9859765227016444
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9334004494491893,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9334004494491893
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...érer ces négociations et d’adopter et d’appliquer le 31 décembre 2007 au plus tard, conformément au paragraphe 83 de la présente résolution, des mesures provisoires qu’ils rendront publiques ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999042398087633,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999042398087633
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999969241378245,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999969241378245
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "<sup>1</sup> Nations Unies, *Recueil des Traités*, vol. 2167, n<sup>o</sup> 37924. <sup>2</sup> Ibid., vol. 1833, n<sup>o</sup> 31363.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.34699999999998,
+                      "w": 198.44,
+                      "x": 123.12,
+                      "y": 692.402
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.941025879585998,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.941025879585998
+            },
+            "deontic_type": {
+              "confidence": 0.7599302753849518,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7599302753849518
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999238652834426,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999238652834426
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...érer ces négociations et d’adopter et d’appliquer le 31 décembre 2007 au plus tard, conformément au paragraphe 83 de la présente résolution, des mesures provisoires qu’ils rendront publiques ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.999999485980995,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999485980995
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "30. *Demande* à tous les États et aux entités visées au paragraphe 1 de l’article X de l’Accord de l’Organisation des Nations Unies pour l’alimentation et l’agriculture de devenir parties à cet accord...",
+                  "bounding_boxes": [
+                    {
+                      "h": 182.68,
+                      "w": 368.65,
+                      "x": 122.71,
+                      "y": 523.99
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9850911895771232,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9850911895771232
+            },
+            "deontic_type": {
+              "confidence": 0.9787298687051281,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9787298687051281
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9102203040904264,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9102203040904264
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "84. *Demande également* aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au pa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999800453159643,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999800453159643
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "1. *Réaffirme* l’importance qu’elle attache à la conservation à long terme, à la gestion et à l’exploitation durable des ressources biologiques des mers et des océans de la planète, ainsi que les obli...",
+                  "bounding_boxes": [
+                    {
+                      "h": 190.3,
+                      "w": 366.3,
+                      "x": 122.67,
+                      "y": 426.61
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9974672233288246,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9974672233288246
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "*Demande instamment* aux États parties à l’Accord, agissant conformément au paragraphe 4 de l’article 21 de celui-ci, d’informer, soit directement, soit par l’intermédiaire de l’organisme ou arrang...",
+                  "bounding_boxes": [
+                    {
+                      "h": 250.27,
+                      "w": 366.33,
+                      "x": 122.63,
+                      "y": 456.58
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9951572979569993,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9951572979569993
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "13. *Demande* à tous les États et aux entités visées dans la Convention et à l’alinéa *b* du paragraphe 2 de l’article premier de l’Accord de ratifier ledit accord ou d’y adhérer s’ils ne l’ont pas...",
+                  "bounding_boxes": [
+                    {
+                      "h": 250.27,
+                      "w": 366.33,
+                      "x": 122.63,
+                      "y": 456.58
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9323787091287649,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9323787091287649
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "<sup>1</sup> Nations Unies, *Recueil des Traités*, vol. 2167, n<sup>o</sup> 37924. <sup>2</sup> Ibid., vol. 1833, n<sup>o</sup> 31363.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.34699999999998,
+                      "w": 198.44,
+                      "x": 123.12,
+                      "y": 692.402
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9494305113341038,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9494305113341038
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "...abilité à instituer des mesures de conservation et de gestion de ces stocks, de s’acquitter de leur obligation de coopérer en devenant membres de l’organisation ou en adhérant à l’arrangement en quest...",
+                  "bounding_boxes": [
+                    {
+                      "h": 353.23,
+                      "w": 369.46,
+                      "x": 122.4,
+                      "y": 281.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8403500568880158,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8403500568880158
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "78. *Engage en outre* les États à intensifier la recherche scientifique, dans le respect des dispositions du droit international relatives à l’écosystème marin ;\n\n79. *Demande* aux États, à l’Organ...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.35,
+                      "w": 366.13,
+                      "x": 122.84,
+                      "y": 108.3
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9746786725147462,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9746786725147462
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "78. *Engage en outre* les États à intensifier la recherche scientifique, dans le respect des dispositions du droit international relatives à l’écosystème marin ;\n\n79. *Demande* aux États, à l’Organ...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.35,
+                      "w": 366.13,
+                      "x": 122.84,
+                      "y": 108.3
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9706034123160443,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9706034123160443
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9917337922765708,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9917337922765708
+            },
+            "reasoning": "Les coraux d’eau froide sont explicitement cités comme EMV à protéger.",
+            "concept_id": {
+              "confidence": 0.9999999354624522,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999354624522
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "*Prenant note avec intérêt* du rapport du Secrétaire général intitulé « L’impact de la pêche sur les écosystèmes marins vulnérables : mesures prises par les États et les organisations et arrangemen...",
+                  "bounding_boxes": [
+                    {
+                      "h": 297.20961806878813,
+                      "w": 366.21158042349464,
+                      "x": 122.64459264243521,
+                      "y": 79.49542718654726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.7406247262273066,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7406247262273066
+            },
+            "deontic_type": {
+              "confidence": 0.9999999031936799,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999031936799
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "*b*) Identifier les écosystèmes marins vulnérables et déterminer si la pêche de fond risque d’avoir un impact négatif sensible sur de tels écosystèmes et sur la durabilité à long terme des stocks d...",
+                  "bounding_boxes": [
+                    {
+                      "h": 58.11463176448169,
+                      "w": 366.06310475419207,
+                      "x": 122.90716963605183,
+                      "y": 654.8351038490854
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9995003840095935,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9995003840095935
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "84. *Demande également* aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au pa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9995879243726327,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9995879243726327
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999992635185516,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992635185516
+            },
+            "reasoning": "Les poissons en eaux profondes sont mentionnés dans le contexte de la durabilité des stocks.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "*71<sup>e</sup> séance plénière*\n*8 décembre 2006*",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.774317120807925,
+                      "w": 83.26156940739332,
+                      "x": 405.44354968559446,
+                      "y": 371.8746686833079
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8028745907699394,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8028745907699394
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "82. *Se félicite* des progrès considérables accomplis par les États et les organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond dans la mise...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.35,
+                      "w": 366.13,
+                      "x": 122.84,
+                      "y": 108.3
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9987779213919291,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9987779213919291
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "78. *Engage en outre* les États à intensifier la recherche scientifique, dans le respect des dispositions du droit international relatives à l’écosystème marin ;\n\n79. *Demande* aux États, à l’Organ...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.35,
+                      "w": 366.13,
+                      "x": 122.84,
+                      "y": 108.3
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9981398742420203,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9981398742420203
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999989569951463,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999989569951463
+            },
+            "reasoning": "Les monts sous-marins sont explicitement cités comme EMV à protéger.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "*Prenant note avec intérêt* du rapport du Secrétaire général intitulé « L’impact de la pêche sur les écosystèmes marins vulnérables : mesures prises par les États et les organisations et arrangemen...",
+                  "bounding_boxes": [
+                    {
+                      "h": 297.20961806878813,
+                      "w": 366.21158042349464,
+                      "x": 122.64459264243521,
+                      "y": 79.49542718654726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9598606772698893,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9598606772698893
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9997873010438402,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997873010438402
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "84. *Demande également* aux organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond de rendre publiques les mesures adoptées conformément au pa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999984908109666,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999984908109666
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Les cheminées hydrothermales sont explicitement citées comme EMV à protéger.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "*Prenant note avec intérêt* du rapport du Secrétaire général intitulé « L’impact de la pêche sur les écosystèmes marins vulnérables : mesures prises par les États et les organisations et arrangemen...",
+                  "bounding_boxes": [
+                    {
+                      "h": 297.20961806878813,
+                      "w": 366.21158042349464,
+                      "x": 122.64459264243521,
+                      "y": 79.49542718654726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9762569915448376,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9762569915448376
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9753339127742544,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9753339127742544
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...uées au-delà de leur juridiction nationale, ainsi que les mesures qu’ils ont prises conformément au paragraphe 86 de la présente résolution ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 472.46,
+                      "w": 366.12,
+                      "x": 122.77,
+                      "y": 234.45
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999998957278993,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998957278993
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999578385276143,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999578385276143
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "18. *Demande de même instamment* aux États parties à l’Accord, agissant conformément au paragraphe 4 de l’article 21, de désigner une autorité compétente pour recevoir des notifications conformément à...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.59,
+                      "w": 366.21,
+                      "x": 122.72,
+                      "y": 132.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.987581501531894,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.987581501531894
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...ation à valeur ajoutée et le soutien économique de leur industrie de la pêche, dans le respect de l’obligation d’assurer une conservation et une gestion convenables de ces ressources ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.59,
+                      "w": 366.21,
+                      "x": 122.72,
+                      "y": 132.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8654981011727484,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8654981011727484
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-qcpje0fuahmgk47votab6civzv09",
+    "parse_tier": null
+  }
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "terme": "Administration",
+    "definition": "means the Government of the State under whose authority the ship is operating.",
+    "nom_scientifique": null,
+    "reference": "Article 2(1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Anti-fouling system",
+    "definition": "means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+    "nom_scientifique": null,
+    "reference": "Article 2(2)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Committee",
+    "definition": "means the Marine Environment Protection Committee of the Organization.",
+    "nom_scientifique": null,
+    "reference": "Article 2(3)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Gross tonnage",
+    "definition": "means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 19691, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 2(4)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "International voyage",
+    "definition": "a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+    "nom_scientifique": null,
+    "reference": "(5)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Length",
+    "definition": "the length as defined in the International Convention on Load Lines, 19662, as modified by the Protocol of 19883 relating thereto, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "(6)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Organization",
+    "definition": "the International Maritime Organization.",
+    "nom_scientifique": null,
+    "reference": "(7)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Secretary-General",
+    "definition": "the Secretary-General of the Organization.",
+    "nom_scientifique": null,
+    "reference": "(8)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Ship",
+    "definition": "a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floating storage units (FSUs) and floating production storage and off-loading units (FPSOs).",
+    "nom_scientifique": null,
+    "reference": "(9)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Technical Group",
+    "definition": "is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agreements with the Organization, and non-governmental organizations in consultative status with the Organization, which should preferably include representatives of institutions and laboratories that engage in anti-fouling system analysis. These representatives shall have expertise in environmental fate and effects, toxicological effects, marine biology, human health, economic analysis, risk management, international shipping, anti-fouling systems coating technology, or other fields of expertise necessary to objectively review the technical merits of a comprehensive proposal.",
+    "nom_scientifique": null,
+    "reference": "(10)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "comprehensive proposal",
+    "definition": "A proposal that includes all the information required in Annex 3.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "anti-fouling systems",
+    "definition": "systems designed to prevent or reduce fouling on ships' hulls",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "unduly",
+    "definition": "in a manner that is excessive or unreasonable",
+    "nom_scientifique": null,
+    "reference": "ARTICLE 13",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "detained",
+    "definition": "held or kept in custody",
+    "nom_scientifique": null,
+    "reference": "ARTICLE 13",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "amendment",
+    "definition": "an alteration to the terms of this Convention",
+    "nom_scientifique": null,
+    "reference": "Article 16",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Annex",
+    "definition": "a supplementary agreement attached to this Convention",
+    "nom_scientifique": null,
+    "reference": "Article 16",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "anti-fouling",
+    "definition": "systems that prevent or inhibit the growth of marine organisms on submerged surfaces",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "biocides",
+    "definition": "chemical substances that kill living organisms",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Certificate",
+    "definition": "document issued by an Administration or authorized person/organization certifying that a ship complies with the Convention regarding anti-fouling systems",
+    "nom_scientifique": null,
+    "reference": "Regulations 2 and 3",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Port of registry",
+    "definition": "The port where a vessel is registered.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "IMO number",
+    "definition": "The IMO number is a unique identification number assigned to a vessel by the International Maritime Organization.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "International Convention",
+    "definition": "An agreement between states that establishes rules and regulations governing a particular aspect of international relations.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Control of Harmful Anti-fouling Systems",
+    "definition": "Regulations aimed at preventing the use of harmful chemicals in anti-fouling systems on ships.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

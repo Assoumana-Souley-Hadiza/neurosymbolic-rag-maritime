@@ -1,0 +1,41 @@
+# ═══════════════════════════════════════════════════════════════
+# Maritime Ontology — Dépendances Python
+# ═══════════════════════════════════════════════════════════════
+
+# Core ontologie
+rdflib>=7.0.0          # Graph RDF, parsers TTL/XML/JSON-LD
+owlrl>=6.0.2           # OWL-RL reasoner (inférence + validation)
+
+# Configuration
+pyyaml>=6.0.1          # Parsing YAML
+
+# Neo4j
+neo4j>=5.0.0           # Driver officiel Neo4j Python
+
+# Logging et affichage
+rich>=13.0.0           # Terminal coloré (optionnel mais recommandé)
+
+# Tests
+pytest>=8.0.0
+pytest-cov>=5.0.0
+
+# ═══════════════════════════════════════════════════════════════
+# RAG System — Dépendances Python
+# ═══════════════════════════════════════════════════════════════
+
+# Extraction PDF
+PyMuPDF>=1.23.0               
+
+# Base Vectorielle et Embeddings
+chromadb>=0.4.0               
+sentence-transformers>=2.6.0  
+
+# Recherche Lexicale
+rank-bm25>=0.2.2              
+
+# App
+streamlit>=1.30.0
+
+# Dev tools (optionnel)
+# black        # Formateur de code
+# mypy         # Type checker

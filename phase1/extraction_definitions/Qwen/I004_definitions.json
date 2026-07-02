@@ -1,0 +1,605 @@
+[
+  {
+    "terme": "Biotechnologie",
+    "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à usage spécifique.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conditions in situ",
+    "definition": "conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conservation ex situ",
+    "definition": "la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Conservation in situ",
+    "definition": "la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Diversité biologique",
+    "definition": "Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques dont ils font partie; cela comprend la diversité au sein des espèces et entre espèces ainsi que celle des écosystèmes.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ecosystème",
+    "definition": "le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui, par leur interaction, forment une unité fonctionnelle.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Espèce domestiquée ou cultivée",
+    "definition": "toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à ses besoins.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Habitat",
+    "definition": "le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Matériel génétique",
+    "definition": "le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Organisation régionale d'intégration économique",
+    "definition": "toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui concerne les questions régies par la présente Convention et qui a été dûment mandatée, conformément à ses procédures internes, pour signer, ratifier, accepter, approuver ladite Convention ou y adhérer.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pays d'origine des ressources génétiques",
+    "definition": "pays qui possède ces ressources génétiques dans des conditions in situ.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Pays fournisseur de ressources génétiques",
+    "definition": "tout pays qui fournit des ressources génétiques récoltées auprès de sources in situ, y compris les populations d'espèces sauvages ou domestiquées, ou prélevées auprès de sources ex situ, qu'elles soient ou non originaires de ce pays.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ressources biologiques",
+    "definition": "les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystème",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ressources génétiques",
+    "definition": "le matériel génétique ayant une valeur effective ou potentiel le.",
+    "reference": "Article 4 a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Utilisation durable",
+    "definition": "l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi leur potentiel pour satisfaire les besoins et les aspirations des générations présentes et futures.",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Zone protégée",
+    "definition": "toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Champ d'application",
+    "definition": "Sous réserve des droits des autres Etats et sauf disposition contraire expresse de la présente convention, les dispositions de la Convention s'appliquent à chacune des Parties contractantes : a) Lorsqu'il s'agit des éléments de la diversité biologique de zones situées dans les limites de sa juridiction nationale; b) Lorsqu'il s'agit des processus et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites de sa juridiction nationale, indépendamment de l'endroit où ces processus et activités produisent leurs effets.",
+    "reference": "Article 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Coopération",
+    "definition": "Chaque Partie contractante, dans la mesure du possible et selon qu'il conviendra, coopère avec d'autres Parties contractantes, directement ou, le cas échéant, par l'intermédiaire d'organisations internationales compétentes, dans des domaines ne relevant pas de la juridiction nationale et dans d'autres domaines d'intérêt mutuel, pour la conservation et l'utilisation durable de la diversité biologique.",
+    "reference": "Article 5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Mesures générales en vue de la conservation et de l'utilisation durable",
+    "definition": "Chacune des Parties contractantes, en fonction des conditions et moyens qui lui sont propres : a) Elabore des stratégies, plans ou programmes nationaux tendant à assurer la conservation et l'utilisation durable de la diversité biologique ou adapte à cette fin ses stratégies, plans ou programmes existants qui tiendront compte, entre autres, des mesures énoncées dans la présente Convention qui la concernent: b) Intègre, dans toute la mesure possible et comme il",
+    "reference": "Article 6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "diversité biologique",
+    "definition": "la conservation et l'utilisation durable de la diversité biologique dans ses plans, programmes et politiques sectoriels ou intersectoriels pertinents.",
+    "reference": "Article 6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "éléments constitutifs de la diversité biologique",
+    "definition": "les éléments constitutifs de la diversité biologique importants pour sa conservation et son utilisation durable",
+    "reference": "Article 7.a",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "processus et catégories d'activités",
+    "definition": "les processus et catégories d'activités qui ont ou risquent d'avoir une influence défavorable sensible sur la conservation et l'utilisation durable de la diversité biologique",
+    "reference": "Article 7.c",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "système de zones protégées",
+    "definition": "un système de zones protégées ou de zones où des mesures spéciales doivent être prises pour conserver la diversité biologique",
+    "reference": "Article 8.a",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "lignes directrices pour le choix, la création et la gestion de zones protégées",
+    "definition": "des lignes directrices pour le choix, la création et la gestion de zones protégées ou de zones où des mesures spéciales doivent être prises pour conserver la diversité biologique",
+    "reference": "Article 8.b",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ressources biologiques",
+    "definition": "les ressources biologiques présentant une importance pour la conservation de la diversité biologique à l'intérieur comme à l'extérieur des zones protégées afin d'assurer leur conservation et leur utilisation durable",
+    "reference": "Article 8.c",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "écosystèmes et habitats naturels",
+    "definition": "la protection des écosystèmes et des habitats naturels, ainsi que le maintien de populations viables d'espèces dans leur milieu naturel",
+    "reference": "Article 8.d",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "développement durable et écologiquement rationnel",
+    "definition": "un développement durable et écologiquement rationnel dans les zones adjacentes aux zones protégées en vue de renforcer ia protection de ces dernières",
+    "reference": "Article 8.e",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "écosystèmes dégradés",
+    "definition": "la remise en état et la restauration des écosystèmes dégradés et la reconstitution des espèces menacées moyennant. entre autres, l'élaboration et l'application de plans ou autres stratégies de gestion",
+    "reference": "Article 8.f",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "organismes vivants et modifiés résultant de la biotechnologie",
+    "definition": "les organismes vivants et modifiés résultant de la biotechnologie qui risquent d'a",
+    "reference": "Article 8.g",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "diversité biologique",
+    "definition": "la conservation et l'utilisation durable de la diversité biologique",
+    "reference": "article 7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "espèces exotiques",
+    "definition": "les espèces qui menacent des écosystèmes, des habitats ou des espèces",
+    "reference": "h)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conditions nécessaires",
+    "definition": "les conditions nécessaires pour assurer la compatibilité entre les utilisations actuelles et la conservation de la diversité biologique et l'utilisation durable de ses éléments constitutifs",
+    "reference": "i)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "connaissances, innovations et pratiques",
+    "definition": "les connaissances, innovations et pratiques des communautés autochtones et locales qui incarnent des modes de vie traditionnels présentant un intérêt pour la conservation et l'utilisation durable de la diversité biologique",
+    "reference": "j)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "dispositions législatives",
+    "definition": "les dispositions législatives et autres dispositions réglementaires nécessaires pour protéger les espèces et populations menacées",
+    "reference": "k)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "effet défavorable important",
+    "definition": "l'effet défavorable important sur la diversité biologique",
+    "reference": "l)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservation in situ",
+    "definition": "la conservation in situ visée aux alinéas a) ai) сi-dessus",
+    "reference": "m)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "éléments constitutifs",
+    "definition": "des éléments constitutifs de la diversité biologique",
+    "reference": "a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "installations de conservation ex situ et de recherche",
+    "definition": "des installations de conservation ex situ et de recherche pour les plantes, les animaux et les micro-organismes",
+    "reference": "b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "reconstitution et la régénération",
+    "definition": "la reconstitution et la régénération des espèces menacées et la réintroduction de ces espèces dans leur habitat naturel dans de bonnes conditions",
+    "reference": "c)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "collecte des ressources biologiques",
+    "definition": "la collecte des ressources biologiques dans les habitats naturels aux fins de la conservation ex situ de manière à éviter que soient menacés les écosystèmes et les populations d'espèces in situ",
+    "reference": "d)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "appui financier",
+    "definition": "l'appui financier et autr",
+    "reference": "m)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservation ex situ",
+    "definition": "la conservation ex situ visée aux alinéas a) à d) ci-dessus, et à la création et au maintien de moyens de conservation ex situ dans les pays en développement.",
+    "reference": "Article 9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "éléments constitutifs de la diversité biologique",
+    "definition": "les éléments constitutifs de la diversité biologique",
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "utilisation durable",
+    "definition": "l'utilisation durable des ressources biologiques",
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "considérations relatives à la conservation et à l'utilisation durable des ressources biologiques",
+    "definition": "les considérations relatives à la conservation et à l'utilisation durable des ressources biologiques",
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mesures économiquement et socialement rationnelles",
+    "definition": "des mesures économiquement et socialement rationnelles incitant à conserver et à utiliser durablement les éléments constitutifs de la diversité biologique",
+    "reference": "Article 11",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "programmes d'éducation et de formation scientifiques et techniques",
+    "definition": "des programmes d'éducation et de formation scientifiques et techniques pour identifier et conserver la diversité biologique et ses éléments constitutifs et en assurer l'utilisation durable",
+    "reference": "Article 12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "recherche qui contribue à conserver la divers biologie",
+    "definition": "la recherche qui contribue à conserver la diversité biologique et à en assurer l'utilisation durable",
+    "reference": "Article 12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "progrès de la recherche scientifique sur la diversité biologique",
+    "definition": "les progrès de la recherche scientifique sur la diversité biologique",
+    "reference": "Article 12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "prise de conscience de l'importance de la conservation de la diversité biologique",
+    "definition": "une prise de conscience de l'importance de la conservation de la diversité biologique et des mesures",
+    "reference": "Article 13",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "projets",
+    "definition": "les projets qu'elle a proposés et qui sont susceptibles de nuire sensiblement à la diversité biologique",
+    "reference": "Article 14 / 1 / a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "procédures",
+    "definition": "les procédures permettant d'exiger l'évaluation des impacts sur l'environnement",
+    "reference": "Article 14 / 1 / a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "public",
+    "definition": "le public de participer à ces procédures",
+    "reference": "Article 14 / 1 / a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "programmes",
+    "definition": "les programmes et politiques susceptibles de nuire sensiblement à la diversité biologique",
+    "reference": "Article 14 / 1 / b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "activités",
+    "definition": "les activités relevant de sa juridiction ou de son autorité et susceptibles de nuire sensiblement à la diversité biologique d'autres Etats ou de zones situées hors des limites de la juridiction nationale",
+    "reference": "Article 14 / 1 / c)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "danger",
+    "definition": "le danger ou d'un dommage imminent ou grave trouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la juridiction des Etats",
+    "reference": "Article 14 / 1 / d)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mesures d'urgence",
+    "definition": "les mesures d'urgence au cas où des activités ou des événements, d'origine naturelle ou autre, présenteraient un danger grave ou imminent pour la diversité biologique",
+    "reference": "Article 14 / 1 / e)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "responsabilité",
+    "definition": "la responsabilité et de la réparation, y compris la remise en état et l'indemnisation pour dommages causés à la diversité biologique",
+    "reference": "Article 14 / 2 /",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "remise en état",
+    "definition": "la remise en état et l'indemnisation pour dommages causés à la diversité biologique",
+    "reference": "Article 14 / 2 /",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "indemnisation",
+    "definition": "la remise en état et l'indemnisation pour dommages causés à la diversité biologique",
+    "reference": "Article 14 / 2 /",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ressources génétiques",
+    "definition": "fournies par une Partie contractante, et dont il est fait mention dans le présent article et aux articles 16 et 19 ci-après, exclusivement les ressources qui sont fournies par des Parties contractantes qui sont des pays d'origine de ces ressources ou par des Parties qui les ont acquises conformément à la présente Convention",
+    "reference": "Article 15.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "accès",
+    "definition": "lorsqu'il est accordé, est régi par des conditions convenues d'un commun accord et est soumis aux dispositions du présent article",
+    "reference": "Article 15.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "consentement",
+    "definition": "préalable donné en connaissance de cause de la Partie contractante qui fournit lesdites ressources, sauf décision contraire de cette Partie",
+    "reference": "Article 15.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "recherche scientifique",
+    "definition": "fondées sur les ressources génétiques fournies par d'autres Parties contractantes avec la pleine participation de ces Parties et, dans la mesure du possible, sur leur territoire",
+    "reference": "Article 15.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "partage juste et équitable",
+    "definition": "des résultats de la recherche et de la mise en valeur ainsi que des avantages résultant de l'utilisation commerciale et autre des ressources génétiques avec la Partie contractante qui fournit ces ressources. Ce partage s'effectue selon des modalités mutuellement convenues",
+    "reference": "Article 15.7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "technologie",
+    "definition": "inclut la biotechnologie, et que l'accès à la technologie et le transfert de ceile-ci entre Parties contractantes sont des éléments essentiels à la réalisation des objectifs de la présente Convention",
+    "reference": "Article 16.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "accès aux technologies",
+    "definition": "nécessaires à la conservation et à l'utilisation durable de la diversité biologique, ou utilisant les ressources génétiques sans causer de dom",
+    "reference": "Article 16.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "qwen3-8b"
+  }
+]

@@ -1,0 +1,587 @@
+[
+  {
+    "terme": "Administration",
+    "definition": "the Government of the State under whose authority the ship is operating. With respect to a ship entitled to fly a flag of a State, the Administration is the Government of that State. With respect to fixed or floating platforms engaged in exploration and exploitation of the sea-bed and subsoil thereof adjacent to the coast over which the coastal State exercises sovereign rights for the purposes of exploration and exploitation of their natural resources, the Administration is the Government of the coastal State concerned.",
+    "reference": "Article 2 / (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Anti-fouling system",
+    "definition": "a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+    "reference": "Article 2 / (2)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Committee",
+    "definition": "the Marine Environment Protection Committee of the Organization.",
+    "reference": "Article 2 / (3)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Gross tonnage",
+    "definition": "the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 19691, or any successor Convention.",
+    "reference": "Article 2 / (4)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "International voyage",
+    "definition": "a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+    "reference": "Article 2 / (5)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Length",
+    "definition": "the length as defined in the International Convention on Load Lines, 19662, as modified by the Protocol of 19883 relating thereto, or any successor Convention.",
+    "reference": "Article 2 / (6)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Organization",
+    "definition": "the International Maritime Organization.",
+    "reference": "Article 2 / (7)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Secretary-General",
+    "definition": "the Secretary-General of the Organization.",
+    "reference": "Article 2 / (8)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ship",
+    "definition": "a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floating storage units (FSUs) and floating production storage and off-loading units (FPSOs).",
+    "reference": "Article 2 / (9)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Technical Group",
+    "definition": "a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agreements with the Organization, and non-governmental organizations in consultative status with the Organization, which should preferably include representatives of institutions and laboratories that engage in anti-fouling system analysis. These representatives shall have expertise in environmental fate and effects, toxicological effects, marine biology, human health, economic analysis, risk management, international shipping, anti-fouling systems coating technology, or other fields of expertise necessary to objectively review the technical merits of a comprehensive proposal.",
+    "reference": "Article 2 / (10)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "anti-fouling system",
+    "definition": "an anti-fouling system which is controlled through an amendment to Annex 1 following entry into force of this Convention",
+    "reference": "ARTICLE 5",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "wastes",
+    "definition": "wastes from the application or removal of an anti-fouling system controlled in Annex 1",
+    "reference": "ARTICLE 5",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "an amendment to Annex 1",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "initial proposal",
+    "definition": "an initial proposal shall contain the information required in Annex 2",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "comprehensive proposal",
+    "definition": "a comprehensive proposal containing the information required in Annex 3",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "technical group",
+    "definition": "a technical group in accordance with article 7",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "non-target organisms",
+    "definition": "non-target organisms or human health",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "adverse effects",
+    "definition": "adverse effects on non-target organisms or human health",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "unreasonable risk",
+    "definition": "unreasonable risk of adverse effects on non-target organisms or human health",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "serious or irreversible damage",
+    "definition": "serious or irreversible damage",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "scientific certainty",
+    "definition": "lack of full scientific certainty",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "evaluation of the proposal",
+    "definition": "evaluation of the proposal",
+    "reference": "ARTICLE 6",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "anti-fouling system",
+    "definition": "the consumption of affected seafood, or through controlled studies based on the data described in Annex 3 and any other relevant data which come to light;",
+    "reference": "(a)(i)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "control measures",
+    "definition": "the potential risk reduction attributable to the proposed control measures and any other control measures that may be considered by the technical group;",
+    "reference": "(a)(ii)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "cost-effectiveness",
+    "definition": "the technical feasibility of control measures and the cost-effectiveness of the proposal;",
+    "reference": "(a)(iii)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "environment",
+    "definition": "other effects from the introduction of such control measures relating to: - the environment (including, but not limited to, the cost of inaction and the impact on air quality);",
+    "reference": "(a)(iv)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "shipyard health and safety concerns",
+    "definition": "other effects from the introduction of such control measures relating to: - shipyard health and safety concerns (i.e. effects on shipyard workers);",
+    "reference": "(a)(iv)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "international shipping",
+    "definition": "other effects from the introduction of such control measures relating to: - the cost to international shipping and other relevant sectors;",
+    "reference": "(a)(iv)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "alternatives",
+    "definition": "availability of suitable alternatives, including a consideration of the potential risks of alternatives.",
+    "reference": "(a)(v)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "technical group's report",
+    "definition": "shall be in writing and shall take into account each of the evaluations and considerations referred to in subparagraph (a), except that the technical group may decide not to proceed with the evaluations and considerations described in subparagraph (a)(ii) through (a)(v) if it determines after the evaluation in subparagraph (a)(i) that the proposal does not warrant further consideration.",
+    "reference": "(b)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "recommendation",
+    "definition": "shall include, inter alia, a recommendation on whether international controls pursuant to this Convention are warranted on the anti-fouling system in question, on the suitability of the specific control measures suggested in the comprehensive proposal, or on other control measures which it believes to be more suitable.",
+    "reference": "(c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Committee",
+    "definition": "shall decide whether to approve any proposal to amend Annex 1, and any modifications thereto, if appropriate, taking into account the technical group's report. If the report finds a threat of serious or irreversible damage, lack of full scientific certainty shall not, itself, be used as a reason to prevent a decision from being taken to list an anti-fouling system in Annex 1. The proposed amendments to Annex 1, if approved by the Committee, shall be circulated in accordance with article 16(2)(a). A decision not to approve the proposal shall not preclude future submission of a new proposal with respect to a particular anti-fouling",
+    "reference": "(5)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Party",
+    "definition": "the Parties",
+    "reference": "ARTICLE 7 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Committee",
+    "definition": "the Committee",
+    "reference": "ARTICLE 7 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "technical group",
+    "definition": "a technical group",
+    "reference": "ARTICLE 7 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "anti-fouling systems",
+    "definition": "anti-fouling systems",
+    "reference": "ARTICLE 8 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "surveyors",
+    "definition": "surveyors",
+    "reference": "ARTICLE 9 (1)(a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "recognized organizations",
+    "definition": "recognized organizations",
+    "reference": "ARTICLE 9 (1)(a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Organization",
+    "definition": "the Organization",
+    "reference": "ARTICLE 9 (1)(a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "anti-fouling system",
+    "definition": "means a system applied to the hull of a ship to prevent the growth of marine organisms on the hull of the ship",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "International Anti-fouling System Certificate",
+    "definition": "means a certificate issued by the Administration of a Party in accordance with Annex 4",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Declaration on Anti-fouling System",
+    "definition": "means a declaration made by the owner of a ship in accordance with Annex 4",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "valid International Anti-fouling System Certificate",
+    "definition": "means a certificate issued by the Administration of a Party in accordance with Annex 4 and which is current and applicable to the ship",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ship",
+    "definition": "means a vessel used or intended to be used for the transport of goods or persons by sea",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Party",
+    "definition": "means a State which has ratified or acceded to this Convention",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Administration",
+    "definition": "means the competent authority of a Party responsible for the survey, certification, and inspection of ships flying its flag",
+    "reference": "Article 6 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "violation",
+    "definition": "Any violation of this Convention shall be prohibited and sanctions shall be established therefor under the law of the Administration of the ship concerned wherever the violation occurs.",
+    "reference": "Article 12 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "violation",
+    "definition": "Any violation of this Convention within the jurisdiction of any Party shall be prohibited and sanctions shall be established therefor under the law of that Party.",
+    "reference": "Article 12 (2)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "undue delay or detention of ships",
+    "definition": "All possible efforts shall be made to avoid a ship being unduly detained or delayed under article 11 or 12.",
+    "reference": "Article 13 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "undue delay or detention of ships",
+    "definition": "When a ship is unduly detained or delayed under article 11 or 12, it shall be entitled to compensation for any loss or damage suffered.",
+    "reference": "Article 13 (2)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "dispute",
+    "definition": "Parties shall settle any dispute between them concerning the interpretation or application of this Convention by negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, resort to regional agencies or arrangements, or other peaceful means of their own choice.",
+    "reference": "Article 14",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "relationship to international law of the sea",
+    "definition": "Nothing in this Convention shall prejudice the rights and obligations of any State under customary international law as reflected in the United Nations Convention on the Law of the Sea4.",
+    "reference": "Article 15",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "This Convention may be amended by either of the procedures specified in the following paragraphs.",
+    "reference": "Article 16 (1)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "A proposed amendment shall be submitted to the Secretary-General, who shall then circulate it to the Parties and Members of the Organization at least six months prior to its consideration.",
+    "reference": "Article 4 (a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "An amendment proposed and circulated as above shall be referred to the Committee for consideration.",
+    "reference": "Article 4 (b)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "Amendments shall be adopted by a two-thirds majority of the Parties present and voting in the Committee, on condition that at least one-third of the Parties shall be present at the time of voting.",
+    "reference": "Article 4 (c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "Amendments adopted in accordance with subparagraph (c) shall be communicated by the Secretary-General to the Parties for acceptance.",
+    "reference": "Article 4 (d)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "An amendment shall be deemed to have been accepted in the following circumstances: (i) An amendment to an article of this Convention shall be deemed to have been accepted on the date on which two-thirds of the Parties have notified the Secretary-General of their acceptance of it. (ii) An amendment to an Annex shall be deemed to have been accepted at the end of twelve months after the date of adoption or such other date as determined by the Committee. However, if by that date more than one-third of the Parties notify the Secretary-General that they object to the amendment, it shall be deemed not to have been accepted.",
+    "reference": "Article 4 (e)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "An amendment shall enter into force under the following conditions: (i) An amendment to an article of this Convention shall enter into force for those Parties that have declared that they have accepted it six months after the date on which it is deemed to have been accepted in accordance with subparagraph (e)(i). (ii) An amendment to Annex 1 shall enter into force with respect to all Parties six months after the date on which it is deemed to have been accepted, except for any Party that has: (1) notified its objection to the amendment in accordance with subparagraph (e)(ii) and that has not withdrawn such objection; (2) notified the Secretary-General, prior to the entry into force of such amendment, that the amendment shall enter into force for it only after a subsequent notification of its acceptance; or (3) made a declaration at the time it deposits its instrument of ratification, acceptance or approval of, or accession to, this Convention that amendments to Annex 1 shall enter into force for it only after the notification to the Secretary-General of its acceptance with respect to",
+    "reference": "Article 4 (f)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "An amendment to an Annex other than Annex 1 shall enter into force with respect to all Parties six months after the date on which it is deemed to have been accepted, except for those Parties that have notified their objection to the amendment in accordance with subparagraph (e)(ii) and that have not withdrawn such objection.",
+    "reference": "Article 16 / Rule 3 (i)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "A Party that has notified an objection under subparagraph (f)(ii)(1) or (iii) may subsequently notify the Secretary-General that it accepts the amendment. Such amendment shall enter into force for such Party six months after the date of its notification of acceptance, or the date on which the amendment enters into force, whichever is the later date.",
+    "reference": "Article 16 / Rule 3 (g) (i)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "If a Party that has made a notification or declaration referred to in subparagraph (f)(ii)(2) or (3), respectively, notifies the Secretary-General of its acceptance with respect to an amendment, such amendment shall enter into force for such Party six months after the date of its notification of acceptance, or the date on which the amendment enters into force, whichever is the later date.",
+    "reference": "Article 16 / Rule 3 (g) (ii)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "An amendment adopted by such a Conference by a two-thirds majority of the Parties present and voting shall be communicated by the Secretary-General to all Parties for acceptance.",
+    "reference": "Article 16 / Rule 3 (a) and (b)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "Unless the Conference decides otherwise, the amendment shall be deemed to have been accepted and shall enter into force in accordance with the procedures specified in paragraphs (2)(e) and (f) respectively of this article.",
+    "reference": "Article 16 / Rule 3 (c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "amendment",
+    "definition": "Any Party that has declined to accept an amendment to an Annex shall be treated as a non-Party only for the purpose of application of th",
+    "reference": "Article 16 / Rule 3 (4)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I007",
+    "modele": "qwen3-8b"
+  }
+]

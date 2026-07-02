@@ -1,0 +1,1440 @@
+{
+  "data": {
+    "glossary_entries": [
+      {
+        "term": "Espèce migratrice",
+        "language": "fr",
+        "definition": "l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de juridiction nationale;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, a"
+      },
+      {
+        "term": "Etat de conservation d'une espèce migratrice",
+        "language": "fr",
+        "definition": "l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, b"
+      },
+      {
+        "term": "Etat de conservation favorable",
+        "language": "fr",
+        "definition": "les données relatives à la dynamique des populations de l'espèce migratrice en question indiquent que cette espèce continue et continuera à long terme à constituer un élément viable des écosystèmes auxquels elle appartient;\nl'étendue de l'aire de répartition de cette espèce migratrice ne diminue ni ne risque de diminuer à long terme;\nil existe, et il continuera d'exister dans un avenir prévisible, un habitat suffisant pour que la population de cette espèce migratrice se maintienne à long terme; et\nla répartition et les effectifs de la population de cette espèce migratrice sont proches de leur étendue et de leurs niveaux historiques dans la mesure où il existe des écosystèmes susceptibles de convenir à ladite espèce et dans la mesure où cela est compatible avec une gestion sage de la faune sauvage;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, c"
+      },
+      {
+        "term": "Etat de conservation défavorable",
+        "language": "fr",
+        "definition": "lorsqu'une quelconque des conditions énoncées au sous-paragraphe c) ci-dessus n'est pas remplie;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, d"
+      },
+      {
+        "term": "En danger",
+        "language": "fr",
+        "definition": "pour une espèce migratrice donnée, que celle-ci est en danger d'extinction sur l'ensemble ou sur une partie importante de son aire de répartition;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, e"
+      },
+      {
+        "term": "Aire de répartition",
+        "language": "fr",
+        "definition": "l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habituel de migration;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, f"
+      },
+      {
+        "term": "Habitat",
+        "language": "fr",
+        "definition": "toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, g"
+      },
+      {
+        "term": "Etat de l'aire de répartition",
+        "language": "fr",
+        "definition": "pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) ci-dessous) qui exerce sa juridiction sur une partie quelconque de l'aire de répartition de cette espèce migratrice, ou encore, un Etat dont les navires battant son pavillon procèdent à des prélèvements sur cette espèce en dehors des limites de juridiction nationale;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, h"
+      },
+      {
+        "term": "Effectuer un prélèvement",
+        "language": "fr",
+        "definition": "prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, i"
+      },
+      {
+        "term": "ACCORD",
+        "language": "fr",
+        "definition": "un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention;",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, j"
+      },
+      {
+        "term": "Partie",
+        "language": "fr",
+        "definition": "un Etat ou toute organisation d'intégration économique régionale constituée par des Etats souverains et ayant compétence pour négocier, conclure et appliquer des accords internationaux dans les matières couvertes par la présente Convention, à l'égard desquels la présente Convention est en vigueur.",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 1, k"
+      },
+      {
+        "term": "Parties présentes et votantes",
+        "language": "fr",
+        "definition": "les Parties présentes et qui se sont exprimées par un vote affirmatif ou négatif",
+        "document_title": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+        "scientific_name": null,
+        "article_reference": "Article I, 3"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "glossary_entries": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* a) «Espèce migratrice» signifie l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9972979987754477,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9972979987754477
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...phiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de jur...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* a) «Espèce migratrice» signifie l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9841612352959288,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9841612352959288
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999960861788938,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999960861788938
+            },
+            "article_reference": {
+              "confidence": 0.8025095642720106,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8025095642720106
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* b) «Etat de conservation d'une espèce migratrice» signifie l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa pop...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9977446023857368,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9977446023857368
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...phiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de jur...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* b) «Etat de conservation d'une espèce migratrice» signifie l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa pop...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999998216689135,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998216689135
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999632517573,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999632517573
+            },
+            "article_reference": {
+              "confidence": 0.9999992869469172,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992869469172
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* 4. la répartition et les effectifs de la population de cette espèce migratrice sont proches de leur étendue et de leurs niveaux historiques dans la mesure où il existe des écosystèmes susceptible...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.7418388384591392,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7418388384591392
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...phiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de jur...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* 4. la répartition et les effectifs de la population de cette espèce migratrice sont proches de leur étendue et de leurs niveaux historiques dans la mesure où il existe des écosystèmes susceptible...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9913627103055033,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9913627103055033
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.999999939411026,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999939411026
+            },
+            "article_reference": {
+              "confidence": 0.9999985717256518,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999985717256518
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* d) «L'état de conservation» sera considéré comme «défavorable» lorsqu'une quelconque des conditions énoncées au sous-paragraphe c) ci-dessus n'est pas remplie;",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.999997547443545,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999997547443545
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...phiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, dont une fraction importante franchit cycliquement et de façon prévisible une ou plusieurs des limites de jur...",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* d) «L'état de conservation» sera considéré comme «défavorable» lorsqu'une quelconque des conditions énoncées au sous-paragraphe c) ci-dessus n'est pas remplie;",
+                  "bounding_boxes": [
+                    {
+                      "h": 225.45,
+                      "w": 230.27,
+                      "x": 53.35,
+                      "y": 535.57
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9979069996493002,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9979069996493002
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999632517573,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999632517573
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "Les dispositions de la présente Convention n'affectent nullement le droit des Parties d'adopter des mesures internes plus strictes à l'égard de la conservation d'espèces migratrices figurant aux An...",
+                  "bounding_boxes": [
+                    {
+                      "h": 160.09,
+                      "w": 230.21,
+                      "x": 311.24,
+                      "y": 152.47
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999985376675931,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999985376675931
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* e) «En danger» signifie, pour une espèce migratrice donnée, que celle-ci est en danger d'extinction sur l'ensemble ou sur une partie importante de son aire de répartition;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...rtition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habit...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* e) «En danger» signifie, pour une espèce migratrice donnée, que celle-ci est en danger d'extinction sur l'ensemble ou sur une partie importante de son aire de répartition;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999982178362582,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999982178362582
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999870924902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999870924902
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Une espèce migratrice peut figurer à l'Annexe I à condition qu'il soit établi sur la base de données probantes, notamment des meilleures données scientifiques disponibles, que cette espèce est en d...",
+                  "bounding_boxes": [
+                    {
+                      "h": 115.19,
+                      "w": 230.48,
+                      "x": 53.03,
+                      "y": 330.62
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999988101326882,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988101326882
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* f) «Aire de répartition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de so...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...rtition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habit...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* f) «Aire de répartition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de so...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999379877023,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999379877023
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999870924902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999870924902
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "i) tenir et publier une liste des recommandations faites par la Conférence des Parties en application des sous-paragraphes e), f) et g) du paragraphe 5 de l'Article VII ainsi que des décisions pris...",
+                  "bounding_boxes": [
+                    {
+                      "h": 46.88764160156249,
+                      "w": 215.6965479780988,
+                      "x": 67.36135547917064,
+                      "y": 61.05089123237424
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999988718497902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988718497902
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999679499214,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999679499214
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999870924902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999870924902
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "Tout Etat ou toute organisation d'intégration économique régionale peut, en déposant son instrument de ratification, d'acceptation, d'approbation ou d'adhésion, faire une réserve spéciale à l'égard...",
+                  "bounding_boxes": [
+                    {
+                      "h": 160.02,
+                      "w": 230.27,
+                      "x": 311.6,
+                      "y": 474.33
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999988207625979,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988207625979
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* h) «Etat de l'aire de répartition» signifie, pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) ci-dessous) qui exerce sa juridiction su...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9967052223339552,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9967052223339552
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...rtition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habit...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* h) «Etat de l'aire de répartition» signifie, pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) ci-dessous) qui exerce sa juridiction su...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999983700450897,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999983700450897
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999870924902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999870924902
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "i) tenir et publier une liste des recommandations faites par la Conférence des Parties en application des sous-paragraphes e), f) et g) du paragraphe 5 de l'Article VII ainsi que des décisions pris...",
+                  "bounding_boxes": [
+                    {
+                      "h": 46.88764160156249,
+                      "w": 215.6965479780988,
+                      "x": 67.36135547917064,
+                      "y": 61.05089123237424
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999992124313475,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992124313475
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* i) «Effectuer un prélèvement» signifie prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999374367368,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999374367368
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...rtition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habit...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* i) «Effectuer un prélèvement» signifie prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999998373881512,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998373881512
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999711986679,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999711986679
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Une espèce migratrice peut figurer à l'Annexe I à condition qu'il soit établi sur la base de données probantes, notamment des meilleures données scientifiques disponibles, que cette espèce est en d...",
+                  "bounding_boxes": [
+                    {
+                      "h": 115.19,
+                      "w": 230.48,
+                      "x": 53.03,
+                      "y": 330.62
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999994338094109,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994338094109
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* j) «ACCORD» signifie un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention; et",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.999997042310096,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999997042310096
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...rtition» signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habit...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* j) «ACCORD» signifie un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention; et",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999995960459303,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995960459303
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "confidence": 0.9999989569951382,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999989569951382
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* k) «Partie» signifie un Etat ou toute organisation d'intégration économique régionale constituée par des Etats souverains et ayant compétence pour négocier, conclure et appliquer des accords interna...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* k) «Partie» signifie un Etat ou toute organisation d'intégration économique régionale constituée par des Etats souverains et ayant compétence pour négocier, conclure et appliquer des accords interna...",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 218.58,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999997848763266,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997848763266
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999998708751432,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998708751432
+            },
+            "article_reference": {
+              "confidence": 0.9999967666458337,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999967666458337
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...nte Convention prévoit qu'une décision est prise à la majorité des deux tiers ou à l'unanimité des «Parties présentes et votantes», cela signifie «les Parties présentes et qui se sont exprimées par un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 143.69,
+                      "w": 229.45,
+                      "x": 311.47,
+                      "y": 619.48
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999819309371795,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999819309371795
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Pour déterminer la majorité, il n'est pas tenu compte des abstentions dans le décompte des suffrages exprimés par les «Parties présentes et votantes».",
+                  "bounding_boxes": [
+                    {
+                      "h": 143.69,
+                      "w": 229.45,
+                      "x": 311.47,
+                      "y": 619.48
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "...e à la majorité des deux tiers ou à l'unanimité des «Parties présentes et votantes», cela signifie «les Parties présentes et qui se sont exprimées par un vote affirmatif ou négatif».",
+                  "bounding_boxes": [
+                    {
+                      "h": 143.69,
+                      "w": 229.45,
+                      "x": 311.47,
+                      "y": 619.48
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9971302628965998,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9971302628965998
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.99376452934451,
+                      "w": 402.82840323099276,
+                      "x": 95.47740046803544,
+                      "y": 64.63354392447123
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999870924902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999870924902
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Une espèce migratrice peut figurer à l'Annexe I à condition qu'il soit établi sur la base de données probantes, notamment des meilleures données scientifiques disponibles, que cette espèce est en d...",
+                  "bounding_boxes": [
+                    {
+                      "h": 115.19,
+                      "w": 230.48,
+                      "x": 53.03,
+                      "y": 330.62
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999986202745131,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999986202745131
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-tr3o7bapjvw9tkyt4s9lonoebcmm",
+    "parse_tier": null
+  }
+}

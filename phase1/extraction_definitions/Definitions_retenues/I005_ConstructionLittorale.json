@@ -1,0 +1,1705 @@
+{
+  "data": [
+    {
+      "definitions": [
+        {
+          "term": "littoral",
+          "category": "Principes généraux",
+          "language": "fr",
+          "definition": "Le littoral est une entité géographique qui appelle une politique spécifique d'aménagement, de protection et de mise en valeur.",
+          "article_status": "abrogé",
+          "document_title": "Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "communes auxquelles s'applique la présente loi",
+          "category": "Champ d'application",
+          "language": "fr",
+          "definition": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+          "article_status": "en vigueur",
+          "document_title": "Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral",
+          "modifies_or_creates_references": [
+            "Code de l'environnement - art. L. 321-2"
+          ]
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "",
+          "category": "",
+          "language": "fr",
+          "definition": "",
+          "article_status": "",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "ensemble touristique",
+          "category": "Gestion et exploitation touristique du littoral",
+          "language": "fr",
+          "definition": "Un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique du littoral est un aménagement ou un ensemble d'aménagements qui induisent ces effets sur le littoral.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "bassins et plans d'eau destinés à l'accueil des navires de plaisance",
+          "category": "Domaines portuaires et balnéaires",
+          "language": "fr",
+          "definition": "Ce sont des bassins ou plans d'eau intégrés au domaine public, comprenant une bande bord à quai reliée à la voirie publique, d'une largeur suffisante pour la circulation et l'exploitation des installations, et pouvant être mis en communication avec la mer ou des bassins portuaires existants.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "espaces naturels littoraux",
+          "category": "Protection du littoral — espaces naturels",
+          "language": "fr",
+          "definition": "Les espaces naturels littoraux comprennent les plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "limites du rivage",
+          "category": null,
+          "language": "fr",
+          "definition": "Les limites du rivage sont constatées par l'Etat en fonction des observations opérées sur les lieux à délimiter ou des informations fournies par des procédés scientifiques.",
+          "article_status": "Abrogé par Ordonnance n°2006-460 du 21 avril 2006 - art. 7 (V)",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "autorisation d'exploitation de cultures maritimes sur le domaine public maritime ou fluvial géré par l'Etat",
+          "category": null,
+          "language": "fr",
+          "definition": "L'autorisation d'exploitation de cultures maritimes délivrée en application des lois et règlements en vigueur en matière de pêches maritimes et de cultures marines vaut autorisation d'occupation domaniale.",
+          "article_status": "Abrogé par Ordonnance n°2006-460 du 21 avril 2006 - art. 7 (V)",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "destination fondamentale des plages",
+          "category": "Chapitre II : Des plages",
+          "language": "fr",
+          "definition": "La destination fondamentale des plages est l'usage libre et gratuit par le public, au même titre que leur affectation aux activités de pêche et de cultures marines.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "concession de plage",
+          "category": "Chapitre II : Des plages",
+          "language": "fr",
+          "definition": "Une concession de plage est une autorisation accordée ou renouvelée après enquête publique, qui doit préserver la libre circulation sur la plage et le libre usage par le public d'un espace d'une largeur significative tout le long de la mer. Tout contrat de concession doit déterminer la largeur de cet espace en tenant compte des caractéristiques des lieux. Les concessions de plage et les sous-traités d'exploitation sont portés à la connaissance du public par le concessionnaire.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        },
+        {
+          "term": "organismes de secours et de sauvetage en mer",
+          "category": "Chapitre II : Des plages",
+          "language": "fr",
+          "definition": "Les organismes de secours et de sauvetage en mer sont agréés par l'Etat et leurs modalités d'organisation et d'exercice sont déterminées par décret en Conseil d'Etat.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "schéma interrégional de littoral",
+          "category": "Titre IV : Dispositions diverses",
+          "language": "fr",
+          "definition": "Un schéma interrégional de littoral est un document élaboré par les conseils régionaux des régions littorales limitrophes pour coordonner leurs politiques du littoral. Ce schéma veille à la cohérence des projets d'équipement et des actions de l'Etat et des collectivités territoriales ayant une incidence sur l'aménagement ou la protection du littoral. Il respecte les orientations des schémas de services collectifs prévus à l'article 2 de la loi n° 95-115 du 4 février 1995 et celles des schémas régionaux d'aménagement et de développement du territoire établis par les régions concernées et prévus à l'article 34 de la loi n° 83-8 du 7 janvier 1983.",
+          "article_status": "en vigueur",
+          "document_title": "",
+          "modifies_or_creates_references": [
+            "Loi n° 95-115 du 4 février 1995 - art. 2",
+            "Loi n° 83-8 du 7 janvier 1983 - art. 34"
+          ]
+        },
+        {
+          "term": "Conseil national de la mer et des littoraux",
+          "category": "Titre IV : Dispositions diverses",
+          "language": "fr",
+          "definition": "Le Conseil national de la mer et des littoraux est un organisme créé pour l'aménagement, la protection, la mise en valeur des littoraux et de la mer ainsi que pour la gestion intégrée des zones côtières. Il est présidé par le Premier ministre ou, en son absence, par le ministre chargé de la mer. Sa composition et son fonctionnement sont précisés par décret, en tenant compte de l'importance des espaces maritimes d’outre-mer. Il comprend à parité des membres du Parlement, des représentants du Parlement européen, des collectivités territoriales des façades maritimes, des établissements publics intéressés, des milieux socio-professionnels et de la société civile représentative des activités et usages du littoral. Il est consulté lors de la rédaction des décrets relatifs à la gestion du domaine public maritime, a un rôle de proposition auprès du Gouvernement et contribue à la coordination des actions publiques dans les territoires littoraux. Il définit les objectifs et précise les actions jugées nécessaires pour l’aménagement, la protection et la mise en valeur de la mer et des littoraux dans une perspective de gestion intégrée. Il assure aussi le suivi de la stratégie nationale de la mer et des littoraux.",
+          "article_status": "abrogé",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    },
+    {
+      "definitions": [
+        {
+          "term": "",
+          "category": "",
+          "language": "fr",
+          "definition": "",
+          "article_status": "",
+          "document_title": "",
+          "modifies_or_creates_references": null
+        }
+      ]
+    }
+  ],
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": null,
+      "page_metadata": [
+        {
+          "definitions": [
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Le littoral est une entité géographique qui appelle une politique spécifique d'aménagement, de protection et de mise en valeur.",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.165170302972541,
+                        "w": 515.2302880701577,
+                        "x": 32.64700447462129,
+                        "y": 350.94093329839944
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.98393040939439,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.98393040939439
+              },
+              "category": {
+                "confidence": 0.7565424305547805,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7565424305547805
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "13 : la présente ordonnance est applicable en Nouvelle-Calédonie, en Polynésie française, dans les territoires des îles Wallis et Futuna et des Terres australes et antarctiques françaises et à Mayotte...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.946350724085363,
+                        "w": 502.6081066799257,
+                        "x": 51.08426657655298,
+                        "y": 614.2696668635671
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "VERBATIM EXTRACTION",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Le littoral est une entité géographique qui appelle une politique spécifique d'aménagement, de protection et de mise en valeur.",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.165170302972541,
+                        "w": 515.2302880701577,
+                        "x": 32.64700447462129,
+                        "y": 350.94093329839944
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.999985173006056,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.999985173006056
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "**Abrogé par Ordonnance n°2000-914 du 18 septembre 2000 - art. 5 (V) JORF 21 septembre 2000**",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.249243988185947,
+                        "w": 389.57154340701226,
+                        "x": 177.92884331650154,
+                        "y": 334.7428619474085
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.97755222582685,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.97755222582685
+              },
+              "document_title": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "# Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral (1)",
+                    "bounding_boxes": [
+                      {
+                        "h": 37.95658673780489,
+                        "w": 532.7543525917612,
+                        "x": 31.490681525998006,
+                        "y": 141.41353026391008
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9998295350610907,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9998295350610907
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.009882145579274,
+                        "w": 456.028338660859,
+                        "x": 32.48439095518531,
+                        "y": 559.8542399771342
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9926869215631975,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9926869215631975
+              },
+              "category": {
+                "confidence": 0.9512971944729702,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9512971944729702
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "13 : la présente ordonnance est applicable en Nouvelle-Calédonie, en Polynésie française, dans les territoires des îles Wallis et Futuna et des Terres australes et antarctiques françaises et à Mayotte...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.946350724085363,
+                        "w": 502.6081066799257,
+                        "x": 51.08426657655298,
+                        "y": 614.2696668635671
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "VERBATIM EXTRACTION",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.009882145579274,
+                        "w": 456.028338660859,
+                        "x": 32.48439095518531,
+                        "y": 559.8542399771342
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.999695550982972,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.999695550982972
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "## Version en vigueur au 22 avril 2026",
+                    "bounding_boxes": [
+                      {
+                        "h": 14.203765329649356,
+                        "w": 225.70648442978276,
+                        "x": 184.7468668230755,
+                        "y": 291.82527604801834
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9328127408216976,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9328127408216976
+              },
+              "document_title": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "# Loi n° 86-2 du 3 janvier 1986 relative à l'aménagement, la protection et la mise en valeur du littoral (1)",
+                    "bounding_boxes": [
+                      {
+                        "h": 37.95658673780489,
+                        "w": 532.7543525917612,
+                        "x": 31.490681525998006,
+                        "y": 141.41353026391008
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999996486587195,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999996486587195
+              },
+              "modifies_or_creates_references": [
+                {
+                  "citation": [
+                    {
+                      "page": 1,
+                      "matching_text": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+                      "bounding_boxes": [
+                        {
+                          "h": 10.009882145579274,
+                          "w": 456.028338660859,
+                          "x": 32.48439095518531,
+                          "y": 559.8542399771342
+                        }
+                      ],
+                      "page_dimensions": {
+                        "width": 594.96,
+                        "height": 841.92
+                      }
+                    }
+                  ],
+                  "confidence": 0.9646869624460471,
+                  "parsing_confidence": 1,
+                  "extraction_confidence": 0.9646869624460471
+                }
+              ]
+            }
+          ],
+          "page_number": 1
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "category": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "211-4 du code de l'environnement et 6 de la loi n° 64-1245 du 16 décembre 1964 précitée, l'exécution d'office prévue à l'article 21 de la même loi se fait aux frais et risques du maître d'ouvrage.",
+                    "bounding_boxes": [
+                      {
+                        "h": 36.69442865853653,
+                        "w": 523.0917239698457,
+                        "x": 43.02446388266959,
+                        "y": 745.2456897484757
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "INSUFFICIENT DATA",
+              "definition": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "article_status": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 2
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Si un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique du...",
+                    "bounding_boxes": [
+                      {
+                        "h": 60.67376522961127,
+                        "w": 509.5684923000429,
+                        "x": 53.33917847453793,
+                        "y": 117.69704302591464
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9937645228148713,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9937645228148713
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Si un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique...",
+                    "bounding_boxes": [
+                      {
+                        "h": 60.67376522961127,
+                        "w": 509.5684923000429,
+                        "x": 53.33917847453793,
+                        "y": 117.69704302591464
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.31150099205198245,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.31150099205198245
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "...irectement, l'intégrité des plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.93821669207318,
+                        "w": 473.2031893209318,
+                        "x": 53.38972949099657,
+                        "y": 596.8210433117379
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "Définition implicite extraite de la description des effets considérés comme propres à un ensemble touristique opérant sur le littoral, bien que la structure définitoire soit implicite.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Si un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique...",
+                    "bounding_boxes": [
+                      {
+                        "h": 60.67376522961127,
+                        "w": 509.5684923000429,
+                        "x": 53.33917847453793,
+                        "y": 117.69704302591464
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.6961079145772121,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6961079145772121
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "### Article 19 (abrogé)",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.883512764386447,
+                        "w": 83.99560437547638,
+                        "x": 53.50269983088796,
+                        "y": 79.16907357564786
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9969439406418825,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9969439406418825
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Les bassins et plans d'eau destinés à l'accueil des navires de plaisance doivent être incorporés au domaine public, avec une bande bord à quai, reliée à la voirie publique, d'une largeur suffisante po...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.28487842987804,
+                        "w": 498.41538367532877,
+                        "x": 53.377670759694176,
+                        "y": 436.0999812118903
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999731781908876,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999731781908876
+              },
+              "category": {
+                "confidence": 0.4791693200804795,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4791693200804795
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "...irectement, l'intégrité des plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.93821669207318,
+                        "w": 473.2031893209318,
+                        "x": 53.38972949099657,
+                        "y": 596.8210433117379
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "Définition fonctionnelle implicite présente dans l'énoncé décrivant les conditions requises pour ces bassins ou plans d'eau.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Les bassins et plans d'eau destinés à l'accueil des navires de plaisance doivent être incorporés au domaine public, avec une bande bord à quai, reliée à la voirie publique, d'une largeur suffisante...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.28487842987804,
+                        "w": 498.41538367532877,
+                        "x": 53.377670759694176,
+                        "y": 436.0999812118903
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.7415972623343584,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7415972623343584
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "### Article 22 (abrogé)",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.890575304878045,
+                        "w": 85.01142516911206,
+                        "x": 53.55688662347561,
+                        "y": 397.6906900152439
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Cette disposition ne peut toutefois faire obstacle aux travaux de dragage effectués dans les ports et leurs chenaux ni à ceux qui ont pour objet la conservation ou la protection d'espaces naturels...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.595366901676815,
+                        "w": 510.8376438774295,
+                        "x": 53.13721797470466,
+                        "y": 645.0849535632622
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9611581262539318,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9611581262539318
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Cette disposition ne peut toutefois faire obstacle aux travaux de dragage effectués dans les ports et leurs chenaux ni à ceux qui ont pour objet la conservation ou la protection d'espaces naturels...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.595366901676815,
+                        "w": 510.8376438774295,
+                        "x": 53.13721797470466,
+                        "y": 645.0849535632622
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.1648520340578274,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.1648520340578274
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "...irectement, l'intégrité des plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.93821669207318,
+                        "w": 473.2031893209318,
+                        "x": 53.38972949099657,
+                        "y": 596.8210433117379
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "Définition implicite extraite de l'énumération des espaces protégés par la limitation des extractions de matériaux, dans l'article 24.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "Les extractions de matériaux non visés à l'article 2 du code minier sont limitées ou interdites lorsqu'elles risquent de compromettre, directement ou indirectement, l'intégrité des plages, dunes li...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.93821669207318,
+                        "w": 473.2031893209318,
+                        "x": 53.38972949099657,
+                        "y": 596.8210433117379
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.97535518117495,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.97535518117495
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "### Article 24 (abrogé)",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.125751009908548,
+                        "w": 85.4888322456174,
+                        "x": 53.15694239233994,
+                        "y": 558.9347937118903
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 3
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Les limites du rivage sont constatées par l'Etat en fonction des observations opérées sur les lieux à délimiter ou des informations fournies par des procédés scientifiques.",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.376096012766773,
+                        "w": 464.6107697807498,
+                        "x": 53.58565841094227,
+                        "y": 151.4174465367759
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9994590703733199,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9994590703733199
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Les infractions à la police du mouillage sont constatées par les officiers et agents de police judiciaire et par les fonctionnaires et agents de l'Etat habilités à constater les infractions à la polic...",
+                    "bounding_boxes": [
+                      {
+                        "h": 62.090597332317095,
+                        "w": 513.4739181348849,
+                        "x": 53.47390147258481,
+                        "y": 501.947173285061
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "VERBATIM EXTRACTION",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Les limites du rivage sont constatées par l'Etat en fonction des observations opérées sur les lieux à délimiter ou des informations fournies par des procédés scientifiques.",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.376096012766773,
+                        "w": 464.6107697807498,
+                        "x": 53.58565841094227,
+                        "y": 151.4174465367759
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.998830557522099,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.998830557522099
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "## Abrogé par Ordonnance n°2006-460 du 21 avril 2006 - art. 7 (V) JORF 22 avril 2006 en vigueur le 1er juillet 2006",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.523711733041175,
+                        "w": 456.7572143483232,
+                        "x": 110.94089482660063,
+                        "y": 134.60682043159298
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.8323819243889021,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8323819243889021
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Sur les dépendances du domaine public maritime portuaire relevant de la compétence des collectivités territoriales, l'autorisation d'exploitation, en application des lois et règlements en vigueur e...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.15458176448173,
+                        "w": 500.157624568288,
+                        "x": 53.675113560523066,
+                        "y": 615.0213166920732
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.8724565301741999,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8724565301741999
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Les infractions à la police du mouillage sont constatées par les officiers et agents de police judiciaire et par les fonctionnaires et agents de l'Etat habilités à constater les infractions à la polic...",
+                    "bounding_boxes": [
+                      {
+                        "h": 62.090597332317095,
+                        "w": 513.4739181348849,
+                        "x": 53.47390147258481,
+                        "y": 501.947173285061
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "VERBATIM EXTRACTION",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "Sur le domaine public maritime ou fluvial, naturel ou artificiel, géré directement par l'Etat, l'autorisation d'exploitation de cultures maritimes délivrée en application des lois et règlements en vig...",
+                    "bounding_boxes": [
+                      {
+                        "h": 35.37942999237811,
+                        "w": 496.3508872487138,
+                        "x": 53.26190605349658,
+                        "y": 770.1235293635671
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9844550277435193,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9844550277435193
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 4,
+                    "matching_text": "## Abrogé par Ordonnance n°2006-460 du 21 avril 2006 - art. 7 (V) JORF 22 avril 2006 en vigueur le 1er juillet 2006",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.504046913109837,
+                        "w": 456.9125297446647,
+                        "x": 110.86256400057167,
+                        "y": 598.4950471417683
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999963383812996,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999963383812996
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 4
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "L'usage libre et gratuit par le public constitue la destination fondamentale des plages au même titre que leur affectation aux activités de pêche et de cultures marines.",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.53624710842225,
+                        "w": 500.3436159953792,
+                        "x": 53.66328510980374,
+                        "y": 120.27402430449696
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9982152658253843,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9982152658253843
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "# Chapitre II : Des plages. (Articles 31 à 33)",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.611186301924546,
+                        "w": 200.74713372713418,
+                        "x": 42.858777003144056,
+                        "y": 30.45132773080221
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9893608344217957,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9893608344217957
+              },
+              "language": {
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "La formulation attribue explicitement la destination fondamentale des plages à deux finalités précises traduisibles comme une définition implicite d'ordre juridique.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "L'usage libre et gratuit par le public constitue la destination fondamentale des plages au même titre que leur affectation aux activités de pêche et de cultures marines.",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.53624710842225,
+                        "w": 500.3436159953792,
+                        "x": 53.66328510980374,
+                        "y": 120.27402430449696
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9155823057316884,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9155823057316884
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Abrogé par Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.1622375,
+                        "w": 265.47797822503816,
+                        "x": 302.1822586509147,
+                        "y": 465.3622359375
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9894575385366974,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9894575385366974
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Les concessions de plage sont accordées ou renouvelées après enquête publique ; elles préservent la libre circulation sur la plage et le libre usage par le public d'un espace d'une largeur significati...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.644886151867357,
+                        "w": 497.1213352241331,
+                        "x": 53.860281291682554,
+                        "y": 155.52394723227897
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9501133249902843,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9501133249902843
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "# Chapitre II : Des plages. (Articles 31 à 33)",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.611186301924546,
+                        "w": 200.74713372713418,
+                        "x": 42.858777003144056,
+                        "y": 30.45132773080221
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999999279966713,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999999279966713
+              },
+              "language": {
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "Synthèse de plusieurs phrases décrivant les attributs essentiels juridiques et administratifs de la concession de plage dans l'article 30.",
+              "definition": {
+                "confidence": 0.9109951562795571,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9109951562795571
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Abrogé par Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.1622375,
+                        "w": 265.47797822503816,
+                        "x": 302.1822586509147,
+                        "y": 465.3622359375
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Les organismes de secours et de sauvetage en mer sont agréés par l'Etat.",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.134914805640221,
+                        "w": 293.25475871998856,
+                        "x": 53.699713726657784,
+                        "y": 517.113073456555
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9691106145405199,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9691106145405199
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "# Chapitre II : Des plages. (Articles 31 à 33)",
+                    "bounding_boxes": [
+                      {
+                        "h": 11.611186301924546,
+                        "w": 200.74713372713418,
+                        "x": 42.858777003144056,
+                        "y": 30.45132773080221
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9525590261109362,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9525590261109362
+              },
+              "language": {
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "VERBATIM EXTRACTION (regroupée en une seule définition synthétique pour éviter les doublons).",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Les modalités d'organisation et de mise en oeuvre du secours et du sauvetage en mer ainsi que les conditions de l'agrément et de l'exercice des activités des organismes de secours sont déterminées...",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.660540301067098,
+                        "w": 510.23433974907124,
+                        "x": 53.649862408893874,
+                        "y": 539.2561870998476
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.7690076574373672,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7690076574373672
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Abrogé par Ordonnance n° 2010-1307 du 28 octobre 2010 - art. 7",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.1622375,
+                        "w": 265.47797822503816,
+                        "x": 302.1822586509147,
+                        "y": 465.3622359375
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 5
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Les conseils régionaux des régions littorales limitrophes peuvent coordonner leurs politiques du littoral et élaborer un schéma interrégional de littoral.",
+                    "bounding_boxes": [
+                      {
+                        "h": 22.971442482850616,
+                        "w": 509.69155955780786,
+                        "x": 43.01949956471513,
+                        "y": 205.308440625
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9915300662468827,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9915300662468827
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "# Titre IV : Dispositions diverses. (Articles 40 à 42)",
+                    "bounding_boxes": [
+                      {
+                        "h": 13.421590536871195,
+                        "w": 276.2438611923591,
+                        "x": 32.255914974752294,
+                        "y": 102.66851459365473
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9819421985829939,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9819421985829939
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "...tionnées à l'article 72-3 de la Constitution, ainsi qu'un représentant au Parlement européen élu en France et des représentants des collectivités territoriales des façades maritimes de métropole et d'...",
+                    "bounding_boxes": [
+                      {
+                        "h": 98.81485535442073,
+                        "w": 516.9908074843988,
+                        "x": 42.918680954053926,
+                        "y": 576.7931072789635
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "La notion de schéma interrégional de littoral est décrite à l'article 40 A, même si la formule 'on entend par' n'est pas utilisée. La définition est implicite à travers la description de son élaboration, son but et les normes auxquelles il est soumis.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Ce schéma veille à la cohérence des projets d'équipement et des actions de l'Etat et des collectivités territoriales qui ont une incidence sur l'aménagement ou la protection du littoral.",
+                    "bounding_boxes": [
+                      {
+                        "h": 73.13016905487808,
+                        "w": 515.8588145650725,
+                        "x": 42.8312850443026,
+                        "y": 240.36430975609758
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9691525157885552,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9691525157885552
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Il comprend à parité, d'une part, des membres du Parlement, à raison de deux députés et deux sénateurs, dont un député et un sénateur élus dans les collectivités mentionnées à l'article 72-3 de la...",
+                    "bounding_boxes": [
+                      {
+                        "h": 98.81485535442073,
+                        "w": 516.9908074843988,
+                        "x": 42.918680954053926,
+                        "y": 576.7931072789635
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.37273362010472855,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.37273362010472855
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "modifies_or_creates_references": [
+                {
+                  "citation": [
+                    {
+                      "page": 6,
+                      "matching_text": "Il respecte les orientations des schémas de services collectifs prévus à l'article 2 de la loi n° 95-115 du 4 février 1995 d'orientation pour l'aménagement et le développement du territoire et celles...",
+                      "bounding_boxes": [
+                        {
+                          "h": 73.13016905487808,
+                          "w": 515.8588145650725,
+                          "x": 42.8312850443026,
+                          "y": 240.36430975609758
+                        }
+                      ],
+                      "page_dimensions": {
+                        "width": 594.96,
+                        "height": 841.92
+                      }
+                    }
+                  ],
+                  "confidence": 0.9517737673650739,
+                  "parsing_confidence": 1,
+                  "extraction_confidence": 0.9517737673650739
+                },
+                {
+                  "citation": [
+                    {
+                      "page": 6,
+                      "matching_text": "Il respecte les orientations des schémas de services collectifs prévus à l'article 2 de la loi n° 95-115 du 4 février 1995 d'orientation pour l'aménagement et le développement du territoire et celles...",
+                      "bounding_boxes": [
+                        {
+                          "h": 73.13016905487808,
+                          "w": 515.8588145650725,
+                          "x": 42.8312850443026,
+                          "y": 240.36430975609758
+                        }
+                      ],
+                      "page_dimensions": {
+                        "width": 594.96,
+                        "height": 841.92
+                      }
+                    }
+                  ],
+                  "confidence": 0.9998660909170661,
+                  "parsing_confidence": 1,
+                  "extraction_confidence": 0.9998660909170661
+                }
+              ]
+            },
+            {
+              "term": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "...n et la mise en valeur des littoraux et de la mer et la gestion intégrée des zones côtières dénommé Conseil national de la mer et des littoraux.",
+                    "bounding_boxes": [
+                      {
+                        "h": 98.81485535442073,
+                        "w": 516.9908074843988,
+                        "x": 42.918680954053926,
+                        "y": 576.7931072789635
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999999715621526,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999999715621526
+              },
+              "category": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "# Titre IV : Dispositions diverses. (Articles 40 à 42)",
+                    "bounding_boxes": [
+                      {
+                        "h": 13.421590536871195,
+                        "w": 276.2438611923591,
+                        "x": 32.255914974752294,
+                        "y": 102.66851459365473
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9999992202407985,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999992202407985
+              },
+              "language": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "...tionnées à l'article 72-3 de la Constitution, ainsi qu'un représentant au Parlement européen élu en France et des représentants des collectivités territoriales des façades maritimes de métropole et d'...",
+                    "bounding_boxes": [
+                      {
+                        "h": 98.81485535442073,
+                        "w": 516.9908074843988,
+                        "x": 42.918680954053926,
+                        "y": 576.7931072789635
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "L'organisme est créé et décrit dans ses missions, sa composition et sa présidence à l'article 43. La dénomination précise en fait un terme distinct et défini.",
+              "definition": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Il est créé un conseil national pour l'aménagement, la protection et la mise en valeur des littoraux et de la mer et la gestion intégrée des zones côtières dénommé Conseil national de la mer et des...",
+                    "bounding_boxes": [
+                      {
+                        "h": 98.81485535442073,
+                        "w": 516.9908074843988,
+                        "x": 42.918680954053926,
+                        "y": 576.7931072789635
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.8177814834425379,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8177814834425379
+              },
+              "article_status": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Abrogé par LOI n°2021-1104 du 22 août 2021 - art. 238\nModifié par LOI n°2018-699 du 3 août 2018 - art. 74",
+                    "bounding_boxes": [
+                      {
+                        "h": 21.743299904725525,
+                        "w": 222.83121878334603,
+                        "x": 344.70477286109,
+                        "y": 548.2774890434453
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 594.96,
+                      "height": 841.92
+                    }
+                  }
+                ],
+                "confidence": 0.9998436923621042,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9998436923621042
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 6
+        },
+        {
+          "definitions": [
+            {
+              "term": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "category": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "language": {
+                "confidence": 1,
+                "parsing_confidence": 1,
+                "extraction_confidence": 1
+              },
+              "reasoning": "INSUFFICIENT DATA",
+              "definition": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "article_status": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              },
+              "document_title": {
+                "confidence": 0.01,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.01
+              }
+            }
+          ],
+          "page_number": 7
+        }
+      ],
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-5kq5bfo0p407jcvxhs50rcwp2z1k",
+    "parse_tier": "agentic_plus"
+  }
+}

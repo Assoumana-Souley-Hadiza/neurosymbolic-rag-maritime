@@ -1,0 +1,56 @@
+[
+  {
+    "terme": "Parties",
+    "definition": "les Parties contractantes au présent Protocole",
+    "nom_scientifique": null,
+    "reference": "Article 2, a)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Convention",
+    "definition": "la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995",
+    "nom_scientifique": null,
+    "reference": "Article 2, b)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Organisation",
+    "definition": "l'organisation visée à l'article 17 de la Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2, c)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Centre",
+    "definition": "le Centre d'activités régionales pour le Programme d'actions prioritaires",
+    "nom_scientifique": null,
+    "reference": "Article 2, d)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Zone côtière",
+    "definition": "l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et systèmes de ressources complexes comprenant des composantes biotiques et abiotiques coexistant et interagissant avec les communautés humaines et les activités socio-économiques pertinentes",
+    "nom_scientifique": null,
+    "reference": "Article 2, e)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Gestion intégrée des zones côtières",
+    "definition": "un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs interactions, la vocation maritime de certains d'entre eux, ainsi que leurs impacts à la fois sur la partie marine et la partie terrestre",
+    "nom_scientifique": null,
+    "reference": "Article 2, f)",
+    "exclusions": null,
+    "doc_id": "I003",
+    "modele": "gemma-4-9b-it"
+  }
+]

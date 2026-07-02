@@ -1,0 +1,921 @@
+{
+  "data": {
+    "source": "Convention sur la conservation des espèces migratrices appartenant à la faune sauvage (CMS, dite Convention de Bonn)",
+    "version": "final_v1",
+    "sources_pdf": false,
+    "interdiction": "Interdiction de la chasse des oiseaux marins",
+    "interdiction_id": "I005",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "prélèvement d'animaux appartenant à une espèce migratrice figurant à l'Annexe I (incluant chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque de ces actions)"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "aire de répartition de l'espèce migratrice (ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habituel de migration)"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Parties qui sont des Etats de l'aire de répartition d'une espèce migratrice figurant à l'Annexe I"
+        },
+        {
+          "categorie": "Espece",
+          "texte_original": "espèces migratrices d'oiseaux marins figurant à l'Annexe I"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "dérogations à l'interdiction de prélèvement : fins scientifiques, amélioration de la propagation ou de la survie de l'espèce, besoins d'une économie traditionnelle de subsistance, circonstances exceptionnelles"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "obligation d'informer le Secrétariat de toute dérogation accordée (contrôle indirect, absence de sanction pénale explicite)"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "contrôle strict de l'introduction d'espèces exotiques ou surveillance/élimination de celles déjà introduites"
+        }
+      ],
+      "explication_generale": "La Convention sur la conservation des espèces migratrices appartenant à la faune sauvage (CMS) impose aux États parties une interdiction stricte du prélèvement (incluant la chasse) des animaux appartenant aux espèces migratrices inscrites à l'Annexe I, ce qui inclut les oiseaux marins migrateurs en danger. Cette interdiction s'applique à tous les États de l'aire de répartition de ces espèces, c'est-à-dire à tous les territoires terrestres ou aquatiques fréquentés par ces oiseaux au cours de leur migration. Toutefois, la Convention prévoit des exceptions limitées et encadrées : le prélèvement peut être autorisé à des fins scientifiques, pour améliorer la propagation ou la survie de l'espèce, pour répondre aux besoins d'une économie traditionnelle de subsistance, ou dans des circonstances exceptionnelles. Ces dérogations doivent être précises, limitées dans le temps et l'espace, et ne pas porter préjudice à l'espèce. Les États doivent informer le Secrétariat de toute dérogation accordée. Le mécanisme central vise donc à protéger les oiseaux marins migrateurs en danger en interdisant leur chasse, tout en permettant des exceptions strictement contrôlées.",
+      "interdictions_identifiees": [
+        "Interdiction du prélèvement (chasse, capture, etc.) d'animaux appartenant à une espèce migratrice figurant à l'Annexe I (y compris les oiseaux marins migrateurs en danger) par les États de l'aire de répartition."
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_PRELEVEMENT_ESPECES_MIGRATRICES_ANNEXE_I",
+        "source": "Article III, paragraphe 5",
+        "subject": "I005",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Zone_AIRE_DE_REPARTITION_ESPECES_MIGRATRICES",
+        "source": "Article I, f et Article III, paragraphe 5",
+        "subject": "I005",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Actor_ETAT_AIRE_DE_REPARTITION",
+        "source": "Article III, paragraphe 5",
+        "subject": "I005",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Espece_OISEAUX_MARINS_MIGRATEURS_ANNEXE_I",
+        "source": "Article III, Annexe I",
+        "subject": "I005",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Espece",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Exception_DEROGATIONS_PRELEVEMENT_SCIENTIFIQUE_SURVIE_SUBSISTANCE_EXCEPTIONNELLE",
+        "source": "Article III, paragraphe 5 a-d",
+        "subject": "I005",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Sanction_INFORMATION_SECRETAIRE_DEROGATION",
+        "source": "Article III, paragraphe 7",
+        "subject": "I005",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 0.8,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I005"
+      },
+      {
+        "object": "mar:Controle_CONTROLE_ESPECES_EXOTIQUES",
+        "source": "Article III, paragraphe 4c",
+        "subject": "I005",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.85,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I005"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# Convention sur la conservation des espèces migratrices appartenant à la faune sauvage",
+              "bounding_boxes": [
+                {
+                  "h": 33.99376452934451,
+                  "w": 402.82840323099276,
+                  "x": 95.47740046803544,
+                  "y": 64.63354392447123
+                }
+              ],
+              "page_dimensions": {
+                "width": 595,
+                "height": 842
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.895580803584483,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.895580803584483
+        },
+        "version": {
+          "reasoning": "Version du pipeline d'extraction standard.",
+          "confidence": 0.9868756194089414,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9868756194089414
+        },
+        "sources_pdf": {
+          "reasoning": "Le texte source fourni n'est pas un PDF mais un extrait textuel.",
+          "confidence": 0.9999976607241555,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999976607241555
+        },
+        "interdiction": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9985077730968315,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9985077730968315
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Extraction fidèle des interdictions, entités et exceptions à partir des articles I à V de la Convention, en particulier l'article III, paragraphe 5.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9993080575150011,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9993080575150011
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "* i) «Effectuer un prélèvement» signifie prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées;",
+                    "bounding_boxes": [
+                      {
+                        "h": 476.75,
+                        "w": 219.23,
+                        "x": 325.71,
+                        "y": 135.59
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.9050465643986522,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9050465643986522
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                    "bounding_boxes": [
+                      {
+                        "h": 476.75,
+                        "w": 219.23,
+                        "x": 325.71,
+                        "y": 135.59
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.6300986617174552,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6300986617174552
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                    "bounding_boxes": [
+                      {
+                        "h": 476.75,
+                        "w": 219.23,
+                        "x": 325.71,
+                        "y": 135.59
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.9570199528095221,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9570199528095221
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7650260509338005,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7650260509338005
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "La Conférence des Parties peut recommander aux Parties qui sont des Etats de l'aire de répartition d'une espèce migratrice figurant à l'Annexe I de prendre toute autre mesure jugée propre à favoriser...",
+                    "bounding_boxes": [
+                      {
+                        "h": 71.89,
+                        "w": 229.87,
+                        "x": 311.47,
+                        "y": 153.39
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.9332521838326848,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9332521838326848
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8458854439621812,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8458854439621812
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "L'Annexe I énumère des espèces migratrices en danger.",
+                    "bounding_boxes": [
+                      {
+                        "h": 74.79,
+                        "w": 230.48,
+                        "x": 53.03,
+                        "y": 371.02
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.9029342243167199,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9029342243167199
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "Un amendement aux Annexes entrera en vigueur à l'égard de toutes les Parties, à l'exception de celles qui auront fait une réserve conformément au paragraphe 6 ci-dessous, quatre-vingt-dix jours après...",
+                    "bounding_boxes": [
+                      {
+                        "h": 255.6,
+                        "w": 231.43,
+                        "x": 52.87,
+                        "y": 524.08
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.6788270376845074,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6788270376845074
+              },
+              "texte_original": {
+                "confidence": 0.8776970719341662,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8776970719341662
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7364293099382774,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7364293099382774
+              },
+              "texte_original": {
+                "confidence": 0.7670120864962054,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7670120864962054
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9506409314898675,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9506409314898675
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "c) lorsque cela est possible et approprié, de prévenir, de réduire ou de contrôler les facteurs qui mettent en danger ou risquent de mettre en danger davantage ladite espèce, notamment en contrôlan...",
+                    "bounding_boxes": [
+                      {
+                        "h": 55.56259408346029,
+                        "w": 215.89523147955174,
+                        "x": 67.28015840111709,
+                        "y": 637.2229186118522
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 595,
+                      "height": 842
+                    }
+                  }
+                ],
+                "confidence": 0.8748594940739344,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8748594940739344
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.7703988742696012,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.7703988742696012
+          },
+          "interdictions_identifiees": [
+            {
+              "confidence": 0.851940868975096,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.851940868975096
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9505320535505555,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9505320535505555
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "6. La Conférence des Parties peut recommander aux Parties qui sont des Etats de l'aire de répartition d'une espèce migratrice figurant à l'Annexe I de prendre toute autre mesure jugée propre à favo...",
+                  "bounding_boxes": [
+                    {
+                      "h": 71.89,
+                      "w": 229.87,
+                      "x": 311.47,
+                      "y": 153.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9024988687198721,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9024988687198721
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.999999893594818,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999893594818
+            },
+            "reasoning": "L'article III.5 interdit explicitement le prélèvement (incluant la chasse) des espèces migratrices de l'Annexe I.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 230.4,
+                      "w": 229.92,
+                      "x": 311.85,
+                      "y": 97.81
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9909241418919436,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9909241418919436
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.947716229009617,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.947716229009617
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "i) tenir et publier une liste des recommandations faites par la Conférence des Parties en application des sous-paragraphes e), f) et g) du paragraphe 5 de l'Article VII ainsi que des décisions pris...",
+                  "bounding_boxes": [
+                    {
+                      "h": 46.88764160156249,
+                      "w": 215.6965479780988,
+                      "x": 67.36135547917064,
+                      "y": 61.05089123237424
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.882674364617678,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.882674364617678
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "L'interdiction s'applique dans toute l'aire de répartition de l'espèce migratrice, telle que définie à l'article I, f.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "* g) «Habitat» signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question;",
+                  "bounding_boxes": [
+                    {
+                      "h": 476.75,
+                      "w": 219.23,
+                      "x": 325.71,
+                      "y": 135.59
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 230.4,
+                      "w": 229.92,
+                      "x": 311.85,
+                      "y": 97.81
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9651647583294654,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9651647583294654
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.961146376217234,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.961146376217234
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "6. La Conférence des Parties peut recommander aux Parties qui sont des Etats de l'aire de répartition d'une espèce migratrice figurant à l'Annexe I de prendre toute autre mesure jugée propre à favo...",
+                  "bounding_boxes": [
+                    {
+                      "h": 71.89,
+                      "w": 229.87,
+                      "x": 311.47,
+                      "y": 153.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9994395366338319,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9994395366338319
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "L'article III.5 vise explicitement les Parties qui sont des États de l'aire de répartition.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 130.25,
+                      "w": 230.56,
+                      "x": 311.97,
+                      "y": 506.35
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9891830883805781,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9891830883805781
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9646953096070889,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9646953096070889
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "Tout Etat ou toute organisation d'intégration économique régionale peut, en déposant son instrument de ratification, d'acceptation, d'approbation ou d'adhésion, faire une réserve spéciale à l'égard...",
+                  "bounding_boxes": [
+                    {
+                      "h": 130.25,
+                      "w": 230.56,
+                      "x": 311.97,
+                      "y": 506.35
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.858486548970706,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.858486548970706
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9380311023849797,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9380311023849797
+            },
+            "reasoning": "L'interdiction vise les espèces migratrices inscrites à l'Annexe I, dont les oiseaux marins migrateurs.",
+            "concept_id": {
+              "confidence": 0.9999999354624522,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999354624522
+            },
+            "confidence": {
+              "confidence": 0.7570398717560374,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7570398717560374
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.8535026093245414,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8535026093245414
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Les Parties informent aussitôt que possible le Secrétariat de toute dérogation accordée aux termes du paragraphe 5 du présent Article.",
+                  "bounding_boxes": [
+                    {
+                      "h": 71.89,
+                      "w": 229.87,
+                      "x": 311.47,
+                      "y": 153.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9102708697901101,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9102708697901101
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "L'article III.5 prévoit explicitement ces exceptions à l'interdiction.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "Un amendement aux Annexes entrera en vigueur à l'égard de toutes les Parties, à l'exception de celles qui auront fait une réserve conformément au paragraphe 6 ci-dessous, quatre-vingt-dix jours après...",
+                  "bounding_boxes": [
+                    {
+                      "h": 255.6,
+                      "w": 231.43,
+                      "x": 52.87,
+                      "y": 524.08
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 255.6,
+                      "w": 231.43,
+                      "x": 52.87,
+                      "y": 524.08
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9940416246395973,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9940416246395973
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.8729792608755089,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8729792608755089
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Les Parties informent aussitôt que possible le Secrétariat de toute dérogation accordée aux termes du paragraphe 5 du présent Article.",
+                  "bounding_boxes": [
+                    {
+                      "h": 71.89,
+                      "w": 229.87,
+                      "x": 311.47,
+                      "y": 153.39
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9998964057543519,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998964057543519
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999972856525199,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999972856525199
+            },
+            "reasoning": "Bien qu'il ne s'agisse pas d'une sanction pénale, il existe une obligation de notification qui constitue un mécanisme de contrôle.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7108529326289174,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7108529326289174
+            },
+            "deontic_type": {
+              "confidence": 0.999925526544084,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999925526544084
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9519778835301946,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9519778835301946
+            },
+            "source": {
+              "confidence": 0.9623299721504925,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9623299721504925
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999993891000533,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999993891000533
+            },
+            "reasoning": "L'article III.4c impose des mesures de contrôle pour protéger les espèces migratrices.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.665339229090169,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.665339229090169
+            },
+            "deontic_type": {
+              "confidence": 0.9999698643253174,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999698643253174
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-607pnongtkhjgpnqzxtxcmy493t0",
+    "parse_tier": null
+  }
+}

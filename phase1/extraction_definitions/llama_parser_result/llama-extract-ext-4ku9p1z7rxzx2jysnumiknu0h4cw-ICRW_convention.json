@@ -1,0 +1,2837 @@
+{
+  "data": {
+    "document_title": "International Convention for the Regulation of Whaling, 1946 – Schedule (as amended September 2024)",
+    "glossary_terms": [
+      {
+        "term": "baleen whale",
+        "language": "en",
+        "definition": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+        "exclusions": "i.e. any whale other than a toothed whale",
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "blue whale",
+        "language": "en",
+        "definition": "“blue whale” (Balaenoptera musculus) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+        "exclusions": null,
+        "scientific_name": "Balaenoptera musculus",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "bowhead whale",
+        "language": "en",
+        "definition": "“bowhead whale” (Balaena mysticetus) means any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+        "exclusions": null,
+        "scientific_name": "Balaena mysticetus",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "Bryde’s whale",
+        "language": "en",
+        "definition": "“Bryde’s whale” (Balaenoptera edeni, B. brydei) means any whale known as Bryde’s whale.",
+        "exclusions": null,
+        "scientific_name": "Balaenoptera edeni, B. brydei",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "fin whale",
+        "language": "en",
+        "definition": "“fin whale” (Balaenoptera physalus) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+        "exclusions": null,
+        "scientific_name": "Balaenoptera physalus",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "gray whale",
+        "language": "en",
+        "definition": "“gray whale” (Eschrichtius robustus) means any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+        "exclusions": null,
+        "scientific_name": "Eschrichtius robustus",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "humpback whale",
+        "language": "en",
+        "definition": "“humpback whale” (Megaptera novaeangliae) means any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+        "exclusions": null,
+        "scientific_name": "Megaptera novaeangliae",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "minke whale",
+        "language": "en",
+        "definition": "“minke whale” (Balaenoptera acutorostrata, B. bonaerensis) means any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+        "exclusions": null,
+        "scientific_name": "Balaenoptera acutorostrata, B. bonaerensis",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "pygmy right whale",
+        "language": "en",
+        "definition": "“pygmy right whale” (Caperea marginata) means any whale known as southern pygmy right whale or pygmy right whale.",
+        "exclusions": null,
+        "scientific_name": "Caperea marginata",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "right whale",
+        "language": "en",
+        "definition": "“right whale” (Eubalaena glacialis, E. australis) means any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, North Cape whale, Pacific right whale, or southern right whale.",
+        "exclusions": null,
+        "scientific_name": "Eubalaena glacialis, E. australis",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "sei whale",
+        "language": "en",
+        "definition": "“sei whale” (Balaenoptera borealis) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+        "exclusions": null,
+        "scientific_name": "Balaenoptera borealis",
+        "article_reference": "I. INTERPRETATION, A"
+      },
+      {
+        "term": "toothed whale",
+        "language": "en",
+        "definition": "“toothed whale” means any whale which has teeth in the jaws.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "beaked whale",
+        "language": "en",
+        "definition": "“beaked whale” means any whale belonging to the genus Mesoplodon, or any whale known as Cuvier’s beaked whale (Ziphius cavirostris), or Shepherd’s beaked whale (Tasmacetus shepherdi).",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "bottlenose whale",
+        "language": "en",
+        "definition": "“bottlenose whale” means any whale known as Baird’s beaked whale (Berardius bairdii), Arnoux’s whale (Berardius arnuxii), southern bottlenose whale (Hyperoodon planifrons), or northern bottlenose whale (Hyperoodon ampullatus).",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "killer whale",
+        "language": "en",
+        "definition": "“killer whale” (Orcinus orca) means any whale known as killer whale or orca.",
+        "exclusions": null,
+        "scientific_name": "Orcinus orca",
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "pilot whale",
+        "language": "en",
+        "definition": "“pilot whale” means any whale known as long-finned pilot whale (Globicephala melaena) or short-finned pilot whale (G. macrorhynchus).",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "sperm whale",
+        "language": "en",
+        "definition": "“sperm whale” (Physeter macrocephalus) means any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+        "exclusions": null,
+        "scientific_name": "Physeter macrocephalus",
+        "article_reference": "I. INTERPRETATION, B"
+      },
+      {
+        "term": "strike",
+        "language": "en",
+        "definition": "“strike” means to penetrate with a weapon used for whaling.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "land",
+        "language": "en",
+        "definition": "“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "take",
+        "language": "en",
+        "definition": "“take” means to flag, buoy or make fast to a whale catcher.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "lose",
+        "language": "en",
+        "definition": "“lose” means to either strike or take but not to land.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "dauhval",
+        "language": "en",
+        "definition": "“dauhval” means any unclaimed dead whale found floating.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "lactating whale",
+        "language": "en",
+        "definition": "“lactating whale” means (a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary gland the maximum thickness (depth) of which is 10cm or more. This measurement shall be at the mid ventral point of the mammary gland perpendicular to the body axis, and shall be logged to the nearest centimetre; that is to say, any gland between 9.5cm and 10.5cm shall be logged as 10cm. The measurement of any gland which falls on an exact 0.5 centimetre shall be logged at the next 0.5 centimetre, e.g. 10.5cm shall be logged as 11.0cm. However, notwithstanding these criteria, a whale shall not be considered a lactating whale if scientific (histological or other biological) evidence is presented to the appropriate national authority establishing that the whale could not at that point in its physical cycle have had a calf dependent on it for milk.",
+        "exclusions": "A whale shall not be considered a lactating whale if scientific (histological or other biological) evidence is presented to the appropriate national authority establishing that the whale could not at that point in its physical cycle have had a calf dependent on it for milk.",
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      },
+      {
+        "term": "small-type whaling",
+        "language": "en",
+        "definition": "“small-type whaling” means catching operations using powered vessels with mounted harpoon guns hunting exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "I. INTERPRETATION, C"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_title": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "# International Convention for the Regulation of Whaling, 1946",
+              "bounding_boxes": [
+                {
+                  "h": 123.6859540539253,
+                  "w": 217.02490201028965,
+                  "x": 197.79174398580415,
+                  "y": 88.82859276748285
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.6,
+                "height": 859
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.8370090015419231,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.8370090015419231
+        },
+        "glossary_terms": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999996647864038,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996647864038
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9967857207742975,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9967857207742975
+            },
+            "exclusions": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.8415515401968379,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8415515401968379
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.8973545280415071,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8973545280415071
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9976220928199838,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9976220928199838
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.99999976799194,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99999976799194
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999992214746858,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992214746858
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bowhead whale” (*Balaena mysticetus*) means any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.47361405535442,
+                      "w": 240.49883110232474,
+                      "x": 53.403019060832705,
+                      "y": 483.14852336604423
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bowhead whale” (*Balaena mysticetus*) means any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.47361405535442,
+                      "w": 240.49883110232474,
+                      "x": 53.403019060832705,
+                      "y": 483.14852336604423
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bowhead whale” (*Balaena mysticetus*) means any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.47361405535442,
+                      "w": 240.49883110232474,
+                      "x": 53.403019060832705,
+                      "y": 483.14852336604423
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999978365568258,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999978365568258
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bowhead whale” (*Balaena mysticetus*) means any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.47361405535442,
+                      "w": 240.49883110232474,
+                      "x": 53.403019060832705,
+                      "y": 483.14852336604423
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999990873706864,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999990873706864
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“Bryde’s whale” (*Balaenoptera edeni, B. brydei*) means any whale known as Bryde’s whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.130339415015282,
+                      "w": 239.7389860080626,
+                      "x": 53.50034741062072,
+                      "y": 517.4235113376525
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.999772130284502,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999772130284502
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“Bryde’s whale” (*Balaenoptera edeni, B. brydei*) means any whale known as Bryde’s whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.130339415015282,
+                      "w": 239.7389860080626,
+                      "x": 53.50034741062072,
+                      "y": 517.4235113376525
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“Bryde’s whale” (*Balaenoptera edeni, B. brydei*) means any whale known as Bryde’s whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.130339415015282,
+                      "w": 239.7389860080626,
+                      "x": 53.50034741062072,
+                      "y": 517.4235113376525
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999984121370755,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999984121370755
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“Bryde’s whale” (*Balaenoptera edeni, B. brydei*) means any whale known as Bryde’s whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.130339415015282,
+                      "w": 239.7389860080626,
+                      "x": 53.50034741062072,
+                      "y": 517.4235113376525
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999218400283761,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999218400283761
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.999999534384111,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999534384111
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999983674579829,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999983674579829
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999997373911133,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997373911133
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“gray whale” (*Eschrichtius robustus*) means any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+                  "bounding_boxes": [
+                    {
+                      "h": 34.03637117711508,
+                      "w": 240.35015059159443,
+                      "x": 53.18319697533585,
+                      "y": 574.7676027177021
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“gray whale” (*Eschrichtius robustus*) means any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+                  "bounding_boxes": [
+                    {
+                      "h": 34.03637117711508,
+                      "w": 240.35015059159443,
+                      "x": 53.18319697533585,
+                      "y": 574.7676027177021
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999992255558456,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992255558456
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“gray whale” (*Eschrichtius robustus*) means any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+                  "bounding_boxes": [
+                    {
+                      "h": 34.03637117711508,
+                      "w": 240.35015059159443,
+                      "x": 53.18319697533585,
+                      "y": 574.7676027177021
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999994909166852,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994909166852
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999990575698199,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999990575698199
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“humpback whale” (*Megaptera novaeangliae*) means any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.41387034346413,
+                      "w": 240.16575794052497,
+                      "x": 53.21593158405584,
+                      "y": 609.4433543730945
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“humpback whale” (*Megaptera novaeangliae*) means any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.41387034346413,
+                      "w": 240.16575794052497,
+                      "x": 53.21593158405584,
+                      "y": 609.4433543730945
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.99999767994854,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99999767994854
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“humpback whale” (*Megaptera novaeangliae*) means any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.41387034346413,
+                      "w": 240.16575794052497,
+                      "x": 53.21593158405584,
+                      "y": 609.4433543730945
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999993853796282,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999993853796282
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“minke whale” (*Balaenoptera acutorostrata, B. bonaerensis*) means any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.77306170207703,
+                      "w": 240.5575062583366,
+                      "x": 53.01755410989902,
+                      "y": 643.7963467630526
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“minke whale” (*Balaenoptera acutorostrata, B. bonaerensis*) means any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.77306170207703,
+                      "w": 240.5575062583366,
+                      "x": 53.01755410989902,
+                      "y": 643.7963467630526
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“minke whale” (*Balaenoptera acutorostrata, B. bonaerensis*) means any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.77306170207703,
+                      "w": 240.5575062583366,
+                      "x": 53.01755410989902,
+                      "y": 643.7963467630526
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999991071873465,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999991071873465
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“minke whale” (*Balaenoptera acutorostrata, B. bonaerensis*) means any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.77306170207703,
+                      "w": 240.5575062583366,
+                      "x": 53.01755410989902,
+                      "y": 643.7963467630526
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9998672387139586,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998672387139586
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999995045832099,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995045832099
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pygmy right whale” (*Caperea marginata*) means any whale known as southern pygmy right whale or pygmy right whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.683553317930578,
+                      "w": 240.52841034828745,
+                      "x": 53.06089475008337,
+                      "y": 690.1434519697981
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“right whale” (*Eubalaena glacialis, E.",
+                  "bounding_boxes": [
+                    {
+                      "h": 56.56205232945883,
+                      "w": 240.2578060734447,
+                      "x": 53.20054235095513,
+                      "y": 724.2341449123476
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pygmy right whale” (*Caperea marginata*) means any whale known as southern pygmy right whale or pygmy right whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.683553317930578,
+                      "w": 240.52841034828745,
+                      "x": 53.06089475008337,
+                      "y": 690.1434519697981
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999986800419298,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999986800419298
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pygmy right whale” (*Caperea marginata*) means any whale known as southern pygmy right whale or pygmy right whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.683553317930578,
+                      "w": 240.52841034828745,
+                      "x": 53.06089475008337,
+                      "y": 690.1434519697981
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999987148596874,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999987148596874
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "australis*) means any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, North Cape whale, Pacific right whale, or southern right wha...",
+                  "bounding_boxes": [
+                    {
+                      "h": 56.56205232945883,
+                      "w": 240.2578060734447,
+                      "x": 53.20054235095513,
+                      "y": 724.2341449123476
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“right whale” (*Eubalaena glacialis, E.",
+                  "bounding_boxes": [
+                    {
+                      "h": 56.56205232945883,
+                      "w": 240.2578060734447,
+                      "x": 53.20054235095513,
+                      "y": 724.2341449123476
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“right whale” (*Eubalaena glacialis, E.",
+                  "bounding_boxes": [
+                    {
+                      "h": 56.56205232945883,
+                      "w": 240.2578060734447,
+                      "x": 53.20054235095513,
+                      "y": 724.2341449123476
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999990056105981,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999990056105981
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "australis*) means any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, North Cape whale, Pacific right whale, or southern right...",
+                  "bounding_boxes": [
+                    {
+                      "h": 56.56205232945883,
+                      "w": 240.2578060734447,
+                      "x": 53.20054235095513,
+                      "y": 724.2341449123476
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999998429018363,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998429018363
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999995343841128,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995343841128
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sei whale” (*Balaenoptera borealis*) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.552659346417663,
+                      "w": 240.4459194990949,
+                      "x": 53.168610262242765,
+                      "y": 781.9679003310786
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sei whale” (*Balaenoptera borealis*) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.552659346417663,
+                      "w": 240.4459194990949,
+                      "x": 53.168610262242765,
+                      "y": 781.9679003310786
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sei whale” (*Balaenoptera borealis*) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.552659346417663,
+                      "w": 240.4459194990949,
+                      "x": 53.168610262242765,
+                      "y": 781.9679003310786
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999988289894914,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988289894914
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sei whale” (*Balaenoptera borealis*) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 31.552659346417663,
+                      "w": 240.4459194990949,
+                      "x": 53.168610262242765,
+                      "y": 781.9679003310786
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999986794594713,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999986794594713
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“toothed whale” means any whale which has teeth in the jaws.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.846335538538455,
+                      "w": 238.40111675876528,
+                      "x": 317.5299542921113,
+                      "y": 369.6574143125953
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“baleen whale” means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.66914148842418,
+                      "w": 238.28357493628528,
+                      "x": 55.13118206042779,
+                      "y": 425.75028924709414
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“toothed whale” means any whale which has teeth in the jaws.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.846335538538455,
+                      "w": 238.40111675876528,
+                      "x": 317.5299542921113,
+                      "y": 369.6574143125953
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.99997236833383,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99997236833383
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999994449814386,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994449814386
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“beaked whale” means any whale belonging to the genus *Mesoplodon*, or any whale known as Cuvier’s beaked whale (*Ziphius cavirostris*), or Shepherd’s beaked whale (*Tasmacetus shepherdi*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 44.147099281869295,
+                      "w": 240.73261977181778,
+                      "x": 318.16992752000766,
+                      "y": 391.723073998428
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“beaked whale” means any whale belonging to the genus *Mesoplodon*, or any whale known as Cuvier’s beaked whale (*Ziphius cavirostris*), or Shepherd’s beaked whale (*Tasmacetus shepherdi*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 44.147099281869295,
+                      "w": 240.73261977181778,
+                      "x": 318.16992752000766,
+                      "y": 391.723073998428
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“beaked whale” means any whale belonging to the genus *Mesoplodon*, or any whale known as Cuvier’s beaked whale (*Ziphius cavirostris*), or Shepherd’s beaked whale (*Tasmacetus shepherdi*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 44.147099281869295,
+                      "w": 240.73261977181778,
+                      "x": 318.16992752000766,
+                      "y": 391.723073998428
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999845510020302,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999845510020302
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999994840834655,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994840834655
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bottlenose whale” means any whale known as Baird’s beaked whale (*Berardius bairdii*), Arnoux’s whale (*Berardius arnuxii*), southern bottlenose whale (*Hyperoodon planifrons*), or northern bottlenos...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.64974204458844,
+                      "w": 241.22255823647106,
+                      "x": 317.5670890815549,
+                      "y": 436.3639796112805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bottlenose whale” means any whale known as Baird’s beaked whale (*Berardius bairdii*), Arnoux’s whale (*Berardius arnuxii*), southern bottlenose whale (*Hyperoodon planifrons*), or northern bottlenos...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.64974204458844,
+                      "w": 241.22255823647106,
+                      "x": 317.5670890815549,
+                      "y": 436.3639796112805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“bottlenose whale” means any whale known as Baird’s beaked whale (*Berardius bairdii*), Arnoux’s whale (*Berardius arnuxii*), southern bottlenose whale (*Hyperoodon planifrons*), or northern bottlenos...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.64974204458844,
+                      "w": 241.22255823647106,
+                      "x": 317.5670890815549,
+                      "y": 436.3639796112805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999983724833511,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999983724833511
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999994691829942,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994691829942
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“killer whale” (*Orcinus orca*) means any whale known as killer whale or orca.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.36840248666155,
+                      "w": 240.3587913609947,
+                      "x": 318.2024660584985,
+                      "y": 491.8521796398628
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“blue whale” (*Balaenoptera musculus*) means any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom, and including pygmy blue whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.405839724657,
+                      "w": 240.1152493375453,
+                      "x": 53.49050742098181,
+                      "y": 448.8710290229611
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“killer whale” (*Orcinus orca*) means any whale known as killer whale or orca.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.36840248666155,
+                      "w": 240.3587913609947,
+                      "x": 318.2024660584985,
+                      "y": 491.8521796398628
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999968329974263,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999968329974263
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“killer whale” (*Orcinus orca*) means any whale known as killer whale or orca.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.36840248666155,
+                      "w": 240.3587913609947,
+                      "x": 318.2024660584985,
+                      "y": 491.8521796398628
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999994393821091,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994393821091
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pilot whale” means any whale known as long-finned pilot whale (*Globicephala melaena*) or short-finned pilot whale (*G. macrorhynchus*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.44088670684069,
+                      "w": 240.6993881478659,
+                      "x": 318.1264820050496,
+                      "y": 514.1878880645008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pilot whale” means any whale known as long-finned pilot whale (*Globicephala melaena*) or short-finned pilot whale (*G. macrorhynchus*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.44088670684069,
+                      "w": 240.6993881478659,
+                      "x": 318.1264820050496,
+                      "y": 514.1878880645008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“pilot whale” means any whale known as long-finned pilot whale (*Globicephala melaena*) or short-finned pilot whale (*G. macrorhynchus*).",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.44088670684069,
+                      "w": 240.6993881478659,
+                      "x": 318.1264820050496,
+                      "y": 514.1878880645008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999967110590393,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999967110590393
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999993946807548,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999993946807548
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sperm whale” (*Physeter macrocephalus*) means any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.52226705411583,
+                      "w": 240.54650808641384,
+                      "x": 318.2609041063263,
+                      "y": 547.4720920469703
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“fin whale” (*Balaenoptera physalus*) means any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 33.83565685737425,
+                      "w": 240.2010141035871,
+                      "x": 53.225598302329466,
+                      "y": 540.4930751000381
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sperm whale” (*Physeter macrocephalus*) means any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.52226705411583,
+                      "w": 240.54650808641384,
+                      "x": 318.2609041063263,
+                      "y": 547.4720920469703
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999904624491683,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999904624491683
+            },
+            "scientific_name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“sperm whale” (*Physeter macrocephalus*) means any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.52226705411583,
+                      "w": 240.54650808641384,
+                      "x": 318.2609041063263,
+                      "y": 547.4720920469703
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999999553119545,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999553119545
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "2) any modifications of the measures in paragraphs (a)(2)(i)-(iii) or (b)(1) or data from other suitable indicators of fishing effort for \"small-type whaling\" operations",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.644785334889534,
+                      "w": 193.79351635146722,
+                      "x": 365.85077829649396,
+                      "y": 758.5729174804687
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999997224906666,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997224906666
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.\n“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.020737006955024,
+                      "w": 240.17971996474853,
+                      "x": 318.1922521674924,
+                      "y": 603.736602277058
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.\n“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.020737006955024,
+                      "w": 240.17971996474853,
+                      "x": 318.1922521674924,
+                      "y": 603.736602277058
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.02,
+                      "w": 240.18,
+                      "x": 318.19,
+                      "y": 603.74
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999827030997501,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999827030997501
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999993555787314,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999993555787314
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.02,
+                      "w": 240.18,
+                      "x": 318.19,
+                      "y": 603.74
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.\n“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.020737006955024,
+                      "w": 240.17971996474853,
+                      "x": 318.1922521674924,
+                      "y": 603.736602277058
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.02,
+                      "w": 240.18,
+                      "x": 318.19,
+                      "y": 603.74
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.999995111427867,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999995111427867
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999998770945546,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998770945546
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“take” means to flag, buoy or make fast to a whale catcher.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.443193359374998,
+                      "w": 240.03183741425312,
+                      "x": 318.1096290848895,
+                      "y": 636.579019924257
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.\n“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.020737006955024,
+                      "w": 240.17971996474853,
+                      "x": 318.1922521674924,
+                      "y": 603.736602277058
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“take” means to flag, buoy or make fast to a whale catcher.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.443193359374998,
+                      "w": 240.03183741425312,
+                      "x": 318.1096290848895,
+                      "y": 636.579019924257
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999967349541533,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999967349541533
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999998714952139,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998714952139
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“lose” means to either strike or take but not to land.",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.227632431402444,
+                      "w": 207.5647596822599,
+                      "x": 331.7974832912539,
+                      "y": 658.8477212747713
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“strike” means to penetrate with a weapon used for whaling.\n“land” means to retrieve to a factory ship, land station, or other place where a whale can be treated.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.020737006955024,
+                      "w": 240.17971996474853,
+                      "x": 318.1922521674924,
+                      "y": 603.736602277058
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“lose” means to either strike or take but not to land.",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.227632431402444,
+                      "w": 207.5647596822599,
+                      "x": 331.7974832912539,
+                      "y": 658.8477212747713
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999536093448186,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999536093448186
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999999012961331,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999012961331
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“dauhval” means any unclaimed dead whale found floating.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.86185076457691,
+                      "w": 239.4638356397676,
+                      "x": 318.4663857064597,
+                      "y": 669.9427116877858
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 16,
+                  "matching_text": "* **Number seen and no. of groups**:",
+                  "bounding_boxes": [
+                    {
+                      "h": 493.32,
+                      "w": 663.54,
+                      "x": 88.41,
+                      "y": 93.37
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 859,
+                    "height": 612.6
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“dauhval” means any unclaimed dead whale found floating.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.86185076457691,
+                      "w": 239.4638356397676,
+                      "x": 318.4663857064597,
+                      "y": 669.9427116877858
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999974232951705,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999974232951705
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.999999802592269,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999802592269
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“lactating whale” means (a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary glan...",
+                  "bounding_boxes": [
+                    {
+                      "h": 121.65374714176833,
+                      "w": 241.16463088319364,
+                      "x": 318.05695458984377,
+                      "y": 692.3564245307737
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "This measurement shall be at the mid ventral point of the mammary gland perpendicular to the body axis, and shall be logged to the nearest centimetre; that is to say, any gland between 9.5cm and 10.5c...",
+                  "bounding_boxes": [
+                    {
+                      "h": 121.65374714176833,
+                      "w": 241.16463088319364,
+                      "x": 318.05695458984377,
+                      "y": 692.3564245307737
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "“lactating whale” means (a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary g...",
+                  "bounding_boxes": [
+                    {
+                      "h": 121.65374714176833,
+                      "w": 241.16463088319364,
+                      "x": 318.05695458984377,
+                      "y": 692.3564245307737
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9984314246413095,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9984314246413095
+            },
+            "exclusions": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "However, notwithstanding these criteria, a whale shall not be considered a lactating whale if scientific (histological or other biological) evidence is presented to the appropriate national authority...",
+                  "bounding_boxes": [
+                    {
+                      "h": 65.05314016946933,
+                      "w": 240.7674837944217,
+                      "x": 53.52269485696933,
+                      "y": 81.10951849216369
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9820352471265189,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9820352471265189
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999988340631465,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988340631465
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "“small-type whaling” means catching operations using powered vessels with mounted harpoon guns hunting exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.17362586044684,
+                      "w": 240.6476985637386,
+                      "x": 53.51559073099277,
+                      "y": 147.31156144304973
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.999999802592276,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999802592276
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "“small-type whaling” means catching operations using powered vessels with mounted harpoon guns hunting exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.17362586044684,
+                      "w": 240.6476985637386,
+                      "x": 53.51559073099277,
+                      "y": 147.31156144304973
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "“small-type whaling” means catching operations using powered vessels with mounted harpoon guns hunting exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.17362586044684,
+                      "w": 240.6476985637386,
+                      "x": 53.51559073099277,
+                      "y": 147.31156144304973
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999796386314425,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999796386314425
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "## I. INTERPRETATION",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.382840725038111,
+                      "w": 97.85587901938835,
+                      "x": 124.10160278320315,
+                      "y": 358.600889029154
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.6,
+                    "height": 859
+                  }
+                }
+              ],
+              "confidence": 0.9999986757576196,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999986757576196
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-xui78wdbjy5f4g2roqdbhuewdrrh",
+    "parse_tier": null
+  }
+}

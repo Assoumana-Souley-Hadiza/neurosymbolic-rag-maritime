@@ -1,0 +1,155 @@
+[
+  {
+    "terme": "Biotechnologie",
+    "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à usage spécifique.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Conditions in situ",
+    "definition": "conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Conservation ex situ",
+    "definition": "la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Conservation in situ",
+    "definition": "la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Diversité biologique",
+    "definition": "Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques dont ils font partie; cela comprend la diversité au sein des espèces et entre espèces ainsi que celle des écosystèmes.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Ecosystème",
+    "definition": "le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui. par leur interaction, forment une unité fonctionnelle.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Espèce domestiquée ou cultivée",
+    "definition": "toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à. ses besoins.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Habitat",
+    "definition": "le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Matériel génétique",
+    "definition": "le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Organisation régionale d'intégration économique",
+    "definition": "toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui concerne les questions régies par la présente Convention et qui a été dûment mandatée, conformément à ses procédures internes, pour signer, ratifier, accepter, approuver ladite Convention ou y adhérer.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pays d'origine des ressources génétiques",
+    "definition": "pays qui possède ces ressources génétiques dans des conditions in situ.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pays fournisseur de ressources génétiques",
+    "definition": "tout pays qui fournit des ressources génétiques récoltées auprès de sources in situ, y compris les populations d'espèces sauvages ou domestiquées, ou prélevées auprès de sources ex situ, qu'elles soient ou non originaires de ce pays.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Ressources biologiques",
+    "definition": "les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystèmes ayant une utilisation ou une valeur effective ou potentielle pour l'humanité.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Ressources génétiques",
+    "definition": "le matériel génétique ayant une valeur effective ou potentiel le.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Technologie",
+    "definition": "toute technologie y compris la biotechnologie.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Utilisation durable",
+    "definition": "l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi leur potentiel pour satisfaire les besoins et les aspirations des générations présentes et futures.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Zone protégée",
+    "definition": "toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "doc_id": "I004",
+    "modele": "gemma-4-9b-it"
+  }
+]

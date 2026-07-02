@@ -1,0 +1,92 @@
+[
+  {
+    "terme": "Administration",
+    "definition": "the Government of the State under whose authority the ship is operating. With respect to a ship entitled to fly a flag of a State, the Administration is the Government of that State. With respect to fixed or floating platforms engaged in exploration and exploitation of the sea-bed and subsoil thereof adjacent to the coast over which the coastal State exercises sovereign rights for the purposes of exploration and exploitation of their natural resources, the Administration is the Government of the coastal State concerned.",
+    "nom_scientifique": null,
+    "reference": "Article 2(1)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Anti-fouling system",
+    "definition": "a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+    "nom_scientifique": null,
+    "reference": "Article 2(2)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Committee",
+    "definition": "the Marine Environment Protection Committee of the Organization.",
+    "nom_scientifique": null,
+    "reference": "Article 2(3)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Gross tonnage",
+    "definition": "the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 19691, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 2(4)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "International voyage",
+    "definition": "a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+    "nom_scientifique": null,
+    "reference": "Article 2(5)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Length",
+    "definition": "the length as defined in the International Convention on Load Lines, 19662, as modified by the Protocol of 19883 relating thereto, or any successor Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 2(6)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Organization",
+    "definition": "the International Maritime Organization.",
+    "nom_scientifique": null,
+    "reference": "Article 2(7)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Secretary-General",
+    "definition": "the Secretary-General of the Organization.",
+    "nom_scientifique": null,
+    "reference": "Article 2(8)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Ship",
+    "definition": "a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floating storage units (FSUs) and floating production storage and off-loading units (FPSOs).",
+    "nom_scientifique": null,
+    "reference": "Article 2(9)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Technical Group",
+    "definition": "a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agreements with the Organization, and non-governmental organizations in consultative status with the Organization, which should preferably include representatives of institutions and laboratories that engage in anti-fouling system analysis. These representatives shall have expertise in environmental fate and effects, toxicological effects, marine biology, human health, economic analysis, risk management, international shipping, anti-fouling systems coating technology, or other fields of expertise necessary to objectively review the technical merits of a comprehensive proposal.",
+    "nom_scientifique": null,
+    "reference": "Article 2(10)",
+    "exclusions": null,
+    "doc_id": "I007",
+    "modele": "gemma-4-9b-it"
+  }
+]

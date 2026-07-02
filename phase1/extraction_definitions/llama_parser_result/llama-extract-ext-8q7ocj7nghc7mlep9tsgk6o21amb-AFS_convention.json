@@ -1,0 +1,1073 @@
+{
+  "data": {
+    "document_title": "International Convention on the Control of Harmful Anti-Fouling Systems on Ships, 2001 (AFS Convention) – Glossary of Definitions",
+    "glossary_terms": [
+      {
+        "term": "Administration",
+        "language": "en",
+        "definition": "means the Government of the State under whose authority the ship is operating. With respect to a ship entitled to fly a flag of a State, the Administration is the Government of that State. With respect to fixed or floating platforms engaged in exploration and exploitation of the sea-bed and subsoil thereof adjacent to the coast over which the coastal State exercises sovereign rights for the purposes of exploration and exploitation of their natural resources, the Administration is the Government of the coastal State concerned.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(1)"
+      },
+      {
+        "term": "Anti-fouling system",
+        "language": "en",
+        "definition": "means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(2)"
+      },
+      {
+        "term": "Committee",
+        "language": "en",
+        "definition": "means the Marine Environment Protection Committee of the Organization.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(3)"
+      },
+      {
+        "term": "Gross tonnage",
+        "language": "en",
+        "definition": "means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 1969, or any successor Convention.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(4)"
+      },
+      {
+        "term": "International voyage",
+        "language": "en",
+        "definition": "means a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(5)"
+      },
+      {
+        "term": "Length",
+        "language": "en",
+        "definition": "means the length as defined in the International Convention on Load Lines, 1966, as modified by the Protocol of 1988 relating thereto, or any successor Convention.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(6)"
+      },
+      {
+        "term": "Organization",
+        "language": "en",
+        "definition": "means the International Maritime Organization.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(7)"
+      },
+      {
+        "term": "Secretary-General",
+        "language": "en",
+        "definition": "means the Secretary-General of the Organization.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(8)"
+      },
+      {
+        "term": "Ship",
+        "language": "en",
+        "definition": "means a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floating storage units (FSUs) and floating production storage and off-loading units (FPSOs).",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(9)"
+      },
+      {
+        "term": "Technical Group",
+        "language": "en",
+        "definition": "is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agreements with the Organization, and non-governmental organizations in consultative status with the Organization, which should preferably include representatives of institutions and laboratories that engage in anti-fouling system analysis. These representatives shall have expertise in environmental fate and effects, toxicological effects, marine biology, human health, economic analysis, risk management, international shipping, anti-fouling systems coating technology, or other fields of expertise necessary to objectively review the technical merits of a comprehensive proposal.",
+        "exclusions": null,
+        "scientific_name": null,
+        "article_reference": "Article 2(10)"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_title": {
+          "citation": [
+            {
+              "page": 33,
+              "matching_text": "International Convention on the Control of Harmful Anti-Fouling Systems on Ships",
+              "bounding_boxes": [
+                {
+                  "h": 26.06,
+                  "w": 387.62,
+                  "x": 117,
+                  "y": 213.53
+                }
+              ],
+              "page_dimensions": {
+                "width": 595,
+                "height": 842
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION. Title inferred from source and standard citation practice.",
+          "confidence": 0.7919545510699609,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.7919545510699609
+        },
+        "glossary_terms": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "...s sovereign rights for the purposes of exploration and exploitation of their natural resources, the Administration is the Government of the coastal State concerned.",
+                  "bounding_boxes": [
+                    {
+                      "h": 91.2300201267149,
+                      "w": 409.9388562458318,
+                      "x": 107.23350971501048,
+                      "y": 523.3360209841844
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "With respect to fixed or floating platforms engaged in exploration and exploitation of the sea-bed and subsoil thereof adjacent to the coast over which the coastal State exercises sovereign rights for...",
+                  "bounding_boxes": [
+                    {
+                      "h": 91.2300201267149,
+                      "w": 409.9388562458318,
+                      "x": 107.23350971501048,
+                      "y": 523.3360209841844
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(1) \"Administration\" means the Government of the State under whose authority the ship is operating.",
+                  "bounding_boxes": [
+                    {
+                      "h": 91.2300201267149,
+                      "w": 409.9388562458318,
+                      "x": 107.23350971501048,
+                      "y": 523.3360209841844
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9922608803359033,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9922608803359033
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# ARTICLE 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.3724851133765,
+                      "w": 52.673741187118914,
+                      "x": 285.8524753477515,
+                      "y": 442.41470488757625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.999188250396555,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999188250396555
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(2) \"Anti-fouling system\" means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.17235851753047,
+                      "w": 409.0318440507098,
+                      "x": 107.02978627274676,
+                      "y": 630.0537651248095
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999983252272996,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999983252272996
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(2) \"Anti-fouling system\" means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.17235851753047,
+                      "w": 409.0318440507098,
+                      "x": 107.02978627274676,
+                      "y": 630.0537651248095
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(2) \"Anti-fouling system\" means a coating, paint, surface treatment, surface, or device that is used on a ship to control or prevent attachment of unwanted organisms.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.17235851753047,
+                      "w": 409.0318440507098,
+                      "x": 107.02978627274676,
+                      "y": 630.0537651248095
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999563696079,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999563696079
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# ARTICLE 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.3724851133765,
+                      "w": 52.673741187118914,
+                      "x": 285.8524753477515,
+                      "y": 442.41470488757625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(3) \"Committee\" means the Marine Environment Protection Committee of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.05533608041159,
+                      "w": 408.908653370927,
+                      "x": 107.03566767994951,
+                      "y": 670.2688715939406
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(3) \"Committee\" means the Marine Environment Protection Committee of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.05533608041159,
+                      "w": 408.908653370927,
+                      "x": 107.03566767994951,
+                      "y": 670.2688715939406
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "(3) \"Committee\" means the Marine Environment Protection Committee of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.05533608041159,
+                      "w": 408.908653370927,
+                      "x": 107.03566767994951,
+                      "y": 670.2688715939406
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999687183679,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999687183679
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "(3) The Committee shall decide whether the anti-fouling system in question warrants a more in-depth review based on the initial proposal. If the Committee decides that further review is warranted,...",
+                  "bounding_boxes": [
+                    {
+                      "h": 118.72200000000004,
+                      "w": 408.765,
+                      "x": 107.1,
+                      "y": 453.838
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(4) \"Gross tonnage\" means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 1969...",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.26985196741617,
+                      "w": 409.7927245349419,
+                      "x": 106.99561387969227,
+                      "y": 119.0172334698933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999998957278968,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998957278968
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(4) \"Gross tonnage\" means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 1969...",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.26985196741617,
+                      "w": 409.7927245349419,
+                      "x": 106.99561387969227,
+                      "y": 119.0172334698933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(4) \"Gross tonnage\" means the gross tonnage calculated in accordance with the tonnage measurement regulations contained in Annex 1 to the International Convention on Tonnage Measurement of Ships, 1969...",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.26985196741617,
+                      "w": 409.7927245349419,
+                      "x": 106.99561387969227,
+                      "y": 119.0172334698933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9998236319182845,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998236319182845
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 30,
+                  "matching_text": "<sup>10</sup> Date of expiration of any implementation period specified in article 4(2) or Annex 1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.502844297827735,
+                      "w": 339.13348068609474,
+                      "x": 107.03205380323458,
+                      "y": 711.859267459032
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999478639471,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999478639471
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(5) \"International voyage\" means a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.19465728015436,
+                      "w": 409.26415963521816,
+                      "x": 107.1772820449457,
+                      "y": 172.3656392018388
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999031936799,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999031936799
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(5) \"International voyage\" means a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.19465728015436,
+                      "w": 409.26415963521816,
+                      "x": 107.1772820449457,
+                      "y": 172.3656392018388
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(5) \"International voyage\" means a voyage by a ship entitled to fly the flag of one State to or from a port, shipyard, or offshore terminal under the jurisdiction of another State.",
+                  "bounding_boxes": [
+                    {
+                      "h": 39.19465728015436,
+                      "w": 409.26415963521816,
+                      "x": 107.1772820449457,
+                      "y": 172.3656392018388
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999996103390124,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996103390124
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# ARTICLE 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.3724851133765,
+                      "w": 52.673741187118914,
+                      "x": 285.8524753477515,
+                      "y": 442.41470488757625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(6) \"Length\" means the length as defined in the International Convention on Load Lines, 1966<sup>2</sup>, as modified by the Protocol of 1988<sup>3</sup> relating thereto, or any successor Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.083543969131085,
+                      "w": 410.3586771150915,
+                      "x": 107.05496826171876,
+                      "y": 226.0484162419017
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(6) \"Length\" means the length as defined in the International Convention on Load Lines, 1966<sup>2</sup>, as modified by the Protocol of 1988<sup>3</sup> relating thereto, or any successor Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.083543969131085,
+                      "w": 410.3586771150915,
+                      "x": 107.05496826171876,
+                      "y": 226.0484162419017
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(6) \"Length\" means the length as defined in the International Convention on Load Lines, 1966<sup>2</sup>, as modified by the Protocol of 1988<sup>3</sup> relating thereto, or any successor Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.083543969131085,
+                      "w": 410.3586771150915,
+                      "x": 107.05496826171876,
+                      "y": 226.0484162419017
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999992453633253,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992453633253
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(6) \"Length\" means the length as defined in the International Convention on Load Lines, 1966<sup>2</sup>, as modified by the Protocol of 1988<sup>3</sup> relating thereto, or any successor Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.083543969131085,
+                      "w": 410.3586771150915,
+                      "x": 107.05496826171876,
+                      "y": 226.0484162419017
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(7) \"Organization\" means the International Maritime Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 13.47199999999998,
+                      "w": 326.655,
+                      "x": 107.1,
+                      "y": 279.54400000000004
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 37,
+                  "matching_text": "7 The Conference was opened by Mr. W\\.A. O’Neil, Secretary-General of the International Maritime Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 25.25999999999999,
+                      "w": 408.765,
+                      "x": 106.505,
+                      "y": 173.452
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(7) \"Organization\" means the International Maritime Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 13.47199999999998,
+                      "w": 326.655,
+                      "x": 107.1,
+                      "y": 279.54400000000004
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999279966713,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999279966713
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "# ARTICLE 7",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.131947348990103,
+                      "w": 52.615015690501146,
+                      "x": 285.7578945252954,
+                      "y": 294.9173488709985
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(8) \"Secretary-General\" means the Secretary-General of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 12.837722346608205,
+                      "w": 358.5791755490187,
+                      "x": 107.0270670076696,
+                      "y": 306.96572128668066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999031936799,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999031936799
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(8) \"Secretary-General\" means the Secretary-General of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 12.837722346608205,
+                      "w": 358.5791755490187,
+                      "x": 107.0270670076696,
+                      "y": 306.96572128668066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(8) \"Secretary-General\" means the Secretary-General of the Organization.",
+                  "bounding_boxes": [
+                    {
+                      "h": 12.837722346608205,
+                      "w": 358.5791755490187,
+                      "x": 107.0270670076696,
+                      "y": 306.96572128668066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# ARTICLE 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.3724851133765,
+                      "w": 52.673741187118914,
+                      "x": 285.8524753477515,
+                      "y": 442.41470488757625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(9) \"Ship\" means a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 52.431792647198954,
+                      "w": 409.9427447063167,
+                      "x": 107.18806167230373,
+                      "y": 334.12678437023624
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(9) \"Ship\" means a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 52.431792647198954,
+                      "w": 409.9427447063167,
+                      "x": 107.18806167230373,
+                      "y": 334.12678437023624
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(9) \"Ship\" means a vessel of any type whatsoever operating in the marine environment and includes hydrofoil boats, air-cushion vehicles, submersibles, floating craft, fixed or floating platforms, floa...",
+                  "bounding_boxes": [
+                    {
+                      "h": 52.431792647198954,
+                      "w": 409.9427447063167,
+                      "x": 107.18806167230373,
+                      "y": 334.12678437023624
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999971097349258,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999971097349258
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# ARTICLE 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.3724851133765,
+                      "w": 52.673741187118914,
+                      "x": 285.8524753477515,
+                      "y": 442.41470488757625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999999677312256,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999677312256
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(10) \"Technical Group\" is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agree...",
+                  "bounding_boxes": [
+                    {
+                      "h": 133.07030452076978,
+                      "w": 409.3549405725991,
+                      "x": 107.2428544207317,
+                      "y": 401.3625921779726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.9999988899631284,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999988899631284
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(10) \"Technical Group\" is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having agree...",
+                  "bounding_boxes": [
+                    {
+                      "h": 133.07030452076978,
+                      "w": 409.3549405725991,
+                      "x": 107.2428544207317,
+                      "y": 401.3625921779726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION.",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "(10) \"Technical Group\" is a body comprised of representatives of the Parties, Members of the Organization, the United Nations and its Specialized Agencies, intergovernmental organizations having ag...",
+                  "bounding_boxes": [
+                    {
+                      "h": 133.07030452076978,
+                      "w": 409.3549405725991,
+                      "x": 107.2428544207317,
+                      "y": 401.3625921779726
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 0.999999375560054,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999375560054
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 30,
+                  "matching_text": "<sup>10</sup> Date of expiration of any implementation period specified in article 4(2) or Annex 1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.502844297827735,
+                      "w": 339.13348068609474,
+                      "x": 107.03205380323458,
+                      "y": 711.859267459032
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 595,
+                    "height": 842
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-pacvq51fl897ux6d92vnnl1umtcm",
+    "parse_tier": null
+  }
+}

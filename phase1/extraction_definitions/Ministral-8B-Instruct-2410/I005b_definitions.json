@@ -1,0 +1,892 @@
+[
+  {
+    "terme": "Hydrocarbures",
+    "definition": "Le pétrole sous toutes ses formes, à savoir notamment le pétrole brut, le fuel-oil, les boues, les résidus d’hydrocarbures et les produits raffinés (autres que les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention) et comprend, sans que cela porte atteinte au caractère général de ce qui précède, les substances énumérées à l’appendice I de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrole brut",
+    "definition": "Tout mélange liquide d’hydrocarbures se trouvant à l’état naturel dans la terre, qu’il soit ou non traité en vue de son transport, et comprend : .1 le pétrole brut dont certaines fractions distillées ont pu être extraites; et .2 le pétrole brut auquel certaines fractions distillées ont pu être ajoutées.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Mélange d’hydrocarbures",
+    "definition": "Tout mélange contenant des hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Combustible liquide",
+    "definition": "Tout hydrocarbure utilisé comme combustible pour l’appareil propulsif et les appareils auxiliaires du navire à bord duquel cet hydrocarbure est transporté.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier",
+    "definition": "Un navire construit ou adapté principalement en vue de transporter des hydrocarbures en vrac dans ses espaces à cargaison et comprend les transporteurs mixtes, tout 'navire-citerne NLS' tel que défini à l’Annexe II de la présente Convention et tout transporteur de gaz tel que défini à la règle 3.20 du chapitre II-1 de la Convention SOLAS de 1994 (telle que modifiée) lorsqu’ils transportent une cargaison complète ou partielle d’hydrocarbures en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur de pétrole brut",
+    "definition": "Un pétrolier affecté au transport de pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur de produits",
+    "definition": "Un pétrolier affecté au transport d’hydrocarbures autres que du pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transporteur mixte",
+    "definition": "Un navire conçu pour transporter soit des hydrocarbures, soit des cargaisons solides en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Transformation importante",
+    "definition": "transformation d’un navire qui modifie considérablement les dimensions ou la capacité de transport du navire; ou qui change le type du navire; ou qui vise, de l’avis de l’Autorité, à en prolonger considérablement la vie; ou qui entraîne par ailleurs des modifications telles que le navire, s’il était un navire neuf, serait soumis aux dispositions pertinentes de la présente Convention qui ne lui sont pas applicables en tant que navire existant.",
+    "nom_scientifique": null,
+    "reference": "Article 9.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Navire livré après le 31 décembre 1979",
+    "definition": "désigne un navire : dont le contrat de construction est passé après le 31 décembre 1975; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent après le 30 juin 1976; ou dont la livraison s’effectue après le 31 décembre 1979; ou qui a subi une transformation importante : dont le contrat est passé après le 31 décembre 1975; ou en l’absence de tout contrat, dont les travaux ont commencé après le 30 juin 1976; ou qui est achevée après le 31 décembre 1979.",
+    "nom_scientifique": null,
+    "reference": "28.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 1er juin 1982 ou avant cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 1er juin 1979 ou avant cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 1er janvier 1980 ou avant cette date; ou dont la livraison s’effectue le 1er juin 1982 ou avant cette date; ou qui a subi une transformation importante : dont le contrat est passé le 1er juin 1979 ou avant cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 1er janvier 1980 ou avant cette date; ou qui est achevée le 1er juin 1982 ou avant cette date.",
+    "nom_scientifique": null,
+    "reference": "28.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré après le 1er juin 1982",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé après le 1er juin 1979; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent après le 1er janvier 1980; ou dont la livraison s’effectue après le 1er juin 1982; ou qui a subi une transformation importante : dont le contrat est passé après le 1er juin 1979; ou en l’absence de tout contrat, dont les travaux ont commencé après le 1er janvier 1980; ou qui est achevée après le 1er juin 1982.",
+    "nom_scientifique": null,
+    "reference": "28.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré avant le 6 juillet 1996",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé avant le 6 juillet 1993; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent avant le 6 janvier 1994; ou dont la livraison s’effectue avant le 6 juillet 1996; ou qui a subi une transformation importante : dont le contrat est passé avant le 6 juillet 1993; ou en l’absence de tout contrat, dont les travaux ont commencé avant le 6 janvier 1994; ou qui est achevée avant le 6 juillet 1996.",
+    "nom_scientifique": null,
+    "reference": "28.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 6 juillet 1996 ou après cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 6 juillet 1993 ou après cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 6 janvier 1994 ou après cette date; ou dont la livraison s’effectue le 6 juillet 1996 ou après cette date; ou qui a subi une transformation importante : dont le contrat est passé le 6 juillet 1993 ou après cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 6 janvier 1994 ou après cette date; ou qui est achevée le 6 juillet 1996 ou après cette date.",
+    "nom_scientifique": null,
+    "reference": "28.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pétrolier livré le 1er février 2002 ou après cette date",
+    "definition": "désigne un pétrolier : dont le contrat de construction est passé le 1er février 1999 ou après cette date; ou en l’absence d’un contrat de construction, dont la quille est posée ou qui se trouve dans un état d’avancement équivalent le 1er août 1999 ou après cette date; ou dont la livraison s’effectue le 1er février 2002 ou après cette date; ou qui a subi une transformation importante : dont le contrat est passé le 1er février 1999 ou après cette date; ou en l’absence de tout contrat, dont les travaux ont commencé le 1er août 1999 ou après cette date; ou",
+    "nom_scientifique": null,
+    "reference": "28.7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Navire",
+    "definition": "Navire livré le 1er août 2010 ou après cette date",
+    "nom_scientifique": null,
+    "reference": "28.9",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parts par million (ppm)",
+    "definition": "Désigne les parts d’hydrocarbures par million de parts d’eau, en volume.",
+    "nom_scientifique": null,
+    "reference": "29",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Résidus d'hydrocarbures (boues)",
+    "definition": "Désigne les déchets résiduaires d'hydrocarbures produits pendant l'exploitation normale du navire tels que ceux qui proviennent de la purification du combustible ou de l'huile de graissage utilisés pour les machines principales ou auxiliaires, de l'huile usée obtenue par séparation qui provient du matériel de filtrage des hydrocarbures, de l'huile usée recueillie dans des gattes et des huiles hydrauliques et lubrifiantes usées.",
+    "nom_scientifique": null,
+    "reference": ".31",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Citerne à résidus d'hydrocarbures (boues)",
+    "definition": "Désigne une citerne qui sert à stocker les résidus d'hydrocarbures (boues) à partir de laquelle les résidus d'hydrocarbures (boues) peuvent être évacués directement au moyen du raccord normalisé de jonction des tuyautages d'évacuation ou par tout autre moyen d'évacuation approuvé.",
+    "nom_scientifique": null,
+    "reference": ".32",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Eaux de cale polluées par les hydrocarbures",
+    "definition": "Désigne les eaux qui peuvent être contaminées par des hydrocarbures provenant, par exemple, de fuites ou de travaux d'entretien dans la tranche des machines. Tous les liquides pénétrant dans le système d'assèchement des cales, y compris les puisards, les tuyautages d'assèchement des cales, le plafond de ballast ou les citernes de stockage des eaux de cale, sont considérés comme des eaux de cale polluées par les hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": ".33",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Citerne de stockage des eaux de cale polluées",
+    "definition": "Désigne une citerne qui sert à recueillir les eaux de cale polluées avant leur rejet, leur transfert ou leur évacuation.",
+    "nom_scientifique": null,
+    "reference": ".34",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite intermédiaire",
+    "definition": "une visite intermédiaire effectuée dans un délai de trois mois avant ou après la deuxième date anniversaire ou dans un délai de trois mois avant ou après la troisième date anniversaire du certificat, qui doit remplacer l’une des visites annuelles spécifiées au paragraphe 1.4 de la présente règle.",
+    "nom_scientifique": null,
+    "reference": "1.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite annuelle",
+    "definition": "une visite annuelle, effectuée dans un délai de trois mois avant ou après chaque date anniversaire du certificat, qui comprend une inspection générale de la structure, du matériel, des systèmes, des équipements, des aménagements et des matériaux visés au paragraphe 1.1 de la présente règle afin de vérifier qu’ils ont été maintenus dans les conditions prévues aux paragraphes 4.1 et 4.2 de la présente règle et qu’ils restent satisfaisants pour le service auquel le navire est destiné.",
+    "nom_scientifique": null,
+    "reference": "1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite supplémentaire",
+    "definition": "une visite supplémentaire, générale ou partielle selon le cas, qui doit être effectuée à la suite d’une réparation résultant de l’enquête prescrite au paragraphe 4.3 de la présente règle ou chaque fois que le navire subit des réparations ou rénovations importantes.",
+    "nom_scientifique": null,
+    "reference": "1.5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "jauge brute",
+    "definition": "La capacité totale du navire mesurée en tonnes",
+    "nom_scientifique": null,
+    "reference": "Règle 7, §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "visite",
+    "definition": "inspection effectuée par des fonctionnaires dûment autorisés par ladite Partie en vue de vérifier l’application des normes d’exploitation prévues par la présente Annexe",
+    "nom_scientifique": null,
+    "reference": "Règle 11, Paragraphe 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau à la ligne de charge (dp)",
+    "definition": "est la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant au tirant d'eau d'été devant être assigné au navire.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau à l'état lège",
+    "definition": "est le tirant d'eau sur quille au milieu du navire correspondant au déplacement lège.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d'eau partiel à la ligne de charge (dp)",
+    "definition": "est le tirant d'eau à l'état lège plus 60 % de la différence entre le tirant d'eau du navire à l'état lège et le tirant d'eau à la ligne de charge dS. Le tirant d'eau partiel à la ligne de charge (dP) est mesuré en mètres.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "flottaison (dB)",
+    "definition": "est la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant à 30 % du creux DS.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (BS)",
+    "definition": "est la largeur extrême hors membres du navire, en mètres, au niveau ou au-dessous de la ligne de charge maximale (dS).",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (Bb)",
+    "definition": "est la largeur extrême hors membres du navire, en mètres, au niveau ou au-dessous de la flottaison (dB).",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "creux (DS)",
+    "definition": "est le creux sur quille, en mètres, mesuré à mi-longueur jusqu'au livet du pont supérieur. Aux fins de l'application de la présente règle, 'pont supérieur' désigne le pont le plus élevé jusqu'auquel s'étendent les cloisons transversales étanches à l'eau, à l'exception des cloisons du coqueron arrière.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "longueur (L)",
+    "definition": "est égale à 96 % de la longueur totale à la flottaison située à une distance du dessus de quille égale à 85 % du creux minimum sur quille ou à la distance entre la face avant de l'étrave et l'axe de la mèche du gouvernail à cette flottaison, si cette valeur est supérieure. Dans le cas des navires conçus pour naviguer avec une quille inclinée, la flottaison à laquelle la longueur est mesurée doit être parallèle à la flottaison prévue. La longueur (L) est mesurée en mètres.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur (B)",
+    "definition": "est la largeur maximale au milieu du navire, en mètres, mesurée hors membres pour les navires à coque métallique et mesurée hors bordé pour les navires à coque non métallique.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "soute à combustible",
+    "definition": "désigne une soute dans laquelle est transporté le combustible liquide.",
+    "nom_scientifique": null,
+    "reference": "Règle 12 A., §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "longueur",
+    "definition": "La longueur (L) est mesurée en mètres.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "largeur",
+    "definition": "La « largeur (B) » est la largeur maximale au milieu du navire, en mètres, mesurée hors membres pour les navires à coque métallique et mesurée hors bordé pour les navires à coque non métallique.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "petite soute à combustible",
+    "definition": "Une « petite soute à combustible » désigne une soute dont la capacité en combustible maximale ne dépasse pas 30 m³.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 12",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "volume total de combustible",
+    "definition": "« C » est le volume total de combustible du navire, y compris celui des petites soutes à combustible, en m³, à un taux de remplissage de 98 %.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 13",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "capacité en combustible",
+    "definition": "« Capacité en combustible » désigne le volume d'une soute, en m³, à un taux de remplissage de 98 %.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie",
+    "definition": "avarie de bordé et avarie de fond",
+    "nom_scientifique": null,
+    "reference": "Article 11.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "fuite",
+    "definition": "fuite moyenne, en m³",
+    "nom_scientifique": null,
+    "reference": "Article 11.6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "bâbord",
+    "definition": "bâbord",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tribord",
+    "definition": "tribord",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "navire d’une jauge brute égale ou supérieure à 10 000",
+    "definition": "un navire d’une jauge brute égale ou supérieure à 10 000",
+    "nom_scientifique": null,
+    "reference": "Règle 14, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "matériel de filtrage des hydrocarbures",
+    "definition": "Le matériel de filtrage des hydrocarbures visé au paragraphe 1 de la présente règle doit être d’un type approuvé par l’Autorité et conçu de façon que tout mélange d’hydrocarbures rejeté à la mer après être passé par le système ait une teneur en hydrocarbures qui ne dépasse pas 15 parts par million.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "effluent",
+    "definition": "La teneur en hydrocarbures de l’effluent non dilué ne dépasse pas 15 parts par million.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "trace",
+    "definition": "trace visible d’hydrocarbures",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast séparé",
+    "definition": "Pétroliers d’un port en lourd égal ou supérieur à 20 000 tonnes livrés après le 1er juin 1982",
+    "nom_scientifique": null,
+    "reference": "Règle 18",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "port en lourd",
+    "definition": "Le port en lourd est la capacité totale du navire à flotter lorsqu'il est chargé à son tirant d'eau normal.",
+    "nom_scientifique": null,
+    "reference": "Règle 18",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast",
+    "definition": "Citernes utilisées pour contenir de l'eau de ballast.",
+    "nom_scientifique": null,
+    "reference": "Règle 19",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à cargaison",
+    "definition": "Citernes utilisées pour contenir des hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 19",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tuyautages",
+    "definition": "Les tuyautages de ballast et autres tuyautages tels que les tuyaux de sonde et d’aération des citernes de ballast ne doivent pas traverser les citernes à cargaison.",
+    "nom_scientifique": null,
+    "reference": ".6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "huile diesel lourde",
+    "definition": "L'huile diesel autre que les distillats dont plus de 50 % en volume se distillent à une température ne dépassant pas 340°C au cours d'essais effectués selon une méthode jugée acceptable par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": "1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "fuel-oil",
+    "definition": "Les distillats lourds ou les résidus de pétrole brut ou mélanges de ces produits destinés à être utilisés comme combustible pour la production de chaleur ou d’énergie, d’une qualité équivalente à la spécification jugée acceptable par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": "1.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 1",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui ne satisfait pas aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 2",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui satisfait aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "1.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétrolier de la catégorie 3",
+    "definition": "Un pétrolier d’un port en lourd égal ou supérieur à 5 000 tonnes mais inférieur aux ports en lourd spécifiés aux alinéas 1 et 2 du présent paragraphe.",
+    "nom_scientifique": null,
+    "reference": "1.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hydrocarbures lourds",
+    "definition": "hydrocarbures autres que le pétrole brut, d'une densité à 15° C supérieure à 900 kg/m³ ou d'une viscosité cinématique à 50° C supérieure à 180 mm²/s ; ou pétrole brut d’une densité à 15°C supérieure à 900 kg/m3; fuel-oil d’une densité à 15°C supérieure à 900 kg/m3 ou d’une viscosité cinématique à 50°C supérieure à 180 mm2/s; bitume, goudron et leurs émulsions.",
+    "nom_scientifique": null,
+    "reference": "Règle 21, §2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tirant d’eau à la ligne de charge (dS)",
+    "definition": "La 'distance verticale, en m, entre le tracé de la quille hors membres, à la mi-longueur du navire, et la flottaison correspondant au tirant d’eau d’été devant être assigné au navire'.",
+    "nom_scientifique": null,
+    "reference": "Règle 23, §1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "bi",
+    "definition": "La distance minimale qui sépare le bordé du navire de la cloison longitudinale la plus proche de la citerne considérée, mesurée à partir du bordé vers l’intérieur, perpendiculairement à l’axe longitudinal du navire, au niveau correspondant au franc-bord d’été assigné.",
+    "nom_scientifique": null,
+    "reference": "Article 1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "franc-bord d’été",
+    "definition": "Le niveau correspondant au franc-bord d’été assigné.",
+    "nom_scientifique": null,
+    "reference": "Article 1.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "hc",
+    "definition": "hauteur, en m, des hydrocarbures de cargaison au-dessus de Z1",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "tc",
+    "definition": "renverse de la marée, en m. Les baisses de marée doivent être exprimées en valeurs négatives",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Z1",
+    "definition": "hauteur, en m, du point le plus bas dans la citerne à cargaison au-dessus de la ligne d’eau zéro",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Ps",
+    "definition": "densité de l’eau de mer, laquelle doit être considérée comme égale à 1 025 kg/m3",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "p",
+    "definition": "si un dispositif à gaz inerte est installé, la surpression normale, en kPa, doit être considérée comme égale à 5kPa au moins; si aucun dispositif à gaz inerte n’est installé, la surpression peut être considérée comme égale à 0",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "g",
+    "definition": "l’accélération due à la pesanteur, laquelle doit être considérée comme égale à 9,81 m/s 2",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Pn",
+    "definition": "densité nominale des hydrocarbures de cargaison, calculée conformément au paragraphe 4.4 de la présente règle.",
+    "nom_scientifique": null,
+    "reference": "§2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "probabilité",
+    "definition": "la probabilité que l’avarie se situe entièrement en avant de la position Xf/L; PBp = la probabilité que l’avarie se situe entièrement à bâbord de la citerne; PBs = la probabilité que l’avarie se situe entièrement à tribord de la citerne; et PBz = la probabilité que l’avarie se situe entièrement au-dessous de la citerne.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie de bordé",
+    "definition": "avarie de bordé",
+    "nom_scientifique": null,
+    "reference": "Règle 25",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "avarie de fond",
+    "definition": "avarie de fond",
+    "nom_scientifique": null,
+    "reference": "Règle 25",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pétroliers",
+    "definition": "navires utilisés pour transporter des hydrocarbures",
+    "nom_scientifique": null,
+    "reference": "Règle 26",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citerne à cargaison",
+    "definition": "citerne utilisée pour transporter la cargaison",
+    "nom_scientifique": null,
+    "reference": "Règle 27",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "flottabilité",
+    "definition": "la flottabilité des superstructures situées directement au-dessus de l’avarie de bordé",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citerne",
+    "definition": "compartiment destiné à contenir des liquides",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes",
+    "definition": "Les citernes sont des réservoirs utilisés pour stocker des liquides.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "eaux de nettoyage",
+    "definition": "Eaux utilisées pour nettoyer les citernes.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "eaux de ballast",
+    "definition": "Eaux utilisées pour stabiliser le navire.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "citernes à ballast propre spécialisées",
+    "definition": "les citernes utilisées pour stocker des eaux de ballast propres",
+    "nom_scientifique": null,
+    "reference": "Article 1.28.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "directives",
+    "definition": "Les directives sont des documents élaborés par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "spécifications",
+    "definition": "Les spécifications sont des documents élaborés par l’Organisation.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zone spéciale",
+    "definition": "une zone spéciale",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "registre des hydrocarbures",
+    "definition": "document contenant des informations sur les opérations concernant la cargaison et le ballast d'un navire",
+    "nom_scientifique": null,
+    "reference": "Règle 36",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan d’urgence",
+    "definition": "un plan d’urgence de bord contre la pollution des mers par les substances liquides nocives prescrit par la règle 17 de l’Annexe II de la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Règle 17 de l’Annexe II de la présente Convention",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "capacité",
+    "definition": "la capacité des installations de réception doit s’établir comme suit",
+    "nom_scientifique": null,
+    "reference": "paragraphe 3 de la Règle 38",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "installations",
+    "definition": "Toutes les installations mises en place dans des ports ou terminaux en vertu du paragraphe 2.4 de la présente règle doivent avoir une capacité suffisante pour recevoir tous les résidus conservés à bord, en vertu de la règle 12 de la présente Annexe, par tous les navires dont on peut raisonnablement s’attendre à ce qu’ils fassent escale dans ces ports et terminaux.",
+    "nom_scientifique": null,
+    "reference": "paragraphe 2.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "plan d'opérations STS",
+    "definition": "Le plan d'opérations STS doit être rédigé dans la langue de travail du navire.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I005b",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

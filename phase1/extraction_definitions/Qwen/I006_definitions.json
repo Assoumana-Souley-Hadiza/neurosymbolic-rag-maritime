@@ -1,0 +1,1076 @@
+[
+  {
+    "terme": "Carcasses d'animaux",
+    "definition": "les corps d'animaux qui sont transportés à bord en tant que cargaison et qui meurent ou sont euthanasiés pendant le voyage.",
+    "reference": "1.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Résidus de cargaison",
+    "definition": "les restes de cargaisons qui ne sont pas visés par d'autres chapitres de la présente division et qui subsistent sur le pont ou dans les cales après le chargement ou le déchargement, y compris ceux qui ont débordé ou été déversés au cours du chargement et du déchargement, qu'ils soient à l'état sec ou humide ou entraînés dans les eaux de lavage, mais à l'exclusion des poussières produites par la cargaison qui restent sur le pont après balayage ou des poussières restant sur les surfaces extérieures du navire.",
+    "reference": "2.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Huile à friture",
+    "definition": "tout type d'huile comestible ou de graisse animale utilisée ou destinée à être utilisée dans la préparation ou la cuisson des aliments, à l'exclusion des aliments eux-mêmes ainsi préparés.",
+    "reference": "3.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Déchets domestiques",
+    "definition": "tous les types de déchets non visés par d'autres chapitres qui sont produits dans les locaux d'habitation à bord du navire. Les déchets domestiques ne comprennent pas les eaux grises.",
+    "reference": "4.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "En route",
+    "definition": "que le navire fait route en mer en suivant une ou des routes, qui peuvent s'écarter de la route directe la plus courte, de manière que, dans la mesure où les besoins de la navigation le permettent, tout rejet puisse se disperser sur une zone de la mer aussi étendue qu'il est raisonnablement possible dans la pratique.",
+    "reference": "5.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Apparaux de pêche",
+    "definition": "tout dispositif ou partie de dispositif ou toute combinaison d'objets qui peuvent être placés sur l'eau ou dans l'eau ou bien sur le fond de la mer dans le but de capturer des organismes d'eau douce ou d'eau salée ou de les maîtriser en vue de les capturer ou de les récolter par la suite.",
+    "reference": "6.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Plates-formes fixes ou flottantes",
+    "definition": "les structures fixes ou flottantes situées en mer qui se livrent à l'exploration, à l'exploitation ou au traitement offshore des ressources minérales du fond des mers.",
+    "reference": "7.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Déchets alimentaires",
+    "definition": "toutes substances alimentaires avariées ou intactes et comprend les fruits, légumes, produits laitiers, volaille, viande et détritus alimentaires produits à bord du navire.",
+    "reference": "8.",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ordures",
+    "definition": "tous les types de déchets alimentaires, déchets domestiques et déchets d'exploitation, toutes les matières plastiques, les résidus de cargaison, les cendres d'incinération, les huiles à friture, les apparaux de pêche et les carcasses d'animaux qui sont produits au cours de l'exploitation normale du navire et sont susceptibles d'être évacués de façon continue ou périodique, à l'exception des substances qui sont définies ou énumérées dans d'autres chapitres de la présente division. Les ordures ne comprennent pas le poisson frais entier ou non qui provient des activités de pêche menées au cours du voyage ou d'activités d'aquaculture qui comprennent le transport de poisson ou de crustacés en vue de leur transfert dans des installations aquacoles et le transport de poisson ou de crustacés depuis ces installations jusqu'à terre aux fins de traitement.",
+    "reference": "Article 10 / Règle 1",
+    "exclusions": "le poisson frais entier ou non qui provient des activités de pêche menées au cours du voyage ou d'activités d'aquaculture qui comprennent le transport de poisson ou de crustacés en vue de leur transfert dans des installations aquacoles et le transport de poisson ou de crustacés depuis ces installations jusqu'à terre aux fins de traitement.",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Cendres d'incinération",
+    "definition": "les cendres et scories provenant d'incinérateurs de bord utilisés pour l'incinération des ordures.",
+    "reference": "Article 10 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Terre la plus proche",
+    "definition": "à partir de la ligne de base qui sert à déterminer la mer territoriale du territoire en question conformément au droit international ; toutefois, aux fins du présent chapitre, l'expression « à partir de la terre la plus proche » de la côte nord-est de l'Australie signifie à partir d'une ligne reliant le point de latitude 11° 00'S et de longitude 142° 08'E sur la côte de l'Australie et le point de latitude 10° 35'S et de longitude 141° 55'E puis les points suivants : ? latitude 10° 00'S et longitude 142° 00'E ; ? latitude 09° 10'S et longitude 143° 52'E ; ? latitude 09° 00'S et longitude 144° 30'E ; ? latitude 10° 41'S et longitude 145° 00'E ; ? latitude 13° 00'S et longitude 145° 00'E ; ? latitude 15° 00'S et longitude 146° 00'E ; ? latitude 17° 30'S et longitude 147° 00'E ; ? latitude 21° 00'S et longitude 152° 55'E ; ? latitude 24° 30'S et longitude 154° 00'E, et enfin le point de latitude 24° 42'S et de longitude 153° 15'E sur la côte australienne.",
+    "reference": "Article 10 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Déchets d'exploitation",
+    "definition": "tous les déchets solides (y compris les boues) non visés par d'autres chapitres qui sont recueillis à bord pendant les opérations normales d'entretien ou autres opérations du navire ou qui sont utilisés pour arrimer et manutentionner la cargaison. Les déchets d'exploitation comprennent aussi les agents et additifs de nettoyage présents dans les eaux de lavage des cales à cargaison et des surfaces extérieures, mais non les eaux grises, les eaux de cale ou d'autres rejets analogues essentiels à l'exploitation d'un navire, compte tenu des directives élaborées par l'organisation.",
+    "reference": "Article 10 / Règle 1",
+    "exclusions": "les eaux grises, les eaux de cale ou d'autres rejets analogues essentiels à l'exploitation d'un navire, compte tenu des directives élaborées par l'organisation.",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Matière plastique",
+    "definition": "un matériau solide qui contient comme ingrédient de base un ou plusieurs polymères de masse moléculaire élevée et qui est mis en forme, soit lors de la production des polymères, soit lors de la transformation, à chaud et/ ou sous pression, en un produit fini. Les matières plastiques possèdent toute une gamme de propriétés physiques allant de dures et friables à molles et élastiques.",
+    "reference": "Article 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "toutes les matières plastiques",
+    "definition": "toutes les ordures qui sont ou comprennent des matières plastiques sous une forme ou sous une autre, y compris les cordages et les filets de pêche synthétiques, les sacs à ordures en matière plastique et les cendre de matières plastiques incinérées.",
+    "reference": "Article 14",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Zone spéciale",
+    "definition": "une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu'au caractère particulier de son trafic, appelle l'adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les ordures.",
+    "reference": "Article 1 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de la mer Méditerranée",
+    "definition": "la mer Méditerranée proprement dite, avec les golfes et les mers qu'elle comprend, limitée du côté de la mer Noire par le parallèle 41° N et limitée à l'ouest, dans le détroit de Gibraltar, par le méridien 5° 36'W",
+    "reference": "Article 1 / Règle 1 / 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de la mer Baltique",
+    "definition": "la mer Baltique proprement dite ainsi que le golfe de Botnie, le golfe de Finlande et l'accès à la mer Baltique délimité par le parallèle de Skagen dans le Skagerrak (57° 44,8'N)",
+    "reference": "Article 1 / Règle 1 / 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de la mer Noire",
+    "definition": "la mer Noire proprement dite ainsi que la mer d'Azov, limitée du côté de la Méditerranée par le parallèle 41° N",
+    "reference": "Article 1 / Règle 1 / 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de la mer Rouge",
+    "definition": "la mer Rouge proprement dite ainsi que les golfes de Suez et d'Akaba, limitée au sud par la loxodromie reliant Ras Siyan (12° 28,5'N, 43° 19,6'E) et Husn Murad (12° 40,4'N, 43° 30,2'E)",
+    "reference": "Article 1 / Règle 1 / 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone des Golfes",
+    "definition": "la zone maritime située au nord-ouest de la loxodromie reliant Ras el Had (22° 30'N, 59° 48'E) et Ras Al Fasteh (25° 04'N, 61° 25'E)",
+    "reference": "Article 1 / Règle 1 / 5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de la mer du Nord",
+    "definition": "la mer du Nord proprement dite et les mers qu'elle comprend, limitée comme suit : la mer du Nord au sud de la latitude 62° N et à l'est de la longitude 4° W ; le Skagerrak, dont la limite méridionale est déterminée à l'est du parallèle de Skagen par la latitude 57° 44,8'N ; et la Manche et ses abords à l'est de la longitude 5° W et au nord de la latitude 48° 30'N",
+    "reference": "Article 1 / Règle 1 / 6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de l'Antarctique",
+    "definition": "la zone maritime située au sud du parallèle 60° S",
+    "reference": "Article 1 / Règle 1 / 7",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "région des Caraïbes",
+    "definition": "le golfe du Mexique et la mer des Caraïbes proprement dits, avec les baies et les mers qu'ils comprennent, ainsi que la partie de l'océan Atlantique située à l'intérieur des limites constituées par le parallèle 30° N depuis la Floride vers l'est jusqu'au méridien 77° 30'W, puis par une loxodromie jusqu'à l'intersection du parallèle 20° N et du méridien 59° W, une loxodromie jusqu'à l'intersection du parallèle 7° 20'N et du méridien 50° W et une loxodromie vers le sud-ouest jusqu'à la limite orientale de la Guyane française.",
+    "reference": "Article 1 / Règle 1 / 8",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ordures",
+    "definition": "toutes les ordures",
+    "reference": "Règle 3 / 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "matières plastiques",
+    "definition": "toutes les matières plastiques, y compris mais sans s'y limiter les cordages et les filets de pêche synthétiques, les sacs à ordures en matière plastique et les cendres de matières plastiques incinérées",
+    "reference": "Règle 3 / 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "huile à friture",
+    "definition": "l'huile à friture",
+    "reference": "Règle 3 / 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "déchets alimentaires broyés ou concassés",
+    "definition": "les déchets alimentaires broyés ou concassés",
+    "reference": "Règle 4 / 1 - 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "tamis",
+    "definition": "un tamis dont les ouvertures ne dépassent pas 25 mm",
+    "reference": "Règle 4 / 1 - 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "déchets alimentaires non traités",
+    "definition": "les déchets alimentaires qui n'ont pas été traités de la manière indiquée à l'alinéa 1 ci-dessus",
+    "reference": "Règle 4 / 1 - 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "résidus de cargaison",
+    "definition": "les résidus de cargaison qui ne peuvent pas être récupérés complètement à l'aide des méthodes couramment disponibles en vue de leur déchargement",
+    "reference": "Règle 4 / 1 - 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "substance classée comme nuisible pour le milieu marin",
+    "definition": "aucune substance classée comme nuisible pour le milieu marin, compte tenu des directives élaborées par l'organisation",
+    "reference": "Règle 4 / 1 - 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "carcasses d'animaux",
+    "definition": "les carcasses d'animaux",
+    "reference": "Règle 4 / 1 - 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "agents ou additifs de nettoyage",
+    "definition": "les agents ou additifs de nettoyage présents dans les eaux de lavage des cales à cargaison, du pont et des surfaces extérieures",
+    "reference": "Règle 4 / 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "substances nuisibles pour le milieu marin",
+    "definition": "ces substances ne doivent pas être nuisibles pour le milieu marin, compte tenu des directives élaborées par l'organisation",
+    "reference": "Règle 4 / 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ordures mélangées avec d'autres substances",
+    "definition": "les ordures mélangées avec d'autres substances dont le rejet est interdit ou est soumis à des prescriptions différentes ou sont contaminées par de telles substances",
+    "reference": "Règle 4 / 3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "prescriptions spéciales",
+    "definition": "prescriptions spéciales pour l'évacuation des ordures provenant des plates-formes fixes ou flottantes",
+    "reference": "Règle 5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ordures",
+    "definition": "des ordures provenant des plates-formes fixes ou flottantes et de tous les autres navires se trouvant le long du bord ou à moins de 500 mètres de ces plates-formes.",
+    "reference": "Règle 6 / 1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "déchets alimentaires",
+    "definition": "des déchets alimentaires en provenance des plates-formes fixes ou flottantes situées à plus de douze milles marins de la terre la plus proche et de tous les autres navires se trouvant le long du bord ou à moins de 500 mètres de ces plates-formes.",
+    "reference": "Règle 6 / 2.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "broyeur ou concasseur",
+    "definition": "des broyeurs ou concasseurs.",
+    "reference": "Règle 6 / 2.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "tamis",
+    "definition": "un tamis dont les ouvertures ne dépassent pas 25 mm.",
+    "reference": "Règle 6 / 2.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone spéciale",
+    "definition": "des zones spéciales.",
+    "reference": "Règle 6 / 1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "navire",
+    "definition": "des navires se trouvant le long du bord ou à moins de 500 mètres de ces plates-formes.",
+    "reference": "Règle 6 / 1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "déchets alimentaires",
+    "definition": "des déchets alimentaires aussi loin que possible de la terre la plus proche, mais en aucun cas à moins de douze milles marins de la terre la plus proche ou de la plate-forme glaciaire la plus proche.",
+    "reference": "Règle 6 / 1.1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "broyés ou concassés",
+    "definition": "des déchets alimentaires doivent être broyés ou concassés.",
+    "reference": "Règle 6 / 1.1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "contaminés",
+    "definition": "les déchets alimentaires ne doivent être contaminés par aucun autre type d'ordures.",
+    "reference": "Règle 6 / 1.1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "produits avicoles introduits",
+    "definition": "l'évacuation de produits avicoles introduits, y compris toute volaille ou partie de volaille, est interdite dans la zone de l'Antarctique, à moins qu'ils n'aient été traités pour les stériliser.",
+    "reference": "Règle 6 / 1.1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "résidus de cargaison",
+    "definition": "des résidus de cargaison qui ne peuvent pas être récupérés au moyen des méthodes couramment disponibles en vue de leur déchargement, si toutes les conditions suivantes sont remplies :",
+    "reference": "Règle 6 / 1.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "agents ou additifs de nettoyage",
+    "definition": "des agents ou additifs de nettoyage présents dans les eaux de lavage des cales ne contiennent pas de substance classée comme nuisible pour le milieu marin, compte tenu des directives élaborées par l'organisation ;",
+    "reference": "Règle 6 / 1.2.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "port de départ",
+    "definition": "le port de départ et le port suivant de destination se trouvent à l'intérieur de la zone spéciale et le navire ne sortira pas de cette zone entre ces deux ports ;",
+    "reference": "Règle 6 / 1.2.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "installation de réception adéquate",
+    "definition": "aucune installation de réception adéquate n'est disponible dans ces ports, compte tenu des directives élaborées par l'organisation ;",
+    "reference": "Règle 6 / 1.2.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejet des eaux de lavage des cales à cargaison",
+    "definition": "le rejet des eaux de lavage des cales à cargaison qui contiennent des résidus doit se faire aussi loin que possible de la terre la plus proche ou de la plate-forme glaciaire la plus proche mais en aucun",
+    "reference": "Règle 6 / 1.2.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "cas",
+    "definition": "cas à moins de douze milles marins de la terre ou de la plate-forme glaciaire la plus proche.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "agents ou additifs de nettoyage",
+    "definition": "Les agents ou additifs de nettoyage présents dans les eaux de lavage du pont et des surfaces extérieures peuvent être rejetés dans la mer mais uniquement si ces substances ne sont pas nuisibles pour le milieu marin, compte tenu des directives élaborées par l'organisation.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "zone de l'Antarctique",
+    "definition": "Les règles ci-après s'appliquent à la zone de l'Antarctique (en plus des règles du paragraphe 1 du présent article) :",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "parties",
+    "definition": ". ................ 1 chaque partie dont les ports sont utilisés par des navires partant vers la zone de l'Antarctique ou en revenant s'engage à assurer la mise en place, dès que possible, d'installations adéquates pour la réception de toutes les ordures de tous les navires, compte tenu des besoins des navires qui les utilisent et sans leur imposer de retard excessif ;",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "navires",
+    "definition": ". ................ 2 chaque Partie veille à ce que tous les navires autorisés à battre son pavillon, avant d'entrer dans la zone de l'Antarctique, ont à bord une capacité suffisante pour conserver toutes les ordures pendant qu'ils opèrent dans la zone et ont conclu des accords pour décharger ces ordures dans une installation de réception après leur départ de la zone.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ordures",
+    "definition": "Lorsque les ordures sont mélangées avec d'autres substances dont le rejet est interdit ou est soumis à des prescriptions différentes ou sont contaminées par de telles substances, les dispositions les plus rigoureuses s'appliquent.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "règles",
+    "definition": "Règle 7 Exceptions. 1. Les régles.3,4,5 et 6 de la présente annexe ne s'appliquent pas :",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejet d'ordures",
+    "definition": ". 1 au rejet d'ordures qu'effectue un navire pour assurer sa propre sécurité et celle des personnes à bord ou la sauvegarde de la vie humaine en mer ; ou",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "perte accidentelle d'ordures",
+    "definition": ". 2 à la perte accidentelle d'ordures résultant d'une avarie survenue au navire ou à son équipement, à condition que toutes les précautions raisonnables aient été prises, avant et après l'avarie, pour empêcher ou réduire au minimum cette perte accidentelle ; ou",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "perte accidentelle d'apparaux de pêche",
+    "definition": ". 3 à la perte accidentelle d'apparaux de pêche d'un navire, à condition que toutes les précautions raisonnables aient été prises pour empêcher cette perte ; ou",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejet d'apparaux de pêche",
+    "definition": ". 4 au rejet d'apparaux de pêche qu'effectue un navire pour protéger le milieu marin ou assurer sa sécurité ou celle de son équipage.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "obligation d'être en route",
+    "definition": "2. Exception à l'obligation d'être en route : L'obligation d'être en route prescrite aux régles 4 et 6 ne s'applique pas au rejet de déchets alimentaires lorsqu'il est clair que la conservation de ces déchets alimentaires à bord du navire présente un risque sanitaire imminent pour les personnes à bord.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "déchets alimentaires",
+    "definition": "L'obligation d'être en route prescrite aux régles 4 et 6 ne s'applique pas au rejet de déchets alimentaires lorsqu'il est clair que la conservation de ces déchets alimentaires à bord du navire présente un risque sanitaire imminent pour les personnes à bord.",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "installations de réception",
+    "definition": "(Sans objet)",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "normes d'exploitation",
+    "definition": "1. Un navire qui se trouve dans un port ou un terminal au large d'une autre Partie est soumis à une",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "inspection",
+    "definition": "inspection effectuée par des fonctionnaires dûment autorisés par ladite Partie en vue de vérifier l'application des normes d'exploitation prévues par le présent chapitre, lorsqu'il y a de bonnes raisons de penser que le capitaine ou les membres de l'équipage ne sont pas au fait des méthodes essentielles à appliquer à bord pour prévenir la pollution par les ordures.",
+    "reference": "Règle 9.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "procédures de contrôle des navires par l'Etat du port",
+    "definition": "Se reporter aux Procédures de contrôle des navires par l'Etat du port que l'organisation a adoptées par la résolution A. 787 (19) et modifiées par la résolution A. 882 (21).",
+    "reference": "Règle 9.4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "affiches",
+    "definition": "des affiches informant l'équipage et les passagers des prescriptions applicables des règles 3, 4, 5 et 6 de la présente annexe relatives à l'évacuation des ordures ;",
+    "reference": "Règle 10.1.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "plan de gestion des ordures",
+    "definition": "un plan de gestion des ordures que l'équipage doit suivre. Ce plan doit comprendre des méthodes écrites de compactage, de ramassage, de stockage, de traitement et d'évacuation des ordures, y compris l'utilisation du matériel de bord. La ou les personnes chargées d'exécuter le plan doivent également y être désignées.",
+    "reference": "Règle 10.2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "ordures",
+    "definition": "des ordures",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "matériel de bord",
+    "definition": "du matériel de bord",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "jauge brute",
+    "definition": "une jauge brute égale ou supérieure à 100 et tout navire autorisé à transporter quinze personnes ou davantage",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "plate-forme fixe ou flottante",
+    "definition": "les plates-formes fixes ou flottantes",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "langue de travail de l'équipage",
+    "definition": "la langue de travail de l'équipage",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "navire",
+    "definition": "tout navire d'une longueur hors tout égale ou supérieure à douze mètres et de toute plate-forme fixe ou flottante",
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "registre des ordures",
+    "definition": "Ce registre, qu'il fasse partie ou non du livre de bord réglementaire, doit être conforme au modèle faisant l'objet de l'appendice du présent chapitre.",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "évacuation",
+    "definition": "chaque opération d'évacuation ou de rejet dans la mer ou dans une installation de réception portuaire, ou chaque incinération une fois achevée",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejet",
+    "definition": "chaque opération d'évacuation ou de rejet dans la mer ou dans une installation de réception portuaire, ou chaque incinération une fois achevée",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "incinération",
+    "definition": "chaque opération d'évacuation ou de rejet dans la mer ou dans une installation de réception portuaire, ou chaque incinération une fois achevée",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "plate-forme fixe ou flottante",
+    "definition": "toute plate-forme fixe ou flottante",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "mention",
+    "definition": "la mention correspondante doit être signée, avec indication de la date de l'évacuation ou de l'incinération, par l'officier responsable",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "page du registre remplie",
+    "definition": "chaque page du registre remplie doit être signée par le capitaine du navire",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "date et heure",
+    "definition": "la mention portée pour chaque évacuation ou incinération doit comporter la date et l'heure",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "position du navire",
+    "definition": "la mention portée pour chaque évacuation ou incinération doit comporter la date et l'heure, la position du navire",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "catégorie des ordures",
+    "definition": "la mention portée pour chaque évacuation ou incinération doit comporter la date et l'heure, la position du navire, la catégorie des ordures",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "quantité évacuée ou incinérée",
+    "definition": "la mention portée pour chaque évacuation ou incinération doit comporter la date et l'heure, la position du navire, la catégorie des ordures et une estimation de la quantité évacuée ou incinérée",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "conservé à bord",
+    "definition": "le registre des ordures doit être conservé à bord du navire ou de la plate-forme fixe ou flottante dans un endroit où il soit aisément accessible aux fins d'inspection à tout moment raisonnable",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "période de deux ans",
+    "definition": "le registre des ordures doit être conservé au moins pendant une période de deux ans à compter de la date de la dernière inscription",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejet ou de perte accidentelle",
+    "definition": "en cas de rejet ou de perte accidentelle, visé à la régle 7 de la présente annexe, une mention doit être portée dans le registre des ordures ou, dans le cas des navires d'une jauge brute inférieure à 400, dans le livre de bord réglementaire, pour indiquer le lieu, les circonstances et les motifs du rejet ou de la perte et décrire les objets rejetés ou perdus et les précautions raisonnables prises pour empêcher ou réduire au minimum ce rejet ou cette perte accidentelle",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commission d'étude compétente",
+    "definition": "la commission d'étude compétente ou la société de classification habilitée peut dispenser de l'application des prescriptions relatives au registre des ordures",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "navire effectuant des voyages d'une durée inférieure ou égale à une 1 heure",
+    "definition": "tout navire effectuant des voyages d'une durée inférieure ou égale à une 1 heure qui est autorisé à transporter quinze personnes ou davantage",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "jauge brute",
+    "definition": "les navires d'une jauge brute inférieure à 400",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "plate-formes fixes ou flottantes",
+    "definition": "les plates-formes fixes ou flottantes",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "autorité compétente",
+    "definition": "l'autorité compétente peut inspecter le registre des ordures ou le livre de bord réglementaire de tout navire auquel le présent article s'applique pendant que ce navire se trouve dans un de ses ports ou terminaux au large",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "copie de toute mention",
+    "definition": "elle peut extraire une copie de toute mention portée sur ce registre ou ce livre",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "certifier l'authenticité",
+    "definition": "et peut exiger que le capitaine du navire en certifie l'authenticité",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "poursuite",
+    "definition": "Toute copie ainsi certifiée par le capitaine du navire est en cas de poursuite, admissible comme preuve des faits mentionnés dans le registre de la cargaison ou le livre de bord réglement",
+    "reference": "Article 4 / Règle 1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "aire",
+    "definition": "L'inspection du registre de la cargaison ou du livre de bord réglementaire et l'établissement de copies certifiées par l'autorité compétente en vertu du présent paragraphe doivent être effectués le plus rapidement possible sans que le navire ne soit indûment retardé.",
+    "reference": "paragraphe 6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "perte accidentelle ou le rejet d'apparaux de pêche",
+    "definition": "visé par la régle .7. point 1.3 et point 1.4, qui constitue une menace grave pour le milieu marin ou la navigation doit être notifié au centre de sécurité des navires compétent et, si la perte ou le rejet s'est produit dans les eaux relevant de la juridiction d'un Etat côtier, également à cet Etat.",
+    "reference": "paragraphe 6",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "directives pour l'établissement des plans de gestion des ordures",
+    "definition": "que le Comité de la protection du milieu marin a adoptées par la résolution MEPC.71(38) ; voir la circulaire MEPC/Circ.317.",
+    "reference": "point 1.3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "registre des ordures",
+    "definition": "MODÈLE DE REGISTRE DES ORDURES Nom du navire : Numéro ou lettres distinctifs : Numéro OMI : Période allant du : au :",
+    "reference": "Appendice",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "opération d'évacuation",
+    "definition": "ou chaque incinération une fois achevée, doit être consignée dans un registre. Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "incinération",
+    "definition": "une fois achevée, doit être consignée dans un registre. Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "rejets dans la mer",
+    "definition": "Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "évacuation dans des installations de réception",
+    "definition": "Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "transfert à bord d'autres navires",
+    "definition": "Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "perte accidentelle d'ordures",
+    "definition": "Ces opérations comprennent les rejets dans la mer, l'évacuation dans des installations de réception ou le transfert à bord d'autres navires, ainsi que la perte accidentelle d'ordures.",
+    "reference": "règle 10 de l'annexe V de la convention internationale de 1973 pour la prévention de la pollution par les navires, telle que modifiée par le Protocole de 1978 (MARPOL)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ordures",
+    "definition": "désigne tous les types de déchets alimentaires, déchets domestiques et déchets d'exploitation, toutes les matières plastiques, les résidus de cargaison, les cendres d'incinération, les huiles à friture, les apparaux de pêche et les carcasses d'animaux qui sont produits au cours de l'exploitation normale du navire et sont susceptibles d'être évacués de façon continue ou périodique, à l'exception des substances qui sont définies ou énumérées dans d'autres annexes de ladite convention.",
+    "reference": "Définitions",
+    "exclusions": "le poisson frais entier ou non qui provient des activités de pêche menées au cours du voyage ou d'activités d'aquaculture qui comprennent le transport de poisson ou de crustacés en vue de leur transfert dans des installations aquacoles et le transport de poisson ou de crustacés depuis ces installations jusqu'à terre aux fins de traitement.",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Ordures",
+    "definition": "ne comprennent pas le poisson frais entier ou non qui provient des activités de pêche menées au cours du voyage ou d'activités d'aquaculture qui comprennent le transport de poisson ou de crustacés en vue de leur transfert dans des installations aquacoles et le transport de poisson ou de crustacés depuis ces installations jusqu'à terre aux fins de traitement.",
+    "reference": "Définitions",
+    "exclusions": "le poisson frais entier ou non qui provient des activités de pêche menées au cours du voyage ou d'activités d'aquaculture qui comprennent le transport de poisson ou de crustacés en vue de leur transfert dans des installations aquacoles et le transport de poisson ou de crustacés depuis ces installations jusqu'à terre aux fins de traitement.",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Description des ordures",
+    "definition": "Aux fins de la tenue du registre des ordures (ou du livre de bord réglementaire du navire), les ordures doivent être regroupées dans les catégories suivantes :",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "A",
+    "definition": "matières plastiques.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "B",
+    "definition": "déchets alimentaires.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "C",
+    "definition": "déchets domestiques.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "D",
+    "definition": "huiles à friture.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "E",
+    "definition": "cendres d'incinération.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "F",
+    "definition": "déchets d'exploitation.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "G",
+    "definition": "résidus de cargaison.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "H",
+    "definition": "carcasse(s) d'animal(aux).",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "I",
+    "definition": "apparaux de pêche.",
+    "reference": "3. Description des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Mentions portées dans le registre des ordures",
+    "definition": "Des mentions doivent être portées dans le registre des ordures pour chacune des opérations suivantes :",
+    "reference": "4. Mentions portées dans le registre des ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Evacuation d'ordures dans une installation de réception à terre ou transfert à bord d'autres navires",
+    "definition": ".1 date et heure de l'évacuation ; .2 port ou installation, ou nom du navire ; .3 catégories d'ordures évacuées ; .4 quantité estimative évacuée, pour chaque catégorie, en mètres cubes ; .5 signature de l'officier responsable de l'opération.",
+    "reference": "4.1.1. Evacuation d'ordures dans une installation de réception à terre (3) ou transfert à bord d'autres navires",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Incinération d'ordures",
+    "definition": ".1 date et heure du début et de la fin de l'incinération ; .2 position du navire (latitude et longitude) au début et à la fin de l'incinération ; .3 catégorie d'ordures incinérées ; .4 quantité estimative incinérée, en mètres cubes ; .5 signature de l'officier responsable de l'opération.",
+    "reference": "4.1.2. Incinération d'ordures",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Rejet d'ordures dans la mer effectué conformément aux règles 4, 5 ou 6 de l'annexe V de MARPOL",
+    "definition": ".1 date et heure du rejet ; .2 position du navire (latitude et longitude). Note pour les rejets de résidus de cargaison : inclure la position du navire au début et à la fin du rejet ; .3 catégorie d'ordures rejetées ; .4 quantité estimative rejetée, pour chaque catégorie, en mètres cubes ; .5 signature de l'officier responsable de l'opération.",
+    "reference": "4.1.3. Rejet d'ordures dans la mer effectué conformément aux règles 4, 5 ou 6 de l'annexe V de MARPOL",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Perte ou rejet accidentel ou exceptionnel d'ordures",
+    "definition": ".",
+    "reference": "4.1.4. Perte ou rejet accidentel ou exceptionnel d'ordu",
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "res dans la mer",
+    "definition": "y compris conformément à la règle 7 de l'annexe V de MARPOL : .1 date et heure de l'incident ; .2 port ou position du navire au moment de l'incident (latitude, longitude et profondeur d'eau si elle est connue) ; .3 catégories d'ordures rejetées ou perdues ; .4 quantité estimative d'ordures de chaque catégorie, en mètres cubes ; .5 cause d",
+    "reference": "Règle 7 / Annexe V de MARPOL",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I006",
+    "modele": "qwen3-8b"
+  }
+]

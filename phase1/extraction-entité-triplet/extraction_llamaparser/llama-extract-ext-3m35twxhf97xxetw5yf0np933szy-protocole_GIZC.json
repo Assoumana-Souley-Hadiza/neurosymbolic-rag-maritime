@@ -1,0 +1,1840 @@
+{
+  "data": {
+    "source": "Protocole relatif à la gestion intégrée des zones côtières (GIZC) de la Méditerranée, Madrid, 21 janvier 2008, en application de la Convention de Barcelone (1976, modifiée 1995)",
+    "version": "final_v1",
+    "sources_pdf": false,
+    "interdiction": "Interdiction de construire sur le littoral",
+    "interdiction_id": "I003",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "construire dans la zone côtière à compter du niveau atteint par le plus grand flot d'hiver"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zone côtière à compter du niveau atteint par le plus grand flot d'hiver"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zone côtière"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zone non constructible"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Parties contractantes au Protocole"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "autorités nationales, régionales et locales compétentes"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Organisation (visée à l'article 17 de la Convention)"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "projets d’intérêt public"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "zones présentant des contraintes géographiques particulières, ou d’autres contraintes locales liées notamment à la densité de population ou aux besoins sociaux, lorsque les habitations individuelles, l’urbanisation ou le développement sont prévus par des instruments juridiques nationaux"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "à compter du niveau atteint par le plus grand flot d'hiver"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "mesures nationales fixant cette largeur avec davantage de rigueur continuent à s'appliquer"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "notification à l’Organisation des instruments juridiques nationaux prévoyant les adaptations"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "INSUFFICIENT DATA"
+        }
+      ],
+      "explication_generale": "Le Protocole GIZC de la Méditerranée, en application de la Convention de Barcelone, impose aux États parties l'obligation d'instituer une zone non constructible d'au moins 100 mètres de largeur à partir du niveau atteint par le plus grand flot d'hiver sur le littoral méditerranéen. Cette interdiction vise à préserver les habitats naturels, les paysages et les écosystèmes côtiers contre l'urbanisation et la pression anthropique. Des exceptions sont prévues pour les projets d'intérêt public ou dans des zones présentant des contraintes géographiques ou sociales particulières, sous réserve qu'elles soient prévues par des instruments juridiques nationaux et notifiées à l'Organisation. Les États peuvent adopter des mesures plus strictes. Les autorités nationales, régionales et locales sont responsables de la mise en œuvre, sous la coordination de l'Organisation. Le mécanisme juridique central repose sur la planification intégrée, la notification des adaptations et la possibilité d'adopter des règles plus rigoureuses. Aucune sanction spécifique n'est explicitement prévue dans le texte pour la violation de cette interdiction, mais le respect du Protocole est suivi par des rapports périodiques et des mécanismes de coordination institutionnelle.",
+      "interdictions_identifiees": [
+        "Interdiction d'édifier des constructions dans la zone côtière à compter du niveau atteint par le plus grand flot d'hiver, sur une largeur inférieure à 100 mètres (article 8, 2a)",
+        "Interdiction implicite de l'urbanisation et d'autres activités dans certains espaces libres hors aires protégées (article 8, 3a)",
+        "Interdiction, si nécessaire, de la circulation et du stationnement des véhicules terrestres et marins sur les espaces naturels terrestres ou maritimes fragiles, y compris plages et dunes (article 8, 3e)"
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_CONSTRUIRE_DANS_LA_ZONE_COTIERE",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Zone_ZONE_COTIERE_PLUS_GRAND_FLOT_HIVER",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Zone_ZONE_COTIERE",
+        "source": "Article 2e, Article 3",
+        "subject": "I003",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Zone_ZONE_NON_CONSTRUCTIBLE",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Actor_PARTIES_CONTRACTANTES_PROTOCOLE",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Actor_AUTORITES_NATIONALES_REGIONALES_LOCALES_COMPETENTES",
+        "source": "Article 8, 2a et 3",
+        "subject": "I003",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Actor_ORGANISATION_CONVENTION_BARCELONE",
+        "source": "Article 8, 2c",
+        "subject": "I003",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.9,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Exception_PROJETS_INTERET_PUBLIC",
+        "source": "Article 8, 2b",
+        "subject": "I003",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Exception_CONTRAINTES_GEOGRAPHIQUES_OU_SOCIALES",
+        "source": "Article 8, 2b",
+        "subject": "I003",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Periode_PLUS_GRAND_FLOT_HIVER",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Etat_MESURES_NATIONALES_PLUS_STRICTES",
+        "source": "Article 8, 2a",
+        "subject": "I003",
+        "predicate": "mar:soumisA",
+        "concept_id": "Etat",
+        "confidence": 0.95,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Controle_NOTIFICATION_ORGANISATION_ADAPTATIONS_NATIONALES",
+        "source": "Article 8, 2c",
+        "subject": "I003",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.95,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I003"
+      },
+      {
+        "object": "mar:Sanction_INSUFFICIENT_DATA",
+        "source": null,
+        "subject": "I003",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 0.2,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I003"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.8679220762428584,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.8679220762428584
+        },
+        "version": {
+          "reasoning": "Valeur par défaut pour la version du pipeline.",
+          "confidence": 0.9999995778515295,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999995778515295
+        },
+        "sources_pdf": {
+          "reasoning": "INSUFFICIENT DATA",
+          "confidence": 0.999999448776502,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.999999448776502
+        },
+        "interdiction": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "*Étant Parties* à la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995,",
+              "bounding_boxes": [
+                {
+                  "h": 37.50310200000001,
+                  "w": 393.48595,
+                  "x": 124.704778,
+                  "y": 199.054926
+                }
+              ],
+              "page_dimensions": {
+                "width": 605.363,
+                "height": 961.618
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9953550039947711,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9953550039947711
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Extraction fidèle des entités et des interdictions à partir des articles 8 et suivants du Protocole, en particulier l'article 8 qui institue la zone non constructible et ses exceptions.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9808707992132913,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9808707992132913
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8672420142292572,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8672420142292572
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8367316930041232,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8367316930041232
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9491677116676783,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9491677116676783
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "* a) vers la mer, par la limite de la zone côtière définie par la limite extérieure de la mer territoriale des Parties;",
+                    "bounding_boxes": [
+                      {
+                        "h": 55.48,
+                        "w": 359.71,
+                        "x": 159.97,
+                        "y": 427.98
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9809632450087734,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9809632450087734
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "* a) vers la mer, par la limite de la zone côtière définie par la limite extérieure de la mer territoriale des Parties;",
+                    "bounding_boxes": [
+                      {
+                        "h": 55.48,
+                        "w": 359.71,
+                        "x": 159.97,
+                        "y": 427.98
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8004068498379244,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8004068498379244
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.6890478443768978,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6890478443768978
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8072143654790329,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8072143654790329
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.43272935660317813,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.43272935660317813
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 20,
+                    "matching_text": "Les Parties invitent, le cas échéant, les États non Parties au présent Protocole et les organisations internationales à coopérer à la mise en œuvre du présent Protocole.",
+                    "bounding_boxes": [
+                      {
+                        "h": 87.52,
+                        "w": 397.69,
+                        "x": 124.43,
+                        "y": 635.97
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8493412286580259,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8493412286580259
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9890051716758629,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9890051716758629
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Les autorités nationales, régionales et locales compétentes des zones côtières doivent, autant que faire se peut, œuvrer de concert pour renforcer la cohérence et l'efficacité des stratégies, plans et...",
+                    "bounding_boxes": [
+                      {
+                        "h": 49.18,
+                        "w": 397.86,
+                        "x": 127.05,
+                        "y": 465.87
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 1008
+                    }
+                  }
+                ],
+                "confidence": 0.9330408422976504,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9330408422976504
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.4783022854249716,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4783022854249716
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "c) \"Organisation\" l'organisation visée à l'article 17 de la Convention;",
+                    "bounding_boxes": [
+                      {
+                        "h": 12.181736752765932,
+                        "w": 332.7630694640815,
+                        "x": 159.69960126583936,
+                        "y": 112.73795911530286
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9058989785861927,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9058989785861927
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.32390623082037634,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.32390623082037634
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "1. pour des projets d’intérêt public ;",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.11,
+                        "w": 344.88,
+                        "x": 178.55,
+                        "y": 274.05
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9569575482022967,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9569575482022967
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9999975415208362,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999975415208362
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "dans des zones présentant des contraintes géographiques particulières, ou d’autres contraintes locales liées notamment à la densité de population ou aux besoins sociaux, lorsque les habitations indivi...",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.11,
+                        "w": 344.88,
+                        "x": 178.55,
+                        "y": 274.05
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9709821363106809,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9709821363106809
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7409003911082651,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7409003911082651
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9754110630168012,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9754110630168012
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.4794553526744243,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4794553526744243
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "Les mesures nationales fixant cette largeur avec davantage de rigueur continuent à s'appliquer.",
+                    "bounding_boxes": [
+                      {
+                        "h": 88.30699638677828,
+                        "w": 363.2132580472323,
+                        "x": 160.67990607153916,
+                        "y": 130.58412382955413
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.8675165903891767,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8675165903891767
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9169881309014238,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9169881309014238
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "c) notifient à l’Organisation leurs instruments juridiques nationaux prévoyant les adaptations visées ci-dessus.",
+                    "bounding_boxes": [
+                      {
+                        "h": 24.908240157560044,
+                        "w": 362.8855705739389,
+                        "x": 160.49759713405703,
+                        "y": 374.5058509185047
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 605.363,
+                      "height": 961.618
+                    }
+                  }
+                ],
+                "confidence": 0.9703238501043264,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9703238501043264
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8432645553566569,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8432645553566569
+              },
+              "texte_original": {
+                "confidence": 0.8953208890515717,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8953208890515717
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.7032947832070536,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.7032947832070536
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.30699638677828,
+                      "w": 363.2132580472323,
+                      "x": 160.67990607153916,
+                      "y": 130.58412382955413
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.8080500657808134,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8080500657808134
+            },
+            {
+              "confidence": 0.7864760647146551,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7864760647146551
+            },
+            {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "e) limiter ou, si nécessaire, interdire la circulation et le stationnement des véhicules terrestres ainsi que la circulation et l'ancrage des véhicules marins sur les espaces naturels terrestres ou...",
+                  "bounding_boxes": [
+                    {
+                      "h": 49.699496132217035,
+                      "w": 358.9079013667409,
+                      "x": 160.59326652013266,
+                      "y": 620.2772221954792
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9093856297962143,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9093856297962143
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9748977569795906,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9748977569795906
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.937801913299066,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.937801913299066
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999997743911757,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997743911757
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9965966261423231,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9965966261423231
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.30699638677828,
+                      "w": 363.2132580472323,
+                      "x": 160.67990607153916,
+                      "y": 130.58412382955413
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9291345157025794,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9291345157025794
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.999991504686605,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999991504686605
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.30699638677828,
+                      "w": 363.2132580472323,
+                      "x": 160.67990607153916,
+                      "y": 130.58412382955413
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9988526118159776,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9988526118159776
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999999217959235,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999217959235
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "*Désireuses* de mettre en œuvre les obligations prévues à l’article 4, paragraphes 3 e) et 5, de ladite Convention,",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.282772707698175,
+                      "w": 393.5311622560232,
+                      "x": 124.45573299698992,
+                      "y": 251.1304836911085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.896836724067284,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.896836724067284
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999995306512387,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995306512387
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9172850863923925,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9172850863923925
+            },
+            "deontic_type": {
+              "confidence": 0.9999997839900294,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997839900294
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.30699638677828,
+                      "w": 363.2132580472323,
+                      "x": 160.67990607153916,
+                      "y": 130.58412382955413
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9999955671703109,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999955671703109
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9999601468721832,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999601468721832
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999279966713,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999279966713
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9508392149615181,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9508392149615181
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "a) \"Parties\" les Parties contractantes au présent Protocole;",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.96278647544294,
+                      "w": 288.33945504930455,
+                      "x": 159.7660723841225,
+                      "y": 682.4612726175449
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.940000433187583,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.940000433187583
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.7813556782134482,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7813556782134482
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "1. La zone d’application du présent Protocole comprend la zone de la mer Méditerranée délimitée à l’article premier de la Convention. Elle est définie en outre:",
+                  "bounding_boxes": [
+                    {
+                      "h": 24.34,
+                      "w": 398.76,
+                      "x": 124.67,
+                      "y": 389.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9983651065809661,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9983651065809661
+            },
+            "deontic_type": {
+              "confidence": 0.9978319196999053,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9978319196999053
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9696316700194887,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9696316700194887
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "*Désireuses* de mettre en œuvre les obligations prévues à l’article 4, paragraphes 3 e) et 5, de ladite Convention,",
+                  "bounding_boxes": [
+                    {
+                      "h": 23.282772707698175,
+                      "w": 393.5311622560232,
+                      "x": 124.45573299698992,
+                      "y": 251.1304836911085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.8300912963730873,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8300912963730873
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "95",
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.7255411795454509,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7255411795454509
+            },
+            "deontic_type": {
+              "confidence": 0.9703885803387051,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9703885803387051
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9417127665050001,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9417127665050001
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9997153641814089,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997153641814089
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9911853538490498,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9911853538490498
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8289541852571445,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8289541852571445
+            },
+            "deontic_type": {
+              "confidence": 0.9770493342585815,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9770493342585815
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9935046240686884,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9935046240686884
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9999761968246947,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999761968246947
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.11,
+                      "w": 344.88,
+                      "x": 178.55,
+                      "y": 274.05
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9979428564056859,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9979428564056859
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9222210231475741,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9222210231475741
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9999847782740044,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999847782740044
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "1.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.11,
+                      "w": 344.88,
+                      "x": 178.55,
+                      "y": 274.05
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.9937583623749345,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9937583623749345
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "a) instituent une zone non constructible dans les zones côtières à compter du niveau atteint par le plus grand flot d'hiver.",
+                  "bounding_boxes": [
+                    {
+                      "h": 88.30699638677828,
+                      "w": 363.2132580472323,
+                      "x": 160.67990607153916,
+                      "y": 130.58412382955413
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.96528505748708,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.96528505748708
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9999705954499799,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999705954499799
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "# Article 9",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.034657559814454,
+                      "w": 40.10738949016292,
+                      "x": 303.7229048845989,
+                      "y": 112.97654414765148
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.6526195411889608,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.6526195411889608
+            },
+            "deontic_type": {
+              "confidence": 0.999999605184591,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999605184591
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9863806685396981,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9863806685396981
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.99999334381458,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99999334381458
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "95",
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.7374026424637645,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7374026424637645
+            },
+            "deontic_type": {
+              "confidence": 0.9858311748725006,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9858311748725006
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9229602436942067,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9229602436942067
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "### Article 8",
+                  "bounding_boxes": [
+                    {
+                      "h": 11.508484184451207,
+                      "w": 42.05266077553354,
+                      "x": 306.842294445503,
+                      "y": 592.0980811737805
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.9999713681369133,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999713681369133
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999992460557792,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992460557792
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "95",
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 1008
+                  }
+                }
+              ],
+              "confidence": 0.7713151704988561,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7713151704988561
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9335831724394501,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9335831724394501
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "INSUFFICIENT DATA",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "2. À cet effet, les Parties :",
+                  "bounding_boxes": [
+                    {
+                      "h": 15,
+                      "w": 109.84,
+                      "x": 160.41,
+                      "y": 111.44
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 605.363,
+                    "height": 961.618
+                  }
+                }
+              ],
+              "confidence": 0.7068112523828627,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7068112523828627
+            },
+            "deontic_type": {
+              "confidence": 0.9996221191482432,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9996221191482432
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-i7zsi8jvv6tc4beny4be213jk3l1",
+    "parse_tier": null
+  }
+}

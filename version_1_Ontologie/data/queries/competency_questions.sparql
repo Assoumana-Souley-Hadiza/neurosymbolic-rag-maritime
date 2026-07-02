@@ -1,0 +1,171 @@
+# ═══════════════════════════════════════════════════════════════════════
+# Ontologie Maritime — Questions de Compétence SPARQL
+# Utilisables dans Protégé, Apache Jena, ou GraphDB
+# ═══════════════════════════════════════════════════════════════════════
+
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX mar:  <http://www.maritime-ontology.org/mar#>
+PREFIX lkif: <http://www.estrellaproject.org/lkif-core/lkif-core.owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+# ─── CQ1 : Quelles interdictions sont définies ? ─────────────────────
+# [CQ1]
+SELECT ?interdiction ?label ?deonticType ?legalLayer WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?label .
+    OPTIONAL { ?interdiction mar:deonticType ?deonticType }
+    OPTIONAL { ?interdiction mar:legalLayer  ?legalLayer }
+    FILTER (lang(?label) = 'fr')
+}
+ORDER BY ?label ;
+
+
+# ─── CQ2 : Zones d'application par interdiction ──────────────────────
+# [CQ2]
+SELECT ?iLabel ?zLabel ?zType WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:appliesInZone ?zone .
+    ?zone rdfs:label ?zLabel ;
+          rdf:type ?zType .
+    FILTER (lang(?iLabel) = 'fr')
+    FILTER (lang(?zLabel) = 'fr')
+    FILTER (?zType != owl:NamedIndividual)
+}
+ORDER BY ?iLabel ;
+
+
+# ─── CQ3 : Activités interdites ──────────────────────────────────────
+# [CQ3]
+SELECT ?iLabel ?aLabel WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:concerneActivite ?activite .
+    ?activite rdfs:label ?aLabel .
+    FILTER (lang(?iLabel) = 'fr' && lang(?aLabel) = 'fr')
+} ;
+
+
+# ─── CQ4 : Acteurs soumis aux interdictions ──────────────────────────
+# [CQ4]
+SELECT ?iLabel ?acteurLabel ?acteurType WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:concerneActeur ?acteur .
+    ?acteur rdfs:label ?acteurLabel .
+    OPTIONAL { ?acteur rdf:type ?acteurType . FILTER(?acteurType != owl:NamedIndividual) }
+    FILTER (lang(?iLabel) = 'fr' && lang(?acteurLabel) = 'fr')
+}
+ORDER BY ?iLabel ;
+
+
+# ─── CQ5 : Exceptions à chaque interdiction ──────────────────────────
+# [CQ5]
+SELECT ?iLabel ?excLabel ?excNote WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:aException ?exception .
+    ?exception rdfs:label ?excLabel .
+    OPTIONAL { ?exception rdfs:comment ?excNote }
+    FILTER (lang(?iLabel) = 'fr' && lang(?excLabel) = 'fr')
+}
+ORDER BY ?iLabel ;
+
+
+# ─── CQ6 : Espèces protégées par l'interdiction de la chasse ─────────
+# [CQ6]
+SELECT ?espece ?eLabel ?nomSci ?statut WHERE {
+    mar:I002 mar:protegeEspece ?espece .
+    ?espece rdfs:label ?eLabel .
+    OPTIONAL { ?espece mar:nomScientifique ?nomSci }
+    OPTIONAL { ?espece mar:statutProtection ?statut }
+    FILTER (lang(?eLabel) = 'fr')
+}
+ORDER BY ?statut ?eLabel ;
+
+
+# ─── CQ7 : Sources juridiques fondatrices ────────────────────────────
+# [CQ7]
+SELECT ?iLabel ?srcLabel ?srcRef ?srcYear WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:fondeeSur ?source .
+    ?source rdfs:label ?srcLabel .
+    OPTIONAL { ?source rdfs:comment ?srcRef }
+    OPTIONAL { ?source mar:sourceYear ?srcYear }
+    FILTER (lang(?iLabel) = 'fr')
+}
+ORDER BY ?iLabel ?srcYear ;
+
+
+# ─── CQ8 : Mécanismes de contrôle ────────────────────────────────────
+# [CQ8]
+SELECT ?iLabel ?controleLabel WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:soumisAControle ?controle .
+    ?controle rdfs:label ?controleLabel .
+    FILTER (lang(?iLabel) = 'fr' && lang(?controleLabel) = 'fr')
+} ;
+
+
+# ─── CQ9 : Périodes d'application ────────────────────────────────────
+# [CQ9]
+SELECT ?iLabel ?periodeLabel ?periodeType WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel ;
+                  mar:appliesDuring ?periode .
+    ?periode rdfs:label ?periodeLabel .
+    OPTIONAL { ?periode rdf:type ?periodeType . FILTER(?periodeType != owl:NamedIndividual) }
+    FILTER (lang(?iLabel) = 'fr' && lang(?periodeLabel) = 'fr')
+} ;
+
+
+# ─── CQ10 : Concepts lexicaux définis ────────────────────────────────
+# [CQ10]
+SELECT ?label ?definition ?nomSci WHERE {
+    ?concept rdf:type mar:ConceptLexical ;
+             rdfs:label ?label .
+    OPTIONAL { ?concept skos:definition ?definition }
+    OPTIONAL { ?concept mar:nomScientifique ?nomSci }
+}
+ORDER BY ?label
+LIMIT 100 ;
+
+
+# ─── CQ11 : Vue complète du graphe de connaissance ───────────────────
+# [CQ11 - CONSTRUCT]
+CONSTRUCT {
+    ?interdiction ?rel ?target .
+    ?target rdfs:label ?targetLabel .
+    ?interdiction rdfs:label ?iLabel .
+}
+WHERE {
+    ?interdiction rdf:type mar:Interdiction ;
+                  rdfs:label ?iLabel .
+    ?interdiction ?rel ?target .
+    OPTIONAL { ?target rdfs:label ?targetLabel }
+    FILTER (?rel != rdf:type)
+} ;
+
+
+# ─── CQ12 : Statistiques globales ────────────────────────────────────
+# [CQ12]
+SELECT
+    (COUNT(DISTINCT ?i) AS ?interdictions)
+    (COUNT(DISTINCT ?z) AS ?zones)
+    (COUNT(DISTINCT ?a) AS ?activites)
+    (COUNT(DISTINCT ?act) AS ?acteurs)
+    (COUNT(DISTINCT ?e) AS ?especes)
+    (COUNT(DISTINCT ?c) AS ?concepts)
+WHERE {
+    OPTIONAL { ?i rdf:type mar:Interdiction }
+    OPTIONAL { ?z rdf:type/rdfs:subClassOf* mar:Zone ; rdf:type owl:NamedIndividual }
+    OPTIONAL { ?a rdf:type/rdfs:subClassOf* mar:Activite ; rdf:type owl:NamedIndividual }
+    OPTIONAL { ?act rdf:type/rdfs:subClassOf* mar:Acteur ; rdf:type owl:NamedIndividual }
+    OPTIONAL { ?e rdf:type/rdfs:subClassOf* mar:EspeceMarine ; rdf:type owl:NamedIndividual }
+    OPTIONAL { ?c rdf:type mar:ConceptLexical }
+}

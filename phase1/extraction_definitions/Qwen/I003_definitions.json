@@ -1,0 +1,56 @@
+[
+  {
+    "terme": "Parties",
+    "definition": "les Parties contractantes au présent Protocole",
+    "reference": "Article 2 / a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Convention",
+    "definition": "la Convention sur la protection du milieu marin et du littoral de la Méditerranée, adoptée à Barcelone le 16 février 1976, telle que modifiée le 10 juin 1995",
+    "reference": "Article 2 / b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Organisation",
+    "definition": "l'organisation visée à l'article 17 de la Convention",
+    "reference": "Article 2 / c)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Centre",
+    "definition": "le Centre d'activités régionales pour le Programme d'actions prioritaires",
+    "reference": "Article 2 / d)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Zone côtière",
+    "definition": "l'espace géomorphologique de part et d'autre du rivage de la mer où se manifeste l'interaction entre la partie marine et la partie terrestre à travers des systèmes écologiques et systèmes de ressources complexes comprenant des composantes biotiques et abiotiques coexistant et interagissant avec les communautés humaines et les activités socio-économiques pertinentes",
+    "reference": "Article 2 / e)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Gestion intégrée des zones côtières",
+    "definition": "un processus dynamique de gestion et d'utilisation durables des zones côtières, prenant en compte simultanément la fragilité des écosystèmes et des paysages côtiers, la diversité des activités et des usages, leurs interactions, la vocation maritime de certains d'entre eux, ainsi que leurs impacts à la fois sur la partie marine et la partie terrestre",
+    "reference": "Article 2 / f)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I003",
+    "modele": "qwen3-8b"
+  }
+]

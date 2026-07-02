@@ -1,0 +1,2199 @@
+{
+  "data": {
+    "source": "Convention sur la diversité biologique (CDB), Nations Unies, 1992",
+    "version": "final_v1",
+    "sources_pdf": false,
+    "interdiction": "Interdiction de l'extraction de sable",
+    "interdiction_id": "I004",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "extraction de sable"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zones situées dans les limites de la juridiction nationale"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "en dehors des limites de la juridiction nationale"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "écosystèmes marins"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "habitats naturels"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zones protégées"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Parties contractantes"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "Etats"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "organisations régionales d'intégration économique"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "évaluation des impacts sur l'environnement"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "surveillance par prélèvement d'échantillons et d'autres techniques"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "système de zones protégées"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "responsabilité et réparation, y compris la remise en état et l'indemnisation pour dommages causés à la diversité biologique"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "à tout moment après l'entrée en vigueur de la Convention"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "être Partie contractante à la Convention"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "sauf disposition contraire expresse de la présente convention"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "sous réserve des droits des autres Etats"
+        }
+      ],
+      "explication_generale": "La Convention sur la diversité biologique (CDB) n'interdit pas explicitement l'extraction de sable, mais impose aux Parties contractantes des obligations générales de conservation et d'utilisation durable de la diversité biologique, qui peuvent inclure la réglementation ou l'interdiction de certaines activités telles que l'extraction de sable lorsque celles-ci menacent les écosystèmes, habitats naturels ou espèces. Les États doivent notamment évaluer les impacts environnementaux des projets susceptibles de nuire à la diversité biologique (art. 14), surveiller les activités à risque (art. 7), et réglementer ou gérer les ressources biologiques et les activités ayant une influence défavorable (art. 8, 9). L'application de ces mesures s'étend aux zones sous juridiction nationale et, dans certains cas, au-delà. Les acteurs visés sont principalement les États parties, mais aussi les organisations régionales compétentes. Des exceptions existent, notamment en cas de dispositions contraires dans la Convention ou de droits d'autres États. En cas de non-respect, des mécanismes de responsabilité et de réparation sont prévus. Ainsi, la CDB fonde une obligation de prévention et de gestion des activités telles que l'extraction de sable, sans l'interdire de façon absolue, mais en la soumettant à des contrôles stricts et à la nécessité de préserver la diversité biologique.",
+      "interdictions_identifiees": [
+        "Réglementer ou gérer les activités qui risquent d'avoir une influence défavorable sensible sur la conservation et l'utilisation durable de la diversité biologique (art. 7, 8, 9, 14)",
+        "Adopter des procédures permettant d'exiger l'évaluation des impacts sur l'environnement des projets susceptibles de nuire sensiblement à la diversité biologique (art. 14)",
+        "Empêcher d'introduire, contrôler ou éradiquer les espèces exotiques qui menacent des écosystèmes, des habitats ou des espèces (art. 8h)",
+        "Réglementer et gérer la collecte des ressources biologiques dans les habitats naturels aux fins de la conservation ex situ de manière à éviter que soient menacés les écosystèmes et les populations d'espèces in situ (art. 9d)"
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_EXTRACTION_DE_SABLE",
+        "source": "art. 7, 8, 9, 14",
+        "subject": "I004",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Zone_ZONES_SITUEES_DANS_LES_LIMITES_DE_LA_JURIDICTION_NATIONALE",
+        "source": "art. 4a",
+        "subject": "I004",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Zone_EN_DEHORS_DES_LIMITES_DE_LA_JURIDICTION_NATIONALE",
+        "source": "art. 4b",
+        "subject": "I004",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.8,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Zone_ECOSYSTEMES_MARINS",
+        "source": "art. 2, 8, 9",
+        "subject": "I004",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.85,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Zone_HABITATS_NATURELS",
+        "source": "art. 2, 8, 9",
+        "subject": "I004",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.85,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Zone_ZONES_PROTEGEES",
+        "source": "art. 8a, 8b",
+        "subject": "I004",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Actor_PARTIES_CONTRACTANTES",
+        "source": "art. 4, 5, 6, 7, 8, 9, 14",
+        "subject": "I004",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Actor_ETATS",
+        "source": "art. 3, 4",
+        "subject": "I004",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.9,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Actor_ORGANISATIONS_REGIONALES_D_INTEGRATION_ECONOMIQUE",
+        "source": "art. 2, 34, 35",
+        "subject": "I004",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 0.8,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Controle_EVALUATION_DES_IMPACTS_SUR_L_ENVIRONNEMENT",
+        "source": "art. 14",
+        "subject": "I004",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.95,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Controle_SURVEILLANCE_PAR_PRELEVEMENT_D_ECHANTILLONS_ET_D_AUTRES_TECHNIQUES",
+        "source": "art. 7",
+        "subject": "I004",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.9,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Controle_SYSTEME_DE_ZONES_PROTEGEES",
+        "source": "art. 8a",
+        "subject": "I004",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 0.85,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Sanction_RESPONSABILITE_ET_REPARATION",
+        "source": "art. 14.2",
+        "subject": "I004",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 0.8,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Periode_A_TOUT_MOMENT_APRES_L_ENTREE_EN_VIGUEUR_DE_LA_CONVENTION",
+        "source": "art. 36",
+        "subject": "I004",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 0.8,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Etat_ETRE_PARTIE_CONTRACTANTE_A_LA_CONVENTION",
+        "source": "art. 4, 34, 35",
+        "subject": "I004",
+        "predicate": "mar:soumisA",
+        "concept_id": "Etat",
+        "confidence": 0.9,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Exception_SAUF_DISPOSITION_CONTRAIRE_EXPRESSE_DE_LA_PRESENTE_CONVENTION",
+        "source": "art. 4",
+        "subject": "I004",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 0.7,
+        "deontic_type": "Permission",
+        "interdiction_id": "I004"
+      },
+      {
+        "object": "mar:Exception_SOUS_RESERVE_DES_DROITS_DES_AUTRES_ETATS",
+        "source": "art. 4",
+        "subject": "I004",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 0.7,
+        "deontic_type": "Permission",
+        "interdiction_id": "I004"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9395900135842346,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9395900135842346
+        },
+        "version": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "Le Tribunal tient un relevé de tous ses frais et en fournit un état final aux Parties.",
+              "bounding_boxes": [
+                {
+                  "h": 52.94994998094514,
+                  "w": 413.34935655547343,
+                  "x": 108.21436962592891,
+                  "y": 448.3715760766006
+                }
+              ],
+              "page_dimensions": {
+                "width": 593,
+                "height": 780
+              }
+            }
+          ],
+          "reasoning": "INFERRED: Utilisation du format d'extraction final_v1.",
+          "confidence": 0.9999750222089698,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999750222089698
+        },
+        "sources_pdf": {
+          "reasoning": "INSUFFICIENT DATA: Pas d'indication sur le format PDF dans le texte fourni.",
+          "confidence": 0.9995930049490218,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9995930049490218
+        },
+        "interdiction": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9950571381641652,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9950571381641652
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Les interdictions sont principalement implicites, découlant des obligations de prévention, de gestion et de réglementation des activités ayant un impact négatif sur la diversité biologique. L'extraction de sable, bien que non nommée explicitement, est une activité typiquement concernée par ces dispositions. Les entités sont extraites à partir des articles 2, 4, 7, 8, 9, 14 et des définitions. Les exceptions sont relevées dans les clauses de réserve et de compatibilité avec d'autres droits.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9996716211013658,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9996716211013658
+              },
+              "texte_original": {
+                "confidence": 0.9960283961477941,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9960283961477941
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 12,
+                    "matching_text": "...ouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la...",
+                    "bounding_boxes": [
+                      {
+                        "h": 363.06,
+                        "w": 416.22,
+                        "x": 116.59,
+                        "y": 112.95
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.7760871812049813,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7760871812049813
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 12,
+                    "matching_text": "* d) Dans le cas d'un danger ou d'un dommage imminent ou grave trouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction...",
+                    "bounding_boxes": [
+                      {
+                        "h": 363.06,
+                        "w": 416.22,
+                        "x": 116.59,
+                        "y": 112.95
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.9687755798975135,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9687755798975135
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "...et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites de sa juridiction nationale, indé...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.28490853658538,
+                        "w": 412.9887863829078,
+                        "x": 80.42456566787347,
+                        "y": 254.6508455602134
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.9999933694113405,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999933694113405
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "b) Lorsqu'il s'agit des processus et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.28490853658538,
+                        "w": 412.9887863829078,
+                        "x": 80.42456566787347,
+                        "y": 254.6508455602134
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.9586787940150603,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9586787940150603
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "...et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites de sa juridiction nationale, indé...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.28490853658538,
+                        "w": 412.9887863829078,
+                        "x": 80.42456566787347,
+                        "y": 254.6508455602134
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.8757025372351583,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8757025372351583
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 5,
+                    "matching_text": "**Diversité biologique** : Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.81174852324696,
+                        "w": 412.38700628513243,
+                        "x": 85.71226611625856,
+                        "y": 545.9581519150153
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.7643453080782185,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7643453080782185
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "...et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites de sa juridiction nationale, indé...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.28490853658538,
+                        "w": 412.9887863829078,
+                        "x": 80.42456566787347,
+                        "y": 254.6508455602134
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.8506377149005788,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8506377149005788
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 10,
+                    "matching_text": "d) Réglemente et gère la collecte des ressources biologiques dans les habitats naturels aux fins de la conservation *ex situ* de manière à éviter que soient menacés les écosystèmes et les populations...",
+                    "bounding_boxes": [
+                      {
+                        "h": 54.45159484863283,
+                        "w": 413.1062663157394,
+                        "x": 111.8024776105183,
+                        "y": 147.34791076660156
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 779
+                    }
+                  }
+                ],
+                "confidence": 0.780767507675032,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.780767507675032
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "*Zone protégée* : toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+                    "bounding_boxes": [
+                      {
+                        "h": 30.881146389100607,
+                        "w": 413.00480878132146,
+                        "x": 120.39377591761146,
+                        "y": 531.1305068597561
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.752577832777149,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.752577832777149
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 8,
+                    "matching_text": "a) Etablit un système de zones protégées ou de zones où des mesures spéciales doivent être prises pour conserver la diversité biologique;",
+                    "bounding_boxes": [
+                      {
+                        "h": 32.80074730849842,
+                        "w": 413.99188562904914,
+                        "x": 119.95063080578313,
+                        "y": 370.8622111995046
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.890113801952429,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.890113801952429
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.5605255300097505,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5605255300097505
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 13,
+                    "matching_text": "...'effectuer des recherches scientifiques fondées sur les ressources génétiques fournies par d'autres Parties contractantes avec la pleine participation de ces Parties et, dans la mesure du possible, su...",
+                    "bounding_boxes": [
+                      {
+                        "h": 439.64,
+                        "w": 418.35,
+                        "x": 83.33,
+                        "y": 64.68
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.775114627444247,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.775114627444247
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9998729890842577,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9998729890842577
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "*Réaffirmant* que les Etats ont des droits souverains sur leurs ressources biologiques,",
+                    "bounding_boxes": [
+                      {
+                        "h": 21.21447875976562,
+                        "w": 412.24977863590885,
+                        "x": 80.80385953577553,
+                        "y": 248.91686157226562
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 779
+                    }
+                  }
+                ],
+                "confidence": 0.8731591543791495,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8731591543791495
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8942620871852525,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8942620871852525
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 25,
+                    "matching_text": "Les dispositions du paragraphe 2 de l'article 34 s'appliquent aux organisations régionales d'intégration économique qui adhèrent à la présente Convention ou à l'un quelconque de ses protocoles.",
+                    "bounding_boxes": [
+                      {
+                        "h": 262.35,
+                        "w": 413.72,
+                        "x": 74.02,
+                        "y": 275.39
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 779
+                    }
+                  }
+                ],
+                "confidence": 0.8875243609613528,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8875243609613528
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.43575491992676996,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.43575491992676996
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 12,
+                    "matching_text": "* a) Adopte des procédures permettant d'exiger l'évaluation des impacts sur l'environnement des projets qu'elle a proposés et qui sont susceptibles de nuire sensiblement à la diversité biologique en v...",
+                    "bounding_boxes": [
+                      {
+                        "h": 363.06,
+                        "w": 416.22,
+                        "x": 116.59,
+                        "y": 112.95
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.8942570517427502,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8942570517427502
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8311881905439278,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8311881905439278
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "* g) Crée les organes subsidiaires jugés nécessaires à l'application de la présente Convention, en particulier pour donner des avis scientifiques et techniques;",
+                    "bounding_boxes": [
+                      {
+                        "h": 318.81,
+                        "w": 413.96,
+                        "x": 78.88,
+                        "y": 272.1
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 779
+                    }
+                  }
+                ],
+                "confidence": 0.8639203173902428,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8639203173902428
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.4598703642534599,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.4598703642534599
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 8,
+                    "matching_text": "a) Etablit un système de zones protégées ou de zones où des mesures spéciales doivent être prises pour conserver la diversité biologique;",
+                    "bounding_boxes": [
+                      {
+                        "h": 32.80074730849842,
+                        "w": 413.99188562904914,
+                        "x": 119.95063080578313,
+                        "y": 370.8622111995046
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.5816620976044736,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5816620976044736
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.742609251732076,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.742609251732076
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 12,
+                    "matching_text": "La Conférence des Parties examine, sur la base des études qui seront entreprises, la question de la responsabilité et de la réparation, y compris la remise en état et l'indemnisation pour dommages cau...",
+                    "bounding_boxes": [
+                      {
+                        "h": 52.8,
+                        "w": 414.22,
+                        "x": 118.76,
+                        "y": 487.9
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.9691378014130937,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9691378014130937
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7089707486576573,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7089707486576573
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "* g) Crée les organes subsidiaires jugés nécessaires à l'application de la présente Convention, en particulier pour donner des avis scientifiques et techniques;",
+                    "bounding_boxes": [
+                      {
+                        "h": 318.81,
+                        "w": 413.96,
+                        "x": 78.88,
+                        "y": 272.1
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 779
+                    }
+                  }
+                ],
+                "confidence": 0.7174318511533809,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7174318511533809
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "Aucun Etat ni aucune organisation régionale d'intégration économique ne peut devenir Partie à un protocole sans être ou devenir simultanément Partie à la présente Convention.",
+                    "bounding_boxes": [
+                      {
+                        "h": 87.32,
+                        "w": 413.5,
+                        "x": 110.83,
+                        "y": 388.38
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.6691370448001689,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6691370448001689
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "Aucun Etat ni aucune organisation régionale d'intégration économique ne peut devenir Partie à un protocole sans être ou devenir simultanément Partie à la présente Convention.",
+                    "bounding_boxes": [
+                      {
+                        "h": 87.32,
+                        "w": 413.5,
+                        "x": 110.83,
+                        "y": 388.38
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.8071507119772419,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8071507119772419
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.538199243734647,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.538199243734647
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "Sous réserve des droits des autres Etats et sauf disposition contraire expresse de la présente convention, les dispositions de la Convention s'appliquent à chacune des Parties contractantes :",
+                    "bounding_boxes": [
+                      {
+                        "h": 32.33327726038492,
+                        "w": 413.0930070086223,
+                        "x": 80.07546276557736,
+                        "y": 176.81367455459224
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.7807151556883644,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7807151556883644
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9647612296183254,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9647612296183254
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 7,
+                    "matching_text": "Sous réserve des droits des autres Etats et sauf disposition contraire expresse de la présente convention, les dispositions de la Convention s'appliquent à chacune des Parties contractantes :",
+                    "bounding_boxes": [
+                      {
+                        "h": 32.33327726038492,
+                        "w": 413.0930070086223,
+                        "x": 80.07546276557736,
+                        "y": 176.81367455459224
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 593,
+                      "height": 780
+                    }
+                  }
+                ],
+                "confidence": 0.7699863649008004,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7699863649008004
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.7137103812455896,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.7137103812455896
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "c) Identifie les processus et catégories d'activités qui ont ou risquent d'avoir une influence défavorable sensible sur la conservation et l'utilisation durable de la diversité biologique et survei...",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.97102765339178,
+                      "w": 413.60264286692546,
+                      "x": 119.52439969690835,
+                      "y": 216.69985768387957
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.8294766319050159,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8294766319050159
+            },
+            {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "* a) Adopte des procédures permettant d'exiger l'évaluation des impacts sur l'environnement des projets qu'elle a proposés et qui sont susceptibles de nuire sensiblement à la diversité biologique e...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9084817823741401,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9084817823741401
+            },
+            {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "h) Empêche d'introduire, contrôle ou éradique les espèces exotiques qui menacent des écosystèmes, des habitats ou des espèces;",
+                  "bounding_boxes": [
+                    {
+                      "h": 22.119947509765627,
+                      "w": 412.6763187166539,
+                      "x": 90.01632371855945,
+                      "y": 178.81683471679688
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9337245060889025,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9337245060889025
+            },
+            {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "d) Réglemente et gère la collecte des ressources biologiques dans les habitats naturels aux fins de la conservation *ex situ* de manière à éviter que soient menacés les écosystèmes et les populatio...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.45159484863283,
+                      "w": 413.1062663157394,
+                      "x": 111.8024776105183,
+                      "y": 147.34791076660156
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9313470285650155,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9313470285650155
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9999475395421116,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999475395421116
+            },
+            "source": {
+              "confidence": 0.8878406906826123,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8878406906826123
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999996551875416,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996551875416
+            },
+            "reasoning": "L'extraction de sable est une activité typiquement susceptible d'avoir un impact négatif sur la biodiversité, donc soumise à réglementation/interdiction selon la CDB.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.9124249986751951,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9124249986751951
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "* d) Dans le cas d'un danger ou d'un dommage imminent ou grave trouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9864272507233309,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9864272507233309
+            },
+            "source": {
+              "confidence": 0.8890871542091827,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8890871542091827
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La portée territoriale de la CDB inclut explicitement les zones sous juridiction nationale.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "...ouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7373773078747912,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7373773078747912
+            },
+            "deontic_type": {
+              "confidence": 0.9999932278112403,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999932278112403
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "b) Lorsqu'il s'agit des processus et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limi...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.28490853658538,
+                      "w": 412.9887863829078,
+                      "x": 80.42456566787347,
+                      "y": 254.6508455602134
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9997851897264323,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997851897264323
+            },
+            "source": {
+              "confidence": 0.9997235180601602,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997235180601602
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La CDB prévoit l'application à certaines activités menées hors juridiction nationale si elles produisent des effets sur la biodiversité.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "...et activités qui sont réalisés sous sa juridiction ou son contrôle, que ce soit à l'intérieur de la zone relevant de sa juridiction nationale ou en dehors des limites de sa juridiction nationale, indé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.28490853658538,
+                      "w": 412.9887863829078,
+                      "x": 80.42456566787347,
+                      "y": 254.6508455602134
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8066779057956232,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8066779057956232
+            },
+            "deontic_type": {
+              "confidence": 0.9998882247791663,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998882247791663
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999834815446973,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999834815446973
+            },
+            "source": {
+              "confidence": 0.915006117937753,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.915006117937753
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Les écosystèmes marins sont cités comme objets de conservation, donc concernés par la réglementation des activités telles que l'extraction de sable.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "...ouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8190669307458066,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8190669307458066
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999973358389174,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999973358389174
+            },
+            "source": {
+              "confidence": 0.9318278220969557,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9318278220969557
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Les habitats naturels sont explicitement visés par les mesures de conservation et de gestion.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "...ouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.9733759053515966,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9733759053515966
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9998941590843237,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998941590843237
+            },
+            "source": {
+              "confidence": 0.8672007144520706,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8672007144520706
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999997293239352,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997293239352
+            },
+            "reasoning": "Les zones protégées sont explicitement mentionnées comme devant faire l'objet de mesures spéciales de conservation.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "...ouvant son origine sous sa juridiction ou son contrôle et menaçant la diversité biologique dans une zone relevant de la juridiction d'autres Etats ou dans des zones situées en dehors des limites de la...",
+                  "bounding_boxes": [
+                    {
+                      "h": 363.06,
+                      "w": 416.22,
+                      "x": 116.59,
+                      "y": 112.95
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 30,
+                  "matching_text": "### Article 9",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.471520102896358,
+                      "w": 51.13076609541728,
+                      "x": 285.77908218011623,
+                      "y": 426.4359339272104
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.7802699846758787,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7802699846758787
+            },
+            "deontic_type": {
+              "confidence": 0.9999976979285415,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999976979285415
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999091361148574,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999091361148574
+            },
+            "source": {
+              "confidence": 0.8834511090109058,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8834511090109058
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "Les obligations de la CDB s'appliquent aux Parties contractantes.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7405468995782112,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7405468995782112
+            },
+            "deontic_type": {
+              "confidence": 0.9780767851169141,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9780767851169141
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9998730348260317,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998730348260317
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 26,
+                  "matching_text": "2. Un protocole entre en vigueur le quatre-vingt-dixième jour suivant la date du dépôt du nombre d'instruments de ratification, d'acceptation, d'approbation ou d'adhésion précisé dans ledit protoco...",
+                  "bounding_boxes": [
+                    {
+                      "h": 265.58,
+                      "w": 414.58,
+                      "x": 116.21,
+                      "y": 47.27
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9371312422736621,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9371312422736621
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "Les États sont les sujets principaux du droit international et de la CDB.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 30,
+                  "matching_text": "### Article 9",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.471520102896358,
+                      "w": 51.13076609541728,
+                      "x": 285.77908218011623,
+                      "y": 426.4359339272104
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.8960263104413456,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8960263104413456
+            },
+            "deontic_type": {
+              "confidence": 0.999999366777361,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999366777361
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9992880172263228,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9992880172263228
+            },
+            "source": {
+              "confidence": 0.982620329732939,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.982620329732939
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999723410504,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999723410504
+            },
+            "reasoning": "La CDB prévoit la participation de ces organisations comme Parties.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8278756271513601,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8278756271513601
+            },
+            "deontic_type": {
+              "confidence": 0.9999968039036192,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999968039036192
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "g) Met en place ou maintient des moyens pour réglementer, gérer ou maîtriser les risques associés à l'utilisation et à la libération d'organismes vivants et modifiés résultant de la biotechnologie...",
+                  "bounding_boxes": [
+                    {
+                      "h": 75.38965515136718,
+                      "w": 414.03003924113955,
+                      "x": 89.12722626476753,
+                      "y": 90.26061096191407
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9989489192862162,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9989489192862162
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 31,
+                  "matching_text": "### Article 14",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.26339965820314,
+                      "w": 57.27826463652819,
+                      "x": 253.12864752048398,
+                      "y": 294.374013671875
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9993375289583756,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9993375289583756
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999974580037382,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999974580037382
+            },
+            "reasoning": "L'article 14 impose l'évaluation des impacts pour les projets susceptibles de nuire à la biodiversité.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.9472056644620798,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9472056644620798
+            },
+            "deontic_type": {
+              "confidence": 0.9999519248764464,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999519248764464
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9883875696663589,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9883875696663589
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "1. Etant donné que les Etats ont droit de souveraineté sur leurs ressources naturelles, le pouvoir de déterminer l'accès aux ressources génétiques appartient aux gouvernements et est régi par la lé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9993233361008989,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9993233361008989
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La surveillance est explicitement prévue pour les activités à risque.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "9",
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.8654241619513772,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8654241619513772
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999773494184532,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999773494184532
+            },
+            "source": {
+              "confidence": 0.9874741003774249,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9874741003774249
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999983639497,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999983639497
+            },
+            "reasoning": "La création de zones protégées est une mesure de gestion obligatoire.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.8337611092515509,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8337611092515509
+            },
+            "deontic_type": {
+              "confidence": 0.9999548452296587,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999548452296587
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999134967988779,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999134967988779
+            },
+            "source": {
+              "confidence": 0.9152635374335616,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9152635374335616
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La CDB prévoit des mécanismes de réparation en cas de non-respect des obligations.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "8",
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.7667214282065409,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7667214282065409
+            },
+            "deontic_type": {
+              "confidence": 0.8961995649464796,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8961995649464796
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 26,
+                  "matching_text": "A moins qu'il n'en dispose autrement, un protocole entre en vigueur pour une Partie contractante qui le ratifie, l'accepte, l'approuve ou y adhère après son entrée en vigueur conformément au paragr...",
+                  "bounding_boxes": [
+                    {
+                      "h": 265.58,
+                      "w": 414.58,
+                      "x": 116.21,
+                      "y": 47.27
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9845992707903704,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9845992707903704
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 25,
+                  "matching_text": "# Article 36. Entrée en vigueur",
+                  "bounding_boxes": [
+                    {
+                      "h": 9.83069091796875,
+                      "w": 168.49863924352132,
+                      "x": 196.32069103706175,
+                      "y": 549.5441528320313
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 0.9997046274569215,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997046274569215
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "La Convention s'applique dès son entrée en vigueur et sans limitation de durée.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "confidence": 0.7275584978520279,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7275584978520279
+            },
+            "deontic_type": {
+              "confidence": 0.9402336085230513,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9402336085230513
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "Aucun Etat ni aucune organisation régionale d'intégration économique ne peut devenir Partie à un protocole sans être ou devenir simultanément Partie à la présente Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 87.32,
+                      "w": 413.5,
+                      "x": 110.83,
+                      "y": 388.38
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999414329697419,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999414329697419
+            },
+            "source": {
+              "confidence": 0.9103222683939777,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9103222683939777
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999523799796428,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999523799796428
+            },
+            "reasoning": "Seules les Parties contractantes sont soumises aux obligations de la CDB.",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "Aucun Etat ni aucune organisation régionale d'intégration économique ne peut devenir Partie à un protocole sans être ou devenir simultanément Partie à la présente Convention.",
+                  "bounding_boxes": [
+                    {
+                      "h": 87.32,
+                      "w": 413.5,
+                      "x": 110.83,
+                      "y": 388.38
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "9",
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.7810682226921264,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7810682226921264
+            },
+            "deontic_type": {
+              "confidence": 0.9955663209254983,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9955663209254983
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Sous réserve des droits des autres Etats et sauf disposition contraire expresse de la présente convention, les dispositions de la Convention s'appliquent à chacune des Parties contractantes :",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.33327726038492,
+                      "w": 413.0930070086223,
+                      "x": 80.07546276557736,
+                      "y": 176.81367455459224
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9936711756194635,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9936711756194635
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "1. Etant donné que les Etats ont droit de souveraineté sur leurs ressources naturelles, le pouvoir de déterminer l'accès aux ressources génétiques appartient aux gouvernements et est régi par la lé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999150569099616,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999150569099616
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "L'article 4 prévoit explicitement cette exception.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "1. Etant donné que les Etats ont droit de souveraineté sur leurs ressources naturelles, le pouvoir de déterminer l'accès aux ressources génétiques appartient aux gouvernements et est régi par la lé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.7265892482192939,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7265892482192939
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Sous réserve des droits des autres Etats et sauf disposition contraire expresse de la présente convention, les dispositions de la Convention s'appliquent à chacune des Parties contractantes :",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.33327726038492,
+                      "w": 413.0930070086223,
+                      "x": 80.07546276557736,
+                      "y": 176.81367455459224
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9998922547102167,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998922547102167
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "1. Etant donné que les Etats ont droit de souveraineté sur leurs ressources naturelles, le pouvoir de déterminer l'accès aux ressources génétiques appartient aux gouvernements et est régi par la lé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999323252620531,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999323252620531
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "L'article 4 prévoit explicitement cette exception.",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "1. Etant donné que les Etats ont droit de souveraineté sur leurs ressources naturelles, le pouvoir de déterminer l'accès aux ressources génétiques appartient aux gouvernements et est régi par la lé...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9869761310048485,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9869761310048485
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-ds4phtifqpf7rtzs0mp6lxfyiu6v",
+    "parse_tier": null
+  }
+}

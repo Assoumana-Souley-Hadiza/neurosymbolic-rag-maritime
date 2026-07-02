@@ -1,0 +1,502 @@
+{
+  "interdiction_id": "I001",
+  "interdiction": "Chalutage_de_fond",
+  "source": "Résolutions AGNU A/RES/61/105 (2006), A/RES/64/72 (2009), A/RES/66/68 (2011), A/RES/71/123 (2016) sur la viabilité des pêches",
+  "raw_extractions": {
+    "interdictions_identifiees": [
+      "Interdiction du chalutage de fond en haute mer en l'absence d'évaluation préalable d'impact sur les Écosystèmes Marins Vulnérables (EMV)",
+      "Interdiction de la pêche INN (illicite, non déclarée et non réglementée) en haute mer et dans les ZEE",
+      "Interdiction d'utiliser des engins de pêche de fond destructeurs dans les zones non réglementées par une ORGP compétente",
+      "Obligation de suspension immédiate du chalutage dès qu'un EMV est rencontré (règle du déplacement ou de l'arrêt)"
+    ],
+    "entites_trouvees": [
+      {
+        "categorie": "Activity",
+        "texte_original": "chalutage de fond (bottom trawling) en haute mer sans évaluation d'impact préalable"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "pêche INN (illicite, non déclarée et non réglementée – INDNR)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "utilisation d'engins de pêche de fond destructeurs dans les zones non réglementées"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "pêche sans autorisation de l'ORGP compétente"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "pêche artisanale à petite échelle dans les eaux sous juridiction nationale"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "opérations de recherche scientifique dûment autorisées"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "haute mer (zones situées au-delà des juridictions nationales)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zones économiques exclusives (ZEE) pour les États côtiers membres"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zones abritant des Écosystèmes Marins Vulnérables — monts sous-marins, coraux d'eau froide, récifs d'éponges, cheminées hydrothermales"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États du pavillon autorisant des navires à pêcher en haute mer"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "Organisations régionales de gestion des pêches (ORGP)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "navires de pêche battant pavillon d'États membres ou non-membres des ORGP"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États côtiers dans leurs ZEE"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "obligation pour les États du pavillon de retirer les autorisations de pêche aux navires pratiquant le chalutage de fond non réglementé (Rés. 61/105, para. 83-84)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "interdiction immédiate (arrêt ou déplacement) dès qu'un EMV est rencontré"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "évaluation préalable d'impact sur les EMV avant autorisation de chalutage de fond"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "mesures de contrôle par l'État du port pour prévenir la pêche INDNR"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "obligation de reporting aux ORGP et à l'Assemblée générale de l'ONU"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "dispositifs d'observation, de contrôle et de surveillance (résolution 61/105, 64/72, 66/68, 71/123)"
+      },
+      {
+        "categorie": "Periode",
+        "texte_original": "résolution 61/105 adoptée le 8 décembre 2006 ; réaffirmée par 64/72 (2009), 66/68 (2011), 71/123 (2016)"
+      },
+      {
+        "categorie": "Etat",
+        "texte_original": "États membres de l'UNCLOS parties aux ORGP compétentes"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "chalutage de fond autorisé dans les zones évaluées et réglementées par une ORGP compétente"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "pêche artisanale à petite échelle dans les eaux sous juridiction nationale"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "opérations de recherche scientifique dûment autorisées"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "coraux d'eau froide (Lophelia pertusa et autres scléractiniaires profonds)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "récifs d'éponges (hexactinellides et démosponges)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "espèces de requins vulnérables à la surexploitation"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "albatros et pétrels (prises accessoires lors du chalutage)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks chevauchants (straddling fish stocks)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks de poissons grands migrateurs"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "stocks épuisés à reconstituer selon la résolution 71/123"
+      }
+    ],
+    "explication_generale": "Les quatre résolutions de l'AGNU (61/105, 64/72, 66/68, 71/123) forment un corpus progressif visant à encadrer le chalutage de fond en haute mer. Le mécanisme central est la conditionnalité : l'activité n'est pas proscrite dans l'absolu, mais toute opération non précédée d'une évaluation d'impact sur les Écosystèmes Marins Vulnérables (EMV) est assimilée à une prohibition déontique. La résolution 61/105 fonde l'obligation d'arrêt ou de déplacement immédiat dès qu'un EMV est rencontré. Les résolutions suivantes renforcent les obligations de contrôle (État du pavillon, ORGP, État du port), la lutte contre la pêche INN et la gestion des stocks chevauchants et grands migrateurs. La non-conformité entraîne le retrait des autorisations de pêche par l'État du pavillon."
+  },
+  "pipeline_triples": [
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ZEE_ETATS_COTIERS",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ECOSYSTEMES_MARINS_VULNERABLES_EMV",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_MONTS_SOUS_MARINS",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_CORAUX_EAU_FROIDE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CHALUTAGE_FOND_SANS_EVALUATION_IMPACT",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_PECHE_INN_INDNR_HAUTE_MER",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_UTILISATION_ENGINS_FOND_DESTRUCTEURS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_PECHE_SANS_AUTORISATION_ORGP",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PAVILLON_PECHE_HAUTE_MER",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ORGP_REGIONALE_GESTION_PECHES",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_NAVIRE_PECHE_CHALUTAGE_FOND",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_COTIER_ZEE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PORT_CONTROLE_INN",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_RETRAIT_AUTORISATION_PECHE_ETAT_PAVILLON",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_ARRET_DEPLACEMENT_IMMEDIAT_CHALUTIER",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_EVALUATION_IMPACT_EMV_PREALABLE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ETAT_PORT_ANTI_INN",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REPORTING_ORGP_AGNU",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_OBSERVATION_SURVEILLANCE_NAVIRES_PECHE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.91
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_DEPUIS_RESOLUTION_61_105_DECEMBRE_2006",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_RENFORCEE_RESOLUTION_71_123_DECEMBRE_2016",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_MEMBRES_UNCLOS_PARTIES_ORGP",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_CHALUTAGE_ZONE_EVALUEE_REGLEMENTEE_ORGP",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I001",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PECHE_ARTISANALE_PETITE_ECHELLE_ZEE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I001",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_RECHERCHE_SCIENTIFIQUE_AUTORISEE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I001",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_CORAUX_EAU_FROIDE_LOPHELIA_PERTUSA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_RECIFS_EPONGES_HEXACTINELLIDES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_REQUINS_VULNERABLES_SUREXPLOITATION",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_CHEVAUCHANTS_STRADDLING_FISH_STOCKS",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_GRANDS_MIGRATEURS_HAUTE_MER",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_EPUISES_A_RECONSTITUER_RES71_123",
+      "concept_id": "Stock",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.87
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_PECHE_FILET_DERIVANT_GRAND_LARGE_INTERDITE_RES46_215",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.88,
+      "source": "Resolution 61/105 §83 ref Res 46/215"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_FERMETURE_PROVISOIRE_ZONES_EMV_NON_EVALUEES",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.95,
+      "source": "Resolution 61/105 §83(a)"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_PLAN_GESTION_ORGP_EAUX_HAUTURIERES",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.93,
+      "source": "Resolution 61/105 §83(b)"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_FAO_GESTION_PECHE_HAUTURIERE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.9,
+      "source": "Resolutions AGNU & Accord 1995"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_FOSSES_OCEANIQUE_GRANDS_FONDS",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.87,
+      "source": "Resolution 61/105 §83 EMV definition"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CHALUTAGE_PELAGIQUE_PROFONDEUR_SUP_1000M",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I001",
+      "confidence": 0.85,
+      "source": "Resolution 71/123 §§ deep-sea fisheries"
+    },
+    {
+      "subject": "I001",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_NOTIFICATION_ORGP_AVANT_ACCES_NOUVELLE_PECHE_FOND",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I001",
+      "confidence": 0.92,
+      "source": "Resolution 64/72 §119 prior notification"
+    }
+  ],
+  "version": "final_v14_merged",
+  "sources_pdf": true
+}

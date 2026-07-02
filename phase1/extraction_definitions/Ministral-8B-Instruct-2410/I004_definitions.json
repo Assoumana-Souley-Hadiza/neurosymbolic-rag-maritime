@@ -1,0 +1,212 @@
+[
+  {
+    "terme": "Biotechnologie",
+    "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci,",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "éléments constitutifs",
+    "definition": "les éléments constitutifs de la diversité biologique importants pour sa conservation et son utilisation durable",
+    "nom_scientifique": null,
+    "reference": "Article 7, Alinéa a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "zones protégées",
+    "definition": "des zones où des mesures spéciales doivent être prises pour conserver la diversité biologique",
+    "nom_scientifique": null,
+    "reference": "Article 7, Alinéa a)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "espèces",
+    "definition": "Les espèces menacées et la réintroduction de ces espèces dans leur habitat naturel dans de bonnes conditions.",
+    "nom_scientifique": null,
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ressources biologiques",
+    "definition": "La collecte des ressources biologiques dans les habitats naturels aux fins de la conservation ex situ de manière à éviter que soient menacés les écosystèmes et les populations d'espèces in situ, excepté lorsque des mesures ex situ particulières sont temporairement nécessaires, conformément à l'alinéa c) ci-dessus;",
+    "nom_scientifique": null,
+    "reference": "Article 10",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ressources génétiques",
+    "definition": "les ressources qui sont fournies par des Parties contractantes qui sont des pays d'origine de ces ressources ou par des Parties qui les ont acquises conformément à la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 15, §3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Convention",
+    "definition": "La présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 17",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parties contractantes",
+    "definition": "Les Parties contractantes",
+    "nom_scientifique": null,
+    "reference": "Article 17",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pays en développement",
+    "definition": "Un pays en développement",
+    "nom_scientifique": null,
+    "reference": "Article 21",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "pays développés",
+    "definition": "Les pays qui sont des pays développés",
+    "nom_scientifique": null,
+    "reference": "Article 21",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "diversité biologique",
+    "definition": "La diversité biologique signifie la variété des formes de vie à tous les niveaux organisationnels, de la génétique à l'écosystème.",
+    "nom_scientifique": null,
+    "reference": "Article 22",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "accord international existant",
+    "definition": "Un accord international existant désigne un traité ou convention internationale déjà ratifié par un État.",
+    "nom_scientifique": null,
+    "reference": "Article 22",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Organe",
+    "definition": "Cet organe est ouvert à la participation de toutes les Parties et il est pluridisciplinaire.",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties",
+    "nom_scientifique": null,
+    "reference": "§1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Parties",
+    "definition": "les États et organisations régionales d'intégration économique",
+    "nom_scientifique": null,
+    "reference": "Article 34. Ratification, acceptation, approbation §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Annexes",
+    "definition": "les annexes à la présente Convention ou à ses protocoles",
+    "nom_scientifique": null,
+    "reference": "Article 30. Adoption des annexes et des amendements aux annexes §1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "admission",
+    "definition": "La présente Convention et ses protocoles éventuels sont ouverts à l'adhésion des États et des organisations régionales d'intégration économique à partir de la date à laquelle la Convention ou le protocole considéré ne sont plus ouverts à la signature.",
+    "nom_scientifique": null,
+    "reference": "Article 35.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "instrument d'adhésion",
+    "definition": "Les instruments d'adhésion seront déposés auprès du Dépositaire.",
+    "nom_scientifique": null,
+    "reference": "Article 35.1",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "utilisation durable",
+    "definition": "utilisation durable de la diversité biologique",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Partie",
+    "definition": "Une entité impliquée dans un différend ou un processus de conciliation.",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Commission de conciliation",
+    "definition": "Un organe chargé de résoudre des différends entre parties.",
+    "nom_scientifique": null,
+    "reference": "Article 5",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I004",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

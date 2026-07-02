@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "term": "autorisation d'exploitation de cultures maritimes sur le domaine public maritime ou fluvial géré par l'Etat",
+      "definition": "L'autorisation d'exploitation de cultures maritimes délivrée en application des lois et règlements en vigueur en matière de pêches maritimes et de cultures marines vaut autorisation d'occupation domaniale.",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "bassins et plans d'eau destinés à l'accueil des navires de plaisance",
+      "definition": "Ce sont des bassins ou plans d'eau intégrés au domaine public, comprenant une bande bord à quai reliée à la voirie publique, d'une largeur suffisante pour la circulation et l'exploitation des installations, et pouvant être mis en communication avec la mer ou des bassins portuaires existants.",
+      "article_reference": "Domaines portuaires et balnéaires",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "communes auxquelles s'applique la présente loi",
+      "definition": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+      "article_reference": "Champ d'application",
+      "language": "fr"
+    },
+    {
+      "term": "concession de plage",
+      "definition": "Une concession de plage est une autorisation accordée ou renouvelée après enquête publique, qui doit préserver la libre circulation sur la plage et le libre usage par le public d'un espace d'une largeur significative tout le long de la mer. Tout contrat de concession doit déterminer la largeur de cet espace en tenant compte des caractéristiques des lieux. Les concessions de plage et les sous-traités d'exploitation sont portés à la connaissance du public par le concessionnaire.",
+      "article_reference": "Chapitre II : Des plages",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "Conseil national de la mer et des littoraux",
+      "definition": "Le Conseil national de la mer et des littoraux est un organisme créé pour l'aménagement, la protection, la mise en valeur des littoraux et de la mer ainsi que pour la gestion intégrée des zones côtières. Il est présidé par le Premier ministre ou, en son absence, par le ministre chargé de la mer. Sa composition et son fonctionnement sont précisés par décret, en tenant compte de l'importance des espaces maritimes d’outre-mer. Il comprend à parité des membres du Parlement, des représentants du Parlement européen, des collectivités territoriales des façades maritimes, des établissements publics intéressés, des milieux socio-professionnels et de la société civile représentative des activités et usages du littoral. Il est consulté lors de la rédaction des décrets relatifs à la gestion du domaine public maritime, a un rôle de proposition auprès du Gouvernement et contribue à la coordination des actions publiques dans les territoires littoraux. Il définit les objectifs et précise les actions jugées nécessaires pour l’aménagement, la protection et la mise en valeur de la mer et des littoraux dans une perspective de gestion intégrée. Il assure aussi le suivi de la stratégie nationale de la mer et des littoraux.",
+      "article_reference": "Titre IV : Dispositions diverses",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "destination fondamentale des plages",
+      "definition": "La destination fondamentale des plages est l'usage libre et gratuit par le public, au même titre que leur affectation aux activités de pêche et de cultures marines.",
+      "article_reference": "Chapitre II : Des plages",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "ensemble touristique",
+      "definition": "Un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique du littoral est un aménagement ou un ensemble d'aménagements qui induisent ces effets sur le littoral.",
+      "article_reference": "Gestion et exploitation touristique du littoral",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "espaces naturels littoraux",
+      "definition": "Les espaces naturels littoraux comprennent les plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+      "article_reference": "Protection du littoral — espaces naturels",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "limites du rivage",
+      "definition": "Les limites du rivage sont constatées par l'Etat en fonction des observations opérées sur les lieux à délimiter ou des informations fournies par des procédés scientifiques.",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "littoral",
+      "definition": "Le littoral est une entité géographique qui appelle une politique spécifique d'aménagement, de protection et de mise en valeur.",
+      "article_reference": "Principes généraux",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "organismes de secours et de sauvetage en mer",
+      "definition": "Les organismes de secours et de sauvetage en mer sont agréés par l'Etat et leurs modalités d'organisation et d'exercice sont déterminées par décret en Conseil d'Etat.",
+      "article_reference": "Chapitre II : Des plages",
+      "language": "fr",
+      "statut": "abrogé"
+    },
+    {
+      "term": "schéma interrégional de littoral",
+      "definition": "Un schéma interrégional de littoral est un document élaboré par les conseils régionaux des régions littorales limitrophes pour coordonner leurs politiques du littoral. Ce schéma veille à la cohérence des projets d'équipement et des actions de l'Etat et des collectivités territoriales ayant une incidence sur l'aménagement ou la protection du littoral. Il respecte les orientations des schémas de services collectifs prévus à l'article 2 de la loi n° 95-115 du 4 février 1995 et celles des schémas régionaux d'aménagement et de développement du territoire établis par les régions concernées et prévus à l'article 34 de la loi n° 83-8 du 7 janvier 1983.",
+      "article_reference": "Titre IV : Dispositions diverses",
+      "language": "fr"
+    }
+  ],
+  "extract_metadata": {
+    "interdiction_id": "I005",
+    "interdiction": "Construction littorale",
+    "domaine": "Droit du littoral",
+    "nb_definitions": 12,
+    "langue_principale": "fr",
+    "note": "Certains articles sont abrogés (champ 'statut'). Les concepts demeurent valides pour l'ontologie."
+  }
+}

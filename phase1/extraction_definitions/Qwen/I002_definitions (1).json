@@ -1,0 +1,832 @@
+[
+  {
+    "terme": "toothed whale",
+    "definition": "any whale which has teeth in the jaws.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "beaked whale",
+    "definition": "any whale belonging to the genus Mesoplodon, or any whale known as Cuvier’s beaked whale (Ziphius cavirostris), or Shepherd’s beaked whale (Tasmacetus shepherdi).",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "baleen whale",
+    "definition": "any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "bottlenose whale",
+    "definition": "any whale known as Baird’s beaked whale (Berardius bairdii), Arnoux’s whale (Berardius arnuxii), southern bottlenose whale (Hyperoodon planifrons), or northern bottlenose whale (Hyperoodon ampullatus).",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "blue whale",
+    "definition": "any whale known as blue whale, Sibbald’s rorqual, or sulphur bottom and including pygmy blue whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "bowhead whale",
+    "definition": "any whale known as bowhead, Arctic right whale, great polar whale, Greenland right whale, Greenland whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "killer whale",
+    "definition": "any whale known as killer whale or orca.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pilot whale",
+    "definition": "any whale known as long-finned pilot whale (Globicephala melaena) or short-finned pilot whale (G. macrorhynchus).",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Bryde’s whale",
+    "definition": "any whale known as Bryde’s whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "fin whale",
+    "definition": "any whale known as common finback, common rorqual, fin whale, herring whale, or true fin whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sperm whale",
+    "definition": "any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "gray whale",
+    "definition": "any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+    "reference": "1. A. Baleen whales",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "strike",
+    "definition": "to penetrate with a weapon used for whaling.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "humpback whale",
+    "definition": "any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "take",
+    "definition": "to flag, buoy or make fast to a whale catcher.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "minke whale",
+    "definition": "any whale known as lesser rorqual, little piked whale, minke whale, pike-headed whale or sharp headed finner.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "lose",
+    "definition": "to either strike or take but not to land.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "dauhval",
+    "definition": "any unclaimed dead whale found floating.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "pygmy right whale",
+    "definition": "any whale known as southern pygmy right whale or pygmy right whale.",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "lactating whale",
+    "definition": "(a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk",
+    "reference": "C. General",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "right whale",
+    "definition": "(Eubalaena glacialis, E. australis) means present in a mammary gland the maximum thickness (depth) any whale known as Atlantic right whale, Arctic right whale, of which is 10cm or more. This measurement shall be at the Biscayan right whale, Nordkaper, North Atlantic right mid ventral point of the mammary gland perpendicular to whale, North Cape whale, Pacific right whale, or southern the body axis, and shall be logged to the nearest centimetre; right whale. that is to say, any gland between 9.5cm and 10.5cm shall",
+    "nom_scientifique": "(Eubalaena glacialis, E. australis)",
+    "reference": "Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "sei whale",
+    "definition": "(Balaenoptera borealis) means any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+    "nom_scientifique": "(Balaenoptera borealis)",
+    "reference": "Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "small-type whaling",
+    "definition": "catching operations using powered vessels with mounted harpoon guns hunting all land stations under its jurisdiction, and whale catchers attached to such land stations, one open season during which the taking or killing of baleen whales, except minke whales, by the whale catchers shall be permitted. Such open season shall be for a period of not more than six consecutive months in any period of twelve months and shall apply to all land stations under the jurisdiction of the Contracting Government; provided that a separate open season may be declared for any land station used for the taking or treating of baleen whales, except minke whales, which is more than 1,000 miles from the nearest land station used for the taking or treating of baleen whales, except minke whales, under the jurisdiction of the same Contracting Government.",
+    "reference": "II. SEASONS",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "factory ship",
+    "definition": "It is forbidden to use a factory ship or whale catcher attached thereto for the purpose of taking or treating baleen whales except minke whales, in any waters south of 40° South Latitude except during the period from 12th December to 7th April following, both days inclusive.",
+    "reference": "2. (a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "whale catcher",
+    "definition": "It is forbidden to use a factory ship or whale catcher attached thereto for the purpose of taking or treating sperm or minke whales, except as permitted by the Contracting Governments in accordance with sub-paragraphs (c) and (d) of this paragraph, and paragraph 5.",
+    "reference": "2. (a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "open season",
+    "definition": "Each Contracting Government shall declare for all land stations under its jurisdiction and for whale catchers attached to such land stations, one open season not to exceed eight continuous months in any one period of twelve months, during which the taking or killing of sperm whales by the whale catchers may be permitted; provided that a separate open season may be declared for each factory ship and the whale catchers attached thereto.",
+    "reference": "(c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "factory ships and whale catchers",
+    "definition": "Each Contracting Government shall declare for all factory ships and whale catchers attached thereto under its jurisdiction, an open season or seasons not to exceed eight months out of any period of twelve months during which the taking or killing of sperm whales by whale catchers may be permitted; provided that a separate open season may be declared for each factory ship and the whale catchers attached thereto.",
+    "reference": "(d)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "open season",
+    "definition": "one continuous open season season not to exceed six continuous months in not to exceed six months out of any period of any period of twelve months during which the taking or killing of minke whales by the whale catchers may be permitted provided that: for other baleen whales, as provided for in sub-paragraph (b) of this paragraph); provided that a separate open season may be declared for each factory ship and the whale catchers attached thereto;",
+    "reference": "Article 3 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "factory ship",
+    "definition": "a ship which has been used during a season in any waters south of 40° South Latitude for the purpose of treating baleen whales, or except minke whales, in any other area except the North Pacific Ocean and its dependent waters north of the Equator for the same purpose within a period of one year from the termination of that season; provided that limits in the North Pacific Ocean and dependent waters are established as provided in paragraphs 12 and 16 of this Schedule and provided that this paragraph shall not apply to a ship which has been used during the seasons declared by the same Contracting Government; but the declaration of a separate open season by virtue of the provisions of this sub-paragraph shall not cause thereby the period of time covering the open season to exceed nine continuous months of any twelve months.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "land stations",
+    "definition": "all land stations as defined in Article II of the Whaling Convention of 1946.",
+    "reference": "Article 3 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "separate open season",
+    "definition": "a separate open season may be declared for any land station used for the taking or treating of minke whales which is more than 1,000 miles from the nearest land station used for the taking or treating of minke whales under the jurisdiction of the same Contracting Government; but the declaration of a separate open season by virtue of the provisions of this sub-paragraph shall not cause thereby the period of time covering the open season to exceed nine continuous months of any twelve months.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Contracting Government",
+    "definition": "the Contracting Government to which the land station belongs.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "prohibitions",
+    "definition": "the prohibitions contained in this paragraph shall apply to all land stations as defined in Article II of the Whaling Convention of 1946.",
+    "reference": "Article 3 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Commission",
+    "definition": "the Commission to be determined by the Commission.",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "open season",
+    "definition": "the open season to be determined by the Commission.",
+    "reference": "Article 3 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "period of time",
+    "definition": "the period of time covering the open season to be determined by the Commission.",
+    "reference": "Article 3 / Rule 1",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "whale catchers",
+    "definition": "whale catchers under its jurisdiction not operating in conjunction with a factory ship or land station one",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "continuous open seasons",
+    "definition": "continuous open seasons not to exceed six months out of any period of twelve months during which the taking or killing of minke whales by such whale catchers may be permitted",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "factory ship",
+    "definition": "factory ship or whale catcher attached thereto, for the purpose of taking or treating",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "baleen whales",
+    "definition": "baleen whales, except minke whales, in any of the following areas:",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "minke whales",
+    "definition": "minke whales using the cold grenade harpoon shall be forbidden from the beginning of the 1980/81 pelagic and 1981 coastal seasons",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commercial whaling",
+    "definition": "killing for commercial purposes of whales, except minke whales using the cold grenade harpoon shall be forbidden from the beginning of the 1980/81 pelagic and 1981 coastal seasons",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "cold grenade harpoon",
+    "definition": "killing for commercial purposes of minke whales using the cold grenade harpoon shall be forbidden from the beginning of the 1982/83 pelagic and the 1983 coastal seasons",
+    "reference": "Area Limits for Factory Ships",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Southern Hemisphere baleen whales",
+    "definition": "waters between the ice-edge and the Equator and between the meridians of longitude listed in Table 1",
+    "reference": "Classification of Areas and Divisions",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Indian Ocean Sanctuary",
+    "definition": "waters of the Northern Hemisphere from the coast of Africa to 100°E, including the Red and Arabian Seas and the Gulf of Oman; and the waters of the Southern Hemisphere in the sector from 20°E to 130°E, with the Southern boundary set at 55°S",
+    "reference": "Classification of Areas and Divisions",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Southern Hemisphere sperm whales",
+    "definition": "waters between the ice-edge and the Equator and between the meridian",
+    "reference": "Classification of Areas and Divisions",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Southern Ocean Sanctuary",
+    "definition": "the waters of the Southern Hemisphere southwards of the following line: starting from 40 degrees S, 50 degrees W; thence due east to 20 degrees E; thence due south to 55 degrees S; thence due east to 130 degrees E; thence due north to 40 degrees S; thence due east to 130 degrees W; thence due south to 60 degrees S; thence due east to 50 degrees W; thence due north to the point of beginning.",
+    "reference": "Article V(1)(c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "East Greenland-Iceland",
+    "definition": "Geographical boundaries in the North Pacific East of a line through: The geographical boundaries for the sperm, Bryde’s kap Farvel (South Greenland), and minke whale stocks in the North Pacific are: 59°N 44°W, 59°N 42°W, 20°N 42°W, and West of a line through: 20°N 18°W, 60°N 18°W, 68°N 3°E, SPERM WHALE STOCKS 74°N 3°E, and South of 74°N.",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Western Division",
+    "definition": "North Norway West of a line from the ice-edge south along the 180° meridian of longitude to 180°, 50°N, then east along the 50°N parallel of latitude to 160°W, 50°N, then south along the 160°W meridian of longitude to 160°W, 40°N, then east along the 40°N parallel of latitude to 150°W, 40°N, then south along the 150°W meridian of longitude to the Equator.",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Western",
+    "definition": "West of 160°W (excluding the East China Sea stock area).",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Minke Whale Stocks",
+    "definition": "CANADIAN EAST COAST West of a line through: 75°N 73°30’W, 69°N 59°W, 61°N 59°W, 52°20’N 42°W, and 20°N 42°W. CENTRAL of the Equator. East of a line through: Kap Farvel (South Greenland), 59°N 44°W, 59°N 42°W, 20°N 42°W, and West of a line through: 20°N 18°W, 60°N 18°W, 68°N 3°E, 74°N 3°E, and South of 74°N. REMAINDER East of the Okhotsk Sea-West Pacific stock, north of the Equator.",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "West Greenland",
+    "definition": "East of a line through: 75°N 73°30’W, 69°N 59°W, 61°N 59°W, 52°20’N 42°W, and (e) Geographical boundaries for Bryde’s whale stocks in the Southern Hemisphere South of the Equator. East of a line through: 20°N 18°W, 60°N 18°W, 68°N 3°E, 74°N 3°E, and North of a line through: 74°N 3°E, 74°N 22°W.",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Peruvian",
+    "definition": "110°W to t",
+    "nom_scientifique": null,
+    "reference": "Article X / Rule Y / §Z",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "SMS",
+    "definition": "is a stock which is not more than 10 per cent of Maximum Sustainable Yield (hereinafter referred to as MSY) stock level.",
+    "reference": "10. (a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "MSY",
+    "definition": "Maximum Sustainable Yield",
+    "reference": "10. (a)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "PS",
+    "definition": "is a stock which is below 10 per cent of MSY stock level below MSY stock level.",
+    "reference": "10. (c)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "MSY",
+    "definition": "the maximum sustainable yield",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Initial Management Stock (IMS)",
+    "definition": "a stock more than 20 per cent of MSY stock level above",
+    "nom_scientifique": null,
+    "reference": "paragraph 10(b)",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commercial whaling",
+    "definition": "killing for commercial purposes of whales from all stocks for the 1986",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "moratorium",
+    "definition": "there shall be a moratorium on the taking,",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "factory ships",
+    "definition": "factory ships or whale catchers attached to",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "whale catchers",
+    "definition": "factory ships or whale catchers attached to",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commercial pelagic whaling",
+    "definition": "commercial pelagic whaling for minke and Bryde’s whales",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commercial coastal whaling",
+    "definition": "commercial coastal whaling for minke and Bryde’s whales",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "commercial coastal sperm whaling",
+    "definition": "commercial coastal sperm whaling",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "scientific advice",
+    "definition": "best scientific advice",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "comprehensive assessment",
+    "definition": "comprehensive assessment of the effects of this decision on whale stocks and",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "modification of this provision",
+    "definition": "modification of this provision and the establishment of other catch limits",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "objection",
+    "definition": "objection to paragraph 10(e) within the prescribed period",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "reservation",
+    "definition": "reservation with respect to paragraph 10(e) of the Schedule attached to the Convention",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "adherence",
+    "definition": "adheres to the aforesaid Convention and Protocol with a reservation with respect to paragraph 10(e) of the Schedule attached to the Convention",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "authorise whaling",
+    "definition": "will not authorise whaling for commercial purposes by Icelandic vessels before 2006 and, thereafter, will not authorise such whaling",
+    "nom_scientifique": null,
+    "reference": "paragraph 10",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "RMS",
+    "definition": "the so-called moratorium on whaling for commercial purposes, contained in paragraph 10(e) of the Schedule",
+    "reference": "paragraph 10(e) of the Schedule",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "aborigines",
+    "definition": "available to be taken by aborigines or a Contracting Government on behalf of aborigines pursuant to paragraph 13(b)2",
+    "reference": "paragraph 13(b)2",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Contracting Government",
+    "definition": "available to be taken by aborigines or a Contracting Government on behalf of aborigines pursuant to paragraph 13(b)2",
+    "reference": "paragraph 13(b)2",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Norway",
+    "definition": "the Government of Norway",
+    "reference": null,
+    "exclusions": "this classification came into force on 30 January 1986 but is not binding on the Government of Norway",
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Protection Stock",
+    "definition": "the classification of the Northeastern Atlantic stock of minke whales as a Protection Stock",
+    "reference": null,
+    "exclusions": "this classification came into force on 30 January 1986 but is not binding on the Government of Norway",
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Northeastern Atlantic stock of minke whales",
+    "definition": "the classification of the Northeastern Atlantic stock of minke whales as a Protection Stock",
+    "reference": null,
+    "exclusions": "this classification came into force on 30 January 1986 but is not binding on the Government of Norway",
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "paragraph 10(e)",
+    "definition": "the so-called moratorium on whaling for commercial purposes",
+    "reference": "paragraph 10(e) of the Schedule",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "paragraph 13(b)2",
+    "definition": "available to be taken by aborigines or a Contracting Government on behalf of aborigines",
+    "reference": "paragraph 13(b)2",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "paragraph 13(b)3",
+    "definition": "available to be struck by aborigines",
+    "reference": "paragraph 13(b)3",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Okhotsk Sea-West Pacific Stock",
+    "definition": "the Okhotsk Sea-West Pacific Stock",
+    "reference": "NORTH PACIFIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Sea of Japan-Yellow Sea-East China Sea Stock",
+    "definition": "the Sea of Japan-Yellow Sea-East China Sea Stock",
+    "reference": "NORTH PACIFIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Remainder",
+    "definition": "the Remainder",
+    "reference": "NORTH PACIFIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Eastern Stock",
+    "definition": "the Eastern Stock",
+    "reference": "NORTH ATLANTIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Western Stock",
+    "definition": "the Western Stock",
+    "reference": "NORTH ATLANTIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Whole region",
+    "definition": "the Whole region",
+    "reference": "NORTH PACIFIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "North Pacific",
+    "definition": "the North Pacific",
+    "reference": "NORTH PACIFIC",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "Arctic",
+    "definition": "the Arctic",
+    "reference": "SCHEDULE",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  },
+  {
+    "terme": "North Atlantic",
+    "definition": "the North Atlantic",
+    "reference": "SCHEDULE",
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "qwen3-8b"
+  }
+]

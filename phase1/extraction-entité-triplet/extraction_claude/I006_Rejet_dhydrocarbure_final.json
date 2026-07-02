@@ -1,0 +1,635 @@
+{
+  "interdiction_id": "I006",
+  "interdiction": "Rejet_dhydrocarbure",
+  "source": "MARPOL 73/78 – Annexe I révisée (Résolution MEPC.117(52), 2004, applicable depuis 1er janvier 2007) ; Règlement N°06/2022/CM/UEMOA relatif aux normes environnementales applicables en matière d'exploration et d'exploitation pétrolière et gazière offshore (adopté 30 septembre 2022)",
+  "raw_extractions": {
+    "interdictions_identifiees": [
+      "Interdiction de tout rejet dans la mer d'hydrocarbures ou de mélanges d'hydrocarbures dépassant 15 ppm depuis les compartiments machines (Règle 15 Annexe I MARPOL)",
+      "Interdiction des rejets d'hydrocarbures provenant des citernes à cargaison des pétroliers (Règle 34 Annexe I MARPOL) sauf conditions très restrictives",
+      "Interdiction totale ou quasi-totale des rejets dans les Zones Spéciales MARPOL (Méditerranée, Baltique, Mer Noire, Mer Rouge, Golfes, Golfe d'Aden, Antarctique, Europe du Nord-Ouest, Oman)",
+      "Interdiction d'exploitation pétrolière offshore sans EIES préalable dans l'espace UEMOA (Règlement N°06/2022)",
+      "Interdiction de tenir les navires en exploitation sans Certificat International de Prévention de la Pollution par les Hydrocarbures (IOPP – Règle 7)"
+    ],
+    "entites_trouvees": [
+      {
+        "categorie": "Activity",
+        "texte_original": "rejet d'hydrocarbures depuis les compartiments machines (eaux de cale polluées) au-delà de 15 ppm"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "rejet de mélanges d'hydrocarbures provenant des citernes à cargaison des pétroliers (Règle 34)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "rejet de résidus d'hydrocarbures (boues) non acheminés vers installations de réception portuaires"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "déversements accidentels non déclarés aux autorités compétentes"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "exploration et exploitation pétrolières offshore sans respect des normes UEMOA"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "navigation sans Registre des Hydrocarbures à jour (Règle 36 Annexe I MARPOL)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "rejet nécessaire pour garantir la sécurité du navire ou la sauvegarde de la vie humaine (exception – Règle 4.1)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "utilisation de substances agréées pour lutter contre un événement particulier de pollution (exception – Règle 4.3)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : mer Méditerranée (1.1)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : mer Baltique proprement dite avec ses golfes (1.2)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : mer Noire avec ses mers intérieures (1.3)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : mer Rouge avec golfe de Suez et golfe d'Akaba (1.4)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : zone des Golfes – nord-ouest de la ligne Ras el Had–Ras al Fasteh (1.5)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : golfe d'Aden (partie située entre 45°E et 52°E) (1.6)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : zone de l'Antarctique (au sud du 60°S) (1.7)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : eaux du Nord-Ouest européen (Atlantique du Nord-Est à l'ouest de l'Irlande) (1.8)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : zone d'Oman de la mer d'Arabie (1.9)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "Zone spéciale MARPOL : eaux au large de la côte méridionale de l'Afrique du Sud (1.10)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "haute mer hors zones spéciales (rejets conditionnels sous conditions strictes)"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zone d'application de la Convention d'Abidjan (Afrique de l'Ouest, Centre et Sud) pour le Règlement UEMOA"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "capitaines et propriétaires de navires pétroliers (jauge ≥ 150 TB) et autres navires (jauge ≥ 400 TB)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États du pavillon (responsables de la délivrance des Certificats IOPP – Règle 7)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États du port (contrôle PSC – Port State Control) : droit d'inspection et de rétention du navire"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "autorités maritimes nationales"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "entreprises d'exploration et d'exploitation pétrolière offshore dans l'espace UEMOA"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "retrait du certificat IOPP et immobilisation du navire si non-conformité grave (Règle 6.3.3)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "interdiction d'appareiller si non-conformité (contrôle normes d'exploitation par l'État du port – Règle 11)"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "sanctions pénales nationales pour rejet illicite selon législation de chaque État Partie"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "refus du permis UEMOA si activités susceptibles de causer des dommages environnementaux irréversibles"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "inspection obligatoire par l'État du port : visite initiale, renouvellement (≤5 ans), intermédiaire, annuelle (Règle 6)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "délivrance et maintien du Certificat International de Prévention de la Pollution par les Hydrocarbures (IOPP Certificate) (Règle 7)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "obligation de tenir à jour le Registre des Hydrocarbures (Règle 36 Annexe I MARPOL)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "rapport d'évaluation environnementale et sociale (EIES) obligatoire avant exploitation offshore (Règlement UEMOA Art. 7)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "contrôle PSC (Port State Control) – Règle 11 : interdiction d'appareiller si non-conformité"
+      },
+      {
+        "categorie": "Periode",
+        "texte_original": "MARPOL 73/78 entrée en vigueur le 2 octobre 1983 ; Annexe I révisée applicable depuis le 1er janvier 2007 ; Règlement UEMOA N°06/2022 adopté le 30 septembre 2022"
+      },
+      {
+        "categorie": "Etat",
+        "texte_original": "États Parties à MARPOL 73/78 et États membres de l'UEMOA"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "rejet nécessaire pour garantir la sécurité du navire ou la sauvegarde de la vie humaine en mer (Règle 4.1)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "rejet résultant d'une avarie si toutes précautions raisonnables ont été prises (Règle 4.2)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "utilisation de substances agréées pour lutter contre un événement particulier de pollution avec accord du gouvernement riverain (Règle 4.3)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "navires exemptés par l'Autorité (hydroptères, aéroglisseurs, engins submersibles) si protection équivalente (Règle 3.1)"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "pétroliers effectuant voyages courts ≤72h, dans les 50 milles marins, conservant tout à bord (Règle 3.4)"
+      }
+    ],
+    "explication_generale": "L'Annexe I de MARPOL 73/78, dans sa version révisée applicable depuis le 1er janvier 2007, constitue le régime international central de prévention de la pollution par les hydrocarbures des navires. La Règle 15 fixe le seuil de 15 ppm pour les rejets depuis les compartiments machines, avec une interdiction totale dans les Zones Spéciales. La Règle 34 impose des restrictions encore plus strictes pour les pétroliers. Le mécanisme de contrôle repose sur le Certificat IOPP (Règle 7), les inspections PSC (Port State Control, Règle 6 et 11) et le Registre des Hydrocarbures (Règle 36). Le Règlement UEMOA N°06/2022 ajoute une couche régionale africaine exigeant une EIES préalable pour toute exploitation offshore dans l'espace communautaire. Les exceptions couvrent les impératifs de sécurité (Règle 4.1), les avaries imprévues (Règle 4.2) et les opérations de lutte antipollution autorisées (Règle 4.3)."
+  },
+  "pipeline_triples": [
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_MEDITERRANEE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_BALTIQUE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_NOIRE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_ROUGE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ZONE_GOLFES",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_GOLFE_ADEN",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ANTARCTIQUE_SUD_60S",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_NORD_OUEST_EUROPEEN",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_OMAN_MER_ARABIE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_HORS_ZONE_SPECIALE_REJET_CONDITIONNEL",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_CONVENTION_ABIDJAN_AFRIQUE_OUEST_UEMOA",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_EAUX_CALE_POLLUEES_HYDROCARBURES_15PPM",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_CARGAISON_PETROLIER_CITERNES",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_RESIDUS_BOUES_HYDROCARBURES_NON_PORTS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DEVERSEMENT_ACCIDENTEL_NON_DECLARE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXPLOITATION_PETROLIERE_OFFSHORE_SANS_EIES_UEMOA",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_NAVIGATION_SANS_REGISTRE_HYDROCARBURES_REGLE36",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.94
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_CAPITAINE_PROPRIETAIRE_NAVIRE_PETROLIER_150TB",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PAVILLON_CERTIFICAT_IOPP",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PORT_PSC_INSPECTION_RETENTION",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ENTREPRISE_EXPLOITATION_PETROLIERE_OFFSHORE_UEMOA",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_IMMOBILISATION_NAVIRE_ETAT_PORT_REGLE_6_3_3",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_RETRAIT_CERTIFICAT_IOPP_NON_CONFORMITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_INTERDICTION_APPAREILLAGE_NON_CONFORMITE_REGLE11",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_PENALES_NATIONALES_REJET_ILLICITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_REFUS_PERMIS_EXPLOITATION_OFFSHORE_UEMOA_ART7",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_PSC_ETAT_PORT_VISITES_MARPOL_REGLE6",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CERTIFICAT_IOPP_REGLE7_VALIDITE_5ANS",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_REGLE36_OBLIGATOIRE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_EIES_EXPLOITATION_OFFSHORE_UEMOA_ART7",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_DISPOSITIF_SURVEILLANCE_15PPM_EN_FONCTIONNEMENT",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_MARPOL_73_78_DEPUIS_2_OCTOBRE_1983",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_ANNEXE_I_REVISEE_DEPUIS_1ER_JANVIER_2007",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_REGLEMENT_UEMOA_N06_2022_DEPUIS_30_SEPT_2022",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_PARTIE_MARPOL_ETATS_MEMBRES_UEMOA",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_REJET_SECURITE_NAVIRE_VIE_HUMAINE_REGLE4_1",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_REJET_AVARIE_PRECAUTIONS_RAISONNABLES_REGLE4_2",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_SUBSTANCES_AGREES_LUTTE_POLLUTION_ACCORD_GOUVERNEMENT_REGLE4_3",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_NAVIRES_EXEMPTS_HYDROPTERES_AEROGLISSEURS_REGLE3_1",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PETROLIERS_VOYAGES_COURTS_72H_50_MILLES_REGLE3_4",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_SEUIL_15PPM_SEPARATEUR_EAUX_CALE_MARPOL_ANN1_R15",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98,
+      "source": "MARPOL Annex I Rule 15 machinery spaces"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_PARTIE_I_LOCAUX_MACHINES_MARPOL",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.97,
+      "source": "MARPOL Annex I Rule 17 Oil Record Book Part I"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_PARTIE_II_CARGAISON_BALLAST",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96,
+      "source": "MARPOL Annex I Rule 36 Oil Record Book Part II"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ZONE_ARCTIQUE_ANN1_RULE12A",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.94,
+      "source": "MARPOL Annex I Rule 12A Arctic"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_NORMES_EIES_OFFSHORE_UEMOA_REG06_2022",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.95,
+      "source": "UEMOA Règlement 06/2022/CM"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CONVENTION_ABIDJAN_1981_AFRIQUE_OUEST_CENTRE_SUD",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.94,
+      "source": "Convention d'Abidjan 1981 Art.5 pollution hydrocarbures"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_MEMBRE_UEMOA_EXPLOITATION_PETROLIERE_OFFSHORE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.95,
+      "source": "UEMOA Règlement 06/2022 Etats membres"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_UEMOA_AFRIQUE_OUEST_OFFSHORE_SENEGAL_COTE_IVOIRE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.92,
+      "source": "UEMOA Règlement 06/2022 champ application"
+    },
+    {
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_DEVERSEMENT_SECURITE_NAVIRE_FORCE_MAJEURE_MARPOL_ART4",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.9,
+      "source": "MARPOL Art.4 exceptions sécurité"
+    }
+  ],
+  "version": "final_v14_merged",
+  "sources_pdf": true
+}

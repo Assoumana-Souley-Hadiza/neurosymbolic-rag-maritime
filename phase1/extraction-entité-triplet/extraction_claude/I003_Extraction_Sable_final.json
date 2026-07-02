@@ -1,0 +1,488 @@
+{
+  "interdiction_id": "I004",
+  "interdiction": "Extraction_Sable",
+  "source": "Convention sur la Diversité Biologique (CDB, Rio de Janeiro, 5 juin 1992 – entrée en vigueur 29 décembre 1993) – Nations Unies ; Articles 7(c), 8, 10, 14 CDB",
+  "raw_extractions": {
+    "interdictions_identifiees": [
+      "Interdiction implicite de l'extraction de sable marin non réglementée entraînant une dégradation significative des habitats côtiers et marins (Art. 8 CDB – conservation in situ)",
+      "Interdiction du dragage industriel sans évaluation d'impact sur la diversité biologique préalable (Art. 14 CDB)",
+      "Interdiction de la destruction d'habitats marins d'espèces identifiées comme menacées ou en danger par les Parties (Art. 8(k))",
+      "Obligation de limiter ou d'interdire l'extraction de matériaux risquant de compromettre l'intégrité des plages, dunes littorales, falaises, marais, vasières et zones humides",
+      "Interdiction de l'exportation et du commerce de sable prélevé dans des zones biologiquement sensibles sans mesures de compensation adéquates"
+    ],
+    "entites_trouvees": [
+      {
+        "categorie": "Activity",
+        "texte_original": "extraction de sable marin (dragage industriel) dans les zones à haute valeur de biodiversité sans étude d'impact préalable"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "exploitation du substrat marin entraînant la destruction d'habitats (herbiers, coralligènes)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "exportation et commerce de sable prélevé dans des zones biologiquement sensibles"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "dragage pour la construction côtière sans mesures compensatoires"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "utilisation traditionnelle et artisanale du sable marin par les communautés locales (Art. 10(c) – utilisation coutumière)"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "opérations de recherche scientifique dûment autorisées"
+      },
+      {
+        "categorie": "Activity",
+        "texte_original": "extraction de sable dans des zones non biologiquement sensibles après évaluation d'impact favorable"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zones marines et côtières : récifs coralliens, herbiers marins, fonds sableux habités, dunes côtières"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "aires protégées marines et côtières créées en vertu de l'Article 8(a) de la CDB"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "habitats d'espèces menacées ou en danger identifiés par les Parties (Art. 8(k))"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zone économique exclusive et plateau continental des États Parties"
+      },
+      {
+        "categorie": "Zone",
+        "texte_original": "zones au-delà des juridictions nationales (haute mer) soumises aux discussions BBNJ"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "États Parties à la CDB (196 États) – obligation de réglementer l'extraction dans leurs juridictions"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "entreprises d'extraction minière marine (dragage industriel)"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "autorités nationales compétentes pour la délivrance des permis d'extraction"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "communautés locales et populations autochtones dont les moyens de subsistance dépendent de la biodiversité marine"
+      },
+      {
+        "categorie": "Actor",
+        "texte_original": "Conférence des Parties de la CDB (COP) – organe de suivi et de rapport"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "sanctions nationales prévues par la législation de transposition de chaque État Partie"
+      },
+      {
+        "categorie": "Sanction",
+        "texte_original": "refus ou retrait du permis d'extraction si impact sur la diversité biologique est démontré"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "évaluation d'impact sur la diversité biologique avant autorisation d'extraction (Article 14 CDB)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "systèmes de surveillance des activités ayant des effets néfastes sur la diversité biologique (Article 7(c) CDB)"
+      },
+      {
+        "categorie": "Controle",
+        "texte_original": "mécanisme d'échange d'information et de rapport à la COP"
+      },
+      {
+        "categorie": "Periode",
+        "texte_original": "CDB ouverte à la signature le 5 juin 1992, entrée en vigueur le 29 décembre 1993 ; obligations permanentes et continues pour les 196 Parties"
+      },
+      {
+        "categorie": "Etat",
+        "texte_original": "196 États Parties à la CDB à l'entrée en vigueur"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "extraction de sable dans des zones non biologiquement sensibles après évaluation d'impact favorable"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "utilisation traditionnelle et artisanale du sable marin par les communautés locales (Art. 10(c))"
+      },
+      {
+        "categorie": "Exception",
+        "texte_original": "opérations de recherche scientifique dûment autorisées"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "récifs coralliens (Scleractinia – Acropora spp., Porites spp.)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "herbiers marins (Posidonia oceanica, Thalassia testudinum, Halodule spp.)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "coralligène (assemblages d'algues calcaires corallinacées et Paramuricea clavata)"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "espèces inféodées aux fonds sableux : amphioxus (Branchiostoma lanceolatum), bivalves, échinodermes"
+      },
+      {
+        "categorie": "Espece",
+        "texte_original": "espèces exotiques envahissantes menaçant les habitats côtiers (Art. 8(h) CDB)"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "populations d'espèces menacées ou en danger dépendant des habitats côtiers sableux"
+      },
+      {
+        "categorie": "Stock",
+        "texte_original": "ressources biologiques marines exploitées de manière non durable (Art. 10 CDB)"
+      }
+    ],
+    "explication_generale": "La CDB ne contient pas d'interdiction explicite de l'extraction de sable marin, mais ses obligations de conservation in situ (Art. 8) et d'utilisation durable (Art. 10), combinées à l'obligation d'évaluation d'impact environnemental (Art. 14), créent un cadre normatif qui prohibe de facto l'extraction non réglementée dès lors qu'elle dégrade des habitats côtiers ou marins biologiquement sensibles. Les 196 États Parties sont tenus d'établir des systèmes de permis, de surveillance (Art. 7(c)) et de reporting à la COP. Les infractions sont sanctionnées par les législations nationales de transposition. Les exceptions concernent les zones à faible valeur biodiversitaire (après EIE favorable), l'usage traditionnel et la recherche scientifique."
+  },
+  "pipeline_triples": [
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HABITATS_MARINS_BIODIVERSITE_RECIFS_HERBIERS",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_AIRES_PROTEGEES_MARINES_COTIERES_CDB_ART8A",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ZEE_PLATEAU_CONTINENTAL_ETATS_PARTIES",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_BBNJ_DISCUSSIONS",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.75
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_DUNES_COTIERES_HABITATS_SABLEUX",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DRAGAGE_INDUSTRIEL_SABLE_MARIN_SANS_EIE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.97
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXTRACTION_SUBSTRAT_DESTRUCTION_HABITATS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_COMMERCE_EXPORTATION_SABLE_ZONES_SENSIBLES",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DRAGAGE_CONSTRUCTION_COTIERE_SANS_COMPENSATION",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PARTIE_CDB_196_ETATS",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ENTREPRISE_EXTRACTION_MINIERE_MARINE_DRAGAGE",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_AUTORITE_NATIONALE_PERMIS_EXTRACTION",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.95
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_COMMUNAUTES_LOCALES_AUTOCHTONES_BIODIVERSITE_MARINE",
+      "concept_id": "Actor",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.87
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_REFUS_RETRAIT_PERMIS_EXTRACTION_IMPACT_BIODIVERSITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.92
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_PENALES_NATIONALES_TRANSPOSITION_CDB",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_EVALUATION_IMPACT_BIODIVERSITE_EIE_ART14_CDB",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_SURVEILLANCE_ACTIVITES_NEFASTES_ART7C_CDB",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.96
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REPORTING_COP_CDB_ECHANGE_INFORMATION",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_DEPUIS_ENTREE_VIGUEUR_CDB_29_DECEMBRE_1993",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.99
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_PARTIE_CDB_196_ETATS_OBLIGATIONS_PERMANENTES",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.98
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_EXTRACTION_ZONE_NON_SENSIBLE_EIE_FAVORABLE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_USAGE_TRADITIONNEL_ARTISANAL_ART10C_CDB",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_RECHERCHE_SCIENTIFIQUE_AUTORISEE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.9
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_RECIFS_CORALLIENS_ACROPORA_PORITES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_HERBIERS_MARINS_POSIDONIA_THALASSIA_HALODULE",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.93
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_CORALLIGENE_ALGUES_CALCAIRES_PARAMURICEA",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_FAUNE_INFODEE_FONDS_SABLEUX_AMPHIOXUS_BIVALVES",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_POPULATIONS_ESPECES_MENACEES_HABITATS_SABLEUX",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.88
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_RESSOURCES_BIOLOGIQUES_MARINES_NON_DURABLES_ART10",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_STRATEGIE_NATIONALE_BIODIVERSITE_CBD_ART6",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.93,
+      "source": "CBD Art.6 general measures"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CONSERVATION_IN_SITU_ECOSYSTEMES_CBD_ART8",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.94,
+      "source": "CBD Art.8 in-situ conservation"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_UTILISATION_DURABLE_RESSOURCES_CBD_ART10",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.91,
+      "source": "CBD Art.10 sustainable use"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_CONFERENCE_PARTIES_COP_CBD_ORGANE_DECISIONNAIRE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.88,
+      "source": "CBD Art.23 COP"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_EXTRACTION_SABLE_AUTORISATION_ETUDE_IMPACT_FAIBLE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I004",
+      "confidence": 0.8,
+      "source": "CBD Art.14 EIA with mitigation"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_FONDS_MARINS_INTERNATIONAL_ZONE_ISA",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I004",
+      "confidence": 0.85,
+      "source": "UNCLOS Part XI & CBD"
+    },
+    {
+      "subject": "I004",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_RAPPORT_NATIONAL_CBD_CLEARING_HOUSE_MECHANISM",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I004",
+      "confidence": 0.87,
+      "source": "CBD Art.26 national reports"
+    }
+  ],
+  "version": "final_v14_merged",
+  "sources_pdf": true
+}

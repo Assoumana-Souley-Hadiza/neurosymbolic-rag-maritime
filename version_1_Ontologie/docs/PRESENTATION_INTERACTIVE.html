@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maritime Ontology - Documentation Interactive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #ddd;
+            background: #f8f9fa;
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 16px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            color: #666;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab-button:hover {
+            background: #f0f0f0;
+            color: #667eea;
+        }
+
+        .tab-button.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            background: white;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 40px;
+            animation: fadeIn 0.3s;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            color: #667eea;
+            margin: 30px 0 20px 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #764ba2;
+            margin: 20px 0 15px 0;
+            font-size: 1.3em;
+        }
+
+        .pipeline-step {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .pipeline-step h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .step-content {
+            margin-left: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .file-info {
+            background: #e8f0fe;
+            border-left: 4px solid #1976d2;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .label {
+            font-size: 0.95em;
+            opacity: 0.95;
+        }
+
+        .relations-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        .relations-table thead {
+            background: #f8f9fa;
+        }
+
+        .relations-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #667eea;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .relations-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .relations-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .relation-type {
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .classes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .class-tag {
+            background: #e8f0fe;
+            border-left: 3px solid #1976d2;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .note-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .note-box strong {
+            color: #856404;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        ul,
+        ol {
+            margin: 15px 0 15px 30px;
+            line-height: 1.8;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌊 Maritime Ontology</h1>
+            <p>Ontologie Juridique et Écologique des Espèces Marines Protégées</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'pipeline')">
+                📊 Pipeline
+            </button>
+            <button class="tab-button" onclick="openTab(event, 'ontology')">
+                🎯 Ontologie
+            </button>
+            <button class="tab-button" onclick="openTab(event, 'example')">
+                🔍 Exemple: Interdiction I002
+            </button>
+        </div>
+
+        <!-- TAB 1: PIPELINE -->
+        <div id="pipeline" class="tab-content active">
+            <h2>📊 Architecture du Pipeline</h2>
+
+            <p>Le pipeline est un processus automatisé qui transforme les données brutes en une ontologie OWL complète
+                et validée. Voici les étapes :</p>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">1</span>
+                    <span>Import LKIF Stub</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Entrée :</strong> <code>data/input/lkif_stub.ttl</code></p>
+                    <p><strong>Fichier Python :</strong> <code>loader.py</code></p>
+                    <p><strong>Sortie :</strong> Foundation ontologique LKIF (Legal Knowledge Interchange Format)
+                        chargée en mémoire</p>
+                    <p>Charge les concepts juridiques de base (Regulation, Permission, Prohibition, etc.)</p>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">2</span>
+                    <span>Construction du Schéma OWL</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>schema.py</code></p>
+                    <p><strong>Résultat :</strong> 58 classes OWL, 22 propriétés objet, 10 propriétés données</p>
+                    <p>Définit :</p>
+                    <ul>
+                        <li>Classes principales : <code>Interdiction</code>, <code>EspeceMarine</code>,
+                            <code>Zone</code>, <code>Acteur</code></li>
+                        <li>Propriétés : <code>protegeEspece</code>, <code>appliesInZone</code>,
+                            <code>concerneActeur</code></li>
+                        <li>Restrictions OWL 2.0 : domaines, portées, cardinalités</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">3</span>
+                    <span>Chargement des Données</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Entrées :</strong> 6 fichiers JSON d'extraction IA (résolutions IWC, convention ICRW,
+                        etc.)</p>
+                    <p><strong>Fichier Python :</strong> <code>loader.py</code></p>
+                    <p><strong>Résultat :</strong> 55 triplets bruts, 70 entités, 103 termes glossaire</p>
+                    <p>Sources :</p>
+                    <ul>
+                        <li>Resolution 61-105 (1986)</li>
+                        <li>Resolution 64-72 (1984)</li>
+                        <li>Resolution 66-68 (2018)</li>
+                        <li>Resolution 71-123 (2022)</li>
+                        <li>ICRW Convention (1946)</li>
+                        <li>Chalutage de fond (extraction IA)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">4</span>
+                    <span>Population des Individus</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>populator.py</code></p>
+                    <p><strong>Actions :</strong></p>
+                    <ul>
+                        <li>Création de 15 espèces marines (Baleine bleue, Baleine grise, Cachalot, etc.)</li>
+                        <li>Création de 8 zones de protection (Sanctuaires océaniques, hémisphères)</li>
+                        <li>Création de 6 sources juridiques (Résolutions, Conventions)</li>
+                        <li>Déclaration de 8 acteurs (Pays membres IWC, navires, etc.)</li>
+                        <li>Création de 2 interdictions : I001 (chalutage de fond) et I002 (chasse commerciale)</li>
+                        <li>Intégration de 127 concepts lexicaux (glossaire SKOS)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">4.5</span>
+                    <span>Corrections & Enrichissements Post-Traitement</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>corrections.py</code></p>
+                    <p><strong>10 corrections appliquées automatiquement :</strong></p>
+                    <ol>
+                        <li>Correction des fautes de frappe dans les URIs (BaeleineSeI → BaleineSei)</li>
+                        <li>Enrichissement des sources juridiques (sourceYear, skos:definition bilinguee)</li>
+                        <li>Correction des définitions tronquées</li>
+                        <li>Ajout de rdfs:range aux propriétés</li>
+                        <li>Création d'individus Permission pour les exceptions scientifiques</li>
+                        <li>Ajout de skos:inScheme aux espèces marines</li>
+                        <li>Correction des références mortes</li>
+                        <li>Suppression des 13 individus Concept_* redondants</li>
+                        <li>Correction des URIs mal formées</li>
+                        <li>Vérification de l'intégrité XML</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">5</span>
+                    <span>Export des Fichiers Ontologiques</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>pipeline.py</code></p>
+                    <p><strong>Formats générés :</strong></p>
+                    <ul>
+                        <li><strong>OWL (RDF/XML)</strong> : <code>maritime_ontology.owl</code> - Format standard OWL
+                            2.0</li>
+                        <li><strong>Turtle</strong> : <code>maritime_ontology.ttl</code> - Format textuel optimisé</li>
+                        <li><strong>JSON-LD</strong> : <code>maritime_ontology.jsonld</code> - Format web-friendly</li>
+                        <li><strong>N-Triples</strong> : <code>maritime_ontology.nt</code> - Format simplifié</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">6</span>
+                    <span>Validation SPARQL</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>sparql_runner.py</code></p>
+                    <p><strong>Questions de compétence validées :</strong> 12 requêtes SPARQL</p>
+                    <p>Exemples de questions :
+                    <ul>
+                        <li>CQ1 : Liste des interdictions → 2 résultats</li>
+                        <li>CQ6 : Espèces protégées → 15 résultats</li>
+                        <li>CQ4 : Acteurs concernés → 8 résultats</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">7</span>
+                    <span>Export Neo4j</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichier Python :</strong> <code>neo4j_export.py</code></p>
+                    <p><strong>Résultat :</strong> Script Cypher pour importer dans Neo4j</p>
+                    <p>Graphe extrait : 164 nœuds, 44 relations</p>
+                </div>
+            </div>
+
+            <div class="pipeline-step">
+                <h4>
+                    <span class="step-number">8</span>
+                    <span>Génération des Rapports</span>
+                </h4>
+                <div class="step-content">
+                    <p><strong>Fichiers générés :</strong></p>
+                    <ul>
+                        <li><code>ontology_stats.json</code> : Statistiques détaillées</li>
+                        <li><code>ontology_validation_report.json</code> : Rapport de validation</li>
+                        <li><code>sparql_results.json</code> : Résultats des questions de compétence</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>📁 Structure des Fichiers Python</h3>
+            <ul>
+                <li><strong>main.py</strong> : Point d'entrée principal - exécute le pipeline complet</li>
+                <li><strong>pipeline.py</strong> : Orchestrateur - coordonne les 8 étapes</li>
+                <li><strong>loader.py</strong> : Chargement des données LKIF et JSON</li>
+                <li><strong>schema.py</strong> : Définition du schéma OWL (classes, propriétés)</li>
+                <li><strong>populator.py</strong> : Création des individus et population du graphe</li>
+                <li><strong>corrections.py</strong> : Post-traitement et correction des données</li>
+                <li><strong>sparql_runner.py</strong> : Exécution des questions de compétence SPARQL</li>
+                <li><strong>neo4j_export.py</strong> : Génération du script d'import Neo4j</li>
+            </ul>
+
+            <h3>🚀 Commande de Lancement</h3>
+            <div class="file-info">
+                cd /path/to/maritime_ontology
+                python main.py
+            </div>
+            <p><strong>Durée d'exécution :</strong> ~1-2 minutes</p>
+            <p><strong>Résultat :</strong> Tous les fichiers générés dans <code>data/output/</code></p>
+        </div>
+
+        <!-- TAB 2: ONTOLOGY -->
+        <div id="ontology" class="tab-content">
+            <h2>🎯 Statistiques de l'Ontologie</h2>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="number">1525</span>
+                    <span class="label">Triplets RDF</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">59</span>
+                    <span class="label">Classes OWL</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">23</span>
+                    <span class="label">Propriétés (23 objet + 10 données)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">165</span>
+                    <span class="label">Individus Nommés</span>
+                </div>
+            </div>
+
+            <h3>📊 Composition des 1525 Triplets RDF</h3>
+            <p>Les <strong>1525 triplets</strong> sont composés de :</p>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Catégorie</th>
+                        <th>Nombre</th>
+                        <th>Détail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Déclarations de classe</strong></td>
+                        <td>59</td>
+                        <td>rdf:type OWL.Class pour les 59 classes (Interdiction, EspeceMarine, Stock, etc.)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Déclarations de propriété</strong></td>
+                        <td>33</td>
+                        <td>rdf:type OWL.ObjectProperty ou OWL.DatatypeProperty pour les 33 propriétés</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hiérarchie de classe (subClassOf)</strong></td>
+                        <td>~42</td>
+                        <td>Arborescence des classes (ex: Interdiction → Norme, EspeceMarine → Entite)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Domaine/Portée (rdfs:domain, rdfs:range)</strong></td>
+                        <td>~66</td>
+                        <td>Contraintes de domaine et portée pour les 33 propriétés</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Labels multilingues (rdfs:label)</strong></td>
+                        <td>~200</td>
+                        <td>Étiquettes EN et FR pour classes, propriétés et individus</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Commentaires (rdfs:comment)</strong></td>
+                        <td>~150</td>
+                        <td>Descriptions détaillées en français et anglais</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Individus</strong></td>
+                        <td>165</td>
+                        <td>Instances concrètes : interdictions (2), espèces (15), zones (8), acteurs (8), périodes (3),
+                            activités (7), stocks (1), permissions (2), contrôles (2), sources juridiques (6), concepts
+                            lexicaux (127)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Relations entre individus</strong></td>
+                        <td>~812</td>
+                        <td>Triplets d'associations (protegeEspece, appliesInZone, concerneActivite, concerneStock,
+                            hasDerogation, etc.)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>📝 Exemples de Triplets Concrets</h3>
+            <p>Voici quelques triplets pour illustrer la structure RDF :</p>
+            <div
+                style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin: 15px 0; font-family: monospace; font-size: 0.9em;">
+                <div style="margin-bottom: 10px;"><strong>Exemple 1 : Type d'interdiction</strong><br>
+                    <code>I002</code> → <code>rdf:type</code> → <code>Interdiction</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 2 : Protection d'espèces</strong><br>
+                    <code>I002</code> → <code>protegeEspece</code> → <code>Espece_BaleineFranche</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 3 : Activité concernée</strong><br>
+                    <code>I002</code> → <code>concerneActivite</code> → <code>Activite_COMMERCIAL_WHALING</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 4 : Stock concerné (NEW)</strong><br>
+                    <code>I002</code> → <code>concerneStock</code> → <code>Stock_TOUS_LES_STOCKS</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 5 : Zone géographique</strong><br>
+                    <code>I002</code> → <code>appliesInZone</code> → <code>Zone_Hemisphere_Sud_Baleines</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 6 : Acteur concerné</strong><br>
+                    <code>I002</code> → <code>concerneActeur</code> → <code>Acteur_NavireUsine</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 7 : Permission/Exception</strong><br>
+                    <code>I002</code> → <code>hasDerogation</code> → <code>Permission_ChasseScientiqueArticle8</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 8 : Label multilingue</strong><br>
+                    <code>Espece_BaleineFranche</code> → <code>rdfs:label</code> → <code>"Baleine franche"@fr</code>
+                </div>
+
+                <div style="margin-bottom: 10px;"><strong>Exemple 9 : Année source juridique</strong><br>
+                    <code>SourceJur_ICRW_Convention</code> → <code>sourceYear</code> → <code>1946</code>
+                </div>
+
+                <div><strong>Exemple 10 : Hiérarchie de classe</strong><br>
+                    <code>Interdiction</code> → <code>rdfs:subClassOf</code> → <code>Norme</code>
+                </div>
+            </div>
+
+            <h3>📚 Classes Principales</h3>
+            <div class="classes-grid">
+                <div class="class-tag">Interdiction</div>
+                <div class="class-tag">EspeceMarine</div>
+                <div class="class-tag">Zone</div>
+                <div class="class-tag">Acteur</div>
+                <div class="class-tag">Periode</div>
+                <div class="class-tag">Activite</div>
+                <div class="class-tag">Permission</div>
+                <div class="class-tag">LegalSource</div>
+                <div class="class-tag">Exception</div>
+                <div class="class-tag">Stock</div>
+                <div class="class-tag">Concept (SKOS)</div>
+                <div class="class-tag">+ 47 autres</div>
+            </div>
+
+            <h3>🔗 Relations Principales</h3>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="relation-type">protegeEspece</span></td>
+                        <td>Objet</td>
+                        <td>Lie une interdiction aux espèces qu'elle protège</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">appliesInZone</span></td>
+                        <td>Objet</td>
+                        <td>Défini les zones géographiques d'application</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">concerneActeur</span></td>
+                        <td>Objet</td>
+                        <td>Identifie les acteurs impliqués</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">fondeeSur</span></td>
+                        <td>Objet</td>
+                        <td>Référence les sources juridiques</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">appliesDuring</span></td>
+                        <td>Objet</td>
+                        <td>Période temporelle d'application</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">hasDerogation</span></td>
+                        <td>Objet</td>
+                        <td>Lie aux permissions/exceptions</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">aException</span></td>
+                        <td>Objet</td>
+                        <td>Énumère les exceptions applicables</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">label</span></td>
+                        <td>Donnée</td>
+                        <td>Étiquette textuelle (multilingue FR/EN)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">comment</span></td>
+                        <td>Donnée</td>
+                        <td>Commentaire ou description</td>
+                    </tr>
+                    <tr>
+                        <td><span class="relation-type">sourceYear</span></td>
+                        <td>Donnée</td>
+                        <td>Année de la source juridique</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🐋 Espèces Marines Couvertes (15)</h3>
+            <p>Chaque espèce est liée aux interdictions qui la protègent et au glossaire SKOS :</p>
+            <ul>
+                <li>Baleine bleue (Blue whale)</li>
+                <li>Baleine grise (Gray whale)</li>
+                <li>Baleine franche (Right whale)</li>
+                <li>Baleine boréale (Bowhead whale)</li>
+                <li>Baleine fin (Fin whale)</li>
+                <li>Baleine bosse (Humpback whale)</li>
+                <li>Baleine de Bryde (Bryde's whale)</li>
+                <li>Baleine minke (Minke whale)</li>
+                <li>Baleine à bec (Beaked whale)</li>
+                <li>Baleine à bec bottlenose (Bottlenose whale)</li>
+                <li>Globicéphale (Pilot whale)</li>
+                <li>Orque (Killer whale)</li>
+                <li>Petite baleine franche (Pygmy right whale)</li>
+                <li>Baleine sei (Sei whale)</li>
+                <li>Cachalot (Sperm whale)</li>
+            </ul>
+
+            <h3>🗺️ Zones Géographiques (8)</h3>
+            <ul>
+                <li>Hémisphère sud pour les baleines</li>
+                <li>Sanctuaire océan austral</li>
+                <li>Sanctuaire océan indien</li>
+                <li>Limite de 40° sud</li>
+                <li>Limite de 35° sud</li>
+                <li>Limite de 53° sud</li>
+                <li>Zone côtière</li>
+                <li>Haute mer</li>
+            </ul>
+
+            <h3>🏢 Acteurs (8)</h3>
+            <ul>
+                <li>État du pavillon</li>
+                <li>Navire usine</li>
+                <li>Bateau chasseur</li>
+                <li>Station terrestre</li>
+                <li>Membre IWC</li>
+                <li>Navire factory ship</li>
+                <li>Organisme régional de gestion des pêches</li>
+                <li>État côtier</li>
+            </ul>
+
+            <h3>⚖️ Sources Juridiques (6)</h3>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Année</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ICRW Convention</td>
+                        <td>1946</td>
+                        <td>Convention internationale</td>
+                    </tr>
+                    <tr>
+                        <td>Resolution 61-105</td>
+                        <td>1986</td>
+                        <td>Résolution IWC</td>
+                    </tr>
+                    <tr>
+                        <td>Resolution 64-72</td>
+                        <td>1984</td>
+                        <td>Résolution IWC</td>
+                    </tr>
+                    <tr>
+                        <td>Resolution 66-68</td>
+                        <td>2018</td>
+                        <td>Résolution IWC</td>
+                    </tr>
+                    <tr>
+                        <td>Resolution 71-123</td>
+                        <td>2022</td>
+                        <td>Résolution IWC</td>
+                    </tr>
+                    <tr>
+                        <td>IWC Schedule</td>
+                        <td>2022</td>
+                        <td>Calendrier IWC</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>📋 Interdictions Modélisées (2)</h3>
+            <p>Chaque interdiction est un réseau sémantique complet généré par extraction et transformation de données :
+            </p>
+
+            <h4>🔷 I001 : Interdiction du Chalutage de Fond </h4>
+            <div class="note-box">
+                <strong>Total : 40 triplets sujet-prédicat-objet</strong><br><br>
+                <strong>Composition détaillée :</strong><br>
+                • <strong>Métadonnées</strong> (8 triplets) : rdf:type (2), rdfs:label (2), skos:prefLabel (2),
+                rdfs:comment, skos:definition, skos:notation, mar:confidence, mar:needsReview, mar:legalLayer<br>
+                • <strong>Zones</strong> (2 triplets) : appliesInZone → HM (Haute Mer), ZEV (Écosystème Vulnérable)<br>
+                • <strong>Acteurs</strong> (6 triplets) : concerneActeur → État Pavillon, ORGP, États, FAO, ORGP
+                Régionale, ORGP Profonde<br>
+                • <strong>Activités</strong> (7 triplets) : concerneActivite → Pêche INN, Hauturière, Fond, Profonde,
+                Dérivante, IUU, Fond/Écosystème Vulnérable<br>
+                • <strong>Sources juridiques</strong> (4 triplets) : fondeeSur → Res61_105, Res64_72, Res66_68,
+                Res71_123<br>
+                • <strong>Périodes</strong> (3 triplets) : appliesDuring → Absence Évaluation, Absence Mesures, Jusqu'à
+                Mesures Conservation<br>
+                • <strong>Exceptions</strong> (2 triplets) : aException → États Développement, Mesures Conservation<br>
+                • <strong>Contrôles</strong> (4 triplets) : soumisA → Étude Impact, Évaluation Scientifique, Exception
+                Temporaire, Évaluations Scientifiques
+            </div>
+
+            <h4>🔶 I002 : Interdiction de la Chasse Commerciale à la Baleine</h4>
+            <div class="note-box">
+                <strong>Total : 45 triplets sujet-prédicat-objet</strong><br><br>
+                <strong>Composition détaillée :</strong><br>
+                • <strong>Métadonnées</strong> (8 triplets) : rdf:type (2), rdfs:label (2), skos:prefLabel (2),
+                rdfs:comment, skos:definition, skos:notation, mar:confidence, mar:needsReview, mar:legalLayer<br>
+                • <strong>Espèces protégées</strong> (13 triplets) : protegeEspece → Baleine Franche, Baleine Bleue,
+                Cachalot, Orque, Baleine Boréale, Baleine Grise, Baleine Fin, Baleine Bosse, Baleine Sei, Baleine de
+                Bryde, Baleine Minke, Baleine à Bec, Baleine Bottlenose, Petite Baleine Franche, Globicéphale (15 au
+                total)<br>
+                • <strong>Zones</strong> (4 triplets) : appliesInZone → Hémisphère Sud, Océan Indien, Océan Austral,
+                Haute Mer<br>
+                • <strong>Acteurs</strong> (5 triplets) : concerneActeur → Navire-Usine, Bateau Chasseur, Station
+                Terrestre, Membre IWC, Factory Ship<br>
+                • <strong>Activités</strong> (1 triplet) : concerneActivite → Chasse Commerciale à la Baleine<br>
+                • <strong>Stocks</strong> (1 triplet) : concerneStock → Stock_TOUS_LES_STOCKS (NEW)<br>
+                • <strong>Sources juridiques</strong> (2 triplets) : fondeeSur → ICRW Convention, IWC Schedule<br>
+                • <strong>Périodes</strong> (1 triplet) : appliesDuring → Moratoire 1986<br>
+                • <strong>Permissions/Exceptions</strong> (2 triplets) : hasDerogation → Permission Chasse Scientifique,
+                Permission Subsistance Autochtone<br>
+                • <strong>Exceptions</strong> (1 triplet) : aException → Exceptions Appliquées
+            </div>
+
+            <h3>📊 Tableau Comparatif</h3>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Dimension</th>
+                        <th>I001 (Chalutage)</th>
+                        <th>I002 (Baleines)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Total Triplets</strong></td>
+                        <td>40</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>Zones d'application</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Acteurs concernés</td>
+                        <td>6</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Activités interdites</td>
+                        <td>7</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Espèces/Stocks protégés</td>
+                        <td>—</td>
+                        <td>13 espèces + 1 stock</td>
+                    </tr>
+                    <tr>
+                        <td>Sources juridiques</td>
+                        <td>4</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Périodes temporelles</td>
+                        <td>3</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Exceptions/Dérogations</td>
+                        <td>2 + 4 contrôles</td>
+                        <td>2 + 1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="success-box">
+                <strong>✅ Total combiné :</strong> 85 triplets pour les 2 interdictions<br>
+                <strong>Extraction IA :</strong> Données brutes JSON → 55 triplets initiaux → 85 triplets finaux après
+                enrichissement sémantique (permissions, stocks, métadonnées)<br>
+                <strong>Transformation :</strong> ~55% d'enrichissement (ajout de relations, de contexte légal,
+                d'exceptions)
+            </div>
+        </div>
+
+        <!-- TAB 3: EXAMPLE I002 -->
+        <div id="example" class="tab-content">
+            <h2>🔍 Exemple Détaillé : Interdiction I002</h2>
+
+            <h3>Interdiction de la Chasse Commerciale à la Baleine</h3>
+
+            <div class="success-box">
+                <strong>Identifiant :</strong> <code>mar:I002</code><br>
+                <strong>Label :</strong> Interdiction de la Chasse Commerciale à la Baleine<br>
+                <strong>Label EN :</strong> Prohibition of Commercial Whaling<br>
+                <strong>Niveau Légal :</strong> International
+            </div>
+
+            <h3>🐋 Espèces Protégées (13)</h3>
+            <p>I002 protège les espèces marines suivantes via la relation <code>protegeEspece</code> :</p>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Espèce</th>
+                        <th>Code</th>
+                        <th>Type de Protection</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Baleine franche</td>
+                        <td>Espece_BaleineFranche</td>
+                        <td>Interdiction commerciale complète</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine boréale</td>
+                        <td>Espece_BaleineBoreal</td>
+                        <td>Chasse de subsistance autorisée</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine grise</td>
+                        <td>Espece_BaleineGrise</td>
+                        <td>Interdiction avec quotas locaux</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine bleue</td>
+                        <td>Espece_BaleineBleue</td>
+                        <td>Protection maximale</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine fin</td>
+                        <td>Espece_BaleineFin</td>
+                        <td>Protégée depuis 1986</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine bosse</td>
+                        <td>Espece_BaleineBosse</td>
+                        <td>Rétablissement en cours</td>
+                    </tr>
+                    <tr>
+                        <td>Cachalot</td>
+                        <td>Espece_Cachalot</td>
+                        <td>Interdiction commerciale</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine sei</td>
+                        <td>Espece_BaleineSei</td>
+                        <td>Protection renforcée</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine de Bryde</td>
+                        <td>Espece_BaleineDeBryde</td>
+                        <td>Protégée</td>
+                    </tr>
+                    <tr>
+                        <td>Orque</td>
+                        <td>Espece_Orque</td>
+                        <td>Classe apex protégée</td>
+                    </tr>
+                    <tr>
+                        <td>Baleine à bec</td>
+                        <td>Espece_BaleineABec</td>
+                        <td>Espèce menacée</td>
+                    </tr>
+                    <tr>
+                        <td>Globicéphale</td>
+                        <td>Espece_Globicephale</td>
+                        <td>Chasse documentée mais interdite commercialement</td>
+                    </tr>
+                    <tr>
+                        <td>Petite baleine franche</td>
+                        <td>Espece_PetiteBaleineFranche</td>
+                        <td>Espèce rare</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🗺️ Zones d'Application (4)</h3>
+            <p>L'interdiction s'applique dans les zones suivantes :</p>
+            <ul>
+                <li><strong>Hémisphère sud pour les baleines</strong> : Zone principale de migration hivernale</li>
+                <li><strong>Sanctuaire océan austral</strong> : Zone protégée depuis 1994</li>
+                <li><strong>Sanctuaire océan indien</strong> : Zone sanctuarisée en 1999</li>
+                <li><strong>HM (Indian Ocean Sanctuary)</strong> : Zone supplémentaire de conservation</li>
+            </ul>
+
+            <h3>👥 Acteurs Concernés (5)</h3>
+            <p>Les acteurs suivants sont soumis à l'interdiction :</p>
+            <ul>
+                <li><strong>Navire usine</strong> : Interdiction d'opérations de transformation en mer</li>
+                <li><strong>Bateau chasseur</strong> : Interdiction de chasse commerciale</li>
+                <li><strong>Station terrestre</strong> : Interdiction de traitement commercial</li>
+                <li><strong>Membre IWC</strong> : États membres de la Commission baleinière internationale</li>
+                <li><strong>Factory ship</strong> : Navire de transformation spécialisé</li>
+            </ul>
+
+            <h3>⚖️ Activités et Stocks Concernés</h3>
+            <p>L'interdiction I002 différencie clairement l'<strong>activité</strong> du <strong>stock
+                    halieutique</strong> :</p>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeur</th>
+                        <th>Signification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>concerneActivite</code></td>
+                        <td>Activite_COMMERCIAL_WHALING</td>
+                        <td><strong>L'activité interdite</strong> est la chasse commerciale à la baleine</td>
+                    </tr>
+                    <tr>
+                        <td><code>concerneStock</code></td>
+                        <td>Stock_TOUS_LES_STOCKS</td>
+                        <td><strong>S'applique à tous les stocks</strong> sans distinction génétique (moratoire 1986)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>protegeEspece</code></td>
+                        <td>13 espèces (baleine franche, cachalot, orque, etc.)</td>
+                        <td><strong>Les espèces protégées</strong> que l'interdiction défend</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><em>Note : Avant 1986, les quotas étaient différenciés par stock. Depuis le moratoire de 1986,
+                    l'interdiction de chasse commerciale s'applique uniformément à tous les stocks sans distinction
+                    génétique.</em></p>
+
+            <h3>🕐 Période d'Application</h3>
+            <div class="note-box">
+                <strong>Période :</strong> Moratoire depuis 1986<br>
+                <strong>Statut :</strong> Indéfini (en vigueur depuis 1986 sans date d'expiration fixée)<br>
+                <strong>Révision :</strong> Possible lors des sessions annuelles de l'IWC
+            </div>
+
+            <h3>🔐 Exceptions et Dérogations</h3>
+            <p>Malgré l'interdiction, deux exceptions existent :</p>
+
+            <h4>1️⃣ Exception : Chasse Scientifique (Article 8 de la Convention ICRW)</h4>
+            <ul>
+                <li><strong>Permission :</strong> Permission_ChasseScientiqueArticle8</li>
+                <li><strong>Contrôle :</strong> Controle_ChasseScientiqueIRWC</li>
+                <li><strong>Pays utilisant :</strong> Japon, Islande (historiquement)</li>
+                <li><strong>Quotas :</strong> Définis annuellement par l'IWC</li>
+            </ul>
+
+            <h4>2️⃣ Exception : Chasse de Subsistance Autochtone</h4>
+            <ul>
+                <li><strong>Permission :</strong> Permission_ChasseSousistanceAutochtone</li>
+                <li><strong>Contrôle :</strong> Controle_QuotasSubsistanceAutochtone</li>
+                <li><strong>Peuples autorisés :</strong> Inuits (Canada, Groenland), Tchukches (Russie)</li>
+                <li><strong>Justification :</strong> Traditions culturelles, subsistance alimentaire</li>
+            </ul>
+
+            <h3>📚 Fondements Juridiques</h3>
+            <p>L'interdiction I002 s'appuie sur :</p>
+            <ul>
+                <li><strong>ICRW Convention (1946)</strong> : Convention internationale pour la réglementation de la
+                    chasse à la baleine</li>
+                <li><strong>IWC Schedule</strong> : Calendrier des stocks de baleines et des limitations</li>
+            </ul>
+
+            <h3>🔄 Relations Structurantes</h3>
+            <table class="relations-table">
+                <thead>
+                    <tr>
+                        <th>Propriété RDF</th>
+                        <th>Cardinalité</th>
+                        <th>Objectif</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>protegeEspece</code></td>
+                        <td>13 (min. 1)</td>
+                        <td>Énumère les espèces protégées</td>
+                    </tr>
+                    <tr>
+                        <td><code>appliesInZone</code></td>
+                        <td>4 (min. 1)</td>
+                        <td>Définit la géographie d'application</td>
+                    </tr>
+                    <tr>
+                        <td><code>concerneActeur</code></td>
+                        <td>5 (min. 1)</td>
+                        <td>Identifie les acteurs impactés</td>
+                    </tr>
+                    <tr>
+                        <td><code>fondeeSur</code></td>
+                        <td>2 (min. 1)</td>
+                        <td>Trace la source juridique</td>
+                    </tr>
+                    <tr>
+                        <td><code>appliesDuring</code></td>
+                        <td>1</td>
+                        <td>Période temporelle</td>
+                    </tr>
+                    <tr>
+                        <td><code>aException</code></td>
+                        <td>2 (0+)</td>
+                        <td>Exceptions applicables</td>
+                    </tr>
+                    <tr>
+                        <td><code>hasDerogation</code></td>
+                        <td>2 (0+)</td>
+                        <td>Permissions associées</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="success-box">
+                <strong>Total de 45 triplets</strong> associés à l'interdiction I002 :<br>
+                • 15 relations protegeEspece (espèces protégées)<br>
+                • 4 relations appliesInZone (zones géographiques)<br>
+                • 5 relations concerneActeur (acteurs impactés)<br>
+                • 1 relation concerneActivite (chasse commerciale)<br>
+                • 1 relation concerneStock (NEW - tous stocks)<br>
+                • 2 relations fondeeSur (sources juridiques)<br>
+                • 1 relation appliesDuring (période : moratoire 1986)<br>
+                • 2 relations hasDerogation (permissions/dérogations)<br>
+                • 1 relation aException (exceptions)<br>
+                • 8 relations de métadonnées standards (rdf:type, rdfs:label, skos:prefLabel, rdfs:comment,
+                skos:definition, skos:notation, mar:confidence, mar:needsReview, mar:legalLayer)<br>
+                Formant un réseau sémantique complet et traversable par les raisonneurs OWL.
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>📚 Documentation Interactive - Maritime Ontology v1.0</p>
+            <p>Générée automatiquement par le pipeline Python</p>
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tabbuttons;
+
+            // Hide all tab contents
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+
+            // Remove active class from all buttons
+            tabbuttons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].classList.remove("active");
+            }
+
+            // Show the current tab and mark button as active
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,519 @@
+<h2 class="sr-only">Étude comparative de 4 modèles LLM pour l'extraction de définitions juridiques maritimes destinées à une ontologie.</h2>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{--m1:#185FA5;--m2:#9B3A6A;--m3:#2E7D32;--m4:#B45309;}
+.wrap{font-family:var(--font-sans);max-width:100%;}
+.nav{display:flex;gap:3px;padding-bottom:1rem;border-bottom:0.5px solid var(--color-border-tertiary);margin-bottom:1.5rem;flex-wrap:wrap;}
+.ntab{padding:6px 16px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);font-size:12px;cursor:pointer;transition:all .15s;font-family:var(--font-sans);}
+.ntab.on{background:var(--color-text-primary);color:var(--color-background-primary);border-color:var(--color-text-primary);}
+.ntab:hover:not(.on){background:var(--color-background-secondary);}
+.pane{display:none;}.pane.on{display:block;}
+.head{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.75rem;}
+.kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:1.5rem;}
+.kcard{border-radius:var(--border-radius-lg);padding:14px 16px;border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary);}
+.kcard.winner{border-width:1.5px;}
+.kmod{font-size:11px;font-weight:500;margin-bottom:6px;}
+.kbig{font-size:26px;font-weight:500;line-height:1;}
+.ksub{font-size:11px;color:var(--color-text-secondary);margin-top:3px;}
+.ktag{display:inline-block;font-size:10px;padding:2px 7px;border-radius:20px;margin-top:6px;font-weight:500;}
+.tbl{width:100%;border-collapse:collapse;font-size:12px;}
+.tbl th{text-align:left;padding:8px 10px;border-bottom:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);font-weight:500;font-size:11px;white-space:nowrap;}
+.tbl td{padding:9px 10px;border-bottom:0.5px solid var(--color-border-tertiary);vertical-align:top;color:var(--color-text-primary);}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl tr:hover td{background:var(--color-background-secondary);}
+.pill{display:inline-block;font-size:10px;font-weight:500;padding:2px 8px;border-radius:20px;}
+.pill1{background:#dbeafe;color:#1e40af;}.pill2{background:#fce7f3;color:#831843;}.pill3{background:#dcfce7;color:#14532d;}.pill4{background:#fef3c7;color:#78350f;}
+.bar{display:flex;align-items:center;gap:6px;}
+.btrack{flex:1;height:5px;background:var(--color-background-secondary);border-radius:3px;overflow:hidden;}
+.bfill{height:100%;border-radius:3px;}
+.bnum{font-size:11px;color:var(--color-text-secondary);min-width:32px;text-align:right;}
+.cterm{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:8px 12px;font-size:12px;font-weight:500;margin-bottom:8px;color:var(--color-text-primary);}
+.crow{display:grid;grid-template-columns:80px 1fr;gap:0;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);overflow:hidden;margin-bottom:6px;}
+.clabel{padding:10px;background:var(--color-background-secondary);border-right:0.5px solid var(--color-border-tertiary);display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:4px;}
+.ccell{padding:10px;font-size:12px;line-height:1.5;}
+.cdef{color:var(--color-text-primary);}
+.cmeta{margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;}
+.ctag{font-size:10px;padding:1px 6px;border-radius:3px;background:var(--color-background-secondary);color:var(--color-text-secondary);border:0.5px solid var(--color-border-tertiary);}
+.ctag.good{background:#dcfce7;color:#14532d;border-color:#86efac;}
+.ctag.warn{background:#fef3c7;color:#78350f;border-color:#fde68a;}
+.ctag.bad{background:#fee2e2;color:#7f1d1d;border-color:#fca5a5;}
+.missing{color:var(--color-text-tertiary);font-style:italic;font-size:11px;}
+.onto-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:1.5rem;}
+.ocard{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:10px 12px;background:var(--color-background-primary);}
+.otitle{font-size:10px;font-weight:500;color:var(--color-text-secondary);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em;}
+.obar-row{margin-bottom:5px;}
+.olab{font-size:10px;color:var(--color-text-secondary);margin-bottom:2px;}
+.verdict{border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin-bottom:1.5rem;border:0.5px solid var(--color-border-tertiary);}
+.vtitle{font-size:13px;font-weight:500;margin-bottom:.5rem;}
+.vtext{font-size:12px;color:var(--color-text-secondary);line-height:1.7;}
+.filter-row{display:flex;gap:8px;align-items:center;margin-bottom:1rem;flex-wrap:wrap;}
+.flabel{font-size:11px;color:var(--color-text-secondary);}
+.fbtn{padding:4px 12px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);font-size:11px;cursor:pointer;font-family:var(--font-sans);}
+.fbtn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500;}
+.sco-header{display:grid;grid-template-columns:180px repeat(4,1fr);gap:0;font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:6px 10px;border-bottom:0.5px solid var(--color-border-secondary);margin-bottom:4px;}
+.sco-row{display:grid;grid-template-columns:180px repeat(4,1fr);gap:0;padding:8px 10px;border-bottom:0.5px solid var(--color-border-tertiary);font-size:12px;align-items:center;}
+.sco-row:hover{background:var(--color-background-secondary);}
+.sco-dim{color:var(--color-text-secondary);font-size:11px;}
+.sco-val{font-size:12px;font-weight:500;text-align:center;}
+.sco-best{border-radius:4px;padding:2px 6px;}
+.total-row{background:var(--color-background-secondary);font-weight:500;}
+.prom-box{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 12px;font-size:11px;font-family:var(--font-mono);line-height:1.6;border-left:2px solid var(--color-border-info);color:var(--color-text-secondary);margin-top:6px;word-break:break-word;}
+.pcard{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;margin-bottom:10px;}
+.pcard-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;}
+.ptitle{font-size:13px;font-weight:500;}
+.psubt{font-size:11px;color:var(--color-text-secondary);}
+.param-row{display:flex;justify-content:space-between;padding:4px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:11px;}
+.param-row:last-child{border-bottom:none;}
+.plabel{color:var(--color-text-secondary);}
+.pval{font-weight:500;max-width:65%;text-align:right;}
+</style>
+
+<div class="wrap">
+
+<div style="display:flex;align-items:baseline;gap:10px;margin-bottom:1.25rem;">
+  <div style="font-size:17px;font-weight:500;color:var(--color-text-primary);">Etude comparative &mdash; Extraction pour ontologie maritime</div>
+  <div style="font-size:11px;color:var(--color-text-secondary);">4 modeles &middot; corpus juridique maritime &middot; focus fidelite ontologique</div>
+</div>
+
+<div class="nav">
+  <button class="ntab on" onclick="go('hero')">Synthese</button>
+  <button class="ntab" onclick="go('onto')">Criteres ontologiques</button>
+  <button class="ntab" onclick="go('cmp')">Comparaison terme a terme</button>
+  <button class="ntab" onclick="go('scores')">Scores detailles</button>
+  <button class="ntab" onclick="go('prompts')">Prompts configs</button>
+  <button class="ntab" onclick="go('verdict')">Verdict</button>
+</div>
+
+<!-- HERO -->
+<div id="p-hero" class="pane on">
+  <div class="kpi">
+    <div class="kcard winner" style="border-color:var(--m1);">
+      <div class="kmod" style="color:var(--m1);">LlamaParse</div>
+      <div class="kbig" style="color:var(--m1);">86%</div>
+      <div class="ksub">fidelite verbatim</div>
+      <div class="ktag" style="background:#dbeafe;color:#1e40af;">1er &mdash; fidelite</div>
+    </div>
+    <div class="kcard winner" style="border-color:var(--m3);">
+      <div class="kmod" style="color:var(--m3);">Gemma-4-9B-IT</div>
+      <div class="kbig" style="color:var(--m3);">82%</div>
+      <div class="ksub">precision reference</div>
+      <div class="ktag" style="background:#dcfce7;color:#14532d;">1er &mdash; precision ref + noms sci.</div>
+    </div>
+    <div class="kcard" style="border-color:var(--m2);">
+      <div class="kmod" style="color:var(--m2);">Qwen3-8B</div>
+      <div class="kbig" style="color:var(--m2);">669</div>
+      <div class="ksub">definitions &middot; 8 docs</div>
+      <div class="ktag" style="background:#fce7f3;color:#831843;">1er &mdash; volume brut</div>
+    </div>
+    <div class="kcard" style="border-color:var(--m4);">
+      <div class="kmod" style="color:var(--m4);">Mistral-8B</div>
+      <div class="kbig" style="color:var(--m4);">9/9</div>
+      <div class="ksub">documents couverts</div>
+      <div class="ktag" style="background:#fef3c7;color:#78350f;">1er &mdash; couverture corpus</div>
+    </div>
+  </div>
+  <p class="head">Performances cles &mdash; vues cote a cote</p>
+  <div style="overflow-x:auto;">
+  <table class="tbl">
+    <thead><tr>
+      <th>Critere ontologique</th>
+      <th><span class="pill pill1">LlamaParse</span></th>
+      <th><span class="pill pill3">Gemma-4-9B-IT</span></th>
+      <th><span class="pill pill2">Qwen3-8B</span></th>
+      <th><span class="pill pill4">Mistral-8B</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td style="font-weight:500;">Nombre total de definitions</td><td>250</td><td>96</td><td style="font-weight:500;color:var(--m2);">669</td><td>281</td></tr>
+      <tr><td style="font-weight:500;">Termes uniques</td><td>238</td><td>94</td><td style="font-weight:500;color:var(--m2);">545</td><td>275</td></tr>
+      <tr><td style="font-weight:500;">Documents couverts</td><td>~8 (pas de doc_id)</td><td>8/8</td><td>8/8</td><td style="font-weight:500;color:var(--m4);">9/9 &#10003;</td></tr>
+      <tr><td style="font-weight:500;">Defs verbatim &gt;60 chars (fidelite cle)</td>
+        <td style="font-weight:500;color:var(--m1);">216/250 &mdash; 86% &#10003;</td>
+        <td style="font-weight:500;color:var(--m3);">82/96 &mdash; 85% &#10003;</td>
+        <td>417/669 &mdash; 62%</td><td>185/281 &mdash; 66%</td></tr>
+      <tr><td style="font-weight:500;">Precision des references (%)</td><td>76.9%</td><td style="font-weight:500;color:var(--m3);">82.3% &#10003;</td><td>44.8%</td><td>46.1%</td></tr>
+      <tr><td style="font-weight:500;">Noms scientifiques captures</td><td>12 (inline def.)</td><td style="font-weight:500;color:var(--m3);">13 (champ dedie &#10003;)</td><td style="color:var(--color-text-danger);">0 (champ absent)</td><td>3</td></tr>
+      <tr><td style="font-weight:500;">Exclusions extraites</td><td>2</td><td style="font-weight:500;color:var(--m3);">9 &#10003;</td><td>9</td><td style="color:var(--color-text-danger);">0</td></tr>
+      <tr><td style="font-weight:500;">Longueur moy. definition</td><td>209 chars</td><td style="font-weight:500;color:var(--m3);">244 chars &#10003;</td><td>141 chars</td><td>132 chars</td></tr>
+      <tr><td style="font-weight:500;">Completude definition (%)</td><td style="font-weight:500;color:var(--m1);">100% &#10003;</td><td style="font-weight:500;color:var(--m3);">100% &#10003;</td><td>98.5%</td><td>100%</td></tr>
+      <tr><td style="font-weight:500;">Reproductible offline</td><td style="color:var(--color-text-danger);">oui avec credit</td><td style="color:var(--color-text-success);">Oui</td><td style="color:var(--color-text-success);">Oui</td><td style="color:var(--color-text-success);">Oui</td></tr>
+      <tr><td style="font-weight:500;">Cout</td><td style="color:var(--color-text-danger);">gratuit avec credit </td><td>Gratuit (HuggingFace)</td><td>Gratuit (HuggingFace)</td><td>Gratuit (HuggingFace)</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- ONTO -->
+<div id="p-onto" class="pane">
+  <div class="verdict" style="border-color:var(--color-border-info);background:var(--color-background-info);">
+    <div class="vtitle" style="color:var(--color-text-info);">Pourquoi ces criteres pour une ontologie ?</div>
+    <div class="vtext">Une ontologie maritime necessite 5 proprietes fondamentales : <strong>fidelite</strong> (definition litterale, non paraphrasee), <strong>ancrage taxonomique</strong> (noms scientifiques pour les especes), <strong>tracabilite juridique</strong> (reference article/regle precise), <strong>completude semantique</strong> (exclusions pour borner les classes), et <strong>couverture</strong> (tous les documents, bilingue FR/EN).</div>
+  </div>
+  <div class="onto-grid">
+    <div class="ocard"><div class="otitle">Fidelite texte</div><div id="onto-fidelite"></div></div>
+    <div class="ocard"><div class="otitle">Ancrage taxonomique</div><div id="onto-taxo"></div></div>
+    <div class="ocard"><div class="otitle">Tracabilite juridique</div><div id="onto-tracab"></div></div>
+    <div class="ocard"><div class="otitle">Completude semantique</div><div id="onto-compl"></div></div>
+    <div class="ocard"><div class="otitle">Couverture corpus</div><div id="onto-couv"></div></div>
+  </div>
+  <p class="head">Analyse detaillee par critere</p>
+  <table class="tbl">
+    <thead><tr>
+      <th>Critere</th><th>Poids</th>
+      <th><span class="pill pill1">LlamaParse</span></th>
+      <th><span class="pill pill3">Gemma-4-9B-IT</span></th>
+      <th><span class="pill pill2">Qwen3-8B</span></th>
+      <th><span class="pill pill4">Mistral-8B</span></th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Fidelite</strong><br><span style="font-size:10px;color:var(--color-text-tertiary);">Definitions &gt;60 chars, non paraphrasees</span></td>
+        <td style="color:var(--color-text-secondary);">25%</td>
+        <td style="color:var(--m1);font-weight:500;">86% &#10003; meilleur</td>
+        <td style="color:var(--m3);font-weight:500;">85% &#10003;</td>
+        <td>62% <span style="color:var(--color-text-danger);">158 trop courtes</span></td>
+        <td>66%</td>
+      </tr>
+      <tr>
+        <td><strong>Noms scientifiques</strong><br><span style="font-size:10px;color:var(--color-text-tertiary);">Indispensable pour taxons marins</span></td>
+        <td style="color:var(--color-text-secondary);">20%</td>
+        <td>12 (inline def.)</td>
+        <td style="color:var(--m3);font-weight:500;">13 (champ dedie &#10003;)</td>
+        <td style="color:var(--color-text-danger);">0 (champ vide)</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td><strong>Precision reference</strong><br><span style="font-size:10px;color:var(--color-text-tertiary);">Article/regle/paragraphe identifiable</span></td>
+        <td style="color:var(--color-text-secondary);">20%</td>
+        <td>76.9%</td>
+        <td style="color:var(--m3);font-weight:500;">82.3% &#10003;</td>
+        <td>44.8%</td>
+        <td>46.1%</td>
+      </tr>
+      <tr>
+        <td><strong>Exclusions / restrictions</strong><br><span style="font-size:10px;color:var(--color-text-tertiary);">Bordure des classes ontologiques</span></td>
+        <td style="color:var(--color-text-secondary);">15%</td>
+        <td>2 entrees</td>
+        <td style="color:var(--m3);font-weight:500;">9 entrees &#10003;</td>
+        <td>9 entrees</td>
+        <td style="color:var(--color-text-danger);">0</td>
+      </tr>
+      <tr>
+        <td><strong>Volume et couverture</strong><br><span style="font-size:10px;color:var(--color-text-tertiary);">Termes uniques, docs, langues</span></td>
+        <td style="color:var(--color-text-secondary);">20%</td>
+        <td>238 uniq, ~8 docs</td>
+        <td>94 uniq, 8 docs</td>
+        <td style="color:var(--m2);font-weight:500;">545 uniq, 8 docs &#10003;</td>
+        <td>275 uniq, 9 docs</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- CMP -->
+<div id="p-cmp" class="pane">
+  <div class="filter-row">
+    <span class="flabel">Exemple :</span>
+    <button class="fbtn on" onclick="setCmp(0)">Convention</button>
+    <button class="fbtn" onclick="setCmp(1)">Blue whale</button>
+    <button class="fbtn" onclick="setCmp(2)">Beaked whale</button>
+    <button class="fbtn" onclick="setCmp(3)">Zone cotiere</button>
+    <button class="fbtn" onclick="setCmp(4)">Parties</button>
+    <button class="fbtn" onclick="setCmp(5)">Baleen whale</button>
+  </div>
+  <div id="cmp-container"></div>
+</div>
+
+<!-- SCORES -->
+<div id="p-scores" class="pane">
+  <div style="margin-bottom:1.5rem;">
+    <div class="sco-header">
+      <div>Dimension</div>
+      <div style="text-align:center;color:var(--m1);">LlamaParse</div>
+      <div style="text-align:center;color:var(--m3);">Gemma-4-9B-IT</div>
+      <div style="text-align:center;color:var(--m2);">Qwen3-8B</div>
+      <div style="text-align:center;color:var(--m4);">Mistral-8B</div>
+    </div>
+    <div id="score-rows-container"></div>
+  </div>
+  <p class="head" style="margin-top:1.5rem;">Classement composite &mdash; radar</p>
+  <div style="position:relative;width:100%;height:220px;">
+    <canvas id="radarC"></canvas>
+  </div>
+</div>
+
+<!-- PROMPTS -->
+<div id="p-prompts" class="pane">
+  <div class="filter-row">
+    <span class="flabel">Modele :</span>
+    <button class="fbtn on" onclick="setPrompt(0)">LlamaParse</button>
+    <button class="fbtn" onclick="setPrompt(1)">Gemma-4-9B-IT</button>
+    <button class="fbtn" onclick="setPrompt(2)">Qwen3-8B</button>
+    <button class="fbtn" onclick="setPrompt(3)">Mistral-8B</button>
+  </div>
+  <div id="prompt-container"></div>
+</div>
+
+<!-- VERDICT -->
+<div id="p-verdict" class="pane">
+  <div class="verdict" style="background:var(--color-background-secondary);">
+    <div class="vtitle" style="font-size:15px;">Quel modele choisir pour notre ontologie ?</div>
+    <div class="vtext" style="font-size:13px;">La question n'est pas <em>quel modele est le meilleur en absolu</em>, mais <em>quel modele est le mieux adapte aux besoins specifiques d'une ontologie maritime</em>. Notre critere cardinal : la <strong>fidelite verbatim</strong>.</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:1.5rem;">
+    <div style="border:1.5px solid var(--m1);border-radius:var(--border-radius-lg);padding:1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+        <div style="font-size:14px;font-weight:500;color:var(--m1);">LlamaParse</div>
+        <div style="background:#dbeafe;color:#1e40af;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;">Meilleur &mdash; fidelite verbatim</div>
+      </div>
+      <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.7;margin-bottom:10px;">Meilleur taux de fidelite (86%), definitions completes (100%), noms scientifiques inline. Ideal pour documents EN complexes. Limite : cloud, payant, aucun doc_id trace.</div>
+      <div style="font-size:11px;">
+        <span style="color:var(--color-text-success);">+ </span>Verbatim le plus fiable (86%)<br>
+        <span style="color:var(--color-text-success);">+ </span>Definitions longues (209c moy.)<br>
+        <span style="color:var(--color-text-success);">+ </span>Noms sci. captures inline<br>
+        <span style="color:var(--color-text-danger);">- </span>Cloud / payant / non reproductible<br>
+        <span style="color:var(--color-text-danger);">- </span>Aucun doc_id trace
+      </div>
+    </div>
+    <div style="border:1.5px solid var(--m3);border-radius:var(--border-radius-lg);padding:1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+        <div style="font-size:14px;font-weight:500;color:var(--m3);">Gemma-4-9B-IT</div>
+        <div style="background:#dcfce7;color:#14532d;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;">Meilleur offline &mdash; profil ontologie</div>
+      </div>
+      <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.7;margin-bottom:10px;">85% fidelite, noms scientifiques dans un <strong>champ dedie structure</strong>, precision reference 82%, exclusions capturees. Profil le plus equilibre pour un pipeline 100% offline.</div>
+      <div style="font-size:11px;">
+        <span style="color:var(--color-text-success);">+ </span>Noms sci. champ dedie structure<br>
+        <span style="color:var(--color-text-success);">+ </span>Precision reference max (82%)<br>
+        <span style="color:var(--color-text-success);">+ </span>Exclusions capturees (9 entrees)<br>
+        <span style="color:var(--color-text-danger);">- </span>Volume limite (96 def.)<br>
+        <span style="color:var(--color-text-danger);">- </span>Licence HuggingFace a accepter
+      </div>
+    </div>
+    <div style="border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+        <div style="font-size:14px;font-weight:500;color:var(--m4);">Mistral-8B</div>
+        <div style="background:#fef3c7;color:#78350f;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;">Meilleur &mdash; couverture corpus</div>
+      </div>
+      <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.7;margin-bottom:10px;">Seul modele a couvrir les 9 documents. Rapide et stable sur T4. 66% de fidelite, bon travail de base. Insuffisant seul : aucune exclusion, tres peu de noms scientifiques.</div>
+      <div style="font-size:11px;">
+        <span style="color:var(--color-text-success);">+ </span>Couverture 9/9 documents<br>
+        <span style="color:var(--color-text-success);">+ </span>Tres rapide sur T4<br>
+        <span style="color:var(--color-text-success);">+ </span>Apache 2.0, aucun token requis<br>
+        <span style="color:var(--color-text-danger);">- </span>Zero exclusion, 3 noms sci. seulement<br>
+        <span style="color:var(--color-text-danger);">- </span>Definitions courtes (132c moy.)
+      </div>
+    </div>
+    <div style="border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+        <div style="font-size:14px;font-weight:500;color:var(--m2);">Qwen3-8B</div>
+        <div style="background:#fce7f3;color:#831843;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;">Meilleur &mdash; volume brut</div>
+      </div>
+      <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.7;margin-bottom:10px;">Volume inegale (669 definitions, 545 uniques). Multilingue natif. JSON strict reproductible. 62% fidelite &mdash; correct mais en dessous de LlamaParse et Gemma. Ideal en complement.</div>
+      <div style="font-size:11px;">
+        <span style="color:var(--color-text-success);">+ </span>Volume maximal (669 defs)<br>
+        <span style="color:var(--color-text-success);">+ </span>Multilingue natif (29 langues)<br>
+        <span style="color:var(--color-text-success);">+ </span>JSON strict reproductible<br>
+        <span style="color:var(--color-text-danger);">- </span>158 defs paraphrasees trop courtes<br>
+        <span style="color:var(--color-text-danger);">- </span>Zero nom scientifique extrait
+      </div>
+    </div>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;border:0.5px solid var(--color-border-tertiary);">
+    <div style="font-size:13px;font-weight:500;margin-bottom:8px;">Recommandation : pipeline hybride LlamaParse / Gemma + Qwen</div>
+    <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.7;">
+      <strong>LlamaParse</strong> pour la fidelite maximale quand le budget le permet. <strong>Gemma-4-9B-IT</strong> comme modele principal offline (precision, noms scientifiques structures, exclusions). <strong>Qwen3-8B</strong> en complement pour les ~388 termes supplementaires. <strong>Mistral-8B</strong> pour garantir qu'aucun document n'est manque. Deduplication post-traitement sur (terme.lower(), definition[:80]) pour fusionner sans doublon.
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+function go(id) {
+  document.querySelectorAll('.pane').forEach(function(p){ p.classList.remove('on'); });
+  var tabs = ['hero','onto','cmp','scores','prompts','verdict'];
+  document.querySelectorAll('.ntab').forEach(function(t,i){ t.classList.toggle('on', tabs[i]===id); });
+  document.getElementById('p-'+id).classList.add('on');
+  if (id==='scores') renderScores();
+}
+
+var MODELS = ['LlamaParse','Gemma-4-9B-IT','Qwen3-8B','Mistral-8B'];
+var COLORS = ['#185FA5','#2E7D32','#9B3A6A','#B45309'];
+var PILLS  = ['pill1','pill3','pill2','pill4'];
+
+var ONTO_DIMS = [
+  {id:'onto-fidelite', vals:[86,85,62,66]},
+  {id:'onto-taxo',     vals:[40,87,0,20]},
+  {id:'onto-tracab',   vals:[76.9,82.3,44.8,46.1]},
+  {id:'onto-compl',    vals:[11,50,50,0]},
+  {id:'onto-couv',     vals:[44,89,89,100]},
+];
+ONTO_DIMS.forEach(function(dim){
+  var el = document.getElementById(dim.id);
+  if (!el) return;
+  el.innerHTML = MODELS.map(function(m,i){
+    return '<div class="obar-row"><div class="olab">'+m.split('-')[0]+'</div>'
+      +'<div class="bar"><div class="btrack"><div class="bfill" style="width:'+dim.vals[i]+'%;background:'+COLORS[i]+';"></div></div>'
+      +'<span class="bnum">'+dim.vals[i]+'%</span></div></div>';
+  }).join('');
+});
+
+var CMP_DATA = [
+  {label:'Convention (terme juridique cle)', rows:[
+    {m:'LlamaParse',    def:'la Convention sur la protection du milieu marin et du littoral de la Mediterranee, adoptee a Barcelone le 16 fevrier 1976, telle que modifiee le 10 juin 1995;', ref:'Article 2', sci:'', excl:'', notes:'verbatim'},
+    {m:'Gemma-4-9B-IT', def:'la Convention sur la protection du milieu marin et du littoral de la Mediterranee, adoptee a Barcelone le 16 fevrier 1976, telle que modifiee le 10 juin 1995',  ref:'Article 2, b)', sci:'', excl:'', notes:'verbatim + ref precise'},
+    {m:'Qwen3-8B',      def:'la Convention sur la protection du milieu marin et du littoral de la Mediterranee, adoptee a Barcelone le 16 fevrier 1976, telle que modifiee le 10 juin 1995',  ref:'Article 2 / b)', sci:'', excl:'', notes:'verbatim'},
+    {m:'Mistral-8B',    def:'La presente Convention', ref:'Article 17', sci:'', excl:'', notes:'paraphrase trop courte'},
+  ]},
+  {label:'Blue whale (espece protegee)', rows:[
+    {m:'LlamaParse',    def:'"blue whale" (Balaenoptera musculus) means any whale known as blue whale, Sibbald\'s rorqual, or sulphur bottom, and including pygmy blue whale.', ref:'I. INTERPRETATION, A', sci:'Balaenoptera musculus', excl:'', notes:'verbatim + nom sci. inline'},
+    {m:'Gemma-4-9B-IT', def:'any whale known as blue whale, Greenland right whale, Greenland whale.',                                                                              ref:'I. INTERPRETATION B.', sci:'Balaenoptera musculus', excl:'', notes:'nom sci. dedie MAIS def. tronquee'},
+    {m:'Qwen3-8B',      def:'any whale known as blue whale, Sibbald\'s rorqual, or sulphur bottom and including pygmy blue whale.',                                               ref:'1. A. Baleen whales', sci:'', excl:'', notes:'nom sci. absent'},
+    {m:'Mistral-8B',    def:'', ref:'', sci:'', excl:'', notes:'non extrait'},
+  ]},
+  {label:'Beaked whale (erreur taxonomique revelatrice)', rows:[
+    {m:'LlamaParse',    def:'"beaked whale" means any whale belonging to the genus Mesoplodon, or any whale known as Cuvier\'s beaked whale (Ziphius cavirostris), or Shepherd\'s beaked whale (Tasmacetus shepherdi).', ref:'I. INTERPRETATION, B', sci:'', excl:'', notes:'verbatim fidele, Tasmacetus OK'},
+    {m:'Gemma-4-9B-IT', def:'any whale belonging to the genus Mesoplodon, or any whale known as Cuvier\'s beaked whale (Ziphius cavirostris), or Shepherd\'s beaked whale (Berardius bairdii).',                          ref:'I. INTERPRETATION B.', sci:'Mesoplodon, Ziphius cavirostris, Berardius bairdii', excl:'', notes:'ERREUR: Berardius bairdii ≠ Tasmacetus shepherdi'},
+    {m:'Qwen3-8B',      def:'any whale belonging to the genus Mesoplodon, or any whale known as Cuvier\'s beaked whale (Ziphius cavirostris), or Shepherd\'s beaked whale (Tasmacetus shepherdi).',                        ref:'1. A. Baleen whales', sci:'', excl:'', notes:'texte exact, nom sci. absent'},
+    {m:'Mistral-8B',    def:'', ref:'', sci:'', excl:'', notes:'non extrait'},
+  ]},
+  {label:'Zone cotiere (definition longue FR)', rows:[
+    {m:'LlamaParse',    def:'l\'espace geomorphologique de part et d\'autre du rivage de la mer ou se manifeste l\'interaction entre la partie marine et la partie terrestre...', ref:'Article 2',    sci:'', excl:'', notes:'verbatim, ref moins precise'},
+    {m:'Gemma-4-9B-IT', def:'l\'espace geomorphologique de part et d\'autre du rivage de la mer ou se manifeste l\'interaction entre la partie marine et la partie terrestre...', ref:'Article 2, e)', sci:'', excl:'', notes:'verbatim, ref precise'},
+    {m:'Qwen3-8B',      def:'l\'espace geomorphologique de part et d\'autre du rivage de la mer ou se manifeste l\'interaction entre la partie marine et la partie terrestre...', ref:'Article 2 / e)', sci:'', excl:'', notes:'verbatim, ref precise'},
+    {m:'Mistral-8B',    def:'l\'espace geomorphologique de part et d\'autre du rivage de la mer ou se manifeste l\'interaction entre la partie marine et la partie terrestre...', ref:'Article 2',    sci:'', excl:'', notes:'verbatim OK'},
+  ]},
+  {label:'Parties (ambiguite multi-document)', rows:[
+    {m:'LlamaParse',    def:'les Parties contractantes au present Protocole;',                       ref:'Article 2',                 sci:'', excl:'', notes:'correct'},
+    {m:'Gemma-4-9B-IT', def:'les Parties contractantes au present Protocole',                        ref:'Article 2, a)',              sci:'', excl:'', notes:'correct + ref precise'},
+    {m:'Qwen3-8B',      def:'presente Article.',                                                     ref:'Article III',               sci:'', excl:'', notes:'ERREUR: extraction incomplete'},
+    {m:'Mistral-8B',    def:'les Etats et organisations regionales d\'integration economique',       ref:'Article 34. Ratification 1', sci:'', excl:'', notes:'mauvais document source'},
+  ]},
+  {label:'Baleen whale (exclusion semantique)', rows:[
+    {m:'LlamaParse',    def:'"baleen whale" means any whale which has baleen or whale bone in the mouth, i.e. any whale other than a toothed whale.', ref:'I. INTERPRETATION, A', sci:'', excl:'i.e. any whale other than a toothed whale', notes:'exclusion capturee'},
+    {m:'Gemma-4-9B-IT', def:'any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.',                           ref:'I. INTERPRETATION B.', sci:'', excl:'toothed whale',                               notes:'exclusion capturee'},
+    {m:'Qwen3-8B',      def:'any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.',                           ref:'1. A. Baleen whales',   sci:'', excl:'',                                           notes:'exclusion non capturee'},
+    {m:'Mistral-8B',    def:'', ref:'', sci:'', excl:'', notes:'non extrait'},
+  ]},
+];
+
+var cmpIdx = 0;
+function setCmp(i) {
+  cmpIdx = i;
+  document.querySelectorAll('#p-cmp .fbtn').forEach(function(b,j){ b.classList.toggle('on',j===i); });
+  renderCmp();
+}
+function noteClass(n) {
+  if (!n) return '';
+  if (n.indexOf('ERREUR') >= 0) return 'bad';
+  if (n.indexOf('OK') >= 0 || n.indexOf('capturee') >= 0 || n.indexOf('precise') >= 0 || n.indexOf('fidele') >= 0 || n.indexOf('correct') >= 0 || n.indexOf('inline') >= 0) return 'good';
+  if (n.indexOf('non extrait') >= 0 || n.indexOf('tronquee') >= 0) return 'bad';
+  return '';
+}
+function renderCmp() {
+  var d = CMP_DATA[cmpIdx];
+  var html = '<div class="cterm">'+d.label+'</div>';
+  d.rows.forEach(function(r) {
+    var idx = MODELS.indexOf(r.m);
+    html += '<div class="crow">'
+      +'<div class="clabel"><span class="pill '+PILLS[idx]+'">'+r.m.split('-')[0]+'</span>'
+      +(r.notes ? '<span class="ctag '+noteClass(r.notes)+'">'+r.notes+'</span>' : '')
+      +'</div><div class="ccell">'
+      +(r.def ? '<div class="cdef">'+r.def+'</div>' : '<div class="missing">non extrait</div>')
+      +'<div class="cmeta">'
+      +(r.ref  ? '<span class="ctag">'+r.ref+'</span>' : '')
+      +(r.sci  ? '<span class="ctag good">sci: '+r.sci+'</span>' : '')
+      +(r.excl ? '<span class="ctag warn">excl: '+r.excl+'</span>' : '')
+      +'</div></div></div>';
+  });
+  document.getElementById('cmp-container').innerHTML = html;
+}
+renderCmp();
+
+var SCORE_DIMS = [
+  {name:'Fidelite texte (25%)',        vals:[86,85,62,66]},
+  {name:'Noms scientifiques (20%)',    vals:[40,87,0,20]},
+  {name:'Precision reference (20%)',   vals:[76.9,82.3,44.8,46.1]},
+  {name:'Exclusions capturees (15%)',  vals:[11,50,50,0]},
+  {name:'Volume et couverture (20%)',  vals:[44,89,89,100]},
+];
+function renderScores() {
+  var cont = document.getElementById('score-rows-container');
+  var html = '';
+  SCORE_DIMS.forEach(function(dim) {
+    var max = Math.max.apply(null, dim.vals);
+    html += '<div class="sco-row"><div class="sco-dim">'+dim.name+'</div>'
+      +dim.vals.map(function(v,i){
+        var best = (v===max);
+        return '<div class="sco-val"><span'+(best?' class="sco-best" style="background:'+COLORS[i]+'22;color:'+COLORS[i]+'"':'')+'>'+v+'%</span></div>';
+      }).join('')+'</div>';
+  });
+  var ws=[0.25,0.20,0.20,0.15,0.20];
+  var comp=MODELS.map(function(_,i){ return Math.round(SCORE_DIMS.reduce(function(s,d,di){ return s+d.vals[i]*ws[di]; },0)*10)/10; });
+  var maxC=Math.max.apply(null,comp);
+  html+='<div class="sco-row total-row"><div style="font-weight:500;font-size:12px;">Score composite</div>'
+    +comp.map(function(v,i){ return '<div class="sco-val" style="text-align:center;color:'+(v===maxC?COLORS[i]:'var(--color-text-primary)')+';font-weight:'+(v===maxC?500:400)+';">'+v+'</div>'; }).join('')+'</div>';
+  cont.innerHTML = html;
+  var ctx = document.getElementById('radarC');
+  if (ctx && !ctx._done) {
+    ctx._done = true;
+    new Chart(ctx,{
+      type:'radar',
+      data:{
+        labels:SCORE_DIMS.map(function(d){ return d.name.replace(/ \(\d+%\)/,''); }),
+        datasets:MODELS.map(function(m,i){
+          return {label:m,data:SCORE_DIMS.map(function(d){ return d.vals[i]; }),
+            borderColor:COLORS[i],backgroundColor:COLORS[i]+'18',borderWidth:1.5,pointRadius:3,pointBackgroundColor:COLORS[i]};
+        })
+      },
+      options:{responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{labels:{font:{size:10},boxWidth:10}}},
+        scales:{r:{min:0,max:100,ticks:{font:{size:9}},pointLabels:{font:{size:9}},grid:{color:'rgba(128,128,128,0.15)'}}}
+      }
+    });
+  }
+}
+
+var PROMPTS = [
+  {m:'LlamaParse',model:'LlamaIndex LlamaParse (cloud)',type:'API cloud',temp:'N/A',tokens:'N/A',chunk:'Semantique auto',
+   sys:'N/A (pipeline cloud)',
+   user:'Extraire toutes les definitions... Ne paraphrase pas, extrais le texte original exact.',
+   note:'parsing_instruction injectee dans LlamaParse. Chunking semantique automatique.',
+   params:[['Architecture','OCR + chunking + GPT-4o/Claude-3'],['Params','N/A (cloud)'],['Ctx','Illimitee'],['VRAM','N/A'],['Licence','Proprietaire / freemium']]},
+  {m:'Gemma-4-9B-IT',model:'Google DeepMind Gemma-4-9B-IT',type:'LLM local',temp:'0.1',tokens:'3500',chunk:'5000 chars',
+   sys:'Tu es un juriste specialise en droit maritime international. Tu reponds UNIQUEMENT en JSON valide.',
+   user:'Extraire toutes les definitions. Pour chaque terme, restituer le texte EXACT sans paraphrase. Format: [{terme, definition, nom_scientifique, reference, exclusions, langue}]',
+   note:'apply_chat_template avec terminateurs eos+end_of_turn. Acceptation licence HuggingFace requise.',
+   params:[['Architecture','Transformer, MHA local/global, RoPE'],['Params','9B 4-bit NF4'],['Ctx','128K tokens'],['VRAM','~5.0 GB T4'],['Licence','Gemma Terms of Use']]},
+  {m:'Qwen3-8B',model:'Alibaba Qwen3-8B (HuggingFace)',type:'LLM local',temp:'0.05',tokens:'2048',chunk:'2800 chars',
+   sys:'Expert droit maritime. Tu extrais uniquement les donnees en JSON strict, tu ne paraphrases JAMAIS.',
+   user:'Extraire TOUTES les definitions. Schema: [{terme, definition, nom_scientifique, reference, exclusions, langue}]',
+   note:'enable_thinking=False obligatoire. Chunking T4-safe 2800 chars. Deduplication (terme.lower(), def[:80]).',
+   params:[['Architecture','Transformer, GQA, SwiGLU, RoPE, RMSNorm'],['Params','8B 4-bit NF4'],['Ctx','128K tokens'],['VRAM','~4.5 GB T4'],['Licence','Apache 2.0']]},
+  {m:'Mistral-8B',model:'Mistral AI Mistral-8B-Instruct-2410',type:'LLM local',temp:'0.1',tokens:'3500',chunk:'5000 chars',
+   sys:'Tu es un expert en droit maritime international. Tu extrais les definitions au format JSON strict, sans commentaire.',
+   user:'Extraire TOUTES les definitions. Retourne UNIQUEMENT un tableau JSON: [{terme, definition, nom_scientifique, reference, exclusions, langue}]',
+   note:'Sliding Window Attention GQA. Sections ciblees par regex + chunks 5000 chars. Apache 2.0, pas de token requis.',
+   params:[['Architecture','Transformer decoder, GQA, SWA'],['Params','8B 4-bit NF4'],['Ctx','128K tokens'],['VRAM','~4.5 GB T4'],['Licence','Apache 2.0']]},
+];
+var promptIdx=0;
+function setPrompt(i) {
+  promptIdx=i;
+  document.querySelectorAll('#p-prompts .fbtn').forEach(function(b,j){ b.classList.toggle('on',j===i); });
+  renderPrompt();
+}
+function renderPrompt() {
+  var d=PROMPTS[promptIdx];
+  document.getElementById('prompt-container').innerHTML=
+    '<div class="pcard"><div class="pcard-head">'
+    +'<div><div class="ptitle">'+d.model+'</div><div class="psubt">'+d.type+' T '+d.temp+' max_tokens '+d.tokens+' chunk '+d.chunk+'</div></div>'
+    +'<span class="pill '+PILLS[promptIdx]+'">'+d.m.split('-')[0]+'</span></div>'
+    +d.params.map(function(p){ return '<div class="param-row"><span class="plabel">'+p[0]+'</span><span class="pval">'+p[1]+'</span></div>'; }).join('')
+    +'</div>'
+    +'<div class="pcard"><div class="ptitle" style="margin-bottom:6px;">Prompt systeme</div><div class="prom-box">'+d.sys+'</div></div>'
+    +'<div class="pcard"><div class="ptitle" style="margin-bottom:6px;">Prompt utilisateur</div><div class="prom-box">'+d.user+'</div></div>'
+    +'<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 12px;font-size:11px;color:var(--color-text-secondary);"><strong>Notes :</strong> '+d.note+'</div>';
+}
+renderPrompt();
+</script>

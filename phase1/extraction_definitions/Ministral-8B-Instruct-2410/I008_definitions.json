@@ -1,0 +1,142 @@
+[
+  {
+    "terme": "Espèce migratrice",
+    "definition": "l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, et ayant compétence pour négocier, conclure et appliquer des accords internationaux dans les matières couvertes par la présente Convention, à l'égard desquels la présente Convention est en vigueur.",
+    "nom_scientifique": null,
+    "reference": "Article I, j)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Etat de conservation d'une espèce migratrice",
+    "definition": "l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population;",
+    "nom_scientifique": null,
+    "reference": "Article I, b)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "espèces migratrices",
+    "definition": "Les espèces migratrices sont des animaux sauvages qui se déplacent régulièrement d'un lieu à un autre.",
+    "nom_scientifique": null,
+    "reference": "Article II c)",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "état de conservation",
+    "definition": "L'état de conservation d'une espèce est son niveau de santé écologique.",
+    "nom_scientifique": null,
+    "reference": "Article III",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ACCORD",
+    "definition": "Un ACCORD devrait, chaque fois que cela est possible, porter sur plus d'une espèce migratrice.",
+    "nom_scientifique": null,
+    "reference": "§3",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Conférence des Parties",
+    "definition": "La Conférence des Parties",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Président",
+    "definition": "le Président",
+    "nom_scientifique": null,
+    "reference": "null",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Observateur",
+    "definition": "Ces observateurs ont le droit de participer à la session sans droit de vote.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "Expert qualifié",
+    "definition": "Toute Partie peut nommer un expert qualifié comme membre du Conseil scientifique.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "différend",
+    "definition": "Tout différend survenant entre deux ou plusieurs Parties à la présente Convention relativement à l'interprétation ou l'application des dispositions de la présente Convention.",
+    "nom_scientifique": null,
+    "reference": "Article 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "amendement",
+    "definition": "Tout amendement adopté entrera en vigueur pour toutes les Parties qui l'auront accepté le premier jour du troisième mois suivant la date à laquelle deux tiers des Parties auront déposé un instrument d'acceptation.",
+    "nom_scientifique": null,
+    "reference": "Article 4",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "ratification",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "acceptation",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "admission",
+    "definition": "l'entrée en vigueur de la présente Convention",
+    "nom_scientifique": null,
+    "reference": "Article 2",
+    "exclusions": null,
+    "langue": "fr",
+    "doc_id": "I008",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

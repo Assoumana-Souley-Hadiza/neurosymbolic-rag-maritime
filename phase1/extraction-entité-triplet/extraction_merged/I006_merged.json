@@ -1,0 +1,2657 @@
+{
+  "interdiction_id": "I006",
+  "interdiction": "Rejet_dhydrocarbure",
+  "entites": [
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "rejet d'hydrocarbures depuis les compartiments machines (eaux de cale polluées) au-delà de 15 ppm"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "rejet de mélanges d'hydrocarbures provenant des citernes à cargaison des pétroliers (Règle 34)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "rejet de résidus d'hydrocarbures (boues) non acheminés vers installations de réception portuaires"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "déversements accidentels non déclarés aux autorités compétentes"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "exploration et exploitation pétrolières offshore sans respect des normes UEMOA"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "navigation sans Registre des Hydrocarbures à jour (Règle 36 Annexe I MARPOL)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "rejet nécessaire pour garantir la sécurité du navire ou la sauvegarde de la vie humaine (exception – Règle 4.1)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "utilisation de substances agréées pour lutter contre un événement particulier de pollution (exception – Règle 4.3)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : mer Méditerranée (1.1)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : mer Baltique proprement dite avec ses golfes (1.2)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : mer Noire avec ses mers intérieures (1.3)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : mer Rouge avec golfe de Suez et golfe d'Akaba (1.4)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : zone des Golfes – nord-ouest de la ligne Ras el Had–Ras al Fasteh (1.5)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : golfe d'Aden (partie située entre 45°E et 52°E) (1.6)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : zone de l'Antarctique (au sud du 60°S) (1.7)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : eaux du Nord-Ouest européen (Atlantique du Nord-Est à l'ouest de l'Irlande) (1.8)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : zone d'Oman de la mer d'Arabie (1.9)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "Zone spéciale MARPOL : eaux au large de la côte méridionale de l'Afrique du Sud (1.10)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "haute mer hors zones spéciales (rejets conditionnels sous conditions strictes)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zone d'application de la Convention d'Abidjan (Afrique de l'Ouest, Centre et Sud) pour le Règlement UEMOA"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "capitaines et propriétaires de navires pétroliers (jauge ≥ 150 TB) et autres navires (jauge ≥ 400 TB)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "États du pavillon (responsables de la délivrance des Certificats IOPP – Règle 7)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "États du port (contrôle PSC – Port State Control) : droit d'inspection et de rétention du navire"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "autorités maritimes nationales"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "entreprises d'exploration et d'exploitation pétrolière offshore dans l'espace UEMOA"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "retrait du certificat IOPP et immobilisation du navire si non-conformité grave (Règle 6.3.3)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "interdiction d'appareiller si non-conformité (contrôle normes d'exploitation par l'État du port – Règle 11)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "sanctions pénales nationales pour rejet illicite selon législation de chaque État Partie"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "refus du permis UEMOA si activités susceptibles de causer des dommages environnementaux irréversibles"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "inspection obligatoire par l'État du port : visite initiale, renouvellement (≤5 ans), intermédiaire, annuelle (Règle 6)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "délivrance et maintien du Certificat International de Prévention de la Pollution par les Hydrocarbures (IOPP Certificate) (Règle 7)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "obligation de tenir à jour le Registre des Hydrocarbures (Règle 36 Annexe I MARPOL)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "rapport d'évaluation environnementale et sociale (EIES) obligatoire avant exploitation offshore (Règlement UEMOA Art. 7)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "contrôle PSC (Port State Control) – Règle 11 : interdiction d'appareiller si non-conformité"
+    },
+    {
+      "source": "claude",
+      "categorie": "Periode",
+      "texte_original": "MARPOL 73/78 entrée en vigueur le 2 octobre 1983 ; Annexe I révisée applicable depuis le 1er janvier 2007 ; Règlement UEMOA N°06/2022 adopté le 30 septembre 2022"
+    },
+    {
+      "source": "claude",
+      "categorie": "Etat",
+      "texte_original": "États Parties à MARPOL 73/78 et États membres de l'UEMOA"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "rejet nécessaire pour garantir la sécurité du navire ou la sauvegarde de la vie humaine en mer (Règle 4.1)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "rejet résultant d'une avarie si toutes précautions raisonnables ont été prises (Règle 4.2)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "utilisation de substances agréées pour lutter contre un événement particulier de pollution avec accord du gouvernement riverain (Règle 4.3)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "navires exemptés par l'Autorité (hydroptères, aéroglisseurs, engins submersibles) si protection équivalente (Règle 3.1)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "pétroliers effectuant voyages courts ≤72h, dans les 50 milles marins, conservant tout à bord (Règle 3.4)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet d'hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet de mélanges d'hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet de substances et matières nuisibles ou nocives énumérées à l'annexe I"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet de substances et matières nuisibles ou nocives énumérées à l'annexe II"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet de fluides de forage à base de gazole"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet de fluides de forage à base d'hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet d'eaux usées"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Activity",
+      "texte_original": "rejet d'ordures non biodégradables et plastiques"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Zone",
+      "texte_original": "zone du Protocole (mer Méditerranée, plateau continental, fond de la mer et sous-sol, eaux en-deçà de la ligne de base, zones humides ou côtières incluses par les Parties)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Zone",
+      "texte_original": "aires spécialement protégées"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Actor",
+      "texte_original": "opérateur"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Actor",
+      "texte_original": "Partie contractante"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Sanction",
+      "texte_original": "sanctions en cas d'infraction"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Controle",
+      "texte_original": "autorisation préalable écrite"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Controle",
+      "texte_original": "permis spécial"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Controle",
+      "texte_original": "permis général"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Controle",
+      "texte_original": "surveillance continue"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Controle",
+      "texte_original": "plan d'intervention d'urgence"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Periode",
+      "texte_original": "durée de validité de l'autorisation"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Etat",
+      "texte_original": "cas de force majeure"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Etat",
+      "texte_original": "autorisation délivrée par l'autorité compétente"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Exception",
+      "texte_original": "rejet en cas de force majeure (danger pour la vie humaine, sécurité des installations, avarie)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Exception",
+      "texte_original": "rejet pour lutter contre des incidents de pollution spécifiques"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Espece",
+      "texte_original": "organismes marins comestibles"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "categorie": "Stock",
+      "texte_original": "ressources biologiques"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "rejet à la mer d’hydrocarbures ou de mélanges d’hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "conservation à bord des hydrocarbures ou mélanges d’hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "évacuation ultérieure dans des installations de réception"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "utilisation de matériel de filtrage des hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "consignation dans le registre des hydrocarbures, partie I"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "transport de ballast dans les citernes à cargaison"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Activity",
+      "texte_original": "transport d’hydrocarbures lourds en tant que cargaison"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "zone spéciale"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "mer Méditerranée"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "mer Baltique"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "mer Noire"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "mer Rouge"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "zone des Golfes"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "golfe d’Aden"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "zone de l’Antarctique"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "eaux de l’Europe du Nord-Ouest"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "zone d’Oman de la mer d’Arabie"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "eaux au large de la côte méridionale de l'Afrique du Sud"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "zone relevant de la juridiction d’une Partie"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Zone",
+      "texte_original": "en mer"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "navire"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "pétrolier"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "pétrolier d’une jauge brute égale ou supérieure à 150"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "tout autre navire d’une jauge brute égale ou supérieure à 400"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "navire d’une jauge brute égale ou supérieure à 400"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "navire d’une jauge brute inférieure à 400"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "Autorité"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "organismes reconnus"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "Gouvernement d’une Partie à la présente Convention"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "État du port"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Actor",
+      "texte_original": "capitaine"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Sanction",
+      "texte_original": "Certificat international de prévention de la pollution par les hydrocarbures porte une mention indiquant que le pétrolier effectue uniquement de tels voyages particuliers"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Sanction",
+      "texte_original": "empêcher le navire d’appareiller"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Sanction",
+      "texte_original": "refus d’accès aux ports ou terminaux au large"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "registre des hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "visite initiale"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "visite de renouvellement"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "visite intermédiaire"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "visite annuelle"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "visite supplémentaire"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "inspection effectuée par des fonctionnaires dûment autorisés"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "dispositif de surveillance continue et de contrôle des rejets d’hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Controle",
+      "texte_original": "détecteur d’interface hydrocarbures/eau"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "avant la mise en service du navire"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "intervalle n’excédant pas cinq ans"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "délai de trois mois avant ou après la deuxième ou troisième date anniversaire du certificat"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "délai de trois mois avant ou après chaque date anniversaire du certificat"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "après réparation ou rénovation importante"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Periode",
+      "texte_original": "pendant que le pétrolier se trouve dans une zone spéciale"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Etat",
+      "texte_original": "navire livré le 1er juin 1982 ou avant cette date"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Etat",
+      "texte_original": "pétrolier livré avant le 6 juillet 1996"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Etat",
+      "texte_original": "le mélange d’hydrocarbures ne provient pas des bouchains des chambres des pompes à cargaison, à bord des pétroliers"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Etat",
+      "texte_original": "le mélange d’hydrocarbures, dans le cas des pétroliers, n’est pas mélangé avec des résidus de la cargaison d’hydrocarbures"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet nécessaire pour garantir la sécurité d’un navire ou la sauvegarde de la vie humaine en mer"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet résultant d’une avarie survenue au navire ou à son équipement"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet approuvé par l’Autorité pour lutter contre un événement particulier de pollution"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet autorisé hors zone spéciale si conditions réunies"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet interdit en zone de l’Antarctique sans exception"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "rejet de ballast propre ou séparé"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "navires participant à des opérations d'assistance ou à des opérations de recherche et de sauvetage (zone Antarctique)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "opérations STS nécessaires pour assurer la sécurité d'un navire ou sauvegarder des vies humaines en mer ou pour lutter contre des événements de pollution particuliers"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Exception",
+      "texte_original": "navire de guerre, navire de guerre auxiliaire ou autre navire appartenant à un Etat ou exploité par lui et utilisé exclusivement pour un service public non commercial"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Espece",
+      "texte_original": "hydrocarbures lourds"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Espece",
+      "texte_original": "pétrole brut d’une densité à 15°C supérieure à 900 kg/m3"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Espece",
+      "texte_original": "fuel-oil d’une densité à 15°C supérieure à 900 kg/m3 ou d’une viscosité cinématique à 50°C supérieure à 180 mm2/s"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "categorie": "Espece",
+      "texte_original": "bitume, goudron et leurs émulsions"
+    }
+  ],
+  "triplets": [
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_MEDITERRANEE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_BALTIQUE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_NOIRE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_MER_ROUGE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ZONE_GOLFES",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_GOLFE_ADEN",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ANTARCTIQUE_SUD_60S",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_NORD_OUEST_EUROPEEN",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_OMAN_MER_ARABIE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_HORS_ZONE_SPECIALE_REJET_CONDITIONNEL",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_CONVENTION_ABIDJAN_AFRIQUE_OUEST_UEMOA",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_EAUX_CALE_POLLUEES_HYDROCARBURES_15PPM",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_CARGAISON_PETROLIER_CITERNES",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_REJET_RESIDUS_BOUES_HYDROCARBURES_NON_PORTS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DEVERSEMENT_ACCIDENTEL_NON_DECLARE",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_EXPLOITATION_PETROLIERE_OFFSHORE_SANS_EIES_UEMOA",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_NAVIGATION_SANS_REGISTRE_HYDROCARBURES_REGLE36",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.94
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_CAPITAINE_PROPRIETAIRE_NAVIRE_PETROLIER_150TB",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PAVILLON_CERTIFICAT_IOPP",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_PORT_PSC_INSPECTION_RETENTION",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ENTREPRISE_EXPLOITATION_PETROLIERE_OFFSHORE_UEMOA",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_IMMOBILISATION_NAVIRE_ETAT_PORT_REGLE_6_3_3",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_RETRAIT_CERTIFICAT_IOPP_NON_CONFORMITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_INTERDICTION_APPAREILLAGE_NON_CONFORMITE_REGLE11",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_PENALES_NATIONALES_REJET_ILLICITE",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_REFUS_PERMIS_EXPLOITATION_OFFSHORE_UEMOA_ART7",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_PSC_ETAT_PORT_VISITES_MARPOL_REGLE6",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CERTIFICAT_IOPP_REGLE7_VALIDITE_5ANS",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_REGLE36_OBLIGATOIRE",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_EIES_EXPLOITATION_OFFSHORE_UEMOA_ART7",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_DISPOSITIF_SURVEILLANCE_15PPM_EN_FONCTIONNEMENT",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_MARPOL_73_78_DEPUIS_2_OCTOBRE_1983",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_ANNEXE_I_REVISEE_DEPUIS_1ER_JANVIER_2007",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_REGLEMENT_UEMOA_N06_2022_DEPUIS_30_SEPT_2022",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_PARTIE_MARPOL_ETATS_MEMBRES_UEMOA",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_REJET_SECURITE_NAVIRE_VIE_HUMAINE_REGLE4_1",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_REJET_AVARIE_PRECAUTIONS_RAISONNABLES_REGLE4_2",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_SUBSTANCES_AGREES_LUTTE_POLLUTION_ACCORD_GOUVERNEMENT_REGLE4_3",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_NAVIRES_EXEMPTS_HYDROPTERES_AEROGLISSEURS_REGLE3_1",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PETROLIERS_VOYAGES_COURTS_72H_50_MILLES_REGLE3_4",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.88
+    },
+    {
+      "source": "MARPOL Annex I Rule 15 machinery spaces",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_SEUIL_15PPM_SEPARATEUR_EAUX_CALE_MARPOL_ANN1_R15",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.98
+    },
+    {
+      "source": "MARPOL Annex I Rule 17 Oil Record Book Part I",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_PARTIE_I_LOCAUX_MACHINES_MARPOL",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.97
+    },
+    {
+      "source": "MARPOL Annex I Rule 36 Oil Record Book Part II",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REGISTRE_HYDROCARBURES_PARTIE_II_CARGAISON_BALLAST",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.96
+    },
+    {
+      "source": "MARPOL Annex I Rule 12A Arctic",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_SPECIALE_MARPOL_ZONE_ARCTIQUE_ANN1_RULE12A",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.94
+    },
+    {
+      "source": "UEMOA Règlement 06/2022/CM",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_NORMES_EIES_OFFSHORE_UEMOA_REG06_2022",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "source": "Convention d'Abidjan 1981 Art.5 pollution hydrocarbures",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_CONVENTION_ABIDJAN_1981_AFRIQUE_OUEST_CENTRE_SUD",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.94
+    },
+    {
+      "source": "UEMOA Règlement 06/2022 Etats membres",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_MEMBRE_UEMOA_EXPLOITATION_PETROLIERE_OFFSHORE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006",
+      "confidence": 0.95
+    },
+    {
+      "source": "UEMOA Règlement 06/2022 champ application",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_UEMOA_AFRIQUE_OUEST_OFFSHORE_SENEGAL_COTE_IVOIRE",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006",
+      "confidence": 0.92
+    },
+    {
+      "source": "MARPOL Art.4 exceptions sécurité",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_DEVERSEMENT_SECURITE_NAVIRE_FORCE_MAJEURE_MARPOL_ART4",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I006",
+      "confidence": 0.9
+    },
+    {
+      "source": "article 9, 10, annexe I, annexe V",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 10, annexe I, annexe V",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_DE_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 9.4, annexe I",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_DE_SUBSTANCES_ET_MATIERES_NUISIBLES_OU_NOCIVES_ENUMEREES_A_L_ANNEXE_I",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 9.5, annexe II",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_DE_SUBSTANCES_ET_MATIERES_NUISIBLES_OU_NOCIVES_ENUMEREES_A_L_ANNEXE_II",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "annexe V, B.3",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_DE_FLUIDES_DE_FORAGE_A_BASE_DE_GAZOLE",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "annexe V, B.2.b",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_DE_FLUIDES_DE_FORAGE_A_BASE_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 11",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_D_EAUX_USEES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 12",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Activity_REJET_D_ORDURES_NON_BIODEGRADABLES_ET_PLASTIQUES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 2",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Zone_ZONE_DU_PROTOCOLE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 21",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Zone_AIRES_SPECIALEMENT_PROTEGEES",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 8, 9, 10, 11, 12",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Actor_OPERATEUR",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 3, 7, 8, 9, 10, 11, 12",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Actor_PARTIE_CONTRACTANTE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 7, 13.c",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Sanction_SANCTIONS_EN_CAS_D_INFRACTION",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 4",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Controle_AUTORISATION_PREALABLE_ECRITE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 9.5, annexe II",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Controle_PERMIS_SPECIAL",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 9.6",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Controle_PERMIS_GENERAL",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 19",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Controle_SURVEILLANCE_CONTINUE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 16, annexe VII",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Controle_PLAN_D_INTERVENTION_D_URGENCE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 6.2",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Periode_DUREE_DE_VALIDITE_DE_L_AUTORISATION",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 14.1.a",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Exception_REJET_EN_CAS_DE_FORCE_MAJEURE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "article 14.1.b",
+      "pdf_source": "Protocole relatif à la protection de la mer Méditerranée contre la pollution rés",
+      "object": "mar:Exception_REJET_POUR_LUTTER_CONTRE_INCIDENTS_DE_POLLUTION_SPECIFIQUES",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_A_LA_MER_D_HYDROCARBURES_OU_DE_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_SPECIALE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_MER_MEDITERRANEE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_MER_BALTlQUE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_MER_NOIRE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_MER_ROUGE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_DES_GOLFES",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_GOLFE_D_ADEN",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_DE_L_ANTARCTIQUE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_EAUX_DE_L_EUROPE_DU_NORD_OUEST",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_D_OMAN_DE_LA_MER_D_ARABIE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_EAUX_AU_LARGE_DE_LA_COTE_MERIDIONALE_DE_L_AFRIQUE_DU_SUD",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_AUTORITE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_ETAT_PARTIE_A_LA_PRESENTE_CONVENTION",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_CERTIFICAT_INTERNATIONAL_DE_PREVENTION_DE_LA_POLLUTION_PAR_LES_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 0.8,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_REGISTRE_DES_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_NECESSAIRE_POUR_GARANTIR_LA_SECURITE_D_UN_NAVIRE_OU_LA_SAUVEGARDE_DE_LA_VIE_HUMAINE_EN_MER",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_RESULTANT_D_UNE_AVARIE_SURVENUE_AU_NAVIRE_OU_A_SON_EQUIPMENT",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_APPROUVE_PAR_L_AUTORITE_POUR_LUTTER_CONTRE_UN_EVENEMENT_PARTICULIER_DE_POLLUTION",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 6, paragraphe 4.2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_CHANGEMENT_AUTRE_QUE_SIMPLE_REMPLACEMENT_DU_MATERIEL_ET_DES_EQUIPEMENTS",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 12, paragraphe 3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_RACCORDEMENT_DIRECT_A_LA_MER_DES_CITERNES_A_RESIDUS_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 8, paragraphe 4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_DELIVRANCE_CERTIFICAT_A_NAVIRE_ETAT_NON_PARTIE",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 12, paragraphe 3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_MER",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 7, paragraphe 1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_PORTS_OU_TERMINAUX_AU_LARGE_JURIDICTION_AUTRES_PARTIES",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.8,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 6, paragraphe 1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER_JAUGE_SUP_150",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 6, paragraphe 1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE_JAUGE_SUP_400",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 6, paragraphe 3.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_RETRAIT_DU_CERTIFICAT",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 11, paragraphe 2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_EMPECHER_NAVIRE_APPAREILLER",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 6, paragraphe 4.2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_SIMPLE_REMPLACEMENT_MATERIEL_EQUIPEMENTS",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_A_LA_MER_D_HYDROCARBURES_OU_DE_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_CONSERVATION_A_BORD_DES_HYDROCARBURES_OU_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_EVACUATION_ULTERIEURE_DANS_DES_INSTALLATIONS_DE_RECEPTION",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_UTILISATION_DE_MATERIEL_DE_FILTRAGE_DES_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_CONSIGNATION_DANS_LE_REGISTRE_DES_HYDROCARBURES_PARTIE_I",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_SPECIALE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_DE_L_ANTARCTIQUE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_EN_MER_HORS_ZONE_SPECIALE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE_D_UNE_JAUGE_BRUTE_EGALE_OU_SUPERIEURE_A_400",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE_D_UNE_JAUGE_BRUTE_INFERIEURE_A_400",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER_D_UNE_JAUGE_BRUTE_EGALE_OU_SUPERIEURE_A_150",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE_QUEL_QU_IL_SOIT",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_ENQUETE_RAPIDE_SUR_LES_FAITS",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_INSPECTION_DU_REGISTRE_DES_HYDROCARBURES_PARTIE_I",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_DISPOSITIF_D_ALARME_ET_ARRET_AUTOMATIQUE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Periode_PENDANT_QUE_LE_NAVIRE_FAIT_ROUTE",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Etat_MELANGE_NON_PROVENANT_DES_BOUCHAIN_DES_CHAMBRES_DES_POMPES_A_CARGAISON",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Etat",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Etat_MELANGE_NON_MELANGE_AVEC_RESIDUS_DE_CARGAISON_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Etat",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_AUTORISE_HORS_ZONE_SPECIALE_SI_CONDITIONS_REUNIES",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_AUTORISE_SI_TOUTES_LES_CONDITIONS_DE_LA_REGLE_15_2_OU_15_3_SONT_REUNIES",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_INTERDIT_EN_ZONE_DE_L_ANTARCTIQUE_SANS_EXCEPTION",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_TRANSPORT_DE_BALLAST_DANS_LES_CITERNES_A_CARGAISON",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_TRANSPORT_D_HYDROCARBURES_DANS_UN_ESPACE_A_L_AVANT_D_UNE_CLOISON_D_ABORDAGE",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_TRAVERSEE_DES_CITERNES_A_CARGAISON_PAR_DES_TUYAUTAGES_DE_BALLAST",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_TRAVERSEE_DES_CITERNES_DE_BALLAST_PAR_DES_TUYAUTAGES_DE_CARGAISON",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_CITERNES_A_CARGAISON",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_CITERNES_A_BALLAST",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ESPACE_A_L_AVANT_D_UNE_CLOISON_D_ABORDAGE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_CAPITAINE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_AUTORITE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_ORGANISATION",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_REFUS_D_ACCES_AUX_PORTS_OU_TERMINAUX",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_SYSTEME_D_EVALUATION_DE_L_ETAT_DU_NAVIRE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Periode_5_AVRIL_2005_OU_DATE_ANNIVERSAIRE_DE_LA_LIVRAISON",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Periode_25_ANS_APRES_DATE_DE_LIVRAISON",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_CONDITIONS_METEOROLOGIQUES_RIGOUREUSES_AVIS_CAPITAINE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_CAS_EXCEPTIONNELS_EXPLOITATION_PARTICULIERE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 23",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER_600T_HYDROCARBURES_LOURDS",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 7",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_JURIDICTION_PARTIE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 8.2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_REFUS_ACCES_PORT_TERMINAL",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 8.2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_REFUS_TRANSBORDEMENT_HYDROCARBURES_LOURDS",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 7",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_VOYAGES_ZONE_JURIDICTION_PARTIE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 7",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_VOYAGES_ZONE_JURIDICTION_AUTRE_PARTIE_CONSENTEMENT",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 6.1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_SYSTEME_EVALUATION_ETAT_NAVIRE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 21, 2",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_TRANSPORT_HYDROCARBURES_LOURDS",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_D_EAUX_CONTENANT_DES_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_DE_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_D_EAUX_DE_BALLAST_POLLUÉES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_AU_DESSUS_DE_LA_FLOTTAISON",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_EN_MER",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_DANS_LES_PORTS_OU_TERMINAUX_AU_LARGE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 0.8,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER_D_UNE_JAUGE_BRUTE_EGALE_OU_SUPERIEURE_A_150",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_CAPITAINE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.8,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_DISPOSITIF_DE_SURVEILLANCE_CONTINUE_ET_DE_CONTROLE_DES_REJETS_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_DETECTEUR_D_INTERFACE_HYDROCARBURES_EAU",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_COMMANDE_PERMETTANT_D_INTERRUPTRE_LES_REJETS_A_LA_MER",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_ARRET_AUTOMATIQUE_DU_REJET",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_CONDITIONS_SPECIFIEES_A_LA_REGLE_34_DE_LA_PRESENTE_ANNEXE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJETS_DE_BALLAST_SEPARE_ET_DE_BALLAST_PROPRE_SOUS_LA_FLOTTAISON_DANS_CERTAINS_CAS",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 0.9,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": null,
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_AU_DESSOUS_DE_LA_FLOTTAISON_SOUS_CONDITIONS_DE_SURVEILLANCE_ET_D_ABSENCE_DE_POLLUTION",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 0.9,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.1, 34.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Activity_REJET_A_LA_MER_D_HYDROCARBURES_OU_DE_MELANGES_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_SPECIALE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 43.1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Zone_ZONE_DE_L_ANTARCTIQUE",
+      "subject": "I006",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.1, 34.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PETROLIER",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34, 36, 37",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_NAVIRE",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 0.9,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 39.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Actor_PLATES_FORMES_FIXES_OU_FLOTTANTES",
+      "subject": "I006",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.1.6",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_DISPOSITIF_DE_SURVEILLANCE_CONTINUE_ET_DE_CONTROLE_DES_REJETS_D_HYDROCARBURES",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 36",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_REGISTRE_DES_HYDROCARBURES_PARTIE_II",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 1,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 36.7-8",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Controle_INSPECTION_A_TOUT_MOMENT_RAISONNABLE",
+      "subject": "I006",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.9,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.7",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Sanction_ENQUETE_RAPIDE_EN_CAS_D_INFRACTION",
+      "subject": "I006",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 0.8,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.3",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Periode_PENDANT_QUE_LE_PETROLIER_SE_TROUVE_DANS_UNE_ZONE_SPECIALE",
+      "subject": "I006",
+      "predicate": "mar:appliesDuring",
+      "concept_id": "Periode",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 34.2, 34.4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_REJET_DE_BALLAST_PROPRE_OU_SEPARE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 43.1",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_NAVIRES_PARTICIPANT_A_DES_OPERATIONS_D_ASSISTANCE_OU_DE_RECHERCHE_ET_DE_SAUVERAGE_ZONE_ANTARCTIQUE",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 40.4",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_OPERATIONS_STS_NECESSAIRES_POUR_ASSURER_LA_SECURITE_OU_LA_LUTTE_CONTRE_LA_POLLLUTION",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    },
+    {
+      "source": "Règle 40.5",
+      "pdf_source": "{\n  \"PARTIE A — Interdictions identifiées\": [\n    \"Interdiction de tout rejet d'",
+      "object": "mar:Exception_NAVIRE_DE_GUERRE_OU_NAVIRE_D_ETAT_SERVICE_PUBLIC_NON_COMMERCIAL",
+      "subject": "I006",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I006"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "terme": "school",
+    "definition": "means a group of whales which are sufficiently close together that a catcher Fin having completed handling one whale can start chasing another whale almost immediately without Humpback spending time searching.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "ministral-8b-instruct-2410"
+  },
+  {
+    "terme": "takeable whale",
+    "definition": "is a whale of a size or kind which the catchers would take if possible. It does not necessarily include all whales above legal size, e.g. if catchers are concentrating on large whales only these would be counted as takeable.",
+    "nom_scientifique": null,
+    "reference": null,
+    "exclusions": null,
+    "langue": "en",
+    "doc_id": "I002",
+    "modele": "ministral-8b-instruct-2410"
+  }
+]

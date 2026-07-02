@@ -1,0 +1,1058 @@
+{
+  "meta": {
+    "version": "1.0",
+    "total_definitions": 194,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "note": "Définitions nettoyées pour intégration ontologie maritime. Supprimés : acronymes purs, formules probabilistes, doublons, entrées vides, mesures navales."
+  },
+  "par_interdiction": {
+    "I001": {
+      "interdiction": "Chalutage de fond",
+      "domaine": "Pêche hauturière",
+      "nb_definitions": 83,
+      "definitions": [
+        {
+          "terme": "Anneau de coulisse",
+          "definition": "anneau en métal ou en plastique fixé au bord inférieur d'un filet tournant avec coulisse à travers lequel la coulisse est en filée.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Avançon",
+          "definition": "fin cordeau ou monofilament qui permet d'attacher l'hameçon à la ligne mère d'une palangre ou ligne verticale. Également appelé bas de ligne.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Balise",
+          "definition": "type de système de signalisation qui comprend généralement une bouée, un pavillon, un réflecteur radar, et une lumière s'il est manœuvré de nuit. Souvent utilisée sur les engins de pêche qui ne sont pas surveillés, comme les filets maillants et les filets emmêlants, les palangres calées et les lignes verticales, ou encore les nasses (casiers), mais aussi sur les sennes danoises et écossaises, pour le marquage provisoire de l'autre extrémité de l'engin.",
+          "langue": "fr"
+        },
+        {
+          "terme": "barrages, parcs et bordigues",
+          "definition": "Les barrières, parcs et bordigues sont des structures permanentes ou semi-permanentes qui attrapent les poissons selon un principe similaire à celui des filets-pièges.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Bas de ligne",
+          "definition": "également connu sous le nom d'avançon, il s'agit de la ligne où sont attachés les hameçons à la ligne mère des palangres. C'est un terme souvent utilisé dans le cas des palangres dérivantes destinées aux espèces pélagiques comme le thon ou l'espadon.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Bourrelet",
+          "definition": "élément fixé au bord inférieur d'un chalut pour résister à l'interaction avec le fond marin.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Bras",
+          "definition": "fait généralement référence au cordage qui relie la têtière au panneau dans un chalut.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut",
+          "definition": "Le chalut est une nappe de filet conique comportant généralement une poche ou cul-de-chalut. Il est remorqué par un ou deux bateaux et capture les poissons par rabattement et tamisage.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut de fond",
+          "definition": "Un chalut de fond est un filet conique remorqué sur le fond marin, conçu pour attraper les poissons qui vivent sur ou à proximité du fond marin.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut de fond à panneaux",
+          "definition": "Un chalut de fond à panneaux est un chalut conique remorqué sur le fond marin par un seul bateau, dont l'écartement horizontal est maintenu par deux panneaux.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut pélagique",
+          "definition": "Un chalut pélagique est un filet conique remorqué entre deux eaux par un ou deux bateaux pour capturer des poissons pélagiques ou semi-démersaux dans la colonne d'eau.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut pélagique à panneaux",
+          "definition": "Le chalut pélagique à panneaux est un chalut remorqué entre deux eaux par un seul bateau, qui utilise deux panneaux pour écarter le filet à l’horizontale (Figure 20).",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut semi-pélagique",
+          "definition": "Le chalut semi-pélagique est un chalut dont soit le filet, soit les panneaux, touchent le fond marin, mais pas les deux.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut à perche",
+          "definition": "Un chalut à perche est un chalut dont l'écartement horizontal est assuré par une armature rigide placée en travers de la gueule du filet.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut-bœuf de fond",
+          "definition": "Un chalut-bœuf de fond est un chalut remorqué sur le fond marin par deux bateaux, qui maintiennent l'écartement horizontal du filet pendant la pêche (Figure 19).",
+          "langue": "fr"
+        },
+        {
+          "terme": "chalut-bœuf pélagique",
+          "definition": "Un chalut-bœuf pélagique est un chalut remorqué entre deux eaux par deux bateaux, dont la distance de séparation détermine et maintient l'écartement horizontal du filet pendant la pêche (Figure 21).",
+          "langue": "fr"
+        },
+        {
+          "terme": "chaluts de fond à panneaux multiples",
+          "definition": "Les chaluts de fond à panneaux multiples sont composés de plus de deux chaluts remorqués sur le fond marin par un seul bateau.",
+          "langue": "fr"
+        },
+        {
+          "terme": "chaluts jumeaux à panneaux",
+          "definition": "Les chaluts jumeaux à panneaux sont composés de deux chaluts remorqués sur le fond marin par un seul bateau.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Chaluts à perche",
+          "definition": "Chaluts à perche (abréviation : TBB, code CSITEP actuel : 03.11, code précédent : 03.1.1)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Chambre de récupération",
+          "definition": "dans le présent rapport, ce terme désigne la dernière section d'un filet-piège non couvert où la capture est regroupée avant d'être halée à bord.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Corde de dos",
+          "definition": "corde à laquelle sont attachés le bord supérieur d'un filet et les flotteurs. Dans les filets maillants et emmêlants, la corde de dos est souvent désignée sous le nom de ralingue supérieure ou ralingue de flotteurs. Le terme s'applique plutôt aux chaluts et sennes halées à bord.",
+          "langue": "fr"
+        },
+        {
+          "terme": "dispositif de concentration de poissons",
+          "definition": "Un dispositif de concentration de poissons (DCP) est une structure permanente, semi-permanente ou temporaire, qui est déployée et/ou suivie, et utilisée pour concentrer les poissons en vue de leur capture ultérieure (FAO, 2019).",
+          "langue": "fr"
+        },
+        {
+          "terme": "Dispositif de concentration de poissons ancré (DCPa)",
+          "definition": "dispositif ancré ou attaché de toute autre manière au fond de l’océan et utilisé pour attirer et concentrer les poissons en vue de leur capture ultérieure par un engin de pêche. Voir également «Dispositif de concentration de poissons dérivant».",
+          "langue": "fr"
+        },
+        {
+          "terme": "drague",
+          "definition": "Une drague est une structure en forme de cage, souvent pourvue d'une lame ou de dents de raclage dans sa partie inférieure, et qui est tirée ou remorquée pour déterrer les animaux enfouis dans le substrat et les capturer dans une cage ou un sac.",
+          "langue": "fr"
+        },
+        {
+          "terme": "drague mécanisée",
+          "definition": "Une drague mécanisée est une grande cage métallique équipée d'une lame de coupe, qui utilise des pompes à jet hydraulique à haute pression pour fluidifier le substrat et faire sortir les animaux enfouis dans les sédiments pour les capturer dans la cage (Figure 25).",
+          "langue": "fr"
+        },
+        {
+          "terme": "drague remorquée",
+          "definition": "Une drague remorquée est une structure en forme de cage composée d'un cadre métallique robuste, remorquée par un bateau.",
+          "langue": "fr"
+        },
+        {
+          "terme": "drague à main",
+          "definition": "Une drague à main est une petite drague légère manœuvrée à la main, qui consiste en une perche et un cadre métallique pouvant comporter des dents sur sa bordure inférieure.",
+          "langue": "fr"
+        },
+        {
+          "terme": "engin de pêche",
+          "definition": "Tout dispositif ou partie de dispositif ou toute combinaison d'objets qui peuvent être placés sur l'eau ou dans l'eau ou bien sur le fond de la mer dans le but de capturer des organismes d'eau douce ou d'eau salée ou de les maîtriser en vue de les capturer ou de les récolter par la suite.",
+          "langue": "fr"
+        },
+        {
+          "terme": "engin retombant",
+          "definition": "Un engin retombant est un filet ou une structure semblable à un panier que l'on jette ou pousse vers le bas, ou encore qu'on laisse tomber pour attraper les poissons qui se trouvent en dessous.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet de rabattage",
+          "definition": "Les filets de rabattage sont des filets en forme de cône, généralement munis d'ailes qui capturent et retiennent les poissons rabattus dans le filet par du bruit ou des stimuli visuels tels que des dispositifs d'effarouchement.",
+          "source_reference": "10.7",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet lanterne",
+          "definition": "Un filet lanterne (ou panier coiffant) est une structure rigide en forme de cône ou de pyramide qui attrape les poissons en tombant rapidement sur eux et en les empêchant de s'échapper.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet maillant calé",
+          "definition": "Un filet maillant calé est un long filet rectangulaire à nappe unique, ancré ou fixé de toute autre manière au fond marin, qui capture les poissons entrant en contact avec lui.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet maillant dérivant",
+          "definition": "Un filet maillant dérivant est un type de filet maillant qui n'est pas fixé au fond marin, et qui dérive au gré du courant.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet maillant encerclant",
+          "definition": "Un filet maillant encerclant est un long filet maillant qui forme un cercle autour d'un rassemblement de poissons, en utilisant le bruit ou d'autres moyens pour rabattre ceux-ci vers lui, où ils finissent par se mailler ou s'emmêler.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet retombant manœuvré du bateau",
+          "definition": "Un filet retombant manœuvré du bateau est un filet en forme de cône ou de pyramide dont le contour est muni de poids et d'un cordon de serrage, qui est lâché d'un bateau pour attraper les poissons situés en dessous.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet soulevé",
+          "definition": "Un filet soulevé est constitué par une nappe de filet montée sur un cadre. Il est submergé pendant un certain temps, puis remonté: les poissons situés au-dessus de lui sont alors capturés et retenus.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet soulevé fixe manœuvré du rivage",
+          "definition": "Un filet soulevé fixe manœuvré du rivage est un filet soulevé manœuvré à partir d'une plate-forme fixe située dans les eaux côtières, le long du rivage.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet soulevé manœuvré du bateau",
+          "definition": "Un filet soulevé manœuvré du bateau est un filet rectangulaire déployé à partir d'un ou plusieurs bateaux à une certaine profondeur pour capturer les poissons situés au-dessus de lui lorsqu'il est remonté.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet soulevé portatif",
+          "definition": "Un filet soulevé portatif est un petit filet de forme rectangulaire tendu sur un cadre, qui n'est fixé à aucune structure.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet tournant",
+          "definition": "Un filet tournant est une longue nappe de filet construite principalement à partir de sections rectangulaires encadrées par des cordes, et qui capture ses prises en encerclant un banc de poissons.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet tournant avec coulisse",
+          "definition": "Un filet tournant avec coulisse est une nappe de filet conçue pour encercler un banc de poissons pélagiques près de la surface à l'aide d'une coulisse pour fermer le fond du filet.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet tournant sans coulisse",
+          "definition": "Un «filet tournant sans coulisse» est une longue nappe de filet conçue pour encercler les poissons en surface ou dans des eaux peu profondes, mais sans utiliser de coulisse.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filet-piège fixe non couvert",
+          "definition": "Un filet-piège fixe non couvert est généralement un grand filet divisé en une ou plusieurs chambres, ancré à l'aide d'un système d'amarrage ou fixé sur des perches, interceptant et piégeant les poissons pendant leur migration ou déplacement habituel.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Filets maillants calés (ancrés)",
+          "definition": "Filets maillants calés (ancrés) (abréviation : GNS, code CSITEP actuel : 07.1, code précédent : 07.1.0)",
+          "langue": "fr"
+        },
+        {
+          "terme": "filets maillants et filets emmêlants",
+          "definition": "Les filets maillants et les filets emmêlants sont de longues nappes de filet rectangulaires dans lesquelles les poissons se maillent, sont retenus, s'enchevêtrent, s'emmêlent ou sont piégés par boursage.",
+          "langue": "fr"
+        },
+        {
+          "terme": "filets maillants fixes (sur perches)",
+          "definition": "Les filets maillants fixes (sur perches) sont de longs filets maillants accrochés à des perches enfoncées dans le fond marin.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Filets tournants avec coulisse",
+          "definition": "Filets tournants avec coulisse (abréviation : PS, code CSITEP actuel : 01.1, code précédent : 0..1.0)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Filets tournants sans coulisse",
+          "definition": "Filets tournants sans coulisse (abréviation : LA, code CSITEP actuel : 01.2, code précédent : 01.2.0)",
+          "langue": "fr"
+        },
+        {
+          "terme": "filets à l'étalage",
+          "definition": "Les filets à l'étalage ou diables sont des filets de forme conique ou pyramidale dont l'ouverture est maintenue par un cadre. Ils sont mouillés dans une zone avec de forts courants, notamment de marée, en vue d'attraper les poissons à la dérive.",
+          "langue": "fr"
+        },
+        {
+          "terme": "fourche à coquillages",
+          "definition": "Une fourche à coquillages est un engin par accrochage ou par blessure constitué d'un manche manœuvré à la main et fendu à une extrémité pour former au moins deux dents (souvent trois). Lorsqu'une cible, comme un trochus ou un coquillage, est repérée, l'opérateur enfonce l'engin de manière à ce que les dents de la fourche enserrent l'animal.",
+          "source_reference": "10.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Fune",
+          "definition": "filin ou câble de remorque qui relie le chalut au chalutier. Dans les chaluts à panneaux, les funes prennent fin au niveau des panneaux. Dans les chaluts-bœufs, elles s'étendent jusqu'à la têtière ou l'union des entremises.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Guideau",
+          "definition": "dans les filets-pièges non couverts et les bordigues, le guideau désigne le filet ou toute autre structure qui intercepte et guide les poissons vers la partie principale du filet; dans les engins à hameçon et à ligne, il s’agit de la ligne qui attache l’hameçon à la ligne principale. Également appelée avançon.",
+          "langue": "fr"
+        },
+        {
+          "terme": "harpon",
+          "definition": "Un harpon est un engin ressemblant à une lance, doté d'un long manche et d'une pointe acérée détachable, qui est reliée à une ligne permettant de récupérer la prise.",
+          "source_reference": "10.1",
+          "langue": "fr"
+        },
+        {
+          "terme": "ligne de traîne",
+          "definition": "Une ligne de traîne est une ligne à laquelle sont fixés un ou plusieurs hameçons appâtés (ou leurres) et qui est remorquée par un bateau.",
+          "source_reference": "9.5",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ligne mère",
+          "definition": "dans les palangres calées et dérivantes, il s'agit de la ligne horizontale à laquelle sont attachés les avançons (ou bas de ligne). Dans les lignes verticales, il s'agit de la ligne principale verticale à laquelle sont accrochés les avançons.",
+          "langue": "fr"
+        },
+        {
+          "terme": "ligne verticale",
+          "definition": "Une ligne verticale est une ligne disposée verticalement à laquelle sont fixés un ou plusieurs hameçons appâtés.",
+          "source_reference": "9.4",
+          "langue": "fr"
+        },
+        {
+          "terme": "Maillage (maille étirée)",
+          "definition": "dimension généralement mesurée entre les deux nœuds opposés d'une maille lorsque celle-ci est entièrement étirée. Si rien n'est spécifié, la mesure est faite au niveau du centre des nœuds.",
+          "langue": "fr"
+        },
+        {
+          "terme": "nasse",
+          "definition": "Une nasse ou un casier est une petite cage qui attire les poissons par une ou plusieurs ouvertures permettant leur entrée, mais empêchant ou retardant leur fuite.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Nasses (casiers)",
+          "definition": "Nasses (casiers) (abréviation : FPO, code CSITEP actuel : 08.2, code précédent : 08.2.0)",
+          "langue": "fr"
+        },
+        {
+          "terme": "palangre calée",
+          "definition": "Une palangre calée est un engin de pêche à la palangre qui est ancré ou fixé de toute autre manière au fond marin à chaque extrémité de la ligne mère.",
+          "source_reference": "9.3.1",
+          "langue": "fr"
+        },
+        {
+          "terme": "palangre dérivante",
+          "definition": "Une palangre dérivante est une palangre qui n'est pas fixée au fond marin et qui dérive de façon passive au gré du courant, le bateau (dérivant également) étant attaché à l'une de ses extrémités.",
+          "source_reference": "9.3.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Palangres dérivantes",
+          "definition": "Palangres dérivantes (abréviation : LLD, code CSITEP actuel : 09.32, code précédent : 09.4.0)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Panneau",
+          "definition": "planche ou plaque métallique fixée de part et d'autre du chalut et qui permet de maintenir celui-ci ouvert horizontalement lorsqu'il est remorqué sur le fond marin ou en pleine eau.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Partie à petites mailles",
+          "definition": "petit panneau de maillage d’un filet tournant avec coulisse où la capture est regroupée avant d’être halée à bord.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Perche",
+          "definition": "dans le présent rapport, ce terme fait référence à la perche horizontale utilisée pour tendre le filet horizontalement dans les chaluts à perche. Ce terme s’applique également aux piquets utilisés pour fixer les filets maillants sur le fond marin, ainsi qu’aux longs manches des pousseux (troubles).",
+          "langue": "fr"
+        },
+        {
+          "terme": "pinces à coquillages",
+          "definition": "La pince à coquillages consiste en une paire de râteaux ou de paniers en forme de râteau fixés à deux longs manches réunis comme des ciseaux. Elle est principalement utilisée pour la collecte d'animaux infauniques et épifauniques comme les moules, les palourdes et les huîtres.",
+          "source_reference": "10.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "piège aérien",
+          "definition": "Les pièges aériens sont des engins ou structures destinés à capturer les poissons qui sautent hors de l'eau. [...] Quelle que soit la forme du dispositif qui retient finalement le poisson, si celui-ci est hors de l'eau (dans l'air) au moment de sa capture, l'engin est classé dans la catégorie des pièges aériens.",
+          "source_reference": "8.6",
+          "langue": "fr"
+        },
+        {
+          "terme": "pièges",
+          "definition": "Les pièges sont des structures fixes de formes et dimensions variées dans lesquelles les poissons sont guidés, ou poussés par le courant, ou encore attirés par des appâts ou amorces.",
+          "langue": "fr"
+        },
+        {
+          "terme": "poisson",
+          "definition": "Sauf indication contraire, dans ce document, le terme «poisson» désigne tous les animaux aquatiques capturés par des engins de pêche, y compris, sans toutefois s'y limiter, les poissons au sens strict, les crustacés et les mollusques.",
+          "langue": "fr"
+        },
+        {
+          "terme": "pompe submersible",
+          "definition": "Une pompe submersible peut être utilisée pour récolter de grandes concentrations de poissons, appartenant généralement à de petites espèces pélagiques.",
+          "source_reference": "10.3",
+          "langue": "fr"
+        },
+        {
+          "terme": "pousseux",
+          "definition": "Un pousseux, trouble, ou encore haveneau, est un filet en forme de sac, dont les deux côtés sont fixés à des perches entrecroisées en ciseaux et qui est poussé par un pêcheur à gué ou situé dans un bateau en eaux peu profondes.",
+          "source_reference": "10.5",
+          "langue": "fr"
+        },
+        {
+          "terme": "pêche électrique",
+          "definition": "La pêche électrique utilise des impulsions électriques intermittentes pour étourdir le poisson ou modifier son comportement (par exemple, en lui provoquant une contraction involontaire des muscles) et le rendre ainsi plus vulnérable à la capture.",
+          "source_reference": "10.4",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ralingue de flotteurs ou de lièges",
+          "definition": "corde à laquelle sont intégrés des éléments de flottaison. Elle est généralement utilisée comme ralingue supérieure sur les filets maillants.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ralingue inférieure",
+          "definition": "corde à laquelle sont attachés le bord inférieur d'un filet et les lests. Dans les filets maillants et les filets emmêlants, la ralingue inférieure est souvent appelée ralingue de plombs ou ralingue plombée, car de lourds lests en plomb ou autres y sont souvent attachés. Dans les chaluts, la ralingue inférieure est généralement désignée sous le nom de bourrelet.",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ralingue supérieure",
+          "definition": "corde où sont attachés le bord supérieur d'un filet et les flotteurs. Ce terme s'applique plutôt aux filets maillants et emmêlants.",
+          "langue": "fr"
+        },
+        {
+          "terme": "senne",
+          "definition": "Une senne peut présenter la forme d'un filet conique avec de longues ailes et une poche, ou d'une longue nappe de filet sans poche, capturant les poissons en les encerclant et en les rabattant.",
+          "langue": "fr"
+        },
+        {
+          "terme": "senne de plage",
+          "definition": "Une senne de plage est un filet à longues ailes, avec ou sans poche, qui sert à encercler les poissons dans les eaux peu profondes, généralement sur une plage.",
+          "langue": "fr"
+        },
+        {
+          "terme": "senne halée à bord",
+          "definition": "Une senne halée à bord est un filet de forme conique aux ailes allongées, muni de filins et d'une poche. Manœuvrée par un ou deux bateaux, elle capture les poissons en les encerclant et en les rabattant.",
+          "langue": "fr"
+        },
+        {
+          "terme": "trémail",
+          "definition": "Un trémail est un filet maillant constitué de trois nappes de filet, dont deux nappes externes à grandes mailles et une nappe interne à plus petites mailles, posé avec un certain jeu (c'est-à-dire avec un faible rapport d'armement horizontal) en vue de piéger les poissons par boursage ou emmêlement.",
+          "langue": "fr"
+        },
+        {
+          "terme": "trémails et filets maillants combinés",
+          "definition": "Les trémails et filets maillants combinés sont des filets de fond comprenant un filet maillant ordinaire dans leur partie supérieure pour capturer les poissons semi-démersaux ou pélagiques, et un trémail dans leur partie inférieure pour attraper les espèces situées à proximité du fond.",
+          "langue": "fr"
+        },
+        {
+          "terme": "verveux",
+          "definition": "Un verveux est un filet rectangulaire, cylindrique ou semi-cylindrique monté sur des anneaux ou des cercles, généralement complété par des ailes et/ou un guideau, et fixé sur le fond par des ancres, des lests ou des piquets.",
+          "langue": "fr"
+        },
+        {
+          "terme": "épervier",
+          "definition": "Un épervier est composé de plusieurs nappes de filet taillées sur mesure et assemblées pour produire un engin de forme conique, dont le périmètre est lesté et muni d'une corde de serrage.",
+          "langue": "fr"
+        },
+        {
+          "terme": "épuisette/salabarde",
+          "definition": "Une épuisette/salabarde est un filet en forme de petit sac utilisé pour capturer des poissons dans l’eau par tamisage.",
+          "source_reference": "10.6",
+          "langue": "fr"
+        }
+      ]
+    },
+    "I002": {
+      "interdiction": "Chasse à la baleine",
+      "domaine": "Mammifères marins",
+      "nb_definitions": 24,
+      "definitions": [
+        {
+          "terme": "baleen whale",
+          "definition": "any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.",
+          "exclusions": "toothed whale",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "beaked whale",
+          "definition": "any whale belonging to the genus Mesoplodon, or any whale known as Cuvier’s beaked whale (Ziphius cavirostris), or Shepherd’s beaked whale (Berardius bairdii).",
+          "nom_scientifique": "Mesoplodon, Ziphius cavirostris, Berardius bairdii",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "blue whale",
+          "definition": "any whale known as blue whale, Greenland right whale, Greenland whale.",
+          "nom_scientifique": "Balaenoptera musculus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "bottlenose whale",
+          "definition": "any whale known as Baird’s beaked whale (Berardius bairdii), Arnoux’s whale (Berardius arnuxii), Sibbald’s rorqual, or sulphur bottom, (Hyperoodon ampullatus).",
+          "nom_scientifique": "Berardius bairdii, Berardius arnuxii, Hyperoodon ampullatus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "Bryde’s whale",
+          "definition": "any whale known as Bryde’s whale (Balaenoptera edeni, B. brydei).",
+          "nom_scientifique": "Balaenoptera edeni, B. brydei",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "fr"
+        },
+        {
+          "terme": "dauhval",
+          "definition": "any unclaimed dead whale found floating.",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "Factory Ship Operations",
+          "definition": "hunting all land stations under its jurisdiction, and including pygmy blue whale.",
+          "source_reference": "II. SEASONS",
+          "langue": "fr"
+        },
+        {
+          "terme": "fin whale",
+          "definition": "any whale known as common finback, common rorqual, fin whale, or true fin whale.",
+          "nom_scientifique": "Balaenoptera physalus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "gray whale",
+          "definition": "any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+          "nom_scientifique": "Eschrichtius robustus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "humpback whale",
+          "definition": "any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+          "nom_scientifique": "Megaptera novaeangliae",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "killer whale",
+          "definition": "any whale known as killer whale or orca.",
+          "nom_scientifique": "Orcinus orca",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "lactating whale",
+          "definition": "(a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary gland the maximum thickness (depth) of which is 10cm or more. This measurement shall be at the mid ventral point of the mammary gland perpendicular to the body axis, and shall be logged to the nearest centimetre; that is to say, any gland between 9.5cm and 10.5cm shall be logged as 10cm. The measurement of any gland which falls on an exact 0.5 centimetre, e.g. 10.5cm shall be logged as 11.0cm.",
+          "exclusions": "whale",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "land",
+          "definition": "to retrieve to a factory ship, land station, or any place where a whale can be treated.",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "Land Station Operations",
+          "definition": "the appropriate land station for the purpose of killing or attempting to kill baleen and sperm whales except as permitted by the Contracting Government in accordance with sub-paragraphs (b), (c) and (d) of this paragraph.",
+          "source_reference": "II. SEASONS",
+          "langue": "fr"
+        },
+        {
+          "terme": "lose",
+          "definition": "to either strike or take but not to land.",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "pilot whale",
+          "definition": "any whale known as long-finned pilot whale (Globicephala melaena) or short-finned pilot whale (Globicephala macrorhynchus).",
+          "nom_scientifique": "Globicephala melaena, Globicephala macrorhynchus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "pygmy right whale",
+          "definition": "any whale known as southern pygmy right whale or pygmy right whale.",
+          "nom_scientifique": "Caperea marginata",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "right whale",
+          "definition": "any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, Pacific right whale, or southern right whale.",
+          "nom_scientifique": "Eubalaena glacialis, E. australis",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "sei whale",
+          "definition": "any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+          "nom_scientifique": "Balaenoptera borealis",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "small-type whaling",
+          "definition": "catching operations using powered vessels with mounted harpoon guns exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+          "source_reference": "II. SEASONS",
+          "langue": "en"
+        },
+        {
+          "terme": "sperm whale",
+          "definition": "any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+          "nom_scientifique": "Physeter macrocephalus",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        },
+        {
+          "terme": "strike",
+          "definition": "to penetrate with a weapon used for whaling.",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "take",
+          "definition": "to flag, buoy or make fast to a whale.",
+          "source_reference": "I. INTERPRETATION C.",
+          "langue": "en"
+        },
+        {
+          "terme": "toothed whale",
+          "definition": "any whale which has teeth in the jaws.",
+          "source_reference": "I. INTERPRETATION B.",
+          "langue": "en"
+        }
+      ]
+    },
+    "I003": {
+      "interdiction": "Extraction de sable",
+      "domaine": "Ressources marines",
+      "nb_definitions": 17,
+      "definitions": [
+        {
+          "terme": "Biotechnologie",
+          "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à usage spécifique.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Conditions in situ",
+          "definition": "conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Conservation ex situ",
+          "definition": "la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Conservation in situ",
+          "definition": "la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Diversité biologique",
+          "definition": "Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques dont ils font partie; cela comprend la diversité au sein des espèces et entre espèces ainsi que celle des écosystèmes.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ecosystème",
+          "definition": "le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui, par leur interaction, forment une unité fonctionnelle.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Espèce domestiquée ou cultivée",
+          "definition": "toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à ses besoins.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Habitat",
+          "definition": "le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Matériel génétique",
+          "definition": "le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Organisation régionale d'intégration économique",
+          "definition": "toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui concerne les questions régies par la présente Convention et qui a été dûment mandatée, conformément à ses procédures internes, pour signer, ratifier, accepter, approuver ladite Convention ou y adhérer.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pays d'origine des ressources génétiques",
+          "definition": "pays qui possède ces ressources génétiques dans des conditions in situ.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pays fournisseur de ressources génétiques",
+          "definition": "tout pays qui fournit des ressources génétiques récoltées auprès de sources in situ, y compris les populations d'espèces sauvages ou domestiquées, ou prélevées auprès de sources ex situ, qu'elles soient ou non originaires de ce pays.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ressources biologiques",
+          "definition": "les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystèmes ayant une utilisation ou une valeur effective ou potentielle pour l'humanité.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Ressources génétiques",
+          "definition": "le matériel génétique ayant une valeur effective ou potentielle.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Technologie",
+          "definition": "toute technologie y compris la biotechnologie.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Utilisation durable",
+          "definition": "l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi leur potentiel pour satisfaire les besoins et les aspirations des générations présentes et futures.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Zone protégée",
+          "definition": "toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+          "source_reference": "Article 2",
+          "langue": "fr"
+        }
+      ]
+    },
+    "I004": {
+      "interdiction": "Protection des oiseaux marins",
+      "domaine": "Espèces migratrices",
+      "nb_definitions": 11,
+      "definitions": [
+        {
+          "terme": "ACCORD",
+          "definition": "signifie un accord international portant sur la conservation d'une ou de plusieurs espèces migratrices au sens des Articles IV et V de la présente Convention",
+          "source_reference": "j)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Aire de répartition",
+          "definition": "signifie l'ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment des limites de leur juridiction nationale ou qui franchissent ces limites le long de son itinéraire habituel de migration",
+          "source_reference": "f)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Effectuer un prélèvement",
+          "definition": "signifie prélever, chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque des actions précitées",
+          "source_reference": "i)",
+          "langue": "fr"
+        },
+        {
+          "terme": "En danger",
+          "definition": "signifie, pour une espèce migratrice donnée, que celle-ci est en danger d'extinction sur l'ensemble ou sur une partie importante de son aire de répartition; ou dont les migrations se déroulent à l'extérieur de ces limites",
+          "source_reference": "e)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Espèce migratrice",
+          "definition": "signifie l'ensemble de la population ou toute partie séparée géographiquement de la population de toute espèce ou de tout taxon inférieur d'animaux sauvages, et ayant une fraction importante qui franchit cycliquement et façon prévisible une ou plusieurs des limites de juridiction nationale ou internationale",
+          "source_reference": "a)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Etat de conservation d'une espèce migratrice",
+          "definition": "signifie l'ensemble des influences qui, agissant sur cette espèce migratrice, peuvent affecter à long terme sa répartition et l'importance de sa population",
+          "source_reference": "b)",
+          "langue": "fr"
+        },
+        {
+          "terme": "favorable",
+          "definition": "lorsque: 1) les données relatives à la dynamique des populations de l'espèce migratrice en question indiquent que cette espèce continue et continuera à long terme à constituer un élément viable des écosystèmes auxquels elle appartient; et 2) l'étendue de l'aire de répartition de cette espèce migratrice dans le décompte des suffrages exprimés par les Parties présentes et votantes ne diminue ni ne risque de diminuer à long terme;",
+          "source_reference": "c)",
+          "langue": "fr"
+        },
+        {
+          "terme": "Habitat",
+          "definition": "signifie toute zone à l'intérieur de l'aire de répartition d'une espèce migratrice qui offre les conditions de vie nécessaires à l'espèce en question",
+          "source_reference": "g)",
+          "langue": "fr"
+        },
+        {
+          "terme": "L'état de conservation",
+          "definition": "sera considéré comme «défavorable» lorsqu'une quelconque des conditions scientifiques, esthétique, récréatif, culturel, éducatif, social et économique n'est pas remplie",
+          "source_reference": "d)",
+          "langue": "fr"
+        },
+        {
+          "terme": "économique",
+          "definition": "lorsque: 1) le prélèvement est effectué afin de satisfaire aux besoins de ceux qui utilisent ladite espèce dans le cadre d'une économie traditionnelle de subsistance; ou 2) des circonstances exceptionnelles les rendent indispensables",
+          "source_reference": "d)",
+          "langue": "fr"
+        },
+        {
+          "terme": "État de l'aire de répartition",
+          "definition": "signifie, pour une espèce migratrice donnée, tout Etat (et, le cas échéant, toute autre Partie visée au sous-paragraphe k) qui exerce sa juridiction sur une partie quelconque de l'aire de répartition de cette espèce migratrice, ou encore, un Etat dont les navires battant son pavillon procèdent à des prélèvements sur cette espèce en dehors des limites de juridiction nationale",
+          "source_reference": "h)",
+          "langue": "fr"
+        }
+      ]
+    },
+    "I005": {
+      "interdiction": "Construction littorale",
+      "domaine": "Droit du littoral",
+      "nb_definitions": 12,
+      "definitions": [
+        {
+          "terme": "autorisation d'exploitation de cultures maritimes sur le domaine public maritime ou fluvial géré par l'Etat",
+          "definition": "L'autorisation d'exploitation de cultures maritimes délivrée en application des lois et règlements en vigueur en matière de pêches maritimes et de cultures marines vaut autorisation d'occupation domaniale.",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "bassins et plans d'eau destinés à l'accueil des navires de plaisance",
+          "definition": "Ce sont des bassins ou plans d'eau intégrés au domaine public, comprenant une bande bord à quai reliée à la voirie publique, d'une largeur suffisante pour la circulation et l'exploitation des installations, et pouvant être mis en communication avec la mer ou des bassins portuaires existants.",
+          "source_reference": "Domaines portuaires et balnéaires",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "communes auxquelles s'applique la présente loi",
+          "definition": "Les communes auxquelles s'applique la présente loi sont définies à l'article L. 321-2 du code de l'environnement.",
+          "source_reference": "Champ d'application",
+          "langue": "fr"
+        },
+        {
+          "terme": "concession de plage",
+          "definition": "Une concession de plage est une autorisation accordée ou renouvelée après enquête publique, qui doit préserver la libre circulation sur la plage et le libre usage par le public d'un espace d'une largeur significative tout le long de la mer. Tout contrat de concession doit déterminer la largeur de cet espace en tenant compte des caractéristiques des lieux. Les concessions de plage et les sous-traités d'exploitation sont portés à la connaissance du public par le concessionnaire.",
+          "source_reference": "Chapitre II : Des plages",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "Conseil national de la mer et des littoraux",
+          "definition": "Le Conseil national de la mer et des littoraux est un organisme créé pour l'aménagement, la protection, la mise en valeur des littoraux et de la mer ainsi que pour la gestion intégrée des zones côtières. Il est présidé par le Premier ministre ou, en son absence, par le ministre chargé de la mer. Sa composition et son fonctionnement sont précisés par décret, en tenant compte de l'importance des espaces maritimes d’outre-mer. Il comprend à parité des membres du Parlement, des représentants du Parlement européen, des collectivités territoriales des façades maritimes, des établissements publics intéressés, des milieux socio-professionnels et de la société civile représentative des activités et usages du littoral. Il est consulté lors de la rédaction des décrets relatifs à la gestion du domaine public maritime, a un rôle de proposition auprès du Gouvernement et contribue à la coordination des actions publiques dans les territoires littoraux. Il définit les objectifs et précise les actions jugées nécessaires pour l’aménagement, la protection et la mise en valeur de la mer et des littoraux dans une perspective de gestion intégrée. Il assure aussi le suivi de la stratégie nationale de la mer et des littoraux.",
+          "source_reference": "Titre IV : Dispositions diverses",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "destination fondamentale des plages",
+          "definition": "La destination fondamentale des plages est l'usage libre et gratuit par le public, au même titre que leur affectation aux activités de pêche et de cultures marines.",
+          "source_reference": "Chapitre II : Des plages",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "ensemble touristique",
+          "definition": "Un ensemble touristique ayant pour effet d'accroître de façon significative l'accueil des populations saisonnières ou d'entraîner une modification substantielle de l'usage balnéaire ou nautique du littoral est un aménagement ou un ensemble d'aménagements qui induisent ces effets sur le littoral.",
+          "source_reference": "Gestion et exploitation touristique du littoral",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "espaces naturels littoraux",
+          "definition": "Les espaces naturels littoraux comprennent les plages, dunes littorales, falaises, marais, vasières, zones d'herbiers, frayères, gisements naturels de coquillages vivants et exploitations de cultures marines.",
+          "source_reference": "Protection du littoral — espaces naturels",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "limites du rivage",
+          "definition": "Les limites du rivage sont constatées par l'Etat en fonction des observations opérées sur les lieux à délimiter ou des informations fournies par des procédés scientifiques.",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "littoral",
+          "definition": "Le littoral est une entité géographique qui appelle une politique spécifique d'aménagement, de protection et de mise en valeur.",
+          "source_reference": "Principes généraux",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "organismes de secours et de sauvetage en mer",
+          "definition": "Les organismes de secours et de sauvetage en mer sont agréés par l'Etat et leurs modalités d'organisation et d'exercice sont déterminées par décret en Conseil d'Etat.",
+          "source_reference": "Chapitre II : Des plages",
+          "langue": "fr",
+          "statut": "abrogé"
+        },
+        {
+          "terme": "schéma interrégional de littoral",
+          "definition": "Un schéma interrégional de littoral est un document élaboré par les conseils régionaux des régions littorales limitrophes pour coordonner leurs politiques du littoral. Ce schéma veille à la cohérence des projets d'équipement et des actions de l'Etat et des collectivités territoriales ayant une incidence sur l'aménagement ou la protection du littoral. Il respecte les orientations des schémas de services collectifs prévus à l'article 2 de la loi n° 95-115 du 4 février 1995 et celles des schémas régionaux d'aménagement et de développement du territoire établis par les régions concernées et prévus à l'article 34 de la loi n° 83-8 du 7 janvier 1983.",
+          "source_reference": "Titre IV : Dispositions diverses",
+          "langue": "fr"
+        }
+      ]
+    },
+    "I006": {
+      "interdiction": "Rejet d'hydrocarbures",
+      "domaine": "Pollution maritime",
+      "nb_definitions": 47,
+      "definitions": [
+        {
+          "terme": "Capacité en combustible",
+          "definition": "le volume d'une soute, en m³, à un taux de remplissage de 98 %.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "CDB(i)",
+          "definition": "CDB(i) = 0,6 pour les soutes à combustible délimitées au-dessous par des compartiments autres que des compartiments à hydrocarbures ; CDB(i) = 1 pour les autres soutes.",
+          "source_reference": "paragraphe 11.5.4",
+          "langue": "fr"
+        },
+        {
+          "terme": "Combustible liquide",
+          "definition": "désigne tout hydrocarbure utilisé comme combustible pour l’appareil propulsif et les appareils auxiliaires du navire à bord duquel cet hydrocarbure est transporté.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Combustible liquide",
+          "definition": "les hydrocarbures chargés à bord d'un navire qui servent de combustible pour l'appareil propulsif et les appareils auxiliaires du navire.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "creux (DS)",
+          "definition": "le creux sur quille, en mètres, mesuré à mi-longueur jusqu'au livet du pont supérieur. Aux fins de l'application de la présente règle, « pont supérieur » désigne le pont le plus élevé jusqu'auquel s'étendent les cloisons transversales étanches à l'eau, à l'exception des cloisons du coqueron arrière.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "densité nominale du combustible ($\\rho_n$)",
+          "definition": "doit généralement être considérée comme égale à $1,000\\text{ kg/m}^3$. Si la densité du combustible est expressément limitée à une valeur moindre, cette valeur inférieure peut être appliquée.",
+          "source_reference": "paragraphe 5",
+          "langue": "fr"
+        },
+        {
+          "terme": "Détecteur d’interface hydrocarbures/eau",
+          "definition": "les pétroliers d’une jauge brute égale ou supérieure à 150 doivent être équipés de détecteurs d’interface hydrocarbures/eau efficaces approuvés par l’Autorité qui permettent de déterminer rapidement et avec précision l’emplacement de l’interface hydrocarbures/eau dans les citernes de décantation et qui soient utilisables dans les autres citernes où s’effectue la séparation des hydrocarbures et de l’eau et d’où l’effluent doit être rejeté directement à la mer.",
+          "source_reference": "Règle 32",
+          "langue": "fr"
+        },
+        {
+          "terme": "flottaison (dB)",
+          "definition": "la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant à 30 % du creux DS.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "flottaison (dB)",
+          "definition": "est la distance verticale, en m, entre le tracé de la quille hors membres, à la mi-longueur du navire, et la flottaison correspondant à 30 % du creux DS.",
+          "source_reference": "Règle 23, paragraphe 2.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Fuel-oil",
+          "definition": "les distillats lourds ou les résidus de pétrole brut ou mélanges de ces produits destinés à être utilisés comme combustible pour la production de chaleur ou d’énergie, d’une qualité équivalente à la spécification jugée acceptable par l’Organisation (2).",
+          "source_reference": "Règle 20, paragraphe 2.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Huile diesel lourde",
+          "definition": "l’huile diesel autre que les distillats dont plus de 50 % en volume se distillent à une température ne dépassant pas 340°C au cours d’essais effectués selon une méthode jugée acceptable par l’Organisation (1);",
+          "source_reference": "Règle 20, paragraphe 2.1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Hydrocarbures",
+          "definition": "désigne le pétrole sous toutes ses formes, à savoir notamment le pétrole brut, le fuel-oil, les boues, les résidus d’hydrocarbures et les produits raffinés (autres que les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention) et comprend, sans que cela porte atteinte au caractère général de ce qui précède, les substances énumérées à l’appendice I de la présente Annexe.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Mélange d’hydrocarbures",
+          "definition": "désigne tout mélange contenant des hydrocarbures.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "perméabilité de chaque soute à combustible",
+          "definition": "doit être considérée comme égale à 0,99, sauf preuve du contraire.",
+          "langue": "fr"
+        },
+        {
+          "terme": "petite soute à combustible",
+          "definition": "une soute dont la capacité en combustible maximale ne dépasse pas 30 m³.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pétrole brut",
+          "definition": "désigne tout mélange liquide d’hydrocarbures se trouvant à l’état naturel dans la terre, qu’il soit ou non traité en vue de son transport, et comprend : .1 le pétrole brut dont certaines fractions distillées ont pu être extraites; et .2 le pétrole brut auquel certaines fractions distillées ont pu être ajoutées.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pétrolier",
+          "definition": "désigne un navire construit ou adapté principalement en vue de transporter des hydrocarbures en vrac dans ses espaces à cargaison et comprend les transporteurs mixtes, tout \"navire-citerne NLS\" tel que défini à l’Annexe II de la présente Convention et tout transporteur de gaz tel que défini à la règle 3.20 du chapitre II-1 de la Convention SOLAS de 1994 (telle que modifiée) lorsqu’ils transportent une cargaison complète ou partielle d’hydrocarbures en vrac.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pétrolier de la catégorie 1",
+          "definition": "un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui ne satisfait pas aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe;",
+          "source_reference": "Règle 20, paragraphe 3.1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pétrolier de la catégorie 2",
+          "definition": "un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui satisfait aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe;",
+          "source_reference": "Règle 20, paragraphe 3.2",
+          "langue": "fr"
+        },
+        {
+          "terme": "Pétrolier de la catégorie 3",
+          "definition": "un pétrolier d’un port en lourd égal ou supérieur à 5 000 tonnes mais inférieur aux ports en lourd spécifiés aux alinéas 1 et 2 du présent paragraphe.",
+          "source_reference": "Règle 20, paragraphe 3.3",
+          "langue": "fr"
+        },
+        {
+          "terme": "soute à combustible",
+          "definition": "une soute dans laquelle est transporté le combustible mais exclut les citernes qui ne contiennent pas de combustible au cours de l'exploitation normale, comme les citernes de trop-plein.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "tirant d'eau partiel à la ligne de charge (dP)",
+          "definition": "le tirant d'eau à l'état lège plus 60 % de la différence entre le tirant d'eau du navire à l'état lège et le tirant d'eau à la ligne de charge dS. Le tirant d'eau partiel à la ligne de charge (dP) est mesuré en mètres.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+        {
+          "terme": "tirant d'eau à l'état lège",
+          "definition": "le tirant d'eau sur quille au milieu du navire correspondant au déplacement lège.",
+          "source_reference": "Règle 12A",
+          "langue": "fr"
+        },
+      
+        {
+          "terme": "Transformation importante",
+          "definition": ".1 désigne une transformation d’un navire : * .1 qui modifie considérablement les dimensions ou la capacité de transport du navire; ou * .2 qui change le type du navire; ou * .3 qui vise, de l’avis de l’Autorité, à en prolonger considérablement la vie; ou * .4 qui entraîne par ailleurs des modifications telles que le navire, s’il était un navire neuf, serait soumis aux dispositions pertinentes de la présente Convention qui ne lui sont pas applicables en tant que navire existant. .2 Nonobstant les dispositions de la présente définition : * .1 la transformation d’un pétrolier d’un port en lourd égal ou supérieur à 20 000 t livré le 1er juin 1982 ou avant cette date, tel que défini à la règle 1.28.3, pour satisfaire aux prescriptions de la règle 18 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe; et * .2 la transformation d’un pétrolier livré avant le 6 juillet 1996, tel que défini à la règle 1.28.5, pour satisfaire aux prescriptions des règles 19 ou 20 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Transporteur de produits",
+          "definition": "désigne un pétrolier affecté au transport d’hydrocarbures autres que du pétrole brut.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Transporteur de pétrole brut",
+          "definition": "désigne un pétrolier affecté au transport de pétrole brut.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Transporteur mixte",
+          "definition": "désigne un navire conçu pour transporter soit des hydrocarbures, soit des cargaisons solides en vrac.",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        },
+        {
+          "terme": "Zone spéciale",
+          "definition": "désigne une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu’au caractère particulier de son trafic, appelle l’adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les hydrocarbures. Aux fins de la présente Annexe, les zones spéciales sont définies comme suit : * .1 par zone de la mer Méditerranée, on entend la mer Méditerranée proprement dite, avec les golfes et les mers qu’elle comprend, limitée du côté de la mer Noire par le parallèle 41°N, et limitée à l’ouest, dans le détroit de Gibraltar, par le méridien 005°36’W; * .2 par zone de la mer Baltique, on entend la mer Baltique proprement dite ainsi que le golfe de Botnie, le golfe de Finlande et l’accès à la mer Baltique délimité par le parallèle de Skagen, dans le Skagerrak (57°44,8’N); * .3 par zone de la mer Noire, on entend la mer Noire proprement dite ainsi que la mer d’Azov, limitée du côté de la Méditerranée par le parallèle 41°N; * .4 par zone de la mer Rouge, on entend la mer Rouge proprement dite ainsi que les golfes de Suez et d’Akaba, limitée au sud par la loxodromie reliant Ras Siyan (12°28,5’N, 043°19,6’E) et Husn Murad (12°40,4’N, 043°30,2’E); * .5 par zone des Golfes, on entend la zone maritime située au nord-ouest de la loxodromie reliant Ras el Had (22°30’N, 059°48’E) et Ras al Fasteh (25o04’N, 061o25’E); * .6 par zone du golfe d’Aden, on entend la partie du golfe d’Aden située entre la mer Rouge et la mer d’Oman, limitée à l’ouest par la loxodromie reliant Ras Siyan (12°28,5’N, 043°19,6’E) et Husn Murad (12°40,4’N, 043°30,2’E), et à l’est par la loxodromie reliant Ras Asir (11°50’N, 051°16,9’E) et Ras Fartak (15°35’N, 052°3,8’E); * .7 par zone de l’Antarctique, on entend la zone maritime située au sud du parallèle 60°S; et * .8 les eaux de l’Europe du Nord-Ouest comprennent la mer du Nord et ses accès, la mer d’Irlande et ses accès, la mer Celtique, la Manche et ses accès et la partie de l’Atlantique du Nord-Est située immédiatement à l’ouest de l’Irlande. Cette zone est délimitée par les lignes reliant les points géographiques suivants : 48º27’N sur la côte française, 48º27’N; 006º25’W, 49º52’N; 007º44’W, 50º30’N; 012ºW, 56º30’N; 012ºW, 62ºN; 003ºW, 62ºN sur la côte norvégienne, 57º44,8’N sur les côtes danoise et suédoise. * .9 La zone d’Oman de la mer d’Arabie désigne la zone maritime délimitée par les coordonnées géographiques suivantes : 22º30,00’N; 059°48,00’E 23°47,27’N; 060°35,73’E 22°40,62’N; 062°25,29’E 21°47,40’N; 063°22,22’E 20°30,37’N; 062°52,41’E 19°45,90’N; 062°25,97’E 18°49,92’N; 062°02,94’E 17°44,36’N; 061°05,53’E 16°43,71’N; 060°25,62’E 16°03,90’N; 059°32,24’E 15°15,20’N; 058°58,52’E 14°36,93’N; 058°10,23’E 14°18,93’N; 057°27,03’E 14°11,53’N; 056°53,75’E 13°53,80’N; 056°19,24’E 13°45,86’N; 055°54,53’E 14°27,38’N; 054°51,42’E 14°40,10’N; 054°27,35’E 14°46,21’N; 054°08,56’E 15°20,74’N; 053°38,33’E 15°48,69’N; 053°32,07’E 16°23,02’N; 053°14,82’E 16°39,06’N; 053°06,52’E",
+          "source_reference": "Règle 1",
+          "langue": "fr"
+        }
+      ]
+    }
+  }
+}

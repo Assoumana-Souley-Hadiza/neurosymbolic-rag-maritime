@@ -1,0 +1,149 @@
+[
+  {
+    "terme": "baleen whale",
+    "definition": "any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.",
+    "exclusions": "toothed whale",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "beaked whale",
+    "definition": "any whale belonging to the genus Mesoplodon, or any whale known as Cuvier’s beaked whale (Ziphius cavirostris), or Shepherd’s beaked whale (Berardius bairdii).",
+    "scientific_name": "Mesoplodon, Ziphius cavirostris, Berardius bairdii",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "blue whale",
+    "definition": "any whale known as blue whale, Greenland right whale, Greenland whale.",
+    "scientific_name": "Balaenoptera musculus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "bottlenose whale",
+    "definition": "any whale known as Baird’s beaked whale (Berardius bairdii), Arnoux’s whale (Berardius arnuxii), Sibbald’s rorqual, or sulphur bottom, (Hyperoodon ampullatus).",
+    "scientific_name": "Berardius bairdii, Berardius arnuxii, Hyperoodon ampullatus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "Bryde’s whale",
+    "definition": "any whale known as Bryde’s whale (Balaenoptera edeni, B. brydei).",
+    "scientific_name": "Balaenoptera edeni, B. brydei",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "fr"
+  },
+  {
+    "terme": "dauhval",
+    "definition": "any unclaimed dead whale found floating.",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "fin whale",
+    "definition": "any whale known as common finback, common rorqual, fin whale, or true fin whale.",
+    "scientific_name": "Balaenoptera physalus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "gray whale",
+    "definition": "any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+    "scientific_name": "Eschrichtius robustus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "humpback whale",
+    "definition": "any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+    "scientific_name": "Megaptera novaeangliae",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "killer whale",
+    "definition": "any whale known as killer whale or orca.",
+    "scientific_name": "Orcinus orca",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "lactating whale",
+    "definition": "(a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary gland the maximum thickness (depth) of which is 10cm or more. This measurement shall be at the mid ventral point of the mammary gland perpendicular to the body axis, and shall be logged to the nearest centimetre; that is to say, any gland between 9.5cm and 10.5cm shall be logged as 10cm. The measurement of any gland which falls on an exact 0.5 centimetre, e.g. 10.5cm shall be logged as 11.0cm.",
+    "exclusions": "whale",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "land",
+    "definition": "to retrieve to a factory ship, land station, or any place where a whale can be treated.",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "lose",
+    "definition": "to either strike or take but not to land.",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "pilot whale",
+    "definition": "any whale known as long-finned pilot whale (Globicephala melaena) or short-finned pilot whale (Globicephala macrorhynchus).",
+    "scientific_name": "Globicephala melaena, Globicephala macrorhynchus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "pygmy right whale",
+    "definition": "any whale known as southern pygmy right whale or pygmy right whale.",
+    "scientific_name": "Caperea marginata",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "right whale",
+    "definition": "any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, Pacific right whale, or southern right whale.",
+    "scientific_name": "Eubalaena glacialis, E. australis",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "sei whale",
+    "definition": "any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+    "scientific_name": "Balaenoptera borealis",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "small-type whaling",
+    "definition": "catching operations using powered vessels with mounted harpoon guns exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+    "article_reference": "II. SEASONS",
+    "language": "en"
+  },
+  {
+    "terme": "sperm whale",
+    "definition": "any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+    "scientific_name": "Physeter macrocephalus",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  },
+  {
+    "terme": "strike",
+    "definition": "to penetrate with a weapon used for whaling.",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "take",
+    "definition": "to flag, buoy or make fast to a whale.",
+    "article_reference": "I. INTERPRETATION C.",
+    "language": "en"
+  },
+  {
+    "terme": "toothed whale",
+    "definition": "any whale which has teeth in the jaws.",
+    "article_reference": "I. INTERPRETATION B.",
+    "language": "en"
+  }
+]

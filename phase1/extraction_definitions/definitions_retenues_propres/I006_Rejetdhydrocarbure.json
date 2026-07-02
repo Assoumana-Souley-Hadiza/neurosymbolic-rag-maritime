@@ -1,0 +1,181 @@
+{
+  "data": {
+    "glossary_entries": [
+      {
+        "term": "Capacité en combustible",
+        "definition": "le volume d'une soute, en m³, à un taux de remplissage de 98 %.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "Combustible liquide",
+        "definition": "désigne tout hydrocarbure utilisé comme combustible pour l’appareil propulsif et les appareils auxiliaires du navire à bord duquel cet hydrocarbure est transporté.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "creux (DS)",
+        "definition": "le creux sur quille, en mètres, mesuré à mi-longueur jusqu'au livet du pont supérieur. Aux fins de l'application de la présente règle, « pont supérieur » désigne le pont le plus élevé jusqu'auquel s'étendent les cloisons transversales étanches à l'eau, à l'exception des cloisons du coqueron arrière.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "Détecteur d’interface hydrocarbures/eau",
+        "definition": "les pétroliers d’une jauge brute égale ou supérieure à 150 doivent être équipés de détecteurs d’interface hydrocarbures/eau efficaces approuvés par l’Autorité qui permettent de déterminer rapidement et avec précision l’emplacement de l’interface hydrocarbures/eau dans les citernes de décantation et qui soient utilisables dans les autres citernes où s’effectue la séparation des hydrocarbures et de l’eau et d’où l’effluent doit être rejeté directement à la mer.",
+        "article_reference": "Règle 32",
+        "language": "fr"
+      },
+      {
+        "term": "flottaison (dB)",
+        "definition": "la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant à 30 % du creux DS.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "Fuel-oil",
+        "definition": "les distillats lourds ou les résidus de pétrole brut ou mélanges de ces produits destinés à être utilisés comme combustible pour la production de chaleur ou d’énergie, d’une qualité équivalente à la spécification jugée acceptable par l’Organisation (2).",
+        "article_reference": "Règle 20, paragraphe 2.2",
+        "language": "fr"
+      },
+      {
+        "term": "Huile diesel lourde",
+        "definition": "l’huile diesel autre que les distillats dont plus de 50 % en volume se distillent à une température ne dépassant pas 340°C au cours d’essais effectués selon une méthode jugée acceptable par l’Organisation (1);",
+        "article_reference": "Règle 20, paragraphe 2.1",
+        "language": "fr"
+      },
+      {
+        "term": "Hydrocarbures",
+        "definition": "désigne le pétrole sous toutes ses formes, à savoir notamment le pétrole brut, le fuel-oil, les boues, les résidus d’hydrocarbures et les produits raffinés (autres que les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention) et comprend, sans que cela porte atteinte au caractère général de ce qui précède, les substances énumérées à l’appendice I de la présente Annexe.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "largeur (B)",
+        "definition": "la largeur maximale au milieu du navire, en mètres, mesurée hors membres pour les navires à coque métallique et mesurée hors bordé pour les navires à coque non métallique.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "largeur (Bb)",
+        "definition": "la largeur extrême hors membres du navire, en mètres, au niveau ou au-dessous de la flottaison (dB).",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "longueur (L)",
+        "definition": "égale à 96 % de la longueur totale à la flottaison située à une distance du dessus de quille égale à 85 % du creux minimum sur quille ou à la distance entre la face avant de l'étrave et l'axe de la mèche du gouvernail à cette flottaison, si cette valeur est supérieure. Dans le cas des navires conçus pour naviguer avec une quille inclinée, la flottaison à laquelle la longueur est mesurée doit être parallèle à la flottaison prévue. La longueur (L) est mesurée en mètres.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "Mélange d’hydrocarbures",
+        "definition": "désigne tout mélange contenant des hydrocarbures.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "petite soute à combustible",
+        "definition": "une soute dont la capacité en combustible maximale ne dépasse pas 30 m³.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "Pétrole brut",
+        "definition": "désigne tout mélange liquide d’hydrocarbures se trouvant à l’état naturel dans la terre, qu’il soit ou non traité en vue de son transport, et comprend : .1 le pétrole brut dont certaines fractions distillées ont pu être extraites; et .2 le pétrole brut auquel certaines fractions distillées ont pu être ajoutées.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Pétrolier",
+        "definition": "désigne un navire construit ou adapté principalement en vue de transporter des hydrocarbures en vrac dans ses espaces à cargaison et comprend les transporteurs mixtes, tout \"navire-citerne NLS\" tel que défini à l’Annexe II de la présente Convention et tout transporteur de gaz tel que défini à la règle 3.20 du chapitre II-1 de la Convention SOLAS de 1994 (telle que modifiée) lorsqu’ils transportent une cargaison complète ou partielle d’hydrocarbures en vrac.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Pétrolier de la catégorie 1",
+        "definition": "un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui ne satisfait pas aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe;",
+        "article_reference": "Règle 20, paragraphe 3.1",
+        "language": "fr"
+      },
+      {
+        "term": "Pétrolier de la catégorie 2",
+        "definition": "un pétrolier d’un port en lourd égal ou supérieur à 20 000 tonnes transportant du pétrole brut, du fuel-oil, de l’huile diesel lourde ou de l’huile de graissage en tant que cargaison ou un pétrolier d’un port en lourd égal ou supérieur à 30 000 tonnes transportant des hydrocarbures autres que ceux qui sont mentionnés ci-dessus, qui satisfait aux prescriptions applicables aux pétroliers livrés après le 1er juin 1982, tels que définis à la règle 1.28.4 de la présente Annexe;",
+        "article_reference": "Règle 20, paragraphe 3.2",
+        "language": "fr"
+      },
+      {
+        "term": "Pétrolier de la catégorie 3",
+        "definition": "un pétrolier d’un port en lourd égal ou supérieur à 5 000 tonnes mais inférieur aux ports en lourd spécifiés aux alinéas 1 et 2 du présent paragraphe.",
+        "article_reference": "Règle 20, paragraphe 3.3",
+        "language": "fr"
+      },
+      {
+        "term": "soute à combustible",
+        "definition": "une soute dans laquelle est transporté le combustible mais exclut les citernes qui ne contiennent pas de combustible au cours de l'exploitation normale, comme les citernes de trop-plein.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "tirant d'eau partiel à la ligne de charge (dP)",
+        "definition": "le tirant d'eau à l'état lège plus 60 % de la différence entre le tirant d'eau du navire à l'état lège et le tirant d'eau à la ligne de charge dS. Le tirant d'eau partiel à la ligne de charge (dP) est mesuré en mètres.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "tirant d'eau à l'état lège",
+        "definition": "le tirant d'eau sur quille au milieu du navire correspondant au déplacement lège.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "tirant d'eau à la ligne de charge (dp)",
+        "definition": "la distance verticale, en mètres, entre le tracé de la quille hors membres, à mi-longueur, et la flottaison correspondant au tirant d'eau d'été devant être assigné au navire.",
+        "article_reference": "Règle 12A",
+        "language": "fr"
+      },
+      {
+        "term": "tirant d’eau à la ligne de charge (dS)",
+        "definition": "est la distance verticale, en m, entre le tracé de la quille hors membres, à la mi-longueur du navire, et la flottaison correspondant au tirant d’eau d’été devant être assigné au navire. Les calculs relatifs à la présente règle devraient être basés sur le tirant d’eau ds, sans tenir compte des tirants d’eau assignés qui peuvent être supérieurs à ds, tel que le tirant d’eau à la ligne de charge tropicale.",
+        "article_reference": "Règle 23, paragraphe 2.1",
+        "language": "fr"
+      },
+      {
+        "term": "Transformation importante",
+        "definition": ".1 désigne une transformation d’un navire : * .1 qui modifie considérablement les dimensions ou la capacité de transport du navire; ou * .2 qui change le type du navire; ou * .3 qui vise, de l’avis de l’Autorité, à en prolonger considérablement la vie; ou * .4 qui entraîne par ailleurs des modifications telles que le navire, s’il était un navire neuf, serait soumis aux dispositions pertinentes de la présente Convention qui ne lui sont pas applicables en tant que navire existant. .2 Nonobstant les dispositions de la présente définition : * .1 la transformation d’un pétrolier d’un port en lourd égal ou supérieur à 20 000 t livré le 1er juin 1982 ou avant cette date, tel que défini à la règle 1.28.3, pour satisfaire aux prescriptions de la règle 18 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe; et * .2 la transformation d’un pétrolier livré avant le 6 juillet 1996, tel que défini à la règle 1.28.5, pour satisfaire aux prescriptions des règles 19 ou 20 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Transporteur de produits",
+        "definition": "désigne un pétrolier affecté au transport d’hydrocarbures autres que du pétrole brut.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Transporteur de pétrole brut",
+        "definition": "désigne un pétrolier affecté au transport de pétrole brut.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Transporteur mixte",
+        "definition": "désigne un navire conçu pour transporter soit des hydrocarbures, soit des cargaisons solides en vrac.",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      },
+      {
+        "term": "Zone spéciale",
+        "definition": "désigne une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu’au caractère particulier de son trafic, appelle l’adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les hydrocarbures. Aux fins de la présente Annexe, les zones spéciales sont définies comme suit : * .1 par zone de la mer Méditerranée, on entend la mer Méditerranée proprement dite, avec les golfes et les mers qu’elle comprend, limitée du côté de la mer Noire par le parallèle 41°N, et limitée à l’ouest, dans le détroit de Gibraltar, par le méridien 005°36’W; * .2 par zone de la mer Baltique, on entend la mer Baltique proprement dite ainsi que le golfe de Botnie, le golfe de Finlande et l’accès à la mer Baltique délimité par le parallèle de Skagen, dans le Skagerrak (57°44,8’N); * .3 par zone de la mer Noire, on entend la mer Noire proprement dite ainsi que la mer d’Azov, limitée du côté de la Méditerranée par le parallèle 41°N; * .4 par zone de la mer Rouge, on entend la mer Rouge proprement dite ainsi que les golfes de Suez et d’Akaba, limitée au sud par la loxodromie reliant Ras Siyan (12°28,5’N, 043°19,6’E) et Husn Murad (12°40,4’N, 043°30,2’E); * .5 par zone des Golfes, on entend la zone maritime située au nord-ouest de la loxodromie reliant Ras el Had (22°30’N, 059°48’E) et Ras al Fasteh (25o04’N, 061o25’E); * .6 par zone du golfe d’Aden, on entend la partie du golfe d’Aden située entre la mer Rouge et la mer d’Oman, limitée à l’ouest par la loxodromie reliant Ras Siyan (12°28,5’N, 043°19,6’E) et Husn Murad (12°40,4’N, 043°30,2’E), et à l’est par la loxodromie reliant Ras Asir (11°50’N, 051°16,9’E) et Ras Fartak (15°35’N, 052°3,8’E); * .7 par zone de l’Antarctique, on entend la zone maritime située au sud du parallèle 60°S; et * .8 les eaux de l’Europe du Nord-Ouest comprennent la mer du Nord et ses accès, la mer d’Irlande et ses accès, la mer Celtique, la Manche et ses accès et la partie de l’Atlantique du Nord-Est située immédiatement à l’ouest de l’Irlande. Cette zone est délimitée par les lignes reliant les points géographiques suivants : 48º27’N sur la côte française, 48º27’N; 006º25’W, 49º52’N; 007º44’W, 50º30’N; 012ºW, 56º30’N; 012ºW, 62ºN; 003ºW, 62ºN sur la côte norvégienne, 57º44,8’N sur les côtes danoise et suédoise. * .9 La zone d’Oman de la mer d’Arabie désigne la zone maritime délimitée par les coordonnées géographiques suivantes : 22º30,00’N; 059°48,00’E 23°47,27’N; 060°35,73’E 22°40,62’N; 062°25,29’E 21°47,40’N; 063°22,22’E 20°30,37’N; 062°52,41’E 19°45,90’N; 062°25,97’E 18°49,92’N; 062°02,94’E 17°44,36’N; 061°05,53’E 16°43,71’N; 060°25,62’E 16°03,90’N; 059°32,24’E 15°15,20’N; 058°58,52’E 14°36,93’N; 058°10,23’E 14°18,93’N; 057°27,03’E 14°11,53’N; 056°53,75’E 13°53,80’N; 056°19,24’E 13°45,86’N; 055°54,53’E 14°27,38’N; 054°51,42’E 14°40,10’N; 054°27,35’E 14°46,21’N; 054°08,56’E 15°20,74’N; 053°38,33’E 15°48,69’N; 053°32,07’E 16°23,02’N; 053°14,82’E 16°39,06’N; 053°06,52’E",
+        "article_reference": "Règle 1",
+        "language": "fr"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "interdiction_id": "I006",
+    "interdiction": "Rejet d'hydrocarbures",
+    "domaine": "Pollution maritime",
+    "nb_definitions": 28,
+    "langue_principale": "fr"
+  }
+}

@@ -1,0 +1,2160 @@
+{
+  "data": {
+    "glossary_entries": [
+      {
+        "term": "Biotechnologie",
+        "language": "fr",
+        "definition": "toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à usage spécifique.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Conditions in situ",
+        "language": "fr",
+        "definition": "conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Conservation ex situ",
+        "language": "fr",
+        "definition": "la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Conservation in situ",
+        "language": "fr",
+        "definition": "la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des espèces domestiquées et cultivées, dans le milieu où se sont développés leurs caractères distinctifs.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Diversité biologique",
+        "language": "fr",
+        "definition": "Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques dont ils font partie; cela comprend la diversité au sein des espèces et entre espèces ainsi que celle des écosystèmes.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Ecosystème",
+        "language": "fr",
+        "definition": "le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui, par leur interaction, forment une unité fonctionnelle.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Espèce domestiquée ou cultivée",
+        "language": "fr",
+        "definition": "toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à ses besoins.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Habitat",
+        "language": "fr",
+        "definition": "le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Matériel génétique",
+        "language": "fr",
+        "definition": "le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Organisation régionale d'intégration économique",
+        "language": "fr",
+        "definition": "toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui concerne les questions régies par la présente Convention et qui a été dûment mandatée, conformément à ses procédures internes, pour signer, ratifier, accepter, approuver ladite Convention ou y adhérer.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Pays d'origine des ressources génétiques",
+        "language": "fr",
+        "definition": "pays qui possède ces ressources génétiques dans des conditions in situ.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Pays fournisseur de ressources génétiques",
+        "language": "fr",
+        "definition": "tout pays qui fournit des ressources génétiques récoltées auprès de sources in situ, y compris les populations d'espèces sauvages ou domestiquées, ou prélevées auprès de sources ex situ, qu'elles soient ou non originaires de ce pays.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Ressources biologiques",
+        "language": "fr",
+        "definition": "les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystèmes ayant une utilisation ou une valeur effective ou potentielle pour l'humanité.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Ressources génétiques",
+        "language": "fr",
+        "definition": "le matériel génétique ayant une valeur effective ou potentielle.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Technologie",
+        "language": "fr",
+        "definition": "toute technologie y compris la biotechnologie.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Utilisation durable",
+        "language": "fr",
+        "definition": "l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi leur potentiel pour satisfaire les besoins et les aspirations des générations présentes et futures.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      },
+      {
+        "term": "Zone protégée",
+        "language": "fr",
+        "definition": "toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+        "document_title": "CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+        "scientific_name": null,
+        "article_reference": "Article 2"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "glossary_entries": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Biotechnologie** : toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à u...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.45453684737039,
+                      "w": 412.6705453565644,
+                      "x": 84.11469616401486,
+                      "y": 348.1973162395198
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999989420991356,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999989420991356
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...culière à ceux qui doivent d'urgence faire l'objet de mesures de conservation ainsi qu'à ceux qui offrent le plus de possibilités en matière d'utilisation durable;",
+                  "bounding_boxes": [
+                    {
+                      "h": 229.58,
+                      "w": 414.36,
+                      "x": 118.81,
+                      "y": 95.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Biotechnologie** : toute application technologique qui utilise des systèmes biologiques, des organismes vivants, ou des dérivés de ceux-ci, pour réaliser ou modifier des produits ou des procédés à u...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.45453684737039,
+                      "w": 412.6705453565644,
+                      "x": 84.11469616401486,
+                      "y": 348.1973162395198
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999987632813836,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999987632813836
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9940802069281638,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9940802069281638
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 29,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.847850967035017,
+                      "w": 51.23624026414827,
+                      "x": 251.78299557569548,
+                      "y": 270.9466106135671
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999354624522,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999354624522
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conditions in situ** : conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le m...",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.39567454268289,
+                      "w": 412.34550694907585,
+                      "x": 84.76547920040969,
+                      "y": 392.68919231135675
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999997914558046,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997914558046
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* a) Etablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subs...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conditions in situ** : conditions caractérisées par l'existence de ressources génétiques au sein d'écosystèmes et d'habitats naturels et, dans le cas des espèces domestiquées et cultivées, dans le m...",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.39567454268289,
+                      "w": 412.34550694907585,
+                      "x": 84.76547920040969,
+                      "y": 392.68919231135675
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999985648970354,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999985648970354
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999992860432949,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999992860432949
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...tablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subsidiair...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conservation ex situ** : la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.596305735518268,
+                      "w": 412.67060715093845,
+                      "x": 84.90387211497237,
+                      "y": 447.7946670160061
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...culière à ceux qui doivent d'urgence faire l'objet de mesures de conservation ainsi qu'à ceux qui offrent le plus de possibilités en matière d'utilisation durable;",
+                  "bounding_boxes": [
+                    {
+                      "h": 229.58,
+                      "w": 414.36,
+                      "x": 118.81,
+                      "y": 95.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conservation ex situ** : la conservation d'éléments constitutifs de la diversité biologique en dehors de leur milieu naturel.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.596305735518268,
+                      "w": 412.67060715093845,
+                      "x": 84.90387211497237,
+                      "y": 447.7946670160061
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999627581857,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999627581857
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.99999985226046,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.99999985226046
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conservation in situ** : la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des es...",
+                  "bounding_boxes": [
+                    {
+                      "h": 51.895805544969534,
+                      "w": 412.44939211961696,
+                      "x": 85.46951133169779,
+                      "y": 481.3567847275153
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Conservation in situ** : la conservation des écosystèmes et des habitats naturels et le maintien et la reconstitution de populations viables d'espèces dans leur milieu naturel et, dans le cas des es...",
+                  "bounding_boxes": [
+                    {
+                      "h": 51.895805544969534,
+                      "w": 412.44939211961696,
+                      "x": 85.46951133169779,
+                      "y": 481.3567847275153
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999997727780342,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997727780342
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999997603898659,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997603898659
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Diversité biologique** : Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.81174852324696,
+                      "w": 412.38700628513243,
+                      "x": 85.71226611625856,
+                      "y": 545.9581519150153
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999354624522,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999354624522
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "Par la suite, les réunions ordinaires de la Conférence des Parties auront lieu régulièrement, selon la fréquence déterminée par la Conférence à sa première réunion.",
+                  "bounding_boxes": [
+                    {
+                      "h": 43.624,
+                      "w": 413.32099999999997,
+                      "x": 77.683,
+                      "y": 49.856
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "**Diversité biologique** : Variabilité des organismes vivants de toute origine y compris, entre autres, les écosystèmes terrestres, marins et autres écosystèmes aquatiques et les complexes écologiques...",
+                  "bounding_boxes": [
+                    {
+                      "h": 54.81174852324696,
+                      "w": 412.38700628513243,
+                      "x": 85.71226611625856,
+                      "y": 545.9581519150153
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999987774729179,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999987774729179
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999995915180672,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995915180672
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 29,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.847850967035017,
+                      "w": 51.23624026414827,
+                      "x": 251.78299557569548,
+                      "y": 270.9466106135671
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ecosystème* : le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui, par leur interaction, forment une unité fonctionnelle.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.09017750809832,
+                      "w": 411.8126628894341,
+                      "x": 116.70261257264671,
+                      "y": 45.48231364924734
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9982010527641069,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9982010527641069
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ecosystème* : le complexe dynamique formé de communautés de plantes, d'animaux et de micro-organismes et de leur environnement non vivant qui, par leur interaction, forment une unité fonctionnelle.",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.09017750809832,
+                      "w": 411.8126628894341,
+                      "x": 116.70261257264671,
+                      "y": 45.48231364924734
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999976853415655,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999976853415655
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999994462464527,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999994462464527
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 29,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.847850967035017,
+                      "w": 51.23624026414827,
+                      "x": 251.78299557569548,
+                      "y": 270.9466106135671
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Espèce domestiquée ou cultivée* : toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à ses besoins.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.144441632526682,
+                      "w": 412.9092570235089,
+                      "x": 116.87898254394531,
+                      "y": 89.63582287299924
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999217959235,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999217959235
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* a) Etablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subs...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Espèce domestiquée ou cultivée* : toute espèce dont le processus d'évolution a été influencé par l'homme pour répondre à ses besoins.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.144441632526682,
+                      "w": 412.9092570235089,
+                      "x": 116.87898254394531,
+                      "y": 89.63582287299924
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999336337165,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999336337165
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999997467233377,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997467233377
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* b) Etudie les avis techniques, technologiques et scientifiques sur la diversité biologique fournis conformément à l'article 25;",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Habitat* : le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.225142018387956,
+                      "w": 413.0403405463986,
+                      "x": 117.32583531821645,
+                      "y": 122.65556432212271
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* a) Etablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subs...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Habitat* : le lieu ou type de site dans lequel un organisme ou une population existe à l'état naturel.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.225142018387956,
+                      "w": 413.0403405463986,
+                      "x": 117.32583531821645,
+                      "y": 122.65556432212271
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.999999859726238,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999859726238
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* b) Etudie les avis techniques, technologiques et scientifiques sur la diversité biologique fournis conformément à l'article 25;",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Matériel génétique* : le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.86957263481326,
+                      "w": 413.0492742473322,
+                      "x": 117.39342070788871,
+                      "y": 156.25461842606708
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999997839900294,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997839900294
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "* a) Etablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subs...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Matériel génétique* : le matériel d'origine végétale, animale, microbienne ou autre, contenant des unités fonctionnelles de l'hérédité.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.86957263481326,
+                      "w": 413.0492742473322,
+                      "x": 117.39342070788871,
+                      "y": 156.25461842606708
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.999999850453929,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999850453929
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999998100580536,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998100580536
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...tablit la forme et la fréquence de la communication des renseignements à présenter conformément à l'article 26 et examine ces renseignements ainsi que les rapports présentés par tout organe subsidiair...",
+                  "bounding_boxes": [
+                    {
+                      "h": 318.81,
+                      "w": 413.96,
+                      "x": 78.88,
+                      "y": 272.1
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 779
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Organisation régionale d'intégration économique* : toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui con...",
+                  "bounding_boxes": [
+                    {
+                      "h": 66.33817883003051,
+                      "w": 412.85932716927874,
+                      "x": 117.96260868723799,
+                      "y": 189.0894805163872
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999991783731775,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999991783731775
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Organisation régionale d'intégration économique* : toute organisation constituée par des Etats souverains d'une région donnée, à laquelle ces Etats membres ont transféré des compétences en ce qui con...",
+                  "bounding_boxes": [
+                    {
+                      "h": 66.33817883003051,
+                      "w": 412.85932716927874,
+                      "x": 117.96260868723799,
+                      "y": 189.0894805163872
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999069905698,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999069905698
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999997665906193,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997665906193
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 29,
+                  "matching_text": "### Article 2",
+                  "bounding_boxes": [
+                    {
+                      "h": 8.847850967035017,
+                      "w": 51.23624026414827,
+                      "x": 251.78299557569548,
+                      "y": 270.9466106135671
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Pays d'origine des ressources génétiques* : pays qui possède ces ressources génétiques dans des conditions *in situ*.",
+                  "bounding_boxes": [
+                    {
+                      "h": 20.91391720655491,
+                      "w": 413.1181396633241,
+                      "x": 118.4161617372094,
+                      "y": 267.4305122189405
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999942569807219,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999942569807219
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 13,
+                  "matching_text": "Aux fins de la présente Convention, on entend par ressources génétiques fournies par une Partie contractante, et dont il est fait mention dans le présent article et aux articles 16 et 19 ci-après,...",
+                  "bounding_boxes": [
+                    {
+                      "h": 439.64,
+                      "w": 418.35,
+                      "x": 83.33,
+                      "y": 64.68
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9983866269534802,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9983866269534802
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999997566569832,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999997566569832
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Pays fournisseur de ressources génétiques* : tout pays qui fournit des ressources génétiques récoltées auprès de sources *in situ*, y compris les populations d'espèces sauvages ou domestiquées, ou pr...",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.01721905964175,
+                      "w": 413.10484504513624,
+                      "x": 118.76226319848037,
+                      "y": 300.5725931307165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.999971368561197,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999971368561197
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Pays fournisseur de ressources génétiques* : tout pays qui fournit des ressources génétiques récoltées auprès de sources *in situ*, y compris les populations d'espèces sauvages ou domestiquées, ou pr...",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.01721905964175,
+                      "w": 413.10484504513624,
+                      "x": 118.76226319848037,
+                      "y": 300.5725931307165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999964794311952,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999964794311952
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999998361260715,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998361260715
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ressources biologiques* : les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystèmes ayant une utilisation ou une valeur effecti...",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.772133431783494,
+                      "w": 413.56985653760955,
+                      "x": 118.9394894632479,
+                      "y": 354.38003406059454
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ressources biologiques* : les ressources génétiques, les organismes ou éléments de ceux-ci, les populations, ou tout autre élément biotique des écosystèmes ayant une utilisation ou une valeur effecti...",
+                  "bounding_boxes": [
+                    {
+                      "h": 42.772133431783494,
+                      "w": 413.56985653760955,
+                      "x": 118.9394894632479,
+                      "y": 354.38003406059454
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999092241859,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999092241859
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999998957279004,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998957279004
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ressources génétiques* : le matériel génétique ayant une valeur effective ou potentielle.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.595191025152427,
+                      "w": 413.0687041640862,
+                      "x": 119.32167883896246,
+                      "y": 409.3906654916159
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999981255428171,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999981255428171
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Ressources génétiques* : le matériel génétique ayant une valeur effective ou potentielle.",
+                  "bounding_boxes": [
+                    {
+                      "h": 21.595191025152427,
+                      "w": 413.0687041640862,
+                      "x": 119.32167883896246,
+                      "y": 409.3906654916159
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999118622851,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999118622851
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999995915180648,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999995915180648
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "L'accès à la technologie et le transfert de celle-ci, tels que visés au paragraphe 1 ci-dessus, sont assurés et/ou facilités pour ce qui concerne les pays en développement à des conditions justes et l...",
+                  "bounding_boxes": [
+                    {
+                      "h": 407.24,
+                      "w": 419.13,
+                      "x": 113.98,
+                      "y": 100.34
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999998435918493,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998435918493
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 27,
+                  "matching_text": "L'original de la présente Convention, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, sera déposé auprès du Secrétaire général de l'Organisation des Nations Un...",
+                  "bounding_boxes": [
+                    {
+                      "h": 32.80200000000002,
+                      "w": 412.728,
+                      "x": 74.718,
+                      "y": 292.094
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Technologie* : toute technologie y compris la biotechnologie.",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.259654868521302,
+                      "w": 333.35735150593075,
+                      "x": 120.40710584687024,
+                      "y": 442.8896162823933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999999493571038,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999493571038
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.999999855993349,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999855993349
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Utilisation durable* : l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi le...",
+                  "bounding_boxes": [
+                    {
+                      "h": 52.3869283536585,
+                      "w": 413.64973017994953,
+                      "x": 119.80828305128144,
+                      "y": 465.0733743807165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999998162588003,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998162588003
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...culière à ceux qui doivent d'urgence faire l'objet de mesures de conservation ainsi qu'à ceux qui offrent le plus de possibilités en matière d'utilisation durable;",
+                  "bounding_boxes": [
+                    {
+                      "h": 229.58,
+                      "w": 414.36,
+                      "x": 118.81,
+                      "y": 95.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Utilisation durable* : l'utilisation des éléments constitutifs de la diversité biologique d'une manière et à un rythme qui n'entraînent pas leur appauvrissement à long terme, et sauvegardent ainsi le...",
+                  "bounding_boxes": [
+                    {
+                      "h": 52.3869283536585,
+                      "w": 413.64973017994953,
+                      "x": 119.80828305128144,
+                      "y": 465.0733743807165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999962294931793,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999962294931793
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999998237245792,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998237245792
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "# Article 2. Emploi des termes",
+                  "bounding_boxes": [
+                    {
+                      "h": 10.564481707317052,
+                      "w": 162.2475380204363,
+                      "x": 205.99558900414442,
+                      "y": 303.93323587557165
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Zone protégée* : toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+                  "bounding_boxes": [
+                    {
+                      "h": 30.881146389100607,
+                      "w": 413.00480878132146,
+                      "x": 120.39377591761146,
+                      "y": 531.1305068597561
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "language": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "...culière à ceux qui doivent d'urgence faire l'objet de mesures de conservation ainsi qu'à ceux qui offrent le plus de possibilités en matière d'utilisation durable;",
+                  "bounding_boxes": [
+                    {
+                      "h": 229.58,
+                      "w": 414.36,
+                      "x": 118.81,
+                      "y": 95.43
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "definition": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "*Zone protégée* : toute zone géographiquement délimitée qui est désignée, ou réglementée, et gérée en vue d'atteindre des objectifs spécifiques de conservation.",
+                  "bounding_boxes": [
+                    {
+                      "h": 30.881146389100607,
+                      "w": 413.00480878132146,
+                      "x": 120.39377591761146,
+                      "y": 531.1305068597561
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 780
+                  }
+                }
+              ],
+              "confidence": 0.9999984499161609,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999984499161609
+            },
+            "document_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "# CONVENTION SUR LA DIVERSITÉ BIOLOGIQUE",
+                  "bounding_boxes": [
+                    {
+                      "h": 40.101197595363715,
+                      "w": 266.43960053234565,
+                      "x": 153.10419710484945,
+                      "y": 45.99475456796041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 597,
+                    "height": 783
+                  }
+                }
+              ],
+              "confidence": 0.9999999217959228,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999217959228
+            },
+            "article_reference": {
+              "citation": [
+                {
+                  "page": 21,
+                  "matching_text": "### Article 27. Règlement des différends",
+                  "bounding_boxes": [
+                    {
+                      "h": 9.710971560594468,
+                      "w": 207.2926352598609,
+                      "x": 174.439250220322,
+                      "y": 523.2704185523057
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 593,
+                    "height": 781
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-doqlmsuf96etbpqu8n6o7hppouj8",
+    "parse_tier": null
+  }
+}

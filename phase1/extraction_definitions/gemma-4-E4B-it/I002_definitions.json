@@ -1,0 +1,218 @@
+[
+  {
+    "terme": "toothed whale",
+    "definition": "any whale which has teeth in the jaws.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "beaked whale",
+    "definition": "any whale belonging to the genus Mesoplodon, or any whale known as Cuvier’s beaked whale (Ziphius cavirostris), or Shepherd’s beaked whale (Berardius bairdii).",
+    "nom_scientifique": "Mesoplodon, Ziphius cavirostris, Berardius bairdii",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "baleen whale",
+    "definition": "any whale which has baleen or bone in the mouth, i.e. any whale other than a toothed whale.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": "toothed whale",
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "bottlenose whale",
+    "definition": "any whale known as Baird’s beaked whale (Berardius bairdii), Arnoux’s whale (Berardius arnuxii), Sibbald’s rorqual, or sulphur bottom, (Hyperoodon ampullatus).",
+    "nom_scientifique": "Berardius bairdii, Berardius arnuxii, Hyperoodon ampullatus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "blue whale",
+    "definition": "any whale known as blue whale, Greenland right whale, Greenland whale.",
+    "nom_scientifique": "Balaenoptera musculus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "killer whale",
+    "definition": "any whale known as killer whale or orca.",
+    "nom_scientifique": "Orcinus orca",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "pilot whale",
+    "definition": "any whale known as long-finned pilot whale (Globicephala melaena) or short-finned pilot whale (Globicephala macrorhynchus).",
+    "nom_scientifique": "Globicephala melaena, Globicephala macrorhynchus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Bryde’s whale",
+    "definition": "any whale known as Bryde’s whale (Balaenoptera edeni, B. brydei).",
+    "nom_scientifique": "Balaenoptera edeni, B. brydei",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "fin whale",
+    "definition": "any whale known as common finback, common rorqual, fin whale, or true fin whale.",
+    "nom_scientifique": "Balaenoptera physalus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "sperm whale",
+    "definition": "any whale known as sperm whale, spermacet whale, cachalot or pot whale.",
+    "nom_scientifique": "Physeter macrocephalus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "gray whale",
+    "definition": "any whale known as gray whale, California gray, devil fish, hard head, mussel digger, gray back, or rip sack.",
+    "nom_scientifique": "Eschrichtius robustus",
+    "reference": "I. INTERPRETATION B.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "strike",
+    "definition": "to penetrate with a weapon used for whaling.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "humpback whale",
+    "definition": "any whale known as bunch, humpback, humpback whale, humpbacked whale, hump whale or hunchbacked whale.",
+    "nom_scientifique": "Megaptera novaeangliae",
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "land",
+    "definition": "to retrieve to a factory ship, land station, or any place where a whale can be treated.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "take",
+    "definition": "to flag, buoy or make fast to a whale.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "lose",
+    "definition": "to either strike or take but not to land.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "dauhval",
+    "definition": "any unclaimed dead whale found floating.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "pygmy right whale",
+    "definition": "any whale known as southern pygmy right whale or pygmy right whale.",
+    "nom_scientifique": "Caperea marginata",
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "lactating whale",
+    "definition": "(a) with respect to baleen whales - a female which has any milk present in a mammary gland, (b) with respect to sperm whales - a female which has milk present in a mammary gland the maximum thickness (depth) of which is 10cm or more. This measurement shall be at the mid ventral point of the mammary gland perpendicular to the body axis, and shall be logged to the nearest centimetre; that is to say, any gland between 9.5cm and 10.5cm shall be logged as 10cm. The measurement of any gland which falls on an exact 0.5 centimetre, e.g. 10.5cm shall be logged as 11.0cm.",
+    "nom_scientifique": null,
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": "whale",
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "right whale",
+    "definition": "any whale known as Atlantic right whale, Arctic right whale, Biscayan right whale, Nordkaper, North Atlantic right whale, Pacific right whale, or southern right whale.",
+    "nom_scientifique": "Eubalaena glacialis, E. australis",
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "sei whale",
+    "definition": "any whale known as sei whale, Rudolphi’s rorqual, pollack whale, or coalfish whale.",
+    "nom_scientifique": "Balaenoptera borealis",
+    "reference": "I. INTERPRETATION C.",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Land Station Operations",
+    "definition": "the appropriate land station for the purpose of killing or attempting to kill baleen and sperm whales except as permitted by the Contracting Government in accordance with sub-paragraphs (b), (c) and (d) of this paragraph.",
+    "nom_scientifique": null,
+    "reference": "II. SEASONS",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "small-type whaling",
+    "definition": "catching operations using powered vessels with mounted harpoon guns exclusively for minke, bottlenose, beaked, pilot or killer whales.",
+    "nom_scientifique": null,
+    "reference": "II. SEASONS",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Factory Ship Operations",
+    "definition": "hunting all land stations under its jurisdiction, and including pygmy blue whale.",
+    "nom_scientifique": null,
+    "reference": "II. SEASONS",
+    "exclusions": null,
+    "doc_id": "I002",
+    "modele": "gemma-4-9b-it"
+  }
+]

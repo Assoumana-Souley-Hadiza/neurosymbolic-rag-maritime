@@ -1,0 +1,101 @@
+[
+  {
+    "terme": "Hydrocarbures",
+    "definition": "le pétrole sous toutes ses formes, à savoir notamment le pétrole brut, le fuel-oil, les boues, les résidus d’hydrocarbures et les produits raffinés (autres que les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention) et comprend, sans que cela porte atteinte au caractère général de ce qui précède, les substances énumérées à l’appendice I de la présente Annexe.",
+    "nom_scientifique": null,
+    "reference": "Règle 1",
+    "exclusions": "les produits pétrochimiques qui sont soumis aux dispositions de l’Annexe II de la présente Convention",
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pétrole brut",
+    "definition": "tout mélange liquide d’hydrocarbures se trouvant à l’état naturel dans la terre, qu’il soit ou non traité en vue de son transport, et comprend : .1 le pétrole brut dont certaines fractions distillées ont pu être extraites; et .2 le pétrole brut auquel certaines fractions distillées ont pu être ajoutées.",
+    "nom_scientifique": null,
+    "reference": "Règle 2",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Mélange d’hydrocarbures",
+    "definition": "tout mélange contenant des hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 3",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Combustible liquide",
+    "definition": "tout hydrocarbure utilisé comme combustible pour l’appareil propulsif et les appareils auxiliaires du navire à bord duquel cet hydrocarbure est transporté.",
+    "nom_scientifique": null,
+    "reference": "Règle 4",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pétrolier",
+    "definition": "un navire construit ou adapté principalement en vue de transporter des hydrocarbures en vrac dans ses espaces à cargaison et comprend les transporteurs mixtes, tout \"navire-citerne NLS\" tel que défini à l’Annexe II de la présente Convention et tout transporteur de gaz tel que défini à la règle 3.20 du chapitre II-1 de la Convention SOLAS de 1994 (telle que modifiée) lorsqu’ils transportent une cargaison complète ou partielle d’hydrocarbures en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 5",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Transporteur de pétrole brut",
+    "definition": "un pétrolier affecté au transport de pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 6",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Transporteur de produits",
+    "definition": "un pétrolier affecté au transport d’hydrocarbures autres que du pétrole brut.",
+    "nom_scientifique": null,
+    "reference": "Règle 7",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Transporteur mixte",
+    "definition": "un navire conçu pour transporter soit des hydrocarbures, soit des cargaisons solides en vrac.",
+    "nom_scientifique": null,
+    "reference": "Règle 8",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Transformation importante",
+    "definition": "désigne une transformation d’un navire : .1 qui modifie considérablement les dimensions ou la capacité de transport du navire; ou .2 qui change le type du navire; ou .3 qui vise, de l’avis de l’Autorité, à en prolonger considérablement la vie; ou .4 qui entraîne par ailleurs des modifications telles que le navire, s’il était un navire neuf, serait soumis aux dispositions pertinentes de la présente Convention qui ne lui sont pas applicables en tant que navire existant.",
+    "nom_scientifique": null,
+    "reference": "Règle 9",
+    "exclusions": "Nonobstant les dispositions de la présente définition : .1 la transformation d’un pétrolier d’un port en lourd égal ou supérieur à 20 000 t livré le 1er juin 1982 ou avant cette date, tel que défini à la règle 1.28.3, pour satisfaire aux prescriptions de la règle 18 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe; et .2 la transformation d’un pétrolier livré avant le 6 juillet 1996, tel que défini à la règle 1.28.5, pour satisfaire aux prescriptions des règles 19 ou 20 de la présente Annexe ne doit pas être considérée comme une transformation importante aux fins de la présente Annexe.",
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "À partir de la terre la plus proche",
+    "definition": "à partir de la ligne de base qui sert à déterminer la mer territoriale du territoire en question conformément au droit international; toutefois, aux fins de la présente Convention, l’expression \"à partir de la terre la plus proche\" de la côte nord-est de l’Australie signifie à partir d’une ligne reliant le point de latitude 11o00’S et de longitude 142o08’E sur la côte de l’Australie et le point de latitude 10o35’S et de longitude 141o55’E, puis les points suivants : latitude 10º00’S, et longitude 142°00’E; latitude 9º10’S, et longitude 143°52’E; latitude 9º00’S, et longitude 144°30’E; latitude 10º41’S, et longitude 145°00’E; latitude 13º00’S, et longitude 145°00’E; latitude 15º00’S, et longitude 146°00’E; latitude 17º30’S, et longitude 147°00’E; latitude 21º00’S, et longitude 152°55’E; latitude 24º30’S, et longitude 154°00’E et enfin, le point de latitude 24°42’S et de longitude 153o15’E sur la côte australienne.",
+    "nom_scientifique": null,
+    "reference": "Règle 10",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Zone spéciale",
+    "definition": "une zone maritime qui, pour des raisons techniques reconnues dues à sa situation océanographique et écologique ainsi qu’au caractère particulier de son trafic, appelle l’adoption de méthodes obligatoires particulières pour prévenir la pollution des mers par les hydrocarbures.",
+    "nom_scientifique": null,
+    "reference": "Règle 11",
+    "exclusions": null,
+    "doc_id": "I005b",
+    "modele": "gemma-4-9b-it"
+  }
+]

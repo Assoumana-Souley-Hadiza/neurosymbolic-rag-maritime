@@ -1,0 +1,83 @@
+# ═══════════════════════════════════════════════════════════════
+# .gitignore — Projet Stage RAG Maritime (Neuro-Symbolique)
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Fichiers temporaires Microsoft Office ───────────────────
+~$*
+~*.tmp
+*.~*
+
+# ─── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.Python
+
+# ─── Environnements virtuels ────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── IDE ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Secrets et config locale ───────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# ─── Logs (très volumineux) ─────────────────────────────────
+*.log
+*.log.*
+
+# ─── Bases de données locales ────────────────────────────────
+*.sqlite3
+*.pkl
+*.pickle
+version_1_Ontologie/chroma_db/
+neo4j_data/
+
+# ─── Données générées / reproductibles ──────────────────────
+version_1_Ontologie/results/
+version_1_Ontologie/rag/output/
+version_1_Ontologie/output/
+version_1_Ontologie/data/processed/embeddings/
+version_1_Ontologie/data/processed/indexes/
+version_1_Ontologie/data/processed/chunks/
+version_1_Ontologie/scratch/
+
+# ─── PDFs source (trop volumineux pour GitHub ~80 Mo) ────────
+# Les PDFs juridiques sont des documents publics FAOLEX.
+# Voir README pour les instructions de récupération.
+version_1_Ontologie/rag/RAG_data/
+version_1_Ontologie/chasse_a_la_baleine.pdf
+
+# ─── Fichier log de benchmark volumineux ─────────────────────
+version_1_Ontologie/batch_query.log
+
+# ─── Pytest cache ────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ─── Fichiers zip ────────────────────────────────────────────
+fichiers.zip

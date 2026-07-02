@@ -1,0 +1,411 @@
+{
+  "data": {
+    "glossary_entries": [
+      {
+        "term": "Anneau de coulisse",
+        "definition": "anneau en métal ou en plastique fixé au bord inférieur d'un filet tournant avec coulisse à travers lequel la coulisse est en filée.",
+        "language": "fr"
+      },
+      {
+        "term": "Avançon",
+        "definition": "fin cordeau ou monofilament qui permet d'attacher l'hameçon à la ligne mère d'une palangre ou ligne verticale. Également appelé bas de ligne.",
+        "language": "fr"
+      },
+      {
+        "term": "Balise",
+        "definition": "type de système de signalisation qui comprend généralement une bouée, un pavillon, un réflecteur radar, et une lumière s'il est manœuvré de nuit. Souvent utilisée sur les engins de pêche qui ne sont pas surveillés, comme les filets maillants et les filets emmêlants, les palangres calées et les lignes verticales, ou encore les nasses (casiers), mais aussi sur les sennes danoises et écossaises, pour le marquage provisoire de l'autre extrémité de l'engin.",
+        "language": "fr"
+      },
+      {
+        "term": "barrages, parcs et bordigues",
+        "definition": "Les barrières, parcs et bordigues sont des structures permanentes ou semi-permanentes qui attrapent les poissons selon un principe similaire à celui des filets-pièges.",
+        "language": "fr"
+      },
+      {
+        "term": "Bas de ligne",
+        "definition": "également connu sous le nom d'avançon, il s'agit de la ligne où sont attachés les hameçons à la ligne mère des palangres. C'est un terme souvent utilisé dans le cas des palangres dérivantes destinées aux espèces pélagiques comme le thon ou l'espadon.",
+        "language": "fr"
+      },
+      {
+        "term": "Bourrelet",
+        "definition": "élément fixé au bord inférieur d'un chalut pour résister à l'interaction avec le fond marin.",
+        "language": "fr"
+      },
+      {
+        "term": "Bras",
+        "definition": "fait généralement référence au cordage qui relie la têtière au panneau dans un chalut.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut",
+        "definition": "Le chalut est une nappe de filet conique comportant généralement une poche ou cul-de-chalut. Il est remorqué par un ou deux bateaux et capture les poissons par rabattement et tamisage.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut de fond",
+        "definition": "Un chalut de fond est un filet conique remorqué sur le fond marin, conçu pour attraper les poissons qui vivent sur ou à proximité du fond marin.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut de fond à panneaux",
+        "definition": "Un chalut de fond à panneaux est un chalut conique remorqué sur le fond marin par un seul bateau, dont l'écartement horizontal est maintenu par deux panneaux.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut pélagique",
+        "definition": "Un chalut pélagique est un filet conique remorqué entre deux eaux par un ou deux bateaux pour capturer des poissons pélagiques ou semi-démersaux dans la colonne d'eau.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut pélagique à panneaux",
+        "definition": "Le chalut pélagique à panneaux est un chalut remorqué entre deux eaux par un seul bateau, qui utilise deux panneaux pour écarter le filet à l’horizontale (Figure 20).",
+        "language": "fr"
+      },
+      {
+        "term": "chalut semi-pélagique",
+        "definition": "Le chalut semi-pélagique est un chalut dont soit le filet, soit les panneaux, touchent le fond marin, mais pas les deux.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut à perche",
+        "definition": "Un chalut à perche est un chalut dont l'écartement horizontal est assuré par une armature rigide placée en travers de la gueule du filet.",
+        "language": "fr"
+      },
+      {
+        "term": "chalut-bœuf de fond",
+        "definition": "Un chalut-bœuf de fond est un chalut remorqué sur le fond marin par deux bateaux, qui maintiennent l'écartement horizontal du filet pendant la pêche (Figure 19).",
+        "language": "fr"
+      },
+      {
+        "term": "chalut-bœuf pélagique",
+        "definition": "Un chalut-bœuf pélagique est un chalut remorqué entre deux eaux par deux bateaux, dont la distance de séparation détermine et maintient l'écartement horizontal du filet pendant la pêche (Figure 21).",
+        "language": "fr"
+      },
+      {
+        "term": "chaluts de fond à panneaux multiples",
+        "definition": "Les chaluts de fond à panneaux multiples sont composés de plus de deux chaluts remorqués sur le fond marin par un seul bateau.",
+        "language": "fr"
+      },
+      {
+        "term": "chaluts jumeaux à panneaux",
+        "definition": "Les chaluts jumeaux à panneaux sont composés de deux chaluts remorqués sur le fond marin par un seul bateau.",
+        "language": "fr"
+      },
+      {
+        "term": "Chambre de récupération",
+        "definition": "dans le présent rapport, ce terme désigne la dernière section d'un filet-piège non couvert où la capture est regroupée avant d'être halée à bord.",
+        "language": "fr"
+      },
+      {
+        "term": "Corde de dos",
+        "definition": "corde à laquelle sont attachés le bord supérieur d'un filet et les flotteurs. Dans les filets maillants et emmêlants, la corde de dos est souvent désignée sous le nom de ralingue supérieure ou ralingue de flotteurs. Le terme s'applique plutôt aux chaluts et sennes halées à bord.",
+        "language": "fr"
+      },
+      {
+        "term": "dispositif de concentration de poissons",
+        "definition": "Un dispositif de concentration de poissons (DCP) est une structure permanente, semi-permanente ou temporaire, qui est déployée et/ou suivie, et utilisée pour concentrer les poissons en vue de leur capture ultérieure (FAO, 2019).",
+        "language": "fr"
+      },
+      {
+        "term": "Dispositif de concentration de poissons ancré (DCPa)",
+        "definition": "dispositif ancré ou attaché de toute autre manière au fond de l’océan et utilisé pour attirer et concentrer les poissons en vue de leur capture ultérieure par un engin de pêche. Voir également «Dispositif de concentration de poissons dérivant».",
+        "language": "fr"
+      },
+      {
+        "term": "drague",
+        "definition": "Une drague est une structure en forme de cage, souvent pourvue d'une lame ou de dents de raclage dans sa partie inférieure, et qui est tirée ou remorquée pour déterrer les animaux enfouis dans le substrat et les capturer dans une cage ou un sac.",
+        "language": "fr"
+      },
+      {
+        "term": "drague mécanisée",
+        "definition": "Une drague mécanisée est une grande cage métallique équipée d'une lame de coupe, qui utilise des pompes à jet hydraulique à haute pression pour fluidifier le substrat et faire sortir les animaux enfouis dans les sédiments pour les capturer dans la cage (Figure 25).",
+        "language": "fr"
+      },
+      {
+        "term": "drague remorquée",
+        "definition": "Une drague remorquée est une structure en forme de cage composée d'un cadre métallique robuste, remorquée par un bateau.",
+        "language": "fr"
+      },
+      {
+        "term": "drague à main",
+        "definition": "Une drague à main est une petite drague légère manœuvrée à la main, qui consiste en une perche et un cadre métallique pouvant comporter des dents sur sa bordure inférieure.",
+        "language": "fr"
+      },
+      {
+        "term": "engin de pêche",
+        "definition": "Tout dispositif ou partie de dispositif ou toute combinaison d'objets qui peuvent être placés sur l'eau ou dans l'eau ou bien sur le fond de la mer dans le but de capturer des organismes d'eau douce ou d'eau salée ou de les maîtriser en vue de les capturer ou de les récolter par la suite.",
+        "language": "fr"
+      },
+      {
+        "term": "engin retombant",
+        "definition": "Un engin retombant est un filet ou une structure semblable à un panier que l'on jette ou pousse vers le bas, ou encore qu'on laisse tomber pour attraper les poissons qui se trouvent en dessous.",
+        "language": "fr"
+      },
+      {
+        "term": "filet de rabattage",
+        "definition": "Les filets de rabattage sont des filets en forme de cône, généralement munis d'ailes qui capturent et retiennent les poissons rabattus dans le filet par du bruit ou des stimuli visuels tels que des dispositifs d'effarouchement.",
+        "article_reference": "10.7",
+        "language": "fr"
+      },
+      {
+        "term": "filet lanterne",
+        "definition": "Un filet lanterne (ou panier coiffant) est une structure rigide en forme de cône ou de pyramide qui attrape les poissons en tombant rapidement sur eux et en les empêchant de s'échapper.",
+        "language": "fr"
+      },
+      {
+        "term": "filet maillant calé",
+        "definition": "Un filet maillant calé est un long filet rectangulaire à nappe unique, ancré ou fixé de toute autre manière au fond marin, qui capture les poissons entrant en contact avec lui.",
+        "language": "fr"
+      },
+      {
+        "term": "filet maillant dérivant",
+        "definition": "Un filet maillant dérivant est un type de filet maillant qui n'est pas fixé au fond marin, et qui dérive au gré du courant.",
+        "language": "fr"
+      },
+      {
+        "term": "filet maillant encerclant",
+        "definition": "Un filet maillant encerclant est un long filet maillant qui forme un cercle autour d'un rassemblement de poissons, en utilisant le bruit ou d'autres moyens pour rabattre ceux-ci vers lui, où ils finissent par se mailler ou s'emmêler.",
+        "language": "fr"
+      },
+      {
+        "term": "filet retombant manœuvré du bateau",
+        "definition": "Un filet retombant manœuvré du bateau est un filet en forme de cône ou de pyramide dont le contour est muni de poids et d'un cordon de serrage, qui est lâché d'un bateau pour attraper les poissons situés en dessous.",
+        "language": "fr"
+      },
+      {
+        "term": "filet soulevé",
+        "definition": "Un filet soulevé est constitué par une nappe de filet montée sur un cadre. Il est submergé pendant un certain temps, puis remonté: les poissons situés au-dessus de lui sont alors capturés et retenus.",
+        "language": "fr"
+      },
+      {
+        "term": "filet soulevé fixe manœuvré du rivage",
+        "definition": "Un filet soulevé fixe manœuvré du rivage est un filet soulevé manœuvré à partir d'une plate-forme fixe située dans les eaux côtières, le long du rivage.",
+        "language": "fr"
+      },
+      {
+        "term": "filet soulevé manœuvré du bateau",
+        "definition": "Un filet soulevé manœuvré du bateau est un filet rectangulaire déployé à partir d'un ou plusieurs bateaux à une certaine profondeur pour capturer les poissons situés au-dessus de lui lorsqu'il est remonté.",
+        "language": "fr"
+      },
+      {
+        "term": "filet soulevé portatif",
+        "definition": "Un filet soulevé portatif est un petit filet de forme rectangulaire tendu sur un cadre, qui n'est fixé à aucune structure.",
+        "language": "fr"
+      },
+      {
+        "term": "filet tournant",
+        "definition": "Un filet tournant est une longue nappe de filet construite principalement à partir de sections rectangulaires encadrées par des cordes, et qui capture ses prises en encerclant un banc de poissons.",
+        "language": "fr"
+      },
+      {
+        "term": "filet tournant avec coulisse",
+        "definition": "Un filet tournant avec coulisse est une nappe de filet conçue pour encercler un banc de poissons pélagiques près de la surface à l'aide d'une coulisse pour fermer le fond du filet.",
+        "language": "fr"
+      },
+      {
+        "term": "filet tournant sans coulisse",
+        "definition": "Un «filet tournant sans coulisse» est une longue nappe de filet conçue pour encercler les poissons en surface ou dans des eaux peu profondes, mais sans utiliser de coulisse.",
+        "language": "fr"
+      },
+      {
+        "term": "filet-piège fixe non couvert",
+        "definition": "Un filet-piège fixe non couvert est généralement un grand filet divisé en une ou plusieurs chambres, ancré à l'aide d'un système d'amarrage ou fixé sur des perches, interceptant et piégeant les poissons pendant leur migration ou déplacement habituel.",
+        "language": "fr"
+      },
+      {
+        "term": "filets maillants et filets emmêlants",
+        "definition": "Les filets maillants et les filets emmêlants sont de longues nappes de filet rectangulaires dans lesquelles les poissons se maillent, sont retenus, s'enchevêtrent, s'emmêlent ou sont piégés par boursage.",
+        "language": "fr"
+      },
+      {
+        "term": "filets maillants fixes (sur perches)",
+        "definition": "Les filets maillants fixes (sur perches) sont de longs filets maillants accrochés à des perches enfoncées dans le fond marin.",
+        "language": "fr"
+      },
+      {
+        "term": "filets à l'étalage",
+        "definition": "Les filets à l'étalage ou diables sont des filets de forme conique ou pyramidale dont l'ouverture est maintenue par un cadre. Ils sont mouillés dans une zone avec de forts courants, notamment de marée, en vue d'attraper les poissons à la dérive.",
+        "language": "fr"
+      },
+      {
+        "term": "fourche à coquillages",
+        "definition": "Une fourche à coquillages est un engin par accrochage ou par blessure constitué d'un manche manœuvré à la main et fendu à une extrémité pour former au moins deux dents (souvent trois). Lorsqu'une cible, comme un trochus ou un coquillage, est repérée, l'opérateur enfonce l'engin de manière à ce que les dents de la fourche enserrent l'animal.",
+        "article_reference": "10.2",
+        "language": "fr"
+      },
+      {
+        "term": "Fune",
+        "definition": "filin ou câble de remorque qui relie le chalut au chalutier. Dans les chaluts à panneaux, les funes prennent fin au niveau des panneaux. Dans les chaluts-bœufs, elles s'étendent jusqu'à la têtière ou l'union des entremises.",
+        "language": "fr"
+      },
+      {
+        "term": "Guideau",
+        "definition": "dans les filets-pièges non couverts et les bordigues, le guideau désigne le filet ou toute autre structure qui intercepte et guide les poissons vers la partie principale du filet; dans les engins à hameçon et à ligne, il s’agit de la ligne qui attache l’hameçon à la ligne principale. Également appelée avançon.",
+        "language": "fr"
+      },
+      {
+        "term": "harpon",
+        "definition": "Un harpon est un engin ressemblant à une lance, doté d'un long manche et d'une pointe acérée détachable, qui est reliée à une ligne permettant de récupérer la prise.",
+        "article_reference": "10.1",
+        "language": "fr"
+      },
+      {
+        "term": "ligne de traîne",
+        "definition": "Une ligne de traîne est une ligne à laquelle sont fixés un ou plusieurs hameçons appâtés (ou leurres) et qui est remorquée par un bateau.",
+        "article_reference": "9.5",
+        "language": "fr"
+      },
+      {
+        "term": "Ligne mère",
+        "definition": "dans les palangres calées et dérivantes, il s'agit de la ligne horizontale à laquelle sont attachés les avançons (ou bas de ligne). Dans les lignes verticales, il s'agit de la ligne principale verticale à laquelle sont accrochés les avançons.",
+        "language": "fr"
+      },
+      {
+        "term": "ligne verticale",
+        "definition": "Une ligne verticale est une ligne disposée verticalement à laquelle sont fixés un ou plusieurs hameçons appâtés.",
+        "article_reference": "9.4",
+        "language": "fr"
+      },
+      {
+        "term": "Maillage (maille étirée)",
+        "definition": "dimension généralement mesurée entre les deux nœuds opposés d'une maille lorsque celle-ci est entièrement étirée. Si rien n'est spécifié, la mesure est faite au niveau du centre des nœuds.",
+        "language": "fr"
+      },
+      {
+        "term": "nasse",
+        "definition": "Une nasse ou un casier est une petite cage qui attire les poissons par une ou plusieurs ouvertures permettant leur entrée, mais empêchant ou retardant leur fuite.",
+        "language": "fr"
+      },
+      {
+        "term": "palangre calée",
+        "definition": "Une palangre calée est un engin de pêche à la palangre qui est ancré ou fixé de toute autre manière au fond marin à chaque extrémité de la ligne mère.",
+        "article_reference": "9.3.1",
+        "language": "fr"
+      },
+      {
+        "term": "palangre dérivante",
+        "definition": "Une palangre dérivante est une palangre qui n'est pas fixée au fond marin et qui dérive de façon passive au gré du courant, le bateau (dérivant également) étant attaché à l'une de ses extrémités.",
+        "article_reference": "9.3.2",
+        "language": "fr"
+      },
+      {
+        "term": "Panneau",
+        "definition": "planche ou plaque métallique fixée de part et d'autre du chalut et qui permet de maintenir celui-ci ouvert horizontalement lorsqu'il est remorqué sur le fond marin ou en pleine eau.",
+        "language": "fr"
+      },
+      {
+        "term": "Partie à petites mailles",
+        "definition": "petit panneau de maillage d’un filet tournant avec coulisse où la capture est regroupée avant d’être halée à bord.",
+        "language": "fr"
+      },
+      {
+        "term": "Perche",
+        "definition": "dans le présent rapport, ce terme fait référence à la perche horizontale utilisée pour tendre le filet horizontalement dans les chaluts à perche. Ce terme s’applique également aux piquets utilisés pour fixer les filets maillants sur le fond marin, ainsi qu’aux longs manches des pousseux (troubles).",
+        "language": "fr"
+      },
+      {
+        "term": "pinces à coquillages",
+        "definition": "La pince à coquillages consiste en une paire de râteaux ou de paniers en forme de râteau fixés à deux longs manches réunis comme des ciseaux. Elle est principalement utilisée pour la collecte d'animaux infauniques et épifauniques comme les moules, les palourdes et les huîtres.",
+        "article_reference": "10.2",
+        "language": "fr"
+      },
+      {
+        "term": "piège aérien",
+        "definition": "Les pièges aériens sont des engins ou structures destinés à capturer les poissons qui sautent hors de l'eau. [...] Quelle que soit la forme du dispositif qui retient finalement le poisson, si celui-ci est hors de l'eau (dans l'air) au moment de sa capture, l'engin est classé dans la catégorie des pièges aériens.",
+        "article_reference": "8.6",
+        "language": "fr"
+      },
+      {
+        "term": "pièges",
+        "definition": "Les pièges sont des structures fixes de formes et dimensions variées dans lesquelles les poissons sont guidés, ou poussés par le courant, ou encore attirés par des appâts ou amorces.",
+        "language": "fr"
+      },
+      {
+        "term": "poisson",
+        "definition": "Sauf indication contraire, dans ce document, le terme «poisson» désigne tous les animaux aquatiques capturés par des engins de pêche, y compris, sans toutefois s'y limiter, les poissons au sens strict, les crustacés et les mollusques.",
+        "language": "fr"
+      },
+      {
+        "term": "pompe submersible",
+        "definition": "Une pompe submersible peut être utilisée pour récolter de grandes concentrations de poissons, appartenant généralement à de petites espèces pélagiques.",
+        "article_reference": "10.3",
+        "language": "fr"
+      },
+      {
+        "term": "pousseux",
+        "definition": "Un pousseux, trouble, ou encore haveneau, est un filet en forme de sac, dont les deux côtés sont fixés à des perches entrecroisées en ciseaux et qui est poussé par un pêcheur à gué ou situé dans un bateau en eaux peu profondes.",
+        "article_reference": "10.5",
+        "language": "fr"
+      },
+      {
+        "term": "pêche électrique",
+        "definition": "La pêche électrique utilise des impulsions électriques intermittentes pour étourdir le poisson ou modifier son comportement (par exemple, en lui provoquant une contraction involontaire des muscles) et le rendre ainsi plus vulnérable à la capture.",
+        "article_reference": "10.4",
+        "language": "fr"
+      },
+      {
+        "term": "Ralingue de flotteurs ou de lièges",
+        "definition": "corde à laquelle sont intégrés des éléments de flottaison. Elle est généralement utilisée comme ralingue supérieure sur les filets maillants.",
+        "language": "fr"
+      },
+      {
+        "term": "Ralingue inférieure",
+        "definition": "corde à laquelle sont attachés le bord inférieur d'un filet et les lests. Dans les filets maillants et les filets emmêlants, la ralingue inférieure est souvent appelée ralingue de plombs ou ralingue plombée, car de lourds lests en plomb ou autres y sont souvent attachés. Dans les chaluts, la ralingue inférieure est généralement désignée sous le nom de bourrelet.",
+        "language": "fr"
+      },
+      {
+        "term": "Ralingue supérieure",
+        "definition": "corde où sont attachés le bord supérieur d'un filet et les flotteurs. Ce terme s'applique plutôt aux filets maillants et emmêlants.",
+        "language": "fr"
+      },
+      {
+        "term": "senne",
+        "definition": "Une senne peut présenter la forme d'un filet conique avec de longues ailes et une poche, ou d'une longue nappe de filet sans poche, capturant les poissons en les encerclant et en les rabattant.",
+        "language": "fr"
+      },
+      {
+        "term": "senne de plage",
+        "definition": "Une senne de plage est un filet à longues ailes, avec ou sans poche, qui sert à encercler les poissons dans les eaux peu profondes, généralement sur une plage.",
+        "language": "fr"
+      },
+      {
+        "term": "senne halée à bord",
+        "definition": "Une senne halée à bord est un filet de forme conique aux ailes allongées, muni de filins et d'une poche. Manœuvrée par un ou deux bateaux, elle capture les poissons en les encerclant et en les rabattant.",
+        "language": "fr"
+      },
+      {
+        "term": "trémail",
+        "definition": "Un trémail est un filet maillant constitué de trois nappes de filet, dont deux nappes externes à grandes mailles et une nappe interne à plus petites mailles, posé avec un certain jeu (c'est-à-dire avec un faible rapport d'armement horizontal) en vue de piéger les poissons par boursage ou emmêlement.",
+        "language": "fr"
+      },
+      {
+        "term": "trémails et filets maillants combinés",
+        "definition": "Les trémails et filets maillants combinés sont des filets de fond comprenant un filet maillant ordinaire dans leur partie supérieure pour capturer les poissons semi-démersaux ou pélagiques, et un trémail dans leur partie inférieure pour attraper les espèces situées à proximité du fond.",
+        "language": "fr"
+      },
+      {
+        "term": "verveux",
+        "definition": "Un verveux est un filet rectangulaire, cylindrique ou semi-cylindrique monté sur des anneaux ou des cercles, généralement complété par des ailes et/ou un guideau, et fixé sur le fond par des ancres, des lests ou des piquets.",
+        "language": "fr"
+      },
+      {
+        "term": "épervier",
+        "definition": "Un épervier est composé de plusieurs nappes de filet taillées sur mesure et assemblées pour produire un engin de forme conique, dont le périmètre est lesté et muni d'une corde de serrage.",
+        "language": "fr"
+      },
+      {
+        "term": "épuisette/salabarde",
+        "definition": "Une épuisette/salabarde est un filet en forme de petit sac utilisé pour capturer des poissons dans l’eau par tamisage.",
+        "article_reference": "10.6",
+        "language": "fr"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "interdiction_id": "I001",
+    "interdiction": "Chalutage de fond",
+    "domaine": "Pêche hauturière",
+    "nb_definitions": 77,
+    "langue_principale": "fr"
+  }
+}

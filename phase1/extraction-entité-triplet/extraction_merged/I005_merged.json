@@ -1,0 +1,737 @@
+{
+  "interdiction_id": "I005",
+  "interdiction": "Oiseaux_marins",
+  "entites": [
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "capture, détention ou mise à mort délibérée d'oiseaux marins migrateurs inscrits à l'Appendice I CMS"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "perturbation délibérée des oiseaux marins sur les sites de nidification"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "destruction ou dégradation des habitats de reproduction, d'alimentation et d'hivernage"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "prises accessoires (bycatch) non intentionnelles d'oiseaux marins lors de pêche à la palangre et au chalut"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "commerce et détention illicites d'oiseaux marins ou de leurs œufs"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "restauration des habitats essentiels des espèces migratrices (obligation – Art. III.4)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Activity",
+      "texte_original": "prélèvements exceptionnels pour recherche scientifique ou survie de l'espèce (Art. III.5 – dérogation stricte)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "ensemble de l'aire de répartition des espèces migratrices (eaux territoriales, ZEE, haute mer, côtes)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zones marines incluses dans les voies de migration (routes migratoires au-dessus des océans)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "habitats de reproduction, d'hivernage et d'escale des oiseaux marins migrateurs"
+    },
+    {
+      "source": "claude",
+      "categorie": "Zone",
+      "texte_original": "zones au-delà des juridictions nationales traversées lors des migrations"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "États de l'aire de répartition (Range States) des espèces migratrices concernées"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "navires de pêche pratiquant la pêche à la palangre et au chalut (source principale de bycatch)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "particuliers et braconniers capturant des oiseaux protégés"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "aménageurs et industriels dégradant les habitats côtiers et marins"
+    },
+    {
+      "source": "claude",
+      "categorie": "Actor",
+      "texte_original": "Secrétariat de la CMS et Conférence des Parties (COP)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "obligation pour les États Parties d'interdire les prélèvements d'espèces inscrites à l'Appendice I (Article III.5)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "sanctions nationales prévues par la législation de transposition"
+    },
+    {
+      "source": "claude",
+      "categorie": "Sanction",
+      "texte_original": "évaluation des États de l'aire de répartition par la COP CMS"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "obligation de conserver et restaurer les habitats essentiels des espèces migratrices (Article III.4)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "obligation de conclure des Accords CMS pour les espèces de l'Appendice II (Art. IV.3)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "mécanismes de rapport aux COP de la CMS – évaluation des États de l'aire de répartition"
+    },
+    {
+      "source": "claude",
+      "categorie": "Controle",
+      "texte_original": "Accord ACAP : mesures d'atténuation du bycatch pour les albatros et pétrels (hameçons lestés, lignes de dissuasion)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Periode",
+      "texte_original": "CMS ouverte à la signature le 23 juin 1979, entrée en vigueur le 1er novembre 1983 ; obligations continues et permanentes"
+    },
+    {
+      "source": "claude",
+      "categorie": "Etat",
+      "texte_original": "États Parties à la CMS de l'aire de répartition des espèces concernées"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "prélèvements exceptionnels pour raisons de recherche scientifique, d'élevage en vue de la propagation ou survie de l'espèce, d'intérêt de la population autochtone (Art. III.5 – conditions strictes)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Exception",
+      "texte_original": "prises accessoires involontaires non constitutives d'infraction si mesures raisonnables d'atténuation mises en œuvre"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "albatros (famille Diomedeidae – Diomedea exulans, Phoebastria albatrus, etc.) – Appendice I et II CMS"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "pétrels (Procellariidae – Pterodroma spp., Puffinus spp.) – Appendice I et II CMS"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "frégates (Fregatidae – Fregata spp.)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "sternes (Sternidae – Sterna paradisaea, S. dougallii)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "manchots (Spheniscidae – Spheniscus demersus, Eudyptes spp.)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "fous (Sulidae – Sula leucogaster, S. sula)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "puffins (Puffinus puffinus, P. yelkouan)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Espece",
+      "texte_original": "cormorans marins migrateurs (Phalacrocoracidae)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Stock",
+      "texte_original": "populations d'oiseaux migrateurs inscrites à l'Appendice I CMS (espèces en danger d'extinction)"
+    },
+    {
+      "source": "claude",
+      "categorie": "Stock",
+      "texte_original": "populations d'oiseaux migrateurs à état de conservation défavorable inscrites à l'Appendice II CMS"
+    },
+    {
+      "source": "claude",
+      "categorie": "Stock",
+      "texte_original": "populations d'albatros et pétrels gérées par l'Accord ACAP"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Activity",
+      "texte_original": "prélèvement d'animaux appartenant à une espèce migratrice figurant à l'Annexe I (incluant chasser, pêcher, capturer, harceler, tuer délibérément ou tenter d'entreprendre l'une quelconque de ces actions)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Zone",
+      "texte_original": "aire de répartition de l'espèce migratrice (ensemble des surfaces terrestres ou aquatiques qu'une espèce migratrice habite, fréquente temporairement, traverse ou survole à un moment quelconque le long de son itinéraire habituel de migration)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Actor",
+      "texte_original": "Parties qui sont des Etats de l'aire de répartition d'une espèce migratrice figurant à l'Annexe I"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Espece",
+      "texte_original": "espèces migratrices d'oiseaux marins figurant à l'Annexe I"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Exception",
+      "texte_original": "dérogations à l'interdiction de prélèvement : fins scientifiques, amélioration de la propagation ou de la survie de l'espèce, besoins d'une économie traditionnelle de subsistance, circonstances exceptionnelles"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Sanction",
+      "texte_original": "obligation d'informer le Secrétariat de toute dérogation accordée (contrôle indirect, absence de sanction pénale explicite)"
+    },
+    {
+      "source": "llamaparser",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "categorie": "Controle",
+      "texte_original": "contrôle strict de l'introduction d'espèces exotiques ou surveillance/élimination de celles déjà introduites"
+    }
+  ],
+  "triplets": [
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_AIRE_REPARTITION_ESPECES_MIGRATRICES",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HABITATS_NIDIFICATION_ALIMENTATION_OISEAUX",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_HAUTE_MER_ROUTES_MIGRATOIRES_OCEANIQUES",
+      "concept_id": "Zone",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:appliesInZone",
+      "object": "mar:Zone_ZEE_EAUX_TERRITORIALES_RANGE_STATES",
+      "concept_id": "Zone",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_CAPTURE_DETENTION_MISE_A_MORT_OISEAUX_APP_I",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_PERTURBATION_DELIBEREE_SITES_NIDIFICATION",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_DESTRUCTION_DEGRADATION_HABITAT_OISEAUX_MARINS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_BYCATCH_OISEAUX_PECHE_PALANGRE_CHALUT",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_COMMERCE_DETENTION_ILLICITE_OISEAUX_OEUFS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.94
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_RESTAURATION_HABITATS_ESSENTIELS_ESPECES_MIGRATRICES",
+      "concept_id": "Activity",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_ETAT_AIRE_REPARTITION_RANGE_STATE_CMS",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_NAVIRE_PECHE_PALANGRE_CHALUT_BYCATCH",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_PARTICULIER_BRACONNIER_OISEAUX_PROTEGES",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_AMENAGEUR_INDUSTRIEL_DEGRADATION_HABITAT",
+      "concept_id": "Actor",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_SECRETARIAT_CMS_COP_SURVEILLANCE",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_INTERDICTION_PRELEVEMENT_APP_I_ART_III_5",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_PENALES_NATIONALES_TRANSPOSITION_CMS",
+      "concept_id": "Sanction",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:entraineSanction",
+      "object": "mar:Sanction_EVALUATION_RANGE_STATE_COP_CMS",
+      "concept_id": "Sanction",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.88
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_REPORTING_COP_CMS_EVALUATION_RANGE_STATES",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.96
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ACCORDS_CMS_ESPECES_APP_II_ACAP",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_MESURES_ATTENUATION_BYCATCH_HAMECONS_LESTES_ACAP",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:appliesDuring",
+      "object": "mar:Periode_DEPUIS_CMS_1ER_NOVEMBRE_1983",
+      "concept_id": "Periode",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Etat_PARTIE_CMS_RANGE_STATES_OISEAUX_MARINS",
+      "concept_id": "Etat",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PRELEVEMENT_RECHERCHE_SCIENTIFIQUE_ART_III_5",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PRISES_ACCESSOIRES_INVOLONTAIRES_MESURES_ATTENUATION",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I005",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_PRELEVEMENT_SURVIE_ELEVAGE_PROPAGATION_ESPECE",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I005",
+      "confidence": 0.88
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_INTERET_POPULATION_AUTOCHTONE_ART_III_5",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I005",
+      "confidence": 0.85
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_ALBATROS_DIOMEDEIDAE_APP_I_II_CMS_ACAP",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.99
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_PETRELS_PROCELLARIIDAE_PTERODROMA_PUFFINUS",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.97
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_STERNES_STERNIDAE_STERNA_PARADISAEA_DOUGALLII",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_MANCHOTS_SPHENISCUS_DEMERSUS_EUDYPTES_SPP",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_FREGATES_FREGATIDAE_FREGATA_SPP",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.92
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Espece_FOUS_SULIDAE_SULA_LEUCOGASTER",
+      "concept_id": "Espece",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.9
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_POPULATIONS_APP_I_ESPECES_DANGER_EXTINCTION",
+      "concept_id": "Stock",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.98
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_POPULATIONS_APP_II_ETAT_CONSERVATION_DEFAVORABLE",
+      "concept_id": "Stock",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "claude",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Stock_ALBATROS_PETRELS_GERES_ACCORD_ACAP_2004",
+      "concept_id": "Stock",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.94
+    },
+    {
+      "source": "CMS Art.IV §3 Appendix II agreements",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ACCORD_BILATERAL_MULTILATERAL_ESPECES_ANNEXE_II_CMS",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.95
+    },
+    {
+      "source": "CMS Art.III §5 Appendix I",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "object": "mar:Activite_INTERDICTION_ABSOLUE_ESPECES_ANNEXE_I_CMS",
+      "concept_id": "Activity",
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005",
+      "confidence": 0.97
+    },
+    {
+      "source": "CMS Art.II conservation status criteria",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_ETAT_CONSERVATION_FAVORABLE_CRITERES_CMS_ARTII",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.93
+    },
+    {
+      "source": "CMS Art.III §5(c) extraordinary exception",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "object": "mar:Exception_CAPTURE_ESPECES_MIGRATOIRES_RECHERCHE_BAGUAGE_PERMIS",
+      "concept_id": "Exception",
+      "deontic_type": "Permission",
+      "interdiction_id": "I005",
+      "confidence": 0.88
+    },
+    {
+      "source": "CMS Art.IX Secretariat",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "object": "mar:Acteur_SECRETARIAT_CMS_BONN_SUIVI_ACCORDS",
+      "concept_id": "Actor",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.9
+    },
+    {
+      "source": "CMS Scientific Council criteria",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "object": "mar:Controle_LISTE_ROUGE_UICN_EVALUATION_STATUT_ESPECES_MIGRATOIRES",
+      "concept_id": "Controle",
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005",
+      "confidence": 0.87
+    },
+    {
+      "source": "Article III, paragraphe 5",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Activity_PRELEVEMENT_ESPECES_MIGRATRICES_ANNEXE_I",
+      "subject": "I005",
+      "predicate": "mar:concerneActivite",
+      "concept_id": "Activity",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article I, f et Article III, paragraphe 5",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Zone_AIRE_DE_REPARTITION_ESPECES_MIGRATRICES",
+      "subject": "I005",
+      "predicate": "mar:appliesInZone",
+      "concept_id": "Zone",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article III, paragraphe 5",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Actor_ETAT_AIRE_DE_REPARTITION",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Actor",
+      "confidence": 1,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article III, Annexe I",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Espece_OISEAUX_MARINS_MIGRATEURS_ANNEXE_I",
+      "subject": "I005",
+      "predicate": "mar:concerneActeur",
+      "concept_id": "Espece",
+      "confidence": 0.95,
+      "deontic_type": "Prohibition",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article III, paragraphe 5 a-d",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Exception_DEROGATIONS_PRELEVEMENT_SCIENTIFIQUE_SURVIE_SUBSISTANCE_EXCEPTIONNELLE",
+      "subject": "I005",
+      "predicate": "mar:admetException",
+      "concept_id": "Exception",
+      "confidence": 1,
+      "deontic_type": "Permission",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article III, paragraphe 7",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Sanction_INFORMATION_SECRETAIRE_DEROGATION",
+      "subject": "I005",
+      "predicate": "mar:entraineSanction",
+      "concept_id": "Sanction",
+      "confidence": 0.8,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005"
+    },
+    {
+      "source": "Article III, paragraphe 4c",
+      "pdf_source": "Convention sur la conservation des espèces migratrices appartenant à la faune sa",
+      "object": "mar:Controle_CONTROLE_ESPECES_EXOTIQUES",
+      "subject": "I005",
+      "predicate": "mar:soumisA",
+      "concept_id": "Controle",
+      "confidence": 0.85,
+      "deontic_type": "Obligation",
+      "interdiction_id": "I005"
+    }
+  ]
+}

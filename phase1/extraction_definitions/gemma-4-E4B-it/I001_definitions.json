@@ -1,0 +1,29 @@
+[
+  {
+    "terme": "Classification statistique internationale type des engins de pêche (CSITEP)",
+    "definition": "révisée, telle qu’approuvée et adoptée en vue de sa mise en œuvre par le Groupe de travail chargé de coordonner les statistiques de pêche (CWP) de la FAO à l’occasion de sa vingtcinquième session en février 2016 à Rome, en Italie.",
+    "nom_scientifique": null,
+    "reference": "Introduction/Résumé",
+    "exclusions": null,
+    "doc_id": "I001",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pêches commerciales, de subsistance et récréatives",
+    "definition": "s'applique en mer et en eau douce.",
+    "nom_scientifique": null,
+    "reference": "Introduction/Résumé",
+    "exclusions": null,
+    "doc_id": "I001",
+    "modele": "gemma-4-9b-it"
+  },
+  {
+    "terme": "Pêche illicite, non déclarée et non réglementée (INDNR)",
+    "definition": "contribue à la prévention, à la dissuasion et à l’élimination de la pêche illicite, non déclarée et non réglementée (INDNR) en fournissant au personnel de suivi, de contrôle et de surveillance des informations permettant d’identifier le type d’engin de pêche utilisé par rapport aux permis et aux autorisations des opérations de pêche.",
+    "nom_scientifique": null,
+    "reference": "Introduction/Résumé",
+    "exclusions": null,
+    "doc_id": "I001",
+    "modele": "gemma-4-9b-it"
+  }
+]

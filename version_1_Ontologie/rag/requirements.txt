@@ -1,0 +1,32 @@
+# ═══════════════════════════════════════════════════════════════
+# Maritime RAG System — Dépendances Python v3
+# ═══════════════════════════════════════════════════════════════
+
+# Configuration & Secrets
+python-dotenv>=1.0.0         # Gestion des variables d'environnement
+
+# Extraction PDF
+PyMuPDF>=1.23.0               # Extraction avancée ultra-rapide (texte, blocs)
+
+# Base Vectorielle et Embeddings (Dense Retriever)
+chromadb>=0.4.0               # Vector Database
+sentence-transformers>=2.6.0  # Embeddings (modèle BAAI/bge-m3)
+huggingface-hub>=0.20.0       # Utilitaires pour les modèles HuggingFace
+
+# Recherche Lexicale (Sparse Retriever)
+rank-bm25>=0.2.2              # BM25Okapi
+
+# Graph Retriever (Ontology)
+rdflib>=7.0.0                 # RDF, parsing OWL/XML, requêtes SPARQL
+
+# Neo4j (Graph Database)
+neo4j>=5.0.0                  # Pilote Neo4j officiel
+
+# HTTP Client
+requests>=2.31.0              # Pour health checks Ollama
+
+# App & Dashboard
+streamlit>=1.30.0             # Interface utilisateur Web
+
+# Optionnel: Cross-Encoder Reranker
+# sentence-transformers[onnx]  # Si vous activez le reranking (GPU recommandé)

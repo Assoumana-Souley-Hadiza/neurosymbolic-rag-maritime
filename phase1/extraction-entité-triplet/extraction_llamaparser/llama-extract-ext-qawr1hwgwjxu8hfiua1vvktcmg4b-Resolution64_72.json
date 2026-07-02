@@ -1,0 +1,2025 @@
+{
+  "data": {
+    "source": "Résolution AGNU 64/72 (4 décembre 2009)",
+    "version": "final_v1",
+    "sources_pdf": true,
+    "interdiction": "Interdiction du chalutage de fond",
+    "interdiction_id": "I001",
+    "raw_extractions": {
+      "entites_trouvees": [
+        {
+          "categorie": "Activity",
+          "texte_original": "chalutage de fond"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "zones situées au-delà de la juridiction nationale"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "haute mer"
+        },
+        {
+          "categorie": "Zone",
+          "texte_original": "écosystèmes marins vulnérables"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "États du pavillon"
+        },
+        {
+          "categorie": "Actor",
+          "texte_original": "organismes ou arrangements régionaux de gestion des pêches"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "évaluations des impacts sur les écosystèmes marins vulnérables"
+        },
+        {
+          "categorie": "Controle",
+          "texte_original": "protocoles de suivi, de contrôle et de surveillance"
+        },
+        {
+          "categorie": "Sanction",
+          "texte_original": "interdiction des activités de pêche de fond tant que les mesures n'ont pas été adoptées et mises en œuvre"
+        },
+        {
+          "categorie": "Exception",
+          "texte_original": "États en développement appliquant les mesures en tenant compte de leurs besoins particuliers (section 6 des Directives FAO 2008)"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "tant que les évaluations n’auront pas été effectuées"
+        },
+        {
+          "categorie": "Periode",
+          "texte_original": "tant que les mesures de conservation et de gestion n’auront pas été établies"
+        },
+        {
+          "categorie": "Etat",
+          "texte_original": "adoption et mise en œuvre de mesures compatibles avec les Directives internationales de 2008 sur la gestion de la pêche profonde en haute mer"
+        }
+      ],
+      "explication_generale": "L’interdiction du chalutage de fond, telle que réaffirmée par la résolution 64/72 de l’Assemblée générale des Nations Unies, vise à protéger les écosystèmes marins vulnérables situés au-delà des juridictions nationales, notamment en haute mer. Cette interdiction s’applique principalement aux États du pavillon et aux organismes ou arrangements régionaux de gestion des pêches, qui doivent prendre des mesures urgentes pour empêcher la pêche de fond destructrice tant que des évaluations d’impact n’ont pas été réalisées et que des mesures de conservation et de gestion n’ont pas été adoptées et mises en œuvre, conformément au principe de précaution et aux Directives internationales de la FAO de 2008. L’interdiction prévoit des exceptions pour les États en développement, qui peuvent appliquer les mesures en tenant compte de leurs besoins spécifiques. Des mécanismes de contrôle, de suivi et de surveillance sont exigés, et l’interdiction reste en vigueur jusqu’à la mise en place effective des mesures requises. Cette approche vise à assurer la durabilité des stocks des grands fonds et la protection des habitats marins sensibles contre les effets néfastes du chalutage de fond.",
+      "interdictions_identifiees": [
+        "Interdiction des activités de pêche de fond (dont le chalutage de fond) dans les zones situées au-delà de la juridiction nationale tant que les évaluations d'impact n'ont pas été réalisées et que des mesures de conservation et de gestion n'ont pas été adoptées et mises en œuvre.",
+        "Interdiction de la pêche de fond dans les zones identifiées comme écosystèmes marins vulnérables tant que des mesures de conservation et de gestion n'ont pas été établies."
+      ]
+    },
+    "pipeline_triples": [
+      {
+        "object": "mar:Activity_CHALUTAGE_DE_FOND",
+        "source": "paragraphe 119, 120, 113-124",
+        "subject": "I001",
+        "predicate": "mar:concerneActivite",
+        "concept_id": "Activity",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_ZONES_SITUEES_AU_DELA_DE_LA_JURIDICTION_NATIONALE",
+        "source": "paragraphe 119, 120",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_HAUTE_MER",
+        "source": "paragraphe 119, 120",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 0.95,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Zone_ECOSYSTEMES_MARINS_VULNERABLES",
+        "source": "paragraphe 119, 120, 113",
+        "subject": "I001",
+        "predicate": "mar:appliesInZone",
+        "concept_id": "Zone",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Actor_ETATS_DU_PAVILLON",
+        "source": "paragraphe 119, 120",
+        "subject": "I001",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Actor_ORGANISMES_OU_ARRANGEMENTS_REGIONAUX_DE_GESTION_DES_PECHES",
+        "source": "paragraphe 119, 120, 117",
+        "subject": "I001",
+        "predicate": "mar:concerneActeur",
+        "concept_id": "Actor",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Controle_EVALUATIONS_DES_IMPACTS_SUR_LES_ECOSYSTEMES_MARINS_VULNERABLES",
+        "source": "paragraphe 119.a, 120",
+        "subject": "I001",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Controle_PROTOCOLS_DE_SUIVI_DE_CONTROLE_ET_DE_SURVEILLANCE",
+        "source": "paragraphe 119.d, 120",
+        "subject": "I001",
+        "predicate": "mar:soumisA",
+        "concept_id": "Controle",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Sanction_INTERDICTION_DES_ACTIVITES_DE_PECHE_DE_FOND_TANT_QUE_LES_MESURES_NE_SONT_PAS_ADOPTEES",
+        "source": "paragraphe 120",
+        "subject": "I001",
+        "predicate": "mar:entraineSanction",
+        "concept_id": "Sanction",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Exception_ETATS_EN_DEVELOPPEMENT_APPLIQUANT_LES_MESURES_EN_TENANT_COMPTE_DE_LEURS_BESOINS_PARTICULIERS",
+        "source": "paragraphe 121",
+        "subject": "I001",
+        "predicate": "mar:admetException",
+        "concept_id": "Exception",
+        "confidence": 1,
+        "deontic_type": "Permission",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Periode_TANT_QUE_LES_EVALUATIONS_NAURONT_PAS_ETE_EFFECTUEES",
+        "source": "paragraphe 119.a",
+        "subject": "I001",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Periode_TANT_QUE_LES_MESURES_DE_CONSERVATION_ET_DE_GESTION_NAURONT_PAS_ETE_ETABLIES",
+        "source": "paragraphe 119.b",
+        "subject": "I001",
+        "predicate": "mar:appliesDuring",
+        "concept_id": "Periode",
+        "confidence": 1,
+        "deontic_type": "Prohibition",
+        "interdiction_id": "I001"
+      },
+      {
+        "object": "mar:Etat_ADOPTION_ET_MISE_EN_OEUVRE_DE_MESURES_COMPATIBLES_AVEC_LES_DIRECTIVES_INTERNATIONALES_DE_2008_SUR_LA_GESTION_DE_LA_PECHE_PROFONDE_EN_HAUTE_MER",
+        "source": "paragraphe 113, 117, 120",
+        "subject": "I001",
+        "predicate": "mar:soumisA",
+        "concept_id": "Etat",
+        "confidence": 1,
+        "deontic_type": "Obligation",
+        "interdiction_id": "I001"
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "source": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# Résolution adoptée par l’Assemblée générale le 4 décembre 2009",
+              "bounding_boxes": [
+                {
+                  "h": 15.055031678734766,
+                  "w": 385.22236977181785,
+                  "x": 113.09284316644435,
+                  "y": 206.64755001905488
+                }
+              ],
+              "page_dimensions": {
+                "width": 612,
+                "height": 792
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.7979402636215862,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.7979402636215862
+        },
+        "version": {
+          "reasoning": "Valeur par défaut pour la version du pipeline.",
+          "confidence": 0.9955104784099942,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9955104784099942
+        },
+        "sources_pdf": {
+          "reasoning": "INFERRED FROM CONTEXT",
+          "confidence": 0.9999980183344259,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9999980183344259
+        },
+        "interdiction": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "*a)* Procéder aux évaluations demandées à l’alinéa *a* du paragraphe 83 de sa résolution 61/105, en se conformant aux Directives, et faire en sorte que les navires cessent leurs activités de pêche...",
+              "bounding_boxes": [
+                {
+                  "h": 46.01057069359754,
+                  "w": 365.9852454506479,
+                  "x": 122.80358195979422,
+                  "y": 456.88023675685974
+                }
+              ],
+              "page_dimensions": {
+                "width": 612,
+                "height": 792
+              }
+            }
+          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 0.9993145977579996,
+          "parsing_confidence": 1,
+          "extraction_confidence": 0.9993145977579996
+        },
+        "interdiction_id": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "confidence": 1,
+          "parsing_confidence": 1,
+          "extraction_confidence": 1
+        },
+        "raw_extractions": {
+          "reasoning": "Extraction basée sur les paragraphes 113-124 de la résolution, qui détaillent l'interdiction du chalutage de fond, les zones concernées, les acteurs, les mécanismes de contrôle, les sanctions (interdiction temporaire), les exceptions (États en développement), et les périodes d'application conditionnelles.",
+          "entites_trouvees": [
+            {
+              "categorie": {
+                "confidence": 0.9999998063873693,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9999998063873693
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "*Demande* aux États et aux organismes ou arrangements régionaux de gestion des pêches de s’efforcer de coopérer plus activement en matière de collecte et d’échange de données et d’informations scie...",
+                    "bounding_boxes": [
+                      {
+                        "h": 620.51,
+                        "w": 366.07,
+                        "x": 122.94,
+                        "y": 79.51
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8903178190393743,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8903178190393743
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit accord ;",
+                    "bounding_boxes": [
+                      {
+                        "h": 562.66,
+                        "w": 369.32,
+                        "x": 122.68,
+                        "y": 108.32
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.5270200118746348,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5270200118746348
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 3,
+                    "matching_text": "*Notant* l’importance que revêtent les bouées océaniques de collecte de données mouillées dans des zones situées au-delà de la juridiction nationale pour le développement durable, la promotion de la s...",
+                    "bounding_boxes": [
+                      {
+                        "h": 10.063412252286495,
+                        "w": 30.470082650533527,
+                        "x": 146.31667254192075,
+                        "y": 582.3195846036585
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9455613418118057,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9455613418118057
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "91. *Exhorte* tous les États signataires et les autres États dont les navires pêchent dans la zone relevant de la Convention sur la conservation et la gestion des ressources halieutiques de l’Atlantiq...",
+                    "bounding_boxes": [
+                      {
+                        "h": 562.66,
+                        "w": 369.32,
+                        "x": 122.68,
+                        "y": 108.32
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8349900693531928,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8349900693531928
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "...et les États qui exploitent des stocks chevauchants ou des stocks de poissons grands migrateurs en haute mer, lorsqu’il n’existe pas d’organisme ni d’arrangement sous-régional ou régional de gestion...",
+                    "bounding_boxes": [
+                      {
+                        "h": 562.66,
+                        "w": 369.32,
+                        "x": 122.68,
+                        "y": 108.32
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9491968401832026,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9491968401832026
+              }
+            },
+            {
+              "categorie": {
+                "citation": [
+                  {
+                    "page": 19,
+                    "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit accord ;",
+                    "bounding_boxes": [
+                      {
+                        "h": 562.66,
+                        "w": 369.32,
+                        "x": 122.68,
+                        "y": 108.32
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.6946348030442986,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6946348030442986
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 23,
+                    "matching_text": "...mesures de conservation ou de gestion qui pourraient prévenir des effets néfastes notables sur les écosystèmes marins vulnérables, notamment celles qui seraient fondées sur les",
+                    "bounding_boxes": [
+                      {
+                        "h": 94.30877143673773,
+                        "w": 365.91684296398626,
+                        "x": 122.85930247237043,
+                        "y": 612.5414191120427
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9357737712759471,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9357737712759471
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6632739778133345,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6632739778133345
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "4. *Souligne* que les États du pavillon sont tenus de s’acquitter des responsabilités qui leur incombent en vertu des dispositions de la Convention et de l’Accord et de veiller à ce que les navires ba...",
+                    "bounding_boxes": [
+                      {
+                        "h": 484.55,
+                        "w": 366.07,
+                        "x": 122.82,
+                        "y": 120.34
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9705671462321543,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9705671462321543
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9994335458786198,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9994335458786198
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 12,
+                    "matching_text": "...e ou d’appuyer les navires pratiquant ce type de pêche, y compris ceux qui sont répertoriés par les organismes ou arrangements régionaux de gestion des pêches, et de promouvoir l’entraide afin que les...",
+                    "bounding_boxes": [
+                      {
+                        "h": 615.384,
+                        "w": 366.58799999999997,
+                        "x": 123.012,
+                        "y": 79.2
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9931890320265735,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9931890320265735
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.5660801091152674,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.5660801091152674
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 23,
+                    "matching_text": "*c)* Établir et mettre en application des protocoles conçus en vue de la mise en œuvre de l’alinéa *d* du paragraphe 83 de sa résolution 61/105, notamment en ce qui concerne la définition des éléme...",
+                    "bounding_boxes": [
+                      {
+                        "h": 94.30877143673773,
+                        "w": 365.91684296398626,
+                        "x": 122.85930247237043,
+                        "y": 612.5414191120427
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8483282159259377,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8483282159259377
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6691179407921483,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6691179407921483
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "*d*) Adopter des mesures de conservation et de gestion, y compris de suivi, de contrôle et de surveillance, sur la base des évaluations des stocks ainsi que des meilleures informations scientifique...",
+                    "bounding_boxes": [
+                      {
+                        "h": 118.47990770293445,
+                        "w": 365.8556378620427,
+                        "x": 122.90738829077745,
+                        "y": 108.3942119616997
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8379091209598916,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8379091209598916
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.9018825973120522,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9018825973120522
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "120. *Demande* aux États du pavillon, aux membres des organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond et aux États participant à des né...",
+                    "bounding_boxes": [
+                      {
+                        "h": 620.51,
+                        "w": 366.07,
+                        "x": 122.94,
+                        "y": 79.51
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8425629708402694,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8425629708402694
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.7337230345833514,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7337230345833514
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "121. *Est consciente* de la situation et des besoins particuliers des États en développement et des difficultés spécifiques qu’ils peuvent rencontrer pour donner effet à certains aspects techniques...",
+                    "bounding_boxes": [
+                      {
+                        "h": 620.51,
+                        "w": 366.07,
+                        "x": 122.94,
+                        "y": 79.51
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.7718963894577456,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.7718963894577456
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.8916601763703196,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8916601763703196
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 23,
+                    "matching_text": "*a)* Procéder aux évaluations demandées à l’alinéa *a* du paragraphe 83 de sa résolution 61/105, en se conformant aux Directives, et faire en sorte que les navires cessent leurs activités de pêche de...",
+                    "bounding_boxes": [
+                      {
+                        "h": 46.01057069359754,
+                        "w": 365.9852454506479,
+                        "x": 122.80358195979422,
+                        "y": 456.88023675685974
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.9047784712028126,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.9047784712028126
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.6820500796192008,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.6820500796192008
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 23,
+                    "matching_text": "...les sur ces écosystèmes, en se conformant aux Directives, ou interdire ces zones à la pêche de fond tant que les mesures de conservation et de gestion n’auront pas été établies, comme il a été demandé...",
+                    "bounding_boxes": [
+                      {
+                        "h": 93.82339224466462,
+                        "w": 365.7310046684451,
+                        "x": 123.04412037919207,
+                        "y": 510.7178063071646
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.97507530643903,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.97507530643903
+              }
+            },
+            {
+              "categorie": {
+                "confidence": 0.3696645199118731,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.3696645199118731
+              },
+              "texte_original": {
+                "citation": [
+                  {
+                    "page": 24,
+                    "matching_text": "120. *Demande* aux États du pavillon, aux membres des organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond et aux États participant à des né...",
+                    "bounding_boxes": [
+                      {
+                        "h": 620.51,
+                        "w": 366.07,
+                        "x": 122.94,
+                        "y": 79.51
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612,
+                      "height": 792
+                    }
+                  }
+                ],
+                "confidence": 0.8680676371779514,
+                "parsing_confidence": 1,
+                "extraction_confidence": 0.8680676371779514
+              }
+            }
+          ],
+          "explication_generale": {
+            "confidence": 0.745383937026613,
+            "parsing_confidence": 1,
+            "extraction_confidence": 0.745383937026613
+          },
+          "interdictions_identifiees": [
+            {
+              "citation": [
+                {
+                  "page": 25,
+                  "matching_text": "124. *Demande* aux États concernés de coopérer et de s’efforcer de mettre en place, selon qu’il conviendra, des organismes ou arrangements régionaux de gestion des pêches ayant compétence pour régl...",
+                  "bounding_boxes": [
+                    {
+                      "h": 496.66,
+                      "w": 366.36,
+                      "x": 122.63,
+                      "y": 198.22
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8628712257576442,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8628712257576442
+            },
+            {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "*b)* Poursuivre leurs travaux de recherche scientifique marine et utiliser les meilleures informations scientifiques et techniques disponibles afin d’identifier les écosystèmes marins vulnérables e...",
+                  "bounding_boxes": [
+                    {
+                      "h": 93.82339224466462,
+                      "w": 365.7310046684451,
+                      "x": 123.04412037919207,
+                      "y": 510.7178063071646
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8258892335699902,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8258892335699902
+            }
+          ]
+        },
+        "pipeline_triples": [
+          {
+            "object": {
+              "confidence": 0.9999937687038906,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999937687038906
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "120. *Demande* aux États du pavillon, aux membres des organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond et aux États participant à des né...",
+                  "bounding_boxes": [
+                    {
+                      "h": 620.51,
+                      "w": 366.07,
+                      "x": 122.94,
+                      "y": 79.51
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.7804923460488724,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7804923460488724
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999382828608,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999382828608
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...s mesures provisoires, y compris celles préconisées aux paragraphes 80 et 83 à 87 de sa résolution 61/105 et aux paragraphes 117, 119, 120, 122 et 123 de la présente résolution, visant à garantir la c...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9977337421341219,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9977337421341219
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "120. *Demande* aux États du pavillon, aux membres des organismes ou arrangements régionaux de gestion des pêches ayant compétence pour réglementer la pêche de fond et aux États participant à des né...",
+                  "bounding_boxes": [
+                    {
+                      "h": 620.51,
+                      "w": 366.07,
+                      "x": 122.94,
+                      "y": 79.51
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.981097938438139,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.981097938438139
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "*Estime* que, sur la base de l’examen réalisé en application du paragraphe 91 de sa résolution 61/105, de nouvelles mesures doivent être prises, en se conformant au principe de précaution et aux ap...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9715983595857044,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9715983595857044
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit accord ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...s mesures provisoires, y compris celles préconisées aux paragraphes 80 et 83 à 87 de sa résolution 61/105 et aux paragraphes 117, 119, 120, 122 et 123 de la présente résolution, visant à garantir la c...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9886072799261454,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9886072799261454
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "92. *Encourage* les États signataires et les États directement intéressés à devenir partie à l’Accord relatif aux pêches dans le sud de l’océan Indien, et exhorte ces États à adopter et à appliquer...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999998081916093,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998081916093
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "*Accueille avec satisfaction* l’adoption de la Convention relative à la conservation et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre 2009...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9146915337549436,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9146915337549436
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "INFERRED FROM CONTEXT",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit accord ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "89. *Invite*, à cet égard, les organismes et arrangements sous-régionaux et régionaux de gestion des pêches à veiller à ce que tous les États qui ont un intérêt réel dans les pêches considérées pui...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.810344815407569,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.810344815407569
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9999638113265263,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999638113265263
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "92. *Encourage* les États signataires et les États directement intéressés à devenir partie à l’Accord relatif aux pêches dans le sud de l’océan Indien, et exhorte ces États à adopter et à appliquer...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8030930171553741,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8030930171553741
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...tion et la gestion des ressources halieutiques et des écosystèmes et habitats marins situés dans la zone à laquelle s’applique l’Accord en attendant l’entrée en vigueur dudit accord ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...s mesures provisoires, y compris celles préconisées aux paragraphes 80 et 83 à 87 de sa résolution 61/105 et aux paragraphes 117, 119, 120, 122 et 123 de la présente résolution, visant à garantir la c...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.881907623637772,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.881907623637772
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9975204146812194,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9975204146812194
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "*Estime* que, sur la base de l’examen réalisé en application du paragraphe 91 de sa résolution 61/105, de nouvelles mesures doivent être prises, en se conformant au principe de précaution et aux ap...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9503398214088705,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9503398214088705
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999999382828608,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999999382828608
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9998635805704087,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9998635805704087
+            },
+            "deontic_type": {
+              "confidence": 0.9993372412741433,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9993372412741433
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "117. *Se félicite également* de l’important travail accompli par l’Organisation des Nations Unies pour l’alimentation et l’agriculture en ce qui concerne la gestion des pêches hauturières et la pro...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9904357849312029,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9904357849312029
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "*Se félicite* des progrès considérables accomplis par les États, les organismes ou arrangements régionaux de gestion des pêches et les États participant aux négociations visant à établir, à l’échel...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9262623613258427,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9262623613258427
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9332623960956629,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9332623960956629
+            },
+            "deontic_type": {
+              "confidence": 0.9999750495410287,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999750495410287
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9995345954761582,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9995345954761582
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "94. *Accueille avec satisfaction* l’adoption de la Convention relative à la conservation et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.7581278242974175,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.7581278242974175
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999989838078979,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999989838078979
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...ion et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre 2009, engage les États et l’organisation d’intégration économique régionale, et les enti...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9923907182054332,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9923907182054332
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...ation à valeur ajoutée et les bases économiques de leur industrie de la pêche, dans le respect de l’obligation d’assurer une conservation et une gestion appropriées de ces ressources ;",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8620708402184601,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8620708402184601
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9755878758611845,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9755878758611845
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "94. *Accueille avec satisfaction* l’adoption de la Convention relative à la conservation et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8674445087705962,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8674445087705962
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 0.9999827484167496,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999827484167496
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...ion et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre 2009, engage les États et l’organisation d’intégration économique régionale, et les enti...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8215309560126723,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8215309560126723
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 18,
+                  "matching_text": "...abilité à instituer des mesures de conservation et de gestion de ces stocks, de s’acquitter de leur obligation de coopérer en devenant membres de l’organisme ou parties à l’arrangement en question, en...",
+                  "bounding_boxes": [
+                    {
+                      "h": 186.49,
+                      "w": 368.91,
+                      "x": 122.95,
+                      "y": 462.53
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999996647864002,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999996647864002
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 17,
+                  "matching_text": "80. *Prie instamment* les États, les organismes et arrangements sous-régionaux et régionaux de gestion des pêches et les autres organisations internationales compétentes qui ne l’ont pas encore fai...",
+                  "bounding_boxes": [
+                    {
+                      "h": 390.61,
+                      "w": 369.08,
+                      "x": 122.91,
+                      "y": 318.38
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9736146850617076,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9736146850617076
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 17,
+                  "matching_text": "80. *Prie instamment* les États, les organismes et arrangements sous-régionaux et régionaux de gestion des pêches et les autres organisations internationales compétentes qui ne l’ont pas encore fai...",
+                  "bounding_boxes": [
+                    {
+                      "h": 390.61,
+                      "w": 369.08,
+                      "x": 122.91,
+                      "y": 318.38
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9920487019527736,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9920487019527736
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9848776387016968,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9848776387016968
+            },
+            "deontic_type": {
+              "confidence": 0.9949801443416743,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9949801443416743
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9669322061429149,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9669322061429149
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 24,
+                  "matching_text": "121. *Est consciente* de la situation et des besoins particuliers des États en développement et des difficultés spécifiques qu’ils peuvent rencontrer pour donner effet à certains aspects techniques de...",
+                  "bounding_boxes": [
+                    {
+                      "h": 620.51,
+                      "w": 366.07,
+                      "x": 122.94,
+                      "y": 79.51
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.999999279842573,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.999999279842573
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8683605392716203,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8683605392716203
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "confidence": 0.9883180267725576,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9883180267725576
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 17,
+                  "matching_text": "80. *Prie instamment* les États, les organismes et arrangements sous-régionaux et régionaux de gestion des pêches et les autres organisations internationales compétentes qui ne l’ont pas encore fai...",
+                  "bounding_boxes": [
+                    {
+                      "h": 390.61,
+                      "w": 369.08,
+                      "x": 122.91,
+                      "y": 318.38
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9988456315179223,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9988456315179223
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9923989595701659,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9923989595701659
+            },
+            "deontic_type": {
+              "confidence": 0.9999998435918493,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999998435918493
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "26. *Invite* les États à faciliter la participation des pays en développement aux organismes et arrangements régionaux de gestion des pêches, notamment l’accès aux pêcheries de stocks chevauchants...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9997293733750368,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9997293733750368
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "26. *Invite* les États à faciliter la participation des pays en développement aux organismes et arrangements régionaux de gestion des pêches, notamment l’accès aux pêcheries de stocks chevauchants...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9999603341853665,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9999603341853665
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "...chevauchants et de stocks de poissons grands migrateurs, conformément à l’alinéa *b* du paragraphe 1 de l’article 25 de l’Accord, étant donné qu’il faut veiller à ce que ces pays et leurs nationaux t...",
+                  "bounding_boxes": [
+                    {
+                      "h": 634.47,
+                      "w": 369.51,
+                      "x": 122.4,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9992709940164767,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9992709940164767
+            },
+            "deontic_type": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          },
+          {
+            "object": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "117. *Se félicite également* de l’important travail accompli par l’Organisation des Nations Unies pour l’alimentation et l’agriculture en ce qui concerne la gestion des pêches hauturières et la pro...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9821521513801218,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9821521513801218
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 23,
+                  "matching_text": "117. *Se félicite également* de l’important travail accompli par l’Organisation des Nations Unies pour l’alimentation et l’agriculture en ce qui concerne la gestion des pêches hauturières et la pro...",
+                  "bounding_boxes": [
+                    {
+                      "h": 628.26,
+                      "w": 366.22,
+                      "x": 122.77,
+                      "y": 78.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.8934513754854173,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.8934513754854173
+            },
+            "subject": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "predicate": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "reasoning": "VERBATIM EXTRACTION",
+            "concept_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            },
+            "confidence": {
+              "citation": [
+                {
+                  "page": 19,
+                  "matching_text": "...ion et à la gestion des pêches hauturières dans le Pacifique Sud, à Auckland (Nouvelle-Zélande), le 14 novembre 2009, engage les États et l’organisation d’intégration économique régionale, et les enti...",
+                  "bounding_boxes": [
+                    {
+                      "h": 562.66,
+                      "w": 369.32,
+                      "x": 122.68,
+                      "y": 108.32
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9975805989009243,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9975805989009243
+            },
+            "deontic_type": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "*Consciente* de l’obligation que la Convention, l’Accord visant à favoriser le respect par les navires de pêche en haute mer des mesures internationales de conservation et de gestion (« l’Accord de l’...",
+                  "bounding_boxes": [
+                    {
+                      "h": 9.687658393673772,
+                      "w": 47.543263147865844,
+                      "x": 146.7268870283918,
+                      "y": 312.99610232469513
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612,
+                    "height": 792
+                  }
+                }
+              ],
+              "confidence": 0.9990360294606851,
+              "parsing_confidence": 1,
+              "extraction_confidence": 0.9990360294606851
+            },
+            "interdiction_id": {
+              "confidence": 1,
+              "parsing_confidence": 1,
+              "extraction_confidence": 1
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": "pjb-np8lmon32o4rsu3jsgght6z38v9h",
+    "parse_tier": null
+  }
+}
