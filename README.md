@@ -1,7 +1,7 @@
-# 🌊 Ontologie Maritime & RAG Hybride — Droit International de la Mer
+# 🌊 Neuro-Symbolic RAG — Droit International de la Mer
 
 > **Projet de Fin d'Études (PFE)**  
-> Construction d'une ontologie juridique maritime alignée sur LKIF-Core et d'un système RAG hybride (Dense + Sparse + Graph) pour l'interrogation intelligente de textes juridiques maritimes francophones.
+> Système neuro-symbolique combinant une ontologie juridique maritime (OWL/LKIF-Core) et un RAG hybride (Dense + Sparse + Graph) pour l'interrogation intelligente de textes juridiques maritimes francophones.
 
 ---
 
@@ -20,8 +20,7 @@
 11. [Configuration](#-configuration)
 12. [Tests](#-tests)
 13. [Troubleshooting](#-troubleshooting)
-14. [Arborescence Complète](#-arborescence-complète)
-15. [Références Scientifiques](#-références-scientifiques)
+14. [Références Scientifiques](#-références-scientifiques)
 
 ---
 
@@ -104,35 +103,25 @@ Ce projet traite **6 interdictions maritimes** du droit international :
 ## 📁 Structure du Dépôt
 
 ```
-stage_RAG/
+neurosymbolic-rag-maritime/
 │
 ├── README.md                          # ← Ce fichier (guide complet)
 ├── .gitignore
 ├── Rapport_De_PFE.pdf                 # Rapport de PFE complet
 ├── Rapport_De_PFE.docx
-│
-├── articles_et_présentations/         # Articles de référence et données d'évaluation
-│   ├── article1.pdf ... article_ontologie3.pdf
-│   ├── chasse_a_la_baleine.xlsx       # Grille d'évaluation manuelle
-│   └── rejet_dhydrocarbures.xlsx
-│
-├── fichiers/                          # Notebooks Kaggle d'extraction (Phase 1)
-│   ├── Notebook 1 — Ministral-8B-Instruct-2410.ipynb
-│   ├── Notebook 2 — Qwen3-8B.ipynb
-│   ├── Notebook 3 — gemma-4-E4B-it.ipynb
-│   └── *.json                         # Résultats d'extraction bruts
+├── *.xlsx                             # Grilles d'évaluation manuelles
 │
 ├── phase1/                            # Données brutes de la Phase 1
-│   ├── extraction-entité-triplet/     # Triplets extraits par modèle
+│   ├── extraction-entité-triplet/     # Triplets extraits par modèle LLM
 │   ├── extraction_definitions/        # Définitions extraites par modèle
 │   ├── Synonyme et hyperonymes/       # Synonymes/hyperonymes par interdiction
 │   └── *.xlsx                         # Grilles d'évaluation
 │
-└── version_1_Ontologie/               # ★ CODE SOURCE PRINCIPAL ★
-    ├── README.md                      # Documentation technique détaillée
+└── neurosymbolic_rag/                 # ★ CODE SOURCE PRINCIPAL ★
+    ├── README.md                      # Documentation technique
     ├── main.py                        # Point d'entrée CLI unifié
     ├── requirements.txt               # Dépendances Python
-    ├── pyproject.toml                 # Packaging Python (pip install -e .)
+    ├── pyproject.toml                 # Packaging Python
     ├── docker-compose.yml             # Neo4j containerisé
     ├── .env.local.example             # Template de configuration secrète
     │
@@ -145,10 +134,7 @@ stage_RAG/
     │   ├── sparql_runner.py           # Questions de compétence SPARQL
     │   ├── corrections.py             # Corrections post-population
     │   ├── entity_resolution.py       # Résolution d'entités
-    │   ├── triple_injector.py         # Injection de triplets
-    │   ├── ontology_cleaner.py        # Nettoyage ontologie
-    │   ├── refactor_ontology.py       # Refactoring structurel
-    │   └── visualize_ontology.py      # Visualisation du graphe
+    │   └── triple_injector.py         # Injection de triplets
     │
     ├── rag/                           # Module RAG hybride
     │   ├── config.py                  # Configuration centralisée
@@ -159,7 +145,7 @@ stage_RAG/
     │   │   ├── retrievers.py          # Dense (ChromaDB) + Sparse (BM25)
     │   │   ├── fusion.py              # Fusion RRF + boost sémantique
     │   │   ├── query_analyzer.py      # Analyse d'intention
-    │   │   └── neo4j_graph_retriever.py  # Retriever graphe Neo4j
+    │   │   └── neo4j_graph_retriever.py
     │   ├── ingestion/                 # Extraction et indexation
     │   │   ├── pdf_extractor.py       # Extraction PDF (PyMuPDF)
     │   │   └── embeddings_pipeline.py # Indexation BGE-M3 + BM25
@@ -170,17 +156,11 @@ stage_RAG/
     │       └── app_streamlit.py       # Interface web Streamlit
     │
     ├── data/                          # Données structurées
-    │   ├── config/
-    │   │   └── settings.yaml          # Configuration ontologie
-    │   ├── input/
-    │   │   └── lkif_stub.ttl          # Stub LKIF-Core (alignement)
-    │   ├── queries/
-    │   │   └── competency_questions.sparql  # 10 questions de compétence
+    │   ├── config/settings.yaml       # Configuration ontologie
+    │   ├── input/lkif_stub.ttl        # Stub LKIF-Core (alignement)
+    │   ├── queries/competency_questions.sparql
     │   ├── raw/                       # Données brutes (triplets JSON)
-    │   │   ├── extraction_merged/     # Triplets fusionnés par interdiction
-    │   │   ├── definitions_retenues_propres/  # Définitions validées
-    │   │   └── Synonyme et hyperonymes/       # Lexique
-    │   └── output/                    # Fichiers générés (ontologie)
+    │   └── output/                    # Ontologie générée (TTL/OWL/JSON-LD)
     │
     ├── tests/                         # Tests automatisés
     │   ├── test_ontology.py
@@ -189,17 +169,10 @@ stage_RAG/
     │   └── test_rag_robustness.py
     │
     ├── scripts/                       # Scripts utilitaires
-    ├── docs/                          # Documentation étendue
-    │   ├── ARCHITECTURE.md
-    │   ├── INSTALLATION.md
-    │   ├── QUICK_START.md
-    │   └── ...
-    │
     ├── benchmark_queries.py           # Requêtes de benchmark
-    ├── batch_query_system.py          # Système de requêtes batch
+    ├── run_benchmark.py               # Exécution des benchmarks
     ├── test_ablation.py               # Étude d'ablation
-    ├── test_ablation_article.py       # Ablation pour l'article
-    └── run_benchmark.py              # Exécution des benchmarks
+    └── test_ablation_article.py       # Ablation pour l'article
 ```
 
 ---
@@ -229,7 +202,7 @@ cd neurosymbolic-rag-maritime
 ### Étape 2 : Créer l'environnement virtuel
 
 ```bash
-cd version_1_Ontologie
+cd neurosymbolic_rag
 
 # Créer l'environnement
 python -m venv .venv
@@ -290,7 +263,7 @@ ollama list
 docker-compose up -d
 
 # Vérifier : http://localhost:7474
-# Login : neo4j / maritime2024 (ou votre mot de passe .env.local)
+# Login : neo4j / <votre_mot_de_passe>
 ```
 
 ### Étape 7 : Vérifier l'installation
@@ -329,8 +302,6 @@ Le système peut fonctionner en mode **ontologie seule** (sans RAG) :
 python main.py ontology    # Ne nécessite pas de PDFs
 ```
 
-Pour le RAG, l'extraction et l'indexation seront vides mais le code fonctionnera sans erreur.
-
 ---
 
 ## ⚙️ Lancement — Pipeline Ontologie
@@ -351,17 +322,10 @@ Cela génère dans `data/output/` :
 ### Options
 
 ```bash
-# Questions SPARQL uniquement
-python main.py ontology --sparql-only
-
-# Export Neo4j uniquement
-python main.py ontology --neo4j-only
-
-# Validation OWL-RL
-python main.py ontology --validate
-
-# Sans Neo4j
-python main.py ontology --no-neo4j
+python main.py ontology --sparql-only    # Questions SPARQL uniquement
+python main.py ontology --neo4j-only     # Export Neo4j uniquement
+python main.py ontology --validate       # Validation OWL-RL
+python main.py ontology --no-neo4j       # Sans Neo4j
 ```
 
 ---
@@ -374,20 +338,17 @@ python main.py ontology --no-neo4j
 python main.py rag
 ```
 
-**Phase 1 — Extraction PDF** : Lit tous les PDFs de `rag/RAG_data/`, les découpe en chunks (800 tokens, overlap 100).
-
-**Phase 2 — Indexation Hybride** : Crée les index Dense (ChromaDB + BGE-M3) et Sparse (BM25).
-
-**Phase 3 — Vérification** : Exécute 4 requêtes de test pour valider le système.
+| Phase | Description |
+|-------|-------------|
+| **Phase 1** | Extraction PDF → découpe en chunks (800 tokens, overlap 100) |
+| **Phase 2** | Indexation Dense (ChromaDB + BGE-M3) + Sparse (BM25) |
+| **Phase 3** | Vérification avec 4 requêtes de test |
 
 ### Options
 
 ```bash
-# Sauter l'extraction PDF (si déjà fait)
-python main.py rag -- --skip-extraction
-
-# Sauter l'indexation (si déjà fait)
-python main.py rag -- --skip-indexing
+python main.py rag -- --skip-extraction   # Sauter la Phase 1
+python main.py rag -- --skip-indexing     # Sauter la Phase 2
 ```
 
 ---
@@ -408,29 +369,16 @@ L'interface s'ouvre à `http://localhost:8501` et permet :
 
 ## 📊 Évaluation et Benchmarks
 
-### Étude d'ablation
-
 ```bash
-# Ablation complète (Dense seul, Sparse seul, Hybride, Hybride+Graph)
+# Étude d'ablation (Dense seul, Sparse seul, Hybride, Hybride+Graph)
 python test_ablation.py
 
 # Version article LATELL2026
 python test_ablation_article.py
-```
 
-### Benchmark de requêtes
-
-```bash
+# Benchmark de requêtes
 python run_benchmark.py
 ```
-
-### Requêtes batch
-
-```bash
-python batch_query_system.py
-```
-
-Les résultats sont sauvegardés dans `results/`.
 
 ---
 
@@ -450,23 +398,16 @@ namespaces:
 output:
   dir: "data/output"
   formats: [turtle, xml, json-ld]
-
-neo4j:
-  uri: "bolt://localhost:7687"
-  user: "neo4j"
-  password: "maritime2024"    # ⚠️ Changer en production
 ```
 
-### RAG — `rag/config.py`
-
-Les paramètres clés sont configurables via `.env.local` :
+### RAG — Variables d'environnement (`.env.local`)
 
 | Variable | Défaut | Description |
 |----------|--------|-------------|
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | URL d'Ollama |
 | `OLLAMA_MODEL` | `mistral` | Modèle LLM |
 | `LLM_TEMPERATURE` | `0.1` | Température (0 = déterministe) |
-| `NEO4J_PASSWORD` | — | Mot de passe Neo4j (obligatoire) |
+| `NEO4J_PASSWORD` | — | Mot de passe Neo4j (**obligatoire**) |
 | `NEO4J_URI` | `bolt://localhost:7687` | URI Neo4j |
 | `EMBEDDING_VERSION` | `bge-m3-v1` | Version des embeddings |
 | `LOG_LEVEL` | `INFO` | Niveau de log |
@@ -476,123 +417,24 @@ Les paramètres clés sont configurables via `.env.local` :
 ## 🧪 Tests
 
 ```bash
-# Tous les tests
-pytest tests/ -v
-
-# Tests unitaires uniquement
-pytest tests/ -v -m unit
-
-# Tests d'intégration (nécessite Neo4j + Ollama)
-pytest tests/ -v -m integration
-
-# Avec couverture
-pytest tests/ --cov=ontologie --cov=rag
+pytest tests/ -v                              # Tous les tests
+pytest tests/ -v -m unit                      # Tests unitaires
+pytest tests/ -v -m integration               # Tests d'intégration (Neo4j + Ollama)
+pytest tests/ --cov=ontologie --cov=rag       # Avec couverture
 ```
 
 ---
 
 ## 🐛 Troubleshooting
 
-### ❌ `NEO4J_PASSWORD manquante dans .env.local`
-```bash
-cp .env.local.example .env.local
-# Éditez .env.local avec votre mot de passe Neo4j
-```
-
-### ❌ `Module not found: ontologie` ou `rag`
-```bash
-# Assurez-vous d'être dans version_1_Ontologie/
-cd version_1_Ontologie
-
-# Windows :
-set PYTHONPATH=.;%PYTHONPATH%
-
-# Linux/macOS :
-export PYTHONPATH=.:$PYTHONPATH
-```
-
-### ❌ Neo4j `Connection refused`
-```bash
-docker-compose up -d
-docker-compose ps    # Vérifier que le conteneur tourne
-# Browser : http://localhost:7474
-```
-
-### ❌ Ollama `Connection refused`
-```bash
-ollama serve         # Lancer le serveur
-ollama list          # Vérifier les modèles installés
-```
-
-### ❌ `No PDF files found` (RAG)
-Vérifiez que les PDFs sont dans `rag/RAG_data/<catégorie>/`. Voir la section [Obtenir les Données](#-obtenir-les-données-pdfs).
-
-### ⚠️ Premier lancement très lent
-Le premier lancement télécharge le modèle d'embedding BGE-M3 (~1.2 Go). Les lancements suivants sont instantanés.
-
----
-
-## 📐 Arborescence Complète
-
-<details>
-<summary>Cliquez pour voir l'arborescence détaillée</summary>
-
-```
-stage_RAG/
-├── .gitignore
-├── README.md
-├── Rapport_De_PFE.pdf
-├── Rapport_De_PFE.docx
-├── Listes_synonymes_hyperonymes.docx
-├── plan_Rapport.docx
-├── ontologie_comparaison.html
-├── chasse_a_la_baleine.xlsx
-├── rejet_dhydrocarbures.xlsx
-├── rejet_hydrocarbure_bertscore.xlsx
-├── ablation_chasse_a_la_baleine_run1.xlsx
-│
-├── articles_et_présentations/
-│   ├── article1.pdf
-│   ├── article2.pdf
-│   ├── article_ontologie.pdf
-│   ├── article_ontologie2.pdf
-│   ├── article_ontologie3.pdf
-│   ├── chasse_a_la_baleine.xlsx
-│   └── rejet_dhydrocarbures.xlsx
-│
-├── fichiers/
-│   ├── Notebook 1 — Ministral-8B-Instruct-2410.ipynb
-│   ├── Notebook 2 — Qwen3-8B.ipynb
-│   ├── Notebook 3 — gemma-4-E4B-it.ipynb
-│   └── *.json (résultats d'extraction)
-│
-├── phase1/
-│   ├── extraction-entité-triplet/
-│   ├── extraction_definitions/
-│   ├── Synonyme et hyperonymes/
-│   └── *.xlsx (grilles d'évaluation)
-│
-└── version_1_Ontologie/
-    ├── main.py
-    ├── requirements.txt
-    ├── pyproject.toml
-    ├── docker-compose.yml
-    ├── .env.local.example
-    ├── .gitignore
-    ├── README.md
-    ├── ontologie/ (15 fichiers Python)
-    ├── rag/ (18 fichiers Python)
-    ├── data/ (config, input, queries, raw, output)
-    ├── tests/ (5 fichiers)
-    ├── scripts/ (4 fichiers)
-    ├── docs/ (22 fichiers)
-    ├── benchmark_queries.py
-    ├── batch_query_system.py
-    ├── test_ablation.py
-    └── run_benchmark.py
-```
-
-</details>
+| Erreur | Solution |
+|--------|----------|
+| `NEO4J_PASSWORD manquante` | Copier `.env.local.example` → `.env.local` et remplir |
+| `Module not found: ontologie` | Être dans `neurosymbolic_rag/` et `set PYTHONPATH=.;%PYTHONPATH%` |
+| `Neo4j Connection refused` | `docker-compose up -d` puis vérifier `http://localhost:7474` |
+| `Ollama Connection refused` | Lancer `ollama serve` puis `ollama list` |
+| `No PDF files found` | Placer les PDFs dans `rag/RAG_data/<catégorie>/` |
+| Premier lancement lent | Normal : téléchargement du modèle BGE-M3 (~1.2 Go) |
 
 ---
 
@@ -608,7 +450,7 @@ stage_RAG/
 
 ## 📝 Licence
 
-Projet académique — 
+Projet académique — Licence à spécifier.
 
 ---
 
