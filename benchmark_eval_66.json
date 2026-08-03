@@ -1,0 +1,848 @@
+[
+  {
+    "id": "Q_BAL_001",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Bénin ?",
+    "country": "Bénin",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 79 interdit la pêche, la détention et la commercialisation de toute espèce de mammifères aquatiques ou de tortues marines en République du Bénin.",
+    "relevant_keywords": [
+      "interdit",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_034",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Congo ?",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 14 de la loi n° 14/003 du 11 février 2014 relative à la conservation de la nature en République démocratique du Congo interdit la chasse, la pêche ou la capture des baleines (cétacés) considérées comme espèces protégées.",
+    "relevant_keywords": [
+      "interdit",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_078",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines à Madagascar ?",
+    "country": "Madagascar",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 18 interdit la chasse, la pêche et la capture de toutes les espèces menacées et protégées, y compris les baleines (cétacés).",
+    "relevant_keywords": [
+      "interdit",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_013",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Cameroun qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Cameroun",
+    "theme": "chasse_baleines",
+    "ground_truth": "Il n'y a pas d'article spécifique concernant l'interdiction de la chasse, pêche ou capture de baleines (cétacés) dans certaines zones ou régions du Cameroun dans les documents fournis.",
+    "relevant_keywords": [
+      "zone",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_035",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Congo qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non.",
+    "relevant_keywords": [
+      "zone",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_046",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines à Djibouti qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Djibouti",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'article portant sur l'interdiction des baleines (cétacés) qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions à Djibouti.",
+    "relevant_keywords": [
+      "zone",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_003",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Bénin qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Bénin",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non.",
+    "relevant_keywords": [
+      "période",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_124",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines en Tunisie qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Tunisie",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'article portant sur l'interdiction des baleines (cétacés) avec une précision sur la temporalité en Tunisie dans ce contexte.",
+    "relevant_keywords": [
+      "période",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_113",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction de la chasse des baleines au Togo qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Togo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'article dans ce contexte qui détaillerait l'interdiction de la chasse, pêche ou capture de baleines (cétacés) au Togo et mentionnant que cette interdiction n'est pas applicable en permanence.",
+    "relevant_keywords": [
+      "période",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_004",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce qu'un texte juridique précise les types d'activités concernées par l'interdiction de la chasse des baleines au Bénin ?",
+    "country": "Bénin",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 79 précise que la pêche, la détention et la commercialisation de toute espèce de mammifères aquatiques ou de tortues marines sont interdites en République du Bénin.",
+    "relevant_keywords": [
+      "capture",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_125",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce qu'un texte juridique précise les types d'activités concernées par l'interdiction de la chasse des baleines en Tunisie ?",
+    "country": "Tunisie",
+    "theme": "chasse_baleines",
+    "ground_truth": "Il n'y a pas de contexte juridique disponible.",
+    "relevant_keywords": [
+      "capture",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_092",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce qu'un texte juridique précise les types d'activités concernées par l'interdiction de la chasse des baleines en Mauritanie ?",
+    "country": "Mauritanie",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 39 précise que la pêche, la capture et la détention de toutes espèces de mammifères marins sont interdites en tout temps et en tout lieu, sauf autorisation spéciale du ministre chargé des pêches et à des fins de recherche scientifique ou technique.",
+    "relevant_keywords": [
+      "capture",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_005",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines au Bénin ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Bénin",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'exceptions mentionnées dans les articles juridiques fournis concernant l'interdiction de la chasse, de la pêche ou de la capture des baleines (cétacés) au Bénin.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_BAL_038",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines au Congo ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 20 prévoit des exceptions pour l'éducation, le repeuplement et la réintroduction d'espèces, ainsi que pour la recherche scientifique et la bioprospection.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_BAL_027",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines aux Comores ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Comores",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 9 permet des exceptions pour les espèces de la liste II, y compris les baleines (cétacés), si une autorisation préalable est obtenue auprès du ministre de l'environnement après un avis scientifique positif préalable.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_BAL_017",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines au Cameroun ? Ne pas inclure les délais de mise en place de la loi. Les dérogations ou autorisations spécifiques constituent des exceptions.",
+    "country": "Cameroun",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'exceptions mentionnées dans les articles fournis pour l'interdiction de la chasse, de la pêche ou de la capture des baleines (cétacés) au Cameroun.",
+    "relevant_keywords": [
+      "dérogation",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_039",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines au Congo ? Ne pas inclure les délais de mise en place de la loi. Les dérogations ou autorisations spécifiques constituent des exceptions.",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 20 de la loi n°14/003 du 11 février 2014 relative à la conservation de la nature prévoit des dérogations pour la protection de la faune et de la flore sauvages, y compris dans les aires protégées gérées par un organisme public. Ces dérogations peuvent être accordées dans l'intérêt de la santé et de la sécurité publique, ainsi que de la sécurité alimentaire des populations riveraines des aires protégées, pour prévenir des dommages importants notamment aux cultures, à l'élevage, aux forêts, aux pêcheries, aux eaux et à d'autres formes de propriété, à des fins d'éducation, de repeuplement et de réintroduction de ces espèces et pour des opérations de reproduction nécessaires à ces fins, y compris la propagation artificielle des plantes, ainsi que pour des fins de recherche scientifique et de bioprospection.",
+    "relevant_keywords": [
+      "dérogation",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_116",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce qu'un texte juridique mentionne des exceptions à l'interdiction de la chasse des baleines au Togo ? Ne pas inclure les délais de mise en place de la loi. Les dérogations ou autorisations spécifiques constituent des exceptions.",
+    "country": "Togo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'exceptions mentionnées dans les articles fournis pour l'interdiction de la chasse, de la pêche ou de la capture des baleines (cétacés) au Togo.",
+    "relevant_keywords": [
+      "dérogation",
+      "mammifère"
+    ]
+  },
+  {
+    "id": "Q_BAL_007",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce qu'il existe un article qui précise que l'infraction à l'interdiction de la chasse des baleines au Bénin entraîne une sanction financière ?",
+    "country": "Bénin",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 79 précise que la chasse, la pêche ou la capture de baleines (cétacés) est interdite au Bénin et entraîne une sanction financière.",
+    "relevant_keywords": [
+      "amende",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_128",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce qu'il existe un article qui précise que l'infraction à l'interdiction de la chasse des baleines en Tunisie entraîne une sanction financière ?",
+    "country": "Tunisie",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non",
+    "relevant_keywords": [
+      "amende",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_051",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce qu'il existe un article qui précise que l'infraction à l'interdiction de la chasse des baleines à Djibouti entraîne une sanction financière ?",
+    "country": "Djibouti",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 11 précise que les infractions au décret seront punies d'une amende de 4e catégorie (300.000 FD à 2.000.000 FD).",
+    "relevant_keywords": [
+      "amende",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_107",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que l'infraction à l'interdiction de la chasse des baleines au Sénégal entraîne une peine de prison ?",
+    "country": "Sénégal",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas d'article dans le contexte précisant que l'infraction à l'interdiction des baleines (cétacés) au Sénégal entraîne une peine de prison.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_041",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que l'infraction à l'interdiction de la chasse des baleines au Congo entraîne une peine de prison ?",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'infraction à l'interdiction de la chasse, pêche ou capture des baleines (cétacés) en République démocratique du Congo entraîne une peine de prison selon l'article 72 de la loi n° 14/003 du 11 février 2014 relative à la conservation de la nature.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_096",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que l'infraction à l'interdiction de la chasse des baleines en Mauritanie entraîne une peine de prison ?",
+    "country": "Mauritanie",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas mention d'une peine de prison pour l'infraction à l'interdiction de la chasse, pêche ou capture des baleines (cétacés) en Mauritanie dans les articles fournis.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_064",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que au Gabon, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ?",
+    "country": "Gabon",
+    "theme": "chasse_baleines",
+    "ground_truth": "Il n'y a pas d'articles juridiques dans le contexte, donc je ne peux pas répondre à la question basée sur les informations données.",
+    "relevant_keywords": [
+      "administration",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_042",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que au Congo, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ?",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "L'article 14 de la loi n° 14/003 du 11 février 2014 relative à la conservation de la nature interdit la chasse, la pêche ou la capture des baleines (cétacés) en République démocratique du Congo.",
+    "relevant_keywords": [
+      "administration",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_053",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que à Djibouti, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ?",
+    "country": "Djibouti",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'Article 10 du décret nº 85-103/PR/AG habilite plusieurs personnes et leurs représentants désignés à constater les infractions au présent décret, y compris les officiers de police judiciaire et le directeur de l'ISERST.",
+    "relevant_keywords": [
+      "administration",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_109",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que au Sénégal, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Sénégal",
+    "theme": "chasse_baleines",
+    "ground_truth": "Non, il n'y a pas de procédures de contrôle spécifiquement décrites dans les articles fournis pour garantir ou assurer le respect de l'interdiction des baleines (cétacés) au Sénégal.",
+    "relevant_keywords": [
+      "période",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_076",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que en Guinée, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Guinée",
+    "theme": "chasse_baleines",
+    "ground_truth": "Il n'y a pas de mention explicite de procédures de contrôle spécifiques pour garantir ou assurer le respect de l'interdiction des baleines (cétacés) dans les articles juridiques fournis. Cependant, il est mentionné que toute action ou toute tentative d'action d'une activité connexe à la pêche commerciale, sans autorisation, constitue une infraction très grave (Article 64). Il est donc possible que ces procédures de contrôle soient incluses dans les réglementations générales relatives aux activités de pêche et non spécifiquement mentionnées pour les baleines.",
+    "relevant_keywords": [
+      "période",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_087",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que à Madagascar, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Madagascar",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, il existe une administration spécifique chargée de superviser et contrôler le respect de l'interdiction de la pêche des baleines à Madagascar. L'article 64 de la loi malgache portant Code de la pêche et de l'aquaculture stipule que le Ministère en charge de la Pêche et de l'aquaculture est responsable de la coordination des opérations de suivi, de contrôle et de surveillance des activités de pêche sur le territoire malagasy.",
+    "relevant_keywords": [
+      "période",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_022",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que au Cameroun, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Cameroun",
+    "theme": "chasse_baleines",
+    "ground_truth": "",
+    "relevant_keywords": [
+      "zone",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_044",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que au Congo, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Congo",
+    "theme": "chasse_baleines",
+    "ground_truth": "Je n'ai pas trouvé d'informations spécifiques sur des procédures de contrôle visant à garantir ou assurer le respect de l'interdiction des baleines (cétacés) dans la République démocratique du Congo. Les documents fournis ne mentionnent pas expressément une administration, un comité, un service ou un agent chargé de superviser, évaluer ou constater l'application de cette interdiction.",
+    "relevant_keywords": [
+      "zone",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_BAL_088",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que à Madagascar, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction de la chasse des baleines ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction de la chasse des baleines.",
+    "country": "Madagascar",
+    "theme": "chasse_baleines",
+    "ground_truth": "Oui, l'article 64 décrit la responsabilité du Ministère en charge de la Pêche et de l'aquaculture dans la coordination des opérations de suivi, de contrôle et de surveillance des activités de pêche sur le territoire malagasy, y compris les eaux visées à l’article 3.",
+    "relevant_keywords": [
+      "zone",
+      "baleine"
+    ]
+  },
+  {
+    "id": "Q_HYD_001",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Bénin ?",
+    "country": "Bénin",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Bénin : Article 68.",
+    "relevant_keywords": [
+      "interdit",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_034",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Congo ?",
+    "country": "Congo",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Congo. Article 29 : \"Sont interdits le déversement, l'immersion et l'incinération dans les eaux marines et continentales sous juridiction congolaise, de substances de toute nature susceptible de...\"",
+    "relevant_keywords": [
+      "interdit",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_100",
+    "axe": 1,
+    "axe_label": "Existence",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures en Mauritanie ?",
+    "country": "Mauritanie",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 284 porte sur l'interdiction du rejet d'hydrocarbures en Mauritanie.",
+    "relevant_keywords": [
+      "interdit",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_002",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Bénin qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Bénin",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non, il n'y a pas d'article portant sur l'interdiction du rejet d'hydrocarbures qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions au Bénin dans les documents fournis.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_079",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures en Guinée qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Guinée",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 14 spécifie les conditions dans lesquelles le rejet d'hydrocarbures est autorisé, notamment lorsqu'il est effectué par un pétrolier en route et à plus de 50 milles marins de la côte guinéenne la plus proche.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_057",
+    "axe": 2,
+    "axe_label": "Zonage",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures à Djibouti qui précise que cette mesure n'est applicable qu'à certaines zones, aires ou régions ?",
+    "country": "Djibouti",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non. Il n'y a pas d'article dans le contexte portant sur l'interdiction du rejet d'hydrocarbures avec une précision quant aux zones applicables à Djibouti.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_069",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Gabon qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Gabon",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non, il n'y a pas d'article portant sur l'interdiction du rejet d'hydrocarbures avec une précision sur la temporalité au Gabon dans le contexte fourni.",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_036",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures au Congo qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Congo",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 29 de la loi n°33-2023 portant gestion durable de l'environnement en République du Congo stipule que le rejet d'hydrocarbures est interdit, mais cette interdiction ne s'applique pas en permanence. L'article précise que les dispositions ne s'appliquent pas au rejet d'hydrocarbures effectué par un navire pour assurer sa propre sécurité ou celle d'un autre navire, pour éviter une avarie à la cargaison, ou sauver des vies humaines en danger. Cependant, ce rejet est soumis à autorisation préalable de l'Autorité Maritime ou fluviale et le propriétaire du navire a l'obligation de réparer les dommages causés à l'Environnement et d'en payer les dommages et intérêts.",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_102",
+    "axe": 3,
+    "axe_label": "Temporalité",
+    "question": "Est-ce qu'il existe un article portant sur l'interdiction du rejet d'hydrocarbures en Mauritanie qui précise que cette mesure n'est pas applicable en permanence (temporalité) ?",
+    "country": "Mauritanie",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non, il n'y a pas d'article juridique trouvé dans le contexte qui porte sur une interdiction du rejet d'hydrocarbures avec une précision temporelle en Mauritanie.",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_004",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce que le texte juridique précise les types d'activités concernées par l'interdiction du rejet d'hydrocarbures au Bénin ?",
+    "country": "Bénin",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, le texte juridique précise que l'interdiction de rejeter des hydrocarbures s'applique aux navires traversant ou séjournant dans les zones maritimes sous souveraineté ou juridiction béninoise (Article 55).",
+    "relevant_keywords": [
+      "navire",
+      "rejet"
+    ]
+  },
+  {
+    "id": "Q_HYD_081",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce que le texte juridique précise les types d'activités concernées par l'interdiction du rejet d'hydrocarbures en Guinée ?",
+    "country": "Guinée",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, le texte juridique précise les types d'activités concernées par l'interdiction du rejet d'hydrocarbures en Guinée. Selon l'Article 14, il est interdit aux pétroliers et aux autres navires d'une jauge brute égale ou supérieure à 400 tonneaux de rejeter des hydrocarbures dans les zones maritimes guinéennes, sauf si certaines conditions sont réunies.",
+    "relevant_keywords": [
+      "navire",
+      "rejet"
+    ]
+  },
+  {
+    "id": "Q_HYD_026",
+    "axe": 4,
+    "axe_label": "Types d'activités concernées",
+    "question": "Est-ce que le texte juridique précise les types d'activités concernées par l'interdiction du rejet d'hydrocarbures aux Comores ?",
+    "country": "Comores",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, le texte juridique précise les types d'activités concernées par l'interdiction du rejet d'hydrocarbures aux Comores. Selon l'article 424, l'interdiction s'applique à tous les navires autres que les pétroliers, tandis que selon l'article 425, elle s'applique spécifiquement aux pétroliers.",
+    "relevant_keywords": [
+      "navire",
+      "rejet"
+    ]
+  },
+  {
+    "id": "Q_HYD_071",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Gabon ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Gabon",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non, il n'y a pas d'exceptions mentionnées dans le texte juridique concernant l'interdiction du rejet d'hydrocarbures au Gabon, à part les cas où l'activité considérée est conforme aux normes légales et ne nuise pas à la santé humaine ou au maintien de l'équilibre biologique des eaux.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_HYD_093",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Maroc ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Maroc",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 5 mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Maroc.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_HYD_126",
+    "axe": 5,
+    "axe_label": "Exceptions hors santé/ordre/recherche",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Togo ? Vérifie si ce texte inclut des exceptions relatives à d'autres domaines que de la santé, de l'ordre public et de la recherche.",
+    "country": "Togo",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Togo. Selon l'article 477, les navires non pétroliers peuvent rejeter des hydrocarbures à la mer si certaines conditions sont réunies, notamment si le navire est en navigation hors des eaux territoriales et utilise un dispositif de surveillance continue et de contrôle des rejets d'hydrocarbures.",
+    "relevant_keywords": [],
+    "is_piege": true
+  },
+  {
+    "id": "Q_HYD_072",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Gabon ?",
+    "country": "Gabon",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 151 mentionne une exception pour le rejet intentionnel d'hydrocarbures en mer ou sur terre, qui est punissable si elle n'est pas autorisée.",
+    "relevant_keywords": [
+      "dérogation",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_094",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures au Maroc ?",
+    "country": "Maroc",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 6 mentionne une exception pour les rejets d'hydrocarbures effectués dans les conditions et selon les modalités fixées par voie réglementaire et qui tiennent compte des dispositions de l’annexe I de la Convention MARPOL.",
+    "relevant_keywords": [
+      "dérogation",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_050",
+    "axe": 6,
+    "axe_label": "Exceptions / dérogations spécifiques",
+    "question": "Est-ce que le texte juridique mentionne des exceptions à l'interdiction du rejet d'hydrocarbures en Côte d'Ivoire ?",
+    "country": "Côte d'Ivoire",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article premier mentionne que le rejet d'hydrocarbures à la mer est interdit sauf dans les conditions définies par la Convention internationale de Londres du 2 novembre 1973, sur la prévention de la pollution par les navires, modifiée par le Protocole du 17 février 1978, en ses règles 9 et 11 de l'annexe I concernant la prévention de la pollution par les hydrocarbures (Convention MARPOL 73/78).",
+    "relevant_keywords": [
+      "dérogation",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_007",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce que le rejet d'hydrocarbures au Bénin entraîne une sanction financière (amende) ?",
+    "country": "Bénin",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 68 du code maritime béninois, il est interdit de rejeter des hydrocarbures ou des mélanges d'hydrocarbures dans les zones maritimes béninoises, sous peine d'une amende.",
+    "relevant_keywords": [
+      "amende",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_040",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce que le rejet d'hydrocarbures au Congo entraîne une sanction financière (amende) ?",
+    "country": "Congo",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 146 de la loi n°33-2023 du Congo portant gestion durable de l'environnement, le rejet d'hydrocarbures dans les eaux maritimes ou continentales entraîne une amende comprise entre 50 000 000 et 1 000 000 000 de francs CFA.",
+    "relevant_keywords": [
+      "amende",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_051",
+    "axe": 7,
+    "axe_label": "Sanction financière",
+    "question": "Est-ce que le rejet d'hydrocarbures en Côte d'Ivoire entraîne une sanction financière (amende) ?",
+    "country": "Côte d'Ivoire",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 100 du Code de l'environnement de la Côte d'Ivoire, le rejet d'hydrocarbures dans les eaux maritimes sous juridiction ivoirienne est puni d'une amende allant de 100.000.000 à 1 000.000.000 de francs.",
+    "relevant_keywords": [
+      "amende",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_074",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que le rejet d'hydrocarbures au Gabon entraîne une peine de prison ?",
+    "country": "Gabon",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 151 de la loi gabonaise relative à la protection de l'environnement, le déversement ou le rejet intentionnel d’hydrocarbures en mer ou sur terre est puni d'un emprisonnement de six mois à cinq ans ou de l’une de ces deux peines seulement.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_041",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que le rejet d'hydrocarbures au Congo entraîne une peine de prison ?",
+    "country": "Congo",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 146 de la loi n°33-2023 du 17 novembre 2023 portant gestion durable de l'environnement en République du Congo, le rejet d'hydrocarbures dans les eaux maritimes ou continentales est puni d'un emprisonnement d'un à deux ans.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_052",
+    "axe": 8,
+    "axe_label": "Sanction pénale",
+    "question": "Est-ce que le rejet d'hydrocarbures en Côte d'Ivoire entraîne une peine de prison ?",
+    "country": "Côte d'Ivoire",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, selon l'article 97 du Code de l'environnement de la Côte d'Ivoire, le rejet illégal d'hydrocarbures peut entraîner une peine de prison allant de six mois à deux ans.",
+    "relevant_keywords": [
+      "emprisonnement",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_009",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que au Bénin, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ?",
+    "country": "Bénin",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Non, il n'y a pas de procédures spécifiques mentionnées dans les articles fournis pour garantir le respect de l'interdiction du rejet d'hydrocarbures au Bénin.",
+    "relevant_keywords": [
+      "administration",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_086",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que en Guinée, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ?",
+    "country": "Guinée",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 34 décrit des procédures de contrôle pour garantir le respect de l'interdiction du rejet d'hydrocarbures en Guinée. Les autorités civiles et militaires chargées du contrôle des zones maritimes guinéennes peuvent procéder à une inspection matérielle du navire si elles ont de sérieuses raisons de penser qu'un navire a commis une infraction entraînant une pollution notable.",
+    "relevant_keywords": [
+      "administration",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_064",
+    "axe": 9,
+    "axe_label": "Contrôle — acteurs institutionnels",
+    "question": "Est-ce que à Djibouti, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ?",
+    "country": "Djibouti",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, l'article 23 stipule que les déversements, immersions et incinérations dans les eaux marines sous juridiction djiboutienne des substances susceptibles de porter atteinte aux ressources marines physiques et biologiques sont interdits.",
+    "relevant_keywords": [
+      "administration",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_120",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que au Sénégal, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Sénégal",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, les agents assermentés du Ministère en charge de l'Environnement et du Ministère en charge des Hydrocarbures sont désignés pour assurer le contrôle et le suivi environnemental des opérations pétrolières (Art. 130).",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_098",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que au Maroc, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Maroc",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, au Maroc, il existe des procédures de contrôle spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures. L'article 34 de la loi n°69-18 relative à la pollution par les navires prévoit que tout capitaine d’un navire navigant dans les eaux maritimes marocaines doit informer immédiatement l’autorité compétente en cas de rejet de polluants dans ces eaux. Cette obligation s'applique également aux capitaines ayant connaissance d'un tel incident ou événement. L'article 35 prévoit que le propriétaire ou l'exploitant du navire source de ce rejet est mis en demeure par l'autorité compétente pour prendre toutes les mesures nécessaires pour mettre fin audit rejet dans les conditions qu’elle fixe. En cas d’urgence, la mise en demeure est faite au capitaine du navire ou à la personne ayant la charge du navire en cas d’indisponibilité du capitaine.",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_065",
+    "axe": 10,
+    "axe_label": "Contrôle — temporalité",
+    "question": "Est-ce que à Djibouti, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des périodes (temporalité) spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Djibouti",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Il n'y a pas de mention spécifique dans les articles fournis concernant des procédures de contrôle dédiées pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures à Djibouti.",
+    "relevant_keywords": [
+      "période",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_022",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que au Cameroun, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Cameroun",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Je suis désolé, il n'y a pas suffisamment de détails dans les articles juridiques fournis pour répondre à votre question spécifique concernant des procédures de contrôle spécifiques pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures au Cameroun. Les articles ne font pas référence à une administration, un comité, un service ou un agent pour superviser, évaluer ou constater l'application de cette interdiction, ni ne précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_088",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que en Guinée, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Guinée",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, il existe des procédures de contrôle spécifiquement décrites pour garantir le respect de l'interdiction du rejet d'hydrocarbures en Guinée. L'ARTICLE 13 stipule que la Direction de la Marine Marchande est chargée de réaliser des visites périodiques sur les pétroliers et autres navires d'une jauge brute égale ou supérieure à 400 tonneaux pour prévenir les risques de pollution des zones maritimes guinéennes. Un arrêté du Ministre chargé des Transports Maritimes fixe les prescriptions à respecter en matière de contrôle de la pollution et le détail de ces visites. Le procès-verbal de ces dernières est transmis à la Direction de l'Environnement.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  },
+  {
+    "id": "Q_HYD_066",
+    "axe": 11,
+    "axe_label": "Contrôle — zones",
+    "question": "Est-ce que à Djibouti, des procédures de contrôle sont spécifiquement décrites pour garantir ou assurer le respect de l'interdiction du rejet d'hydrocarbures ? Si ces procédures existent, vérifiez si elles précisent des lieux ou zones spécifiques pour le contrôle du respect de l'interdiction du rejet d'hydrocarbures.",
+    "country": "Djibouti",
+    "theme": "rejets_hydrocarbures",
+    "ground_truth": "Oui, à Djibouti, il existe des procédures de contrôle spécifiques pour garantir le respect de l'interdiction du rejet d'hydrocarbures. L'article 23 stipule que les déversements, immersions et incinérations dans les eaux marines sous juridiction djiboutienne des substances susceptibles de nuire à la santé humaine et aux activités maritimes et touristiques sont interdits. Les articles 119 et 126 prévoient des sanctions pour les capitaines de navires se rendant coupables d'un rejet en mer d'hydrocarbures ou d'autres substances liquides nocives pour le milieu marin, en infraction avec les dispositions du présent Code et des règlements pris pour son application. Les articles 20 et 134 prévoient également des mesures réglementaires déterminant les conditions de rejet et les conditions d'analyse et de contrôle des prélèvements des rejets.",
+    "relevant_keywords": [
+      "zone",
+      "hydrocarbure"
+    ]
+  }
+]
