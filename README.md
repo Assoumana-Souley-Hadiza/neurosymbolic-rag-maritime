@@ -71,7 +71,7 @@ Ce projet traite **6 interdictions maritimes** du droit international :
 │  OWL/TTL/JSON-LD   RDF Graph    Neo4j + Cypher                   │
 │                      │                                           │
 │                      ▼                                           │
-│              SPARQL (10 CQs)                                     │
+│              SPARQL (12 CQs)                                     │
 └──────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────────────┐
@@ -106,6 +106,7 @@ Ce projet traite **6 interdictions maritimes** du droit international :
 neurosymbolic-rag-maritime/
 │
 ├── README.md                          # ← Ce fichier (guide complet)
+├── LICENSE                            # Licence du code (MIT)
 ├── .gitignore
 ├── Rapport_De_PFE.pdf                 # Rapport de PFE complet
 ├── Rapport_De_PFE.docx
@@ -169,7 +170,7 @@ neurosymbolic-rag-maritime/
     │   └── test_rag_robustness.py
     │
     ├── scripts/                       # Scripts utilitaires
-    ├── benchmark_queries.py           # Requêtes de benchmark
+    ├── benchmark_queries.py           # Requêtes de benchmark (264 requêtes, dont un sous-ensemble stratifié de 66 utilisé pour l'article)
     ├── run_benchmark.py               # Exécution des benchmarks
     ├── test_ablation.py               # Étude d'ablation
     └── test_ablation_article.py       # Ablation pour l'article
@@ -317,7 +318,7 @@ Cela génère dans `data/output/` :
 - `maritime_ontology.owl` — Format OWL/RDF-XML
 - `maritime_ontology.jsonld` — Format JSON-LD
 - `neo4j_import.cypher` — Script d'import Neo4j
-- `sparql_results.json` — Résultats des 10 questions de compétence
+- `sparql_results.json` — Résultats des 12 questions de compétence
 
 ### Options
 
@@ -450,8 +451,16 @@ pytest tests/ --cov=ontologie --cov=rag       # Avec couverture
 
 ## 📝 Licence
 
-Projet académique — Licence à spécifier.
+Le code de ce dépôt est publié sous licence [MIT](LICENSE).
+
+L'ontologie, le pont lexical SKOS, les requêtes de benchmark (`benchmark_queries.py`,
+`chasse_a_la_baleine.xlsx`, `rejet_dhydrocarbures.xlsx`) et les autres données de
+recherche sont publiées sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
+cohérent avec la licence déjà déclarée dans les métadonnées OWL de l'ontologie
+(`dct:license`). En cas de réutilisation de l'ontologie ou du benchmark, merci de
+citer l'article associé (voir ci-dessous).
+
 
 ---
 
-**Dernière mise à jour :** Juillet 2026
+**Dernière mise à jour :** Août 2026
